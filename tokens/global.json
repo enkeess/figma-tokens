@@ -1,249 +1,70 @@
 {
   "11": {
-    "value": "11",
-    "type": "fontSizes"
+    "2342342": {
+      "value": "2",
+      "type": "sizing"
+    }
   },
-  "12": {
-    "value": "12",
-    "type": "fontSizes"
-  },
-  "14": {
-    "value": "14",
-    "type": "fontSizes"
-  },
-  "16": {
-    "value": "16",
-    "type": "fontSizes"
-  },
-  "22": {
-    "value": "22",
-    "type": "fontSizes"
-  },
-  "24": {
-    "value": "24",
-    "type": "fontSizes"
-  },
-  "28": {
-    "value": "28",
-    "type": "fontSizes"
-  },
-  "32": {
-    "value": "32",
-    "type": "fontSizes"
-  },
-  "36": {
-    "value": "36",
-    "type": "fontSizes"
-  },
-  "40": {
-    "value": "40",
-    "type": "fontSizes"
-  },
-  "48": {
-    "value": "48",
-    "type": "fontSizes"
-  },
-  "56": {
-    "value": "56",
-    "type": "fontSizes"
-  },
-  "Size-0m": {
-    "value": "{Modul-Scale} * 0",
-    "type": "sizing"
-  },
-  "Size-0,25m": {
-    "value": "{Modul-Scale} / 4",
-    "type": "sizing"
-  },
-  "Size-0,5m": {
-    "value": "{Modul-Scale} / 2",
-    "type": "sizing"
-  },
-  "Size-1m": {
-    "value": "{Modul-Scale}",
-    "type": "sizing"
-  },
-  "Size-2m": {
-    "value": "{Modul-Scale} * 2",
-    "type": "sizing"
-  },
-  "Size-3m": {
-    "value": "{Modul-Scale} * 3",
-    "type": "sizing"
-  },
-  "Size-4m": {
-    "value": "{Modul-Scale} * 4",
-    "type": "sizing"
-  },
-  "Size-5m": {
-    "value": "{Modul-Scale} * 5",
-    "type": "sizing"
-  },
-  "Size-6m": {
-    "value": "{Modul-Scale} * 6",
-    "type": "sizing"
-  },
-  "Size-7m": {
-    "value": "{Modul-Scale} * 7",
-    "type": "sizing"
-  },
-  "Size-8m": {
-    "value": "{Modul-Scale} * 8",
-    "type": "sizing"
-  },
-  "Size-9m": {
-    "value": "{Modul-Scale} * 9",
-    "type": "sizing"
-  },
-  "Size-10m": {
-    "value": "{Modul-Scale} * 10",
-    "type": "sizing"
-  },
-  "Space-0m": {
-    "value": "{Modul-Scale} * 0",
-    "type": "spacing"
-  },
-  "Space-0,25m": {
-    "value": "{Modul-Scale} / 4",
-    "type": "spacing"
-  },
-  "Space-0,5m": {
-    "value": "{Modul-Scale} / 2",
-    "type": "spacing"
-  },
-  "Space-1m": {
-    "value": "{Modul-Scale}",
-    "type": "spacing"
-  },
-  "Space-2m": {
-    "value": "{Modul-Scale} * 2",
-    "type": "spacing"
-  },
-  "Space-3m": {
-    "value": "{Modul-Scale} * 3",
-    "type": "spacing"
-  },
-  "Space-4m": {
-    "value": "{Modul-Scale} * 4",
-    "type": "spacing"
-  },
-  "Space-5m": {
-    "value": "{Modul-Scale} * 5",
-    "type": "spacing"
-  },
-  "Space-6m": {
-    "value": "{Modul-Scale} * 6",
-    "type": "spacing"
-  },
-  "Space-7m": {
-    "value": "{Modul-Scale} * 7",
-    "type": "spacing"
-  },
-  "Space-8m": {
-    "value": "{Modul-Scale} * 8",
-    "type": "spacing"
-  },
-  "Space-9m": {
-    "value": "{Modul-Scale} * 9",
-    "type": "spacing"
-  },
-  "Space-10m": {
-    "value": "{Modul-Scale} * 10",
-    "type": "spacing"
-  },
-  "0,00": {
-    "value": "0.0",
-    "type": "opacity"
-  },
-  "0,04": {
-    "value": "{Opacity-Multiplier} * 0.01",
-    "type": "opacity"
-  },
-  "0,08": {
-    "value": "{Opacity-Multiplier} * 0.02",
-    "type": "opacity"
-  },
-  "0,12": {
-    "value": "{Opacity-Multiplier} * 0.03",
-    "type": "opacity"
-  },
-  "0,16": {
-    "value": "{Opacity-Multiplier} * 0.04",
-    "type": "opacity"
-  },
-  "0,24": {
-    "value": "{Opacity-Multiplier} * 0.06",
-    "type": "opacity"
-  },
-  "0,32": {
-    "value": "{Opacity-Multiplier} * 0.08",
-    "type": "opacity"
-  },
-  "0,40": {
-    "value": "{Opacity-Multiplier} * 0.1",
-    "type": "opacity"
-  },
-  "0,48": {
-    "value": "{Opacity-Multiplier} * 0.12",
-    "type": "opacity"
-  },
-  "0,56": {
-    "value": "{Opacity-Multiplier} * 0.14",
-    "type": "opacity"
-  },
-  "0,64": {
-    "value": "{Opacity-Multiplier} * 0.16",
-    "type": "opacity"
-  },
-  "0,72": {
-    "value": "{Opacity-Multiplier} * 0.18",
-    "type": "opacity"
-  },
-  "0,80": {
-    "value": "{Opacity-Multiplier} * 0.2",
-    "type": "opacity"
-  },
-  "0,88": {
-    "value": "{Opacity-Multiplier} * 0.22",
-    "type": "opacity"
-  },
-  "0,96": {
-    "value": "{Opacity-Multiplier} * 0.24",
-    "type": "opacity"
-  },
-  "Modul-Scale": {
-    "value": "8",
-    "type": "other",
-    "description": "The basic module of the indentation and dimension system"
-  },
-  "SB Sans Interface": {
-    "value": "SB Sans Interface",
-    "type": "fontFamilies"
-  },
-  "SB Sans Text Mono": {
-    "value": "SB Sans Text Mono",
-    "type": "fontFamilies"
-  },
-  "Regular": {
-    "value": "Regular",
-    "type": "fontWeights"
-  },
-  "Semibold": {
-    "value": "Semibold",
-    "type": "fontWeights"
-  },
-  "Bold": {
-    "value": "Bold",
-    "type": "fontWeights"
-  },
-  "Line-Height-Multipler": {
-    "value": "4",
-    "type": "other"
-  },
-  "Paragraph-Spacing-Multipler": {
-    "value": "0.75",
-    "type": "other"
-  },
+  "12": {},
+  "14": {},
+  "16": {},
+  "22": {},
+  "24": {},
+  "28": {},
+  "32": {},
+  "36": {},
+  "40": {},
+  "48": {},
+  "56": {},
+  "Size-0m": {},
+  "Size-0,25m": {},
+  "Size-0,5m": {},
+  "Size-1m": {},
+  "Size-2m": {},
+  "Size-3m": {},
+  "Size-4m": {},
+  "Size-5m": {},
+  "Size-6m": {},
+  "Size-7m": {},
+  "Size-8m": {},
+  "Size-9m": {},
+  "Size-10m": {},
+  "Space-0m": {},
+  "Space-0,25m": {},
+  "Space-0,5m": {},
+  "Space-1m": {},
+  "Space-2m": {},
+  "Space-3m": {},
+  "Space-4m": {},
+  "Space-5m": {},
+  "Space-6m": {},
+  "Space-7m": {},
+  "Space-8m": {},
+  "Space-9m": {},
+  "Space-10m": {},
+  "0,00": {},
+  "0,04": {},
+  "0,08": {},
+  "0,12": {},
+  "0,16": {},
+  "0,24": {},
+  "0,32": {},
+  "0,40": {},
+  "0,48": {},
+  "0,56": {},
+  "0,64": {},
+  "0,72": {},
+  "0,80": {},
+  "0,88": {},
+  "0,96": {},
+  "Modul-Scale": {},
+  "SB Sans Interface": {},
+  "SB Sans Text Mono": {},
+  "Regular": {},
+  "Semibold": {},
+  "Bold": {},
+  "Line-Height-Multipler": {},
+  "Paragraph-Spacing-Multipler": {},
   "Display-Height": {
     "Lg": {
       "value": "{Line-Height-Multipler} * 18",
@@ -314,47 +135,16 @@
       "type": "lineHeights"
     }
   },
-  "-1,5": {
-    "value": "-1.5",
-    "type": "letterSpacing"
-  },
-  "-0,5": {
-    "value": "-0.5",
-    "type": "letterSpacing"
-  },
-  "-0,1": {
-    "value": "-0.1",
-    "type": "letterSpacing"
-  },
-  "0,1": {
-    "value": "0.1",
-    "type": "letterSpacing"
-  },
-  "0,15": {
-    "value": "0.15",
-    "type": "letterSpacing"
-  },
-  "0,25": {
-    "value": "0.25",
-    "type": "letterSpacing"
-  },
-  "0,5": {
-    "value": "0.5",
-    "type": "letterSpacing"
-  },
-  "1,25": {
-    "value": "1.25",
-    "type": "letterSpacing"
-  },
-  "1,5": {
-    "value": "1.5",
-    "type": "letterSpacing"
-  },
-  "Opacity-Multiplier": {
-    "value": "4",
-    "type": "other",
-    "description": "Basic Opacity multiplier"
-  },
+  "-1,5": {},
+  "-0,5": {},
+  "-0,1": {},
+  "0,1": {},
+  "0,15": {},
+  "0,25": {},
+  "0,5": {},
+  "1,25": {},
+  "1,5": {},
+  "Opacity-Multiplier": {},
   "Display-Paragraph": {
     "Lg": {
       "value": "{Display-Height.Lg} * {Paragraph-Spacing-Multipler}",
@@ -602,185 +392,7 @@
       }
     }
   },
-  "Light": {
-    "value": "Light",
-    "type": "fontWeights",
-    "Display": {
-      "Large": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Semibold}",
-          "lineHeight": "{Display-Height.Lg}",
-          "fontSize": "{56}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Display-Paragraph.Lg}"
-        },
-        "type": "typography"
-      },
-      "Medium": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Display-Height.Md}",
-          "fontSize": "{48}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Display-Paragraph.Md}"
-        },
-        "type": "typography"
-      },
-      "Small": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Display-Height.Sm}",
-          "fontSize": "{40}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Display-Paragraph.Sm}"
-        },
-        "type": "typography"
-      }
-    },
-    "Headline": {
-      "Large": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Headline-Height.Lg}",
-          "fontSize": "{32}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Headline-Paragraph.Lg}"
-        },
-        "type": "typography"
-      },
-      "Medium": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Headline-Height.Md}",
-          "fontSize": "{28}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Headline-Paragraph.Md}"
-        },
-        "type": "typography"
-      },
-      "Small": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Headline-Height.Sm}",
-          "fontSize": "{24}",
-          "letterSpacing": "{-0,5}",
-          "paragraphSpacing": "{Headline-Paragraph.Sm}"
-        },
-        "type": "typography"
-      }
-    },
-    "Title": {
-      "Large": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Title-Height.Lg}",
-          "fontSize": "{22}",
-          "letterSpacing": "{0,15}",
-          "paragraphSpacing": "{Title-Paragraph.Lg}"
-        },
-        "type": "typography"
-      },
-      "Medium": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Title-Height.Md}",
-          "fontSize": "{16}",
-          "letterSpacing": "{0,15}",
-          "paragraphSpacing": "{Title-Paragraph.Md}"
-        },
-        "type": "typography"
-      },
-      "Small": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Title-Height.Sm}",
-          "fontSize": "{14}",
-          "letterSpacing": "{0,15}",
-          "paragraphSpacing": "{Title-Paragraph.Sm}"
-        },
-        "type": "typography"
-      }
-    },
-    "Label": {
-      "Large": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Label-Height.Lg}",
-          "fontSize": "{14}",
-          "letterSpacing": "{-0,1}",
-          "paragraphSpacing": "{Label-Paragraph.Lg}"
-        },
-        "type": "typography"
-      },
-      "Medium": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Label-Height.Md}",
-          "fontSize": "{12}",
-          "letterSpacing": "{-0,1}",
-          "paragraphSpacing": "{Label-Paragraph.Md}"
-        },
-        "type": "typography"
-      },
-      "Small": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Regular}",
-          "lineHeight": "{Label-Height.Sm}",
-          "fontSize": "{11}",
-          "letterSpacing": "{-0,1}",
-          "paragraphSpacing": "{Label-Paragraph.Sm}"
-        },
-        "type": "typography"
-      }
-    },
-    "Body": {
-      "Large": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Light}",
-          "lineHeight": "{Body-Height.Lg}",
-          "fontSize": "{16}",
-          "letterSpacing": "{0,1}",
-          "paragraphSpacing": "{Body-Paragraph.Lg}"
-        },
-        "type": "typography"
-      },
-      "Medium": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Light}",
-          "lineHeight": "{Body-Height.Md}",
-          "fontSize": "{14}",
-          "letterSpacing": "{0,1}",
-          "paragraphSpacing": "{Body-Paragraph.Md}"
-        },
-        "type": "typography"
-      },
-      "Small": {
-        "value": {
-          "fontFamily": "{SB Sans Interface}",
-          "fontWeight": "{Light}",
-          "lineHeight": "{Body-Height.Sm}",
-          "fontSize": "{12}",
-          "letterSpacing": "{0,1}",
-          "paragraphSpacing": "{Body-Paragraph.Sm}"
-        },
-        "type": "typography"
-      }
-    }
-  },
+  "Light": {},
   "Link": {
     "Display": {
       "Large": {
@@ -1342,12 +954,99 @@
       }
     }
   },
-  "Underline": {
-    "value": "underline",
-    "type": "textDecoration"
-  },
-  "Line-Through": {
-    "value": "line-through",
-    "type": "textDecoration"
+  "Underline": {},
+  "Line-Through": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "11",
+      "12",
+      "14",
+      "16",
+      "22",
+      "24",
+      "28",
+      "32",
+      "36",
+      "40",
+      "48",
+      "56",
+      "Size-0m",
+      "Size-0,25m",
+      "Size-0,5m",
+      "Size-1m",
+      "Size-2m",
+      "Size-3m",
+      "Size-4m",
+      "Size-5m",
+      "Size-6m",
+      "Size-7m",
+      "Size-8m",
+      "Size-9m",
+      "Size-10m",
+      "Space-0m",
+      "Space-0,25m",
+      "Space-0,5m",
+      "Space-1m",
+      "Space-2m",
+      "Space-3m",
+      "Space-4m",
+      "Space-5m",
+      "Space-6m",
+      "Space-7m",
+      "Space-8m",
+      "Space-9m",
+      "Space-10m",
+      "0,00",
+      "0,04",
+      "0,08",
+      "0,12",
+      "0,16",
+      "0,24",
+      "0,32",
+      "0,40",
+      "0,48",
+      "0,56",
+      "0,64",
+      "0,72",
+      "0,80",
+      "0,88",
+      "0,96",
+      "Modul-Scale",
+      "SB Sans Interface",
+      "SB Sans Text Mono",
+      "Regular",
+      "Semibold",
+      "Bold",
+      "Line-Height-Multipler",
+      "Paragraph-Spacing-Multipler",
+      "Display-Height",
+      "Headline-Height",
+      "Title-Height",
+      "Label-Height",
+      "Body-Height",
+      "-1,5",
+      "-0,5",
+      "-0,1",
+      "0,1",
+      "0,15",
+      "0,25",
+      "0,5",
+      "1,25",
+      "1,5",
+      "Opacity-Multiplier",
+      "Display-Paragraph",
+      "Headline-Paragraph",
+      "Title-Paragraph",
+      "Label-Paragraph",
+      "Body-Paragraph",
+      "Sans",
+      "Light",
+      "Link",
+      "Crossed out",
+      "Mono",
+      "Underline",
+      "Line-Through"
+    ]
   }
 }
