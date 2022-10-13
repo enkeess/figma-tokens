@@ -1700,6 +1700,38 @@
           "type": "color"
         }
       }
+    },
+    "r4": {
+      "value": "{modul-scale}",
+      "type": "borderWidth"
+    },
+    "Radius-0m": {
+      "value": "{Modul-Scale}*0",
+      "type": "borderRadius"
+    },
+    "Radius-0,25m": {
+      "value": "{Modul-Scale}*0.25",
+      "type": "borderRadius"
+    },
+    "Radius-0,5m": {
+      "value": "{Modul-Scale}*0.5",
+      "type": "borderRadius"
+    },
+    "Radius-1m": {
+      "value": "{Modul-Scale}",
+      "type": "borderRadius"
+    },
+    "Radius-2m": {
+      "value": "{Modul-Scale}*2",
+      "type": "borderRadius"
+    },
+    "Radius-3m": {
+      "value": "{Modul-Scale}*3",
+      "type": "borderRadius"
+    },
+    "Radius-4m": {
+      "value": "{Modul-Scale}*4",
+      "type": "borderRadius"
     }
   },
   "Light Mode": {
