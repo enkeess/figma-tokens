@@ -1701,8 +1701,16 @@
         }
       }
     },
-    "r4": {
-      "value": "{modul-scale}",
+    "Border-1|16m": {
+      "value": "{Modul-Scale}/16",
+      "type": "borderWidth"
+    },
+    "Border-1|8m": {
+      "value": "{Modul-Scale}/8",
+      "type": "borderWidth"
+    },
+    "Border-1|4m": {
+      "value": "{Modul-Scale}/4",
       "type": "borderWidth"
     },
     "Radius-0m": {
