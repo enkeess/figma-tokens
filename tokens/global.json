@@ -1,50 +1,50 @@
 {
   "Global": {
-    "11": {
+    "Font-Size-11": {
       "value": "11",
       "type": "fontSizes"
     },
-    "12": {
+    "Font-Size-12": {
       "value": "12",
       "type": "fontSizes"
     },
-    "14": {
+    "Font-Size-14": {
       "value": "14",
       "type": "fontSizes"
     },
-    "16": {
+    "Font-Size-16": {
       "value": "16",
       "type": "fontSizes"
     },
-    "22": {
+    "Font-Size-22": {
       "value": "22",
       "type": "fontSizes"
     },
-    "24": {
+    "Font-Size-24": {
       "value": "24",
       "type": "fontSizes"
     },
-    "28": {
+    "Font-Size-28": {
       "value": "28",
       "type": "fontSizes"
     },
-    "32": {
+    "Font-Size-32": {
       "value": "32",
       "type": "fontSizes"
     },
-    "36": {
+    "Font-Size-36": {
       "value": "36",
       "type": "fontSizes"
     },
-    "40": {
+    "Font-Size-40": {
       "value": "40",
       "type": "fontSizes"
     },
-    "48": {
+    "Font-Size-48": {
       "value": "48",
       "type": "fontSizes"
     },
-    "56": {
+    "Font-Size-56": {
       "value": "56",
       "type": "fontSizes"
     },
@@ -242,7 +242,7 @@
       "type": "other"
     },
     "Paragraph-Spacing-Multipler": {
-      "value": "0.5",
+      "value": "0.75",
       "type": "other"
     },
     "Display-Height": {
@@ -356,76 +356,6 @@
       "type": "other",
       "description": "Basic Opacity multiplier"
     },
-    "Display-Paragraph": {
-      "Lg": {
-        "value": "{Display-Height.Lg} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Md": {
-        "value": "{Display-Height.Md} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Sm": {
-        "value": "{Display-Height.Sm} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      }
-    },
-    "Headline-Paragraph": {
-      "Lg": {
-        "value": "{Headline-Height.Lg} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Md": {
-        "value": "{Headline-Height.Md} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Sm": {
-        "value": "{Headline-Height.Sm} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      }
-    },
-    "Title-Paragraph": {
-      "Lg": {
-        "value": "{Title-Height.Lg} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Md": {
-        "value": "{Title-Height.Md} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Sm": {
-        "value": "{Title-Height.Sm} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      }
-    },
-    "Label-Paragraph": {
-      "Lg": {
-        "value": "{Label-Height.Lg} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Md": {
-        "value": "{Label-Height.Md} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Sm": {
-        "value": "{Label-Height.Sm} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      }
-    },
-    "Body-Paragraph": {
-      "Lg": {
-        "value": "{Body-Height.Lg} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Md": {
-        "value": "{Body-Height.Md} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      },
-      "Sm": {
-        "value": "{Body-Height.Sm} * {Paragraph-Spacing-Multipler}",
-        "type": "paragraphSpacing"
-      }
-    },
     "Sans": {
       "Display": {
         "Large": {
@@ -433,9 +363,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Lg}",
-            "fontSize": "{56}",
+            "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-56}"
           },
           "type": "typography"
         },
@@ -444,9 +374,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Md}",
-            "fontSize": "{48}",
+            "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-48}"
           },
           "type": "typography"
         },
@@ -455,9 +385,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Sm}",
-            "fontSize": "{40}",
+            "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-40}"
           },
           "type": "typography"
         }
@@ -468,9 +398,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Lg}",
-            "fontSize": "{32}",
+            "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-32}"
           },
           "type": "typography"
         },
@@ -479,9 +409,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Md}",
-            "fontSize": "{28}",
+            "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-28}"
           },
           "type": "typography"
         },
@@ -490,9 +420,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Sm}",
-            "fontSize": "{24}",
+            "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-24}"
           },
           "type": "typography"
         }
@@ -503,9 +433,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Lg}",
-            "fontSize": "{22}",
+            "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-22}"
           },
           "type": "typography"
         },
@@ -514,9 +444,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Md}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-16}"
           },
           "type": "typography"
         },
@@ -525,9 +455,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Sm}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         }
@@ -538,9 +468,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Lg}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         },
@@ -549,9 +479,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Md}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-12}"
           },
           "type": "typography"
         },
@@ -560,9 +490,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Sm}",
-            "fontSize": "{11}",
+            "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-11}"
           },
           "type": "typography"
         }
@@ -573,9 +503,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Lg}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-16}"
           },
           "type": "typography"
         },
@@ -584,9 +514,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Md}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         },
@@ -595,9 +525,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Sm}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-12}"
           },
           "type": "typography"
         }
@@ -789,9 +719,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Lg}",
-            "fontSize": "{56}",
+            "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-56}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -801,9 +731,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Md}",
-            "fontSize": "{48}",
+            "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-48}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -813,9 +743,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Sm}",
-            "fontSize": "{40}",
+            "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-40}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -827,9 +757,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Lg}",
-            "fontSize": "{32}",
+            "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-32}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -839,9 +769,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Md}",
-            "fontSize": "{28}",
+            "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-28}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -851,9 +781,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Sm}",
-            "fontSize": "{24}",
+            "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-24}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -865,9 +795,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Lg}",
-            "fontSize": "{22}",
+            "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-22}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -877,9 +807,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Md}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-16}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -889,9 +819,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Sm}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -903,9 +833,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Lg}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -915,9 +845,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Md}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-12}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -927,9 +857,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Sm}",
-            "fontSize": "{11}",
+            "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-11}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -941,9 +871,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Lg}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-16}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -953,9 +883,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Md}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -965,9 +895,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Sm}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-12}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -981,9 +911,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Lg}",
-            "fontSize": "{56}",
+            "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-56}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -993,9 +923,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Md}",
-            "fontSize": "{48}",
+            "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-48}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1005,9 +935,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Display-Height.Sm}",
-            "fontSize": "{40}",
+            "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-40}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1019,9 +949,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Lg}",
-            "fontSize": "{32}",
+            "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-32}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1031,9 +961,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Md}",
-            "fontSize": "{28}",
+            "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-28}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1043,9 +973,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Headline-Height.Sm}",
-            "fontSize": "{24}",
+            "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-24}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1057,9 +987,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Lg}",
-            "fontSize": "{22}",
+            "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-22}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1069,9 +999,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Md}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-16}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1081,9 +1011,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Title-Height.Sm}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1095,9 +1025,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Lg}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1107,9 +1037,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Md}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-12}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1119,9 +1049,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
             "lineHeight": "{Label-Height.Sm}",
-            "fontSize": "{11}",
+            "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-11}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1133,9 +1063,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Lg}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Lg}",
+            "paragraphSpacing": "{Paragraph-Font-Size-16}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1145,9 +1075,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Md}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Md}",
+            "paragraphSpacing": "{Paragraph-Font-Size-14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1157,9 +1087,9 @@
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Sm}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Sm}",
+            "paragraphSpacing": "{Paragraph-Font-Size-12}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1173,9 +1103,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Lg}",
-            "fontSize": "{56}",
+            "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-56}"
           },
           "type": "typography"
         },
@@ -1184,9 +1114,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Md}",
-            "fontSize": "{48}",
+            "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-48}"
           },
           "type": "typography"
         },
@@ -1195,9 +1125,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Display-Height.Sm}",
-            "fontSize": "{40}",
+            "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-40}"
           },
           "type": "typography"
         }
@@ -1208,9 +1138,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Headline-Height.Lg}",
-            "fontSize": "{32}",
+            "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-32}"
           },
           "type": "typography"
         },
@@ -1219,9 +1149,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Headline-Height.Md}",
-            "fontSize": "{28}",
+            "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-28}"
           },
           "type": "typography"
         },
@@ -1230,9 +1160,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Headline-Height.Sm}",
-            "fontSize": "{24}",
+            "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-24}"
           },
           "type": "typography"
         }
@@ -1243,9 +1173,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Title-Height.Lg}",
-            "fontSize": "{22}",
+            "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-22}"
           },
           "type": "typography"
         },
@@ -1254,9 +1184,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Title-Height.Md}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-16}"
           },
           "type": "typography"
         },
@@ -1265,9 +1195,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Title-Height.Sm}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Title-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         }
@@ -1278,9 +1208,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Label-Height.Lg}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         },
@@ -1289,9 +1219,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Label-Height.Md}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-12}"
           },
           "type": "typography"
         },
@@ -1300,9 +1230,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Bold}",
             "lineHeight": "{Label-Height.Sm}",
-            "fontSize": "{11}",
+            "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-11}"
           },
           "type": "typography"
         }
@@ -1313,9 +1243,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Lg}",
-            "fontSize": "{16}",
+            "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Lg}"
+            "paragraphSpacing": "{Paragraph-Font-Size-16}"
           },
           "type": "typography"
         },
@@ -1324,9 +1254,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Md}",
-            "fontSize": "{14}",
+            "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Md}"
+            "paragraphSpacing": "{Paragraph-Font-Size-14}"
           },
           "type": "typography"
         },
@@ -1335,9 +1265,9 @@
             "fontFamily": "{SB Sans Text Mono}",
             "fontWeight": "{Regular}",
             "lineHeight": "{Body-Height.Sm}",
-            "fontSize": "{12}",
+            "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Sm}"
+            "paragraphSpacing": "{Paragraph-Font-Size-12}"
           },
           "type": "typography"
         }
@@ -1740,6 +1670,54 @@
     "Radius-4m": {
       "value": "{Modul-Scale}*4",
       "type": "borderRadius"
+    },
+    "Paragraph-Font-Size-11": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-11}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-12": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-12}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-14": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-14}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-16": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-16}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-22": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-22}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-24": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-24}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-28": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-28}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-32": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-32}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-36": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-36}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-40": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-40}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-48": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-48}",
+      "type": "paragraphSpacing"
+    },
+    "Paragraph-Font-Size-56": {
+      "value": "{Paragraph-Spacing-Multipler} * {Font-Size-56}",
+      "type": "paragraphSpacing"
     }
   },
   "Light Mode": {
