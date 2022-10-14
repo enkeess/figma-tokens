@@ -365,7 +365,7 @@
             "lineHeight": "{Display-Height.Lg}",
             "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-56}"
+            "paragraphSpacing": "{Paragraph_Font_Size_56}"
           },
           "type": "typography"
         },
@@ -376,7 +376,7 @@
             "lineHeight": "{Display-Height.Md}",
             "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-48}"
+            "paragraphSpacing": "{Paragraph_Font_Size_48}"
           },
           "type": "typography"
         },
@@ -387,7 +387,7 @@
             "lineHeight": "{Display-Height.Sm}",
             "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-40}"
+            "paragraphSpacing": "{Paragraph_Font_Size_40}"
           },
           "type": "typography"
         }
@@ -400,7 +400,7 @@
             "lineHeight": "{Headline-Height.Lg}",
             "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-32}"
+            "paragraphSpacing": "{Paragraph_Font_Size_32}"
           },
           "type": "typography"
         },
@@ -411,7 +411,7 @@
             "lineHeight": "{Headline-Height.Md}",
             "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-28}"
+            "paragraphSpacing": "{Paragraph_Font_Size_28}"
           },
           "type": "typography"
         },
@@ -422,7 +422,7 @@
             "lineHeight": "{Headline-Height.Sm}",
             "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-24}"
+            "paragraphSpacing": "{Paragraph_Font_Size_24}"
           },
           "type": "typography"
         }
@@ -435,7 +435,7 @@
             "lineHeight": "{Title-Height.Lg}",
             "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-22}"
+            "paragraphSpacing": "{Paragraph_Font_Size_22}"
           },
           "type": "typography"
         },
@@ -446,7 +446,7 @@
             "lineHeight": "{Title-Height.Md}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}"
+            "paragraphSpacing": "{Paragraph_Font_Size_16}"
           },
           "type": "typography"
         },
@@ -457,7 +457,7 @@
             "lineHeight": "{Title-Height.Sm}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         }
@@ -470,7 +470,7 @@
             "lineHeight": "{Label-Height.Lg}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         },
@@ -481,7 +481,7 @@
             "lineHeight": "{Label-Height.Md}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}"
+            "paragraphSpacing": "{Paragraph_Font_Size_12}"
           },
           "type": "typography"
         },
@@ -492,7 +492,7 @@
             "lineHeight": "{Label-Height.Sm}",
             "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-11}"
+            "paragraphSpacing": "{Paragraph_Font_Size_11}"
           },
           "type": "typography"
         }
@@ -505,7 +505,7 @@
             "lineHeight": "{Body-Height.Lg}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}"
+            "paragraphSpacing": "{Paragraph_Font_Size_16}"
           },
           "type": "typography"
         },
@@ -516,7 +516,7 @@
             "lineHeight": "{Body-Height.Md}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         },
@@ -527,7 +527,7 @@
             "lineHeight": "{Body-Height.Sm}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}"
+            "paragraphSpacing": "{Paragraph_Font_Size_12}"
           },
           "type": "typography"
         }
@@ -721,7 +721,7 @@
             "lineHeight": "{Display-Height.Lg}",
             "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-56}",
+            "paragraphSpacing": "{Paragraph_Font_Size_56}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -733,7 +733,7 @@
             "lineHeight": "{Display-Height.Md}",
             "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-48}",
+            "paragraphSpacing": "{Paragraph_Font_Size_48}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -745,7 +745,7 @@
             "lineHeight": "{Display-Height.Sm}",
             "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-40}",
+            "paragraphSpacing": "{Paragraph_Font_Size_40}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -759,7 +759,7 @@
             "lineHeight": "{Headline-Height.Lg}",
             "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-32}",
+            "paragraphSpacing": "{Paragraph_Font_Size_32}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -771,7 +771,7 @@
             "lineHeight": "{Headline-Height.Md}",
             "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-28}",
+            "paragraphSpacing": "{Paragraph_Font_Size_28}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -783,7 +783,7 @@
             "lineHeight": "{Headline-Height.Sm}",
             "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-24}",
+            "paragraphSpacing": "{Paragraph_Font_Size_24}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -797,7 +797,7 @@
             "lineHeight": "{Title-Height.Lg}",
             "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-22}",
+            "paragraphSpacing": "{Paragraph_Font_Size_22}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -809,7 +809,7 @@
             "lineHeight": "{Title-Height.Md}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}",
+            "paragraphSpacing": "{Paragraph_Font_Size_16}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -821,7 +821,7 @@
             "lineHeight": "{Title-Height.Sm}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -835,7 +835,7 @@
             "lineHeight": "{Label-Height.Lg}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -847,7 +847,7 @@
             "lineHeight": "{Label-Height.Md}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}",
+            "paragraphSpacing": "{Paragraph_Font_Size_12}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -859,7 +859,7 @@
             "lineHeight": "{Label-Height.Sm}",
             "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-11}",
+            "paragraphSpacing": "{Paragraph_Font_Size_11}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -873,7 +873,7 @@
             "lineHeight": "{Body-Height.Lg}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}",
+            "paragraphSpacing": "{Paragraph_Font_Size_16}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -885,7 +885,7 @@
             "lineHeight": "{Body-Height.Md}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -897,7 +897,7 @@
             "lineHeight": "{Body-Height.Sm}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}",
+            "paragraphSpacing": "{Paragraph_Font_Size_12}",
             "textDecoration": "{Underline}"
           },
           "type": "typography"
@@ -913,7 +913,7 @@
             "lineHeight": "{Display-Height.Lg}",
             "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-56}",
+            "paragraphSpacing": "{Paragraph_Font_Size_56}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -925,7 +925,7 @@
             "lineHeight": "{Display-Height.Md}",
             "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-48}",
+            "paragraphSpacing": "{Paragraph_Font_Size_48}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -937,7 +937,7 @@
             "lineHeight": "{Display-Height.Sm}",
             "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-40}",
+            "paragraphSpacing": "{Paragraph_Font_Size_40}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -951,7 +951,7 @@
             "lineHeight": "{Headline-Height.Lg}",
             "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-32}",
+            "paragraphSpacing": "{Paragraph_Font_Size_32}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -963,7 +963,7 @@
             "lineHeight": "{Headline-Height.Md}",
             "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-28}",
+            "paragraphSpacing": "{Paragraph_Font_Size_28}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -975,7 +975,7 @@
             "lineHeight": "{Headline-Height.Sm}",
             "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-24}",
+            "paragraphSpacing": "{Paragraph_Font_Size_24}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -989,7 +989,7 @@
             "lineHeight": "{Title-Height.Lg}",
             "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-22}",
+            "paragraphSpacing": "{Paragraph_Font_Size_22}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1001,7 +1001,7 @@
             "lineHeight": "{Title-Height.Md}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}",
+            "paragraphSpacing": "{Paragraph_Font_Size_16}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1013,7 +1013,7 @@
             "lineHeight": "{Title-Height.Sm}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1027,7 +1027,7 @@
             "lineHeight": "{Label-Height.Lg}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1039,7 +1039,7 @@
             "lineHeight": "{Label-Height.Md}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}",
+            "paragraphSpacing": "{Paragraph_Font_Size_12}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1051,7 +1051,7 @@
             "lineHeight": "{Label-Height.Sm}",
             "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-11}",
+            "paragraphSpacing": "{Paragraph_Font_Size_11}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1065,7 +1065,7 @@
             "lineHeight": "{Body-Height.Lg}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}",
+            "paragraphSpacing": "{Paragraph_Font_Size_16}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1077,7 +1077,7 @@
             "lineHeight": "{Body-Height.Md}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}",
+            "paragraphSpacing": "{Paragraph_Font_Size_14}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1089,7 +1089,7 @@
             "lineHeight": "{Body-Height.Sm}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}",
+            "paragraphSpacing": "{Paragraph_Font_Size_12}",
             "textDecoration": "{Line-Through}"
           },
           "type": "typography"
@@ -1105,7 +1105,7 @@
             "lineHeight": "{Display-Height.Lg}",
             "fontSize": "{Font-Size-56}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-56}"
+            "paragraphSpacing": "{Paragraph_Font_Size_56}"
           },
           "type": "typography"
         },
@@ -1116,7 +1116,7 @@
             "lineHeight": "{Display-Height.Md}",
             "fontSize": "{Font-Size-48}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-48}"
+            "paragraphSpacing": "{Paragraph_Font_Size_48}"
           },
           "type": "typography"
         },
@@ -1127,7 +1127,7 @@
             "lineHeight": "{Display-Height.Sm}",
             "fontSize": "{Font-Size-40}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-40}"
+            "paragraphSpacing": "{Paragraph_Font_Size_40}"
           },
           "type": "typography"
         }
@@ -1140,7 +1140,7 @@
             "lineHeight": "{Headline-Height.Lg}",
             "fontSize": "{Font-Size-32}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-32}"
+            "paragraphSpacing": "{Paragraph_Font_Size_32}"
           },
           "type": "typography"
         },
@@ -1151,7 +1151,7 @@
             "lineHeight": "{Headline-Height.Md}",
             "fontSize": "{Font-Size-28}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-28}"
+            "paragraphSpacing": "{Paragraph_Font_Size_28}"
           },
           "type": "typography"
         },
@@ -1162,7 +1162,7 @@
             "lineHeight": "{Headline-Height.Sm}",
             "fontSize": "{Font-Size-24}",
             "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Paragraph-Font-Size-24}"
+            "paragraphSpacing": "{Paragraph_Font_Size_24}"
           },
           "type": "typography"
         }
@@ -1175,7 +1175,7 @@
             "lineHeight": "{Title-Height.Lg}",
             "fontSize": "{Font-Size-22}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-22}"
+            "paragraphSpacing": "{Paragraph_Font_Size_22}"
           },
           "type": "typography"
         },
@@ -1186,7 +1186,7 @@
             "lineHeight": "{Title-Height.Md}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}"
+            "paragraphSpacing": "{Paragraph_Font_Size_16}"
           },
           "type": "typography"
         },
@@ -1197,7 +1197,7 @@
             "lineHeight": "{Title-Height.Sm}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         }
@@ -1210,7 +1210,7 @@
             "lineHeight": "{Label-Height.Lg}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         },
@@ -1221,7 +1221,7 @@
             "lineHeight": "{Label-Height.Md}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}"
+            "paragraphSpacing": "{Paragraph_Font_Size_12}"
           },
           "type": "typography"
         },
@@ -1232,7 +1232,7 @@
             "lineHeight": "{Label-Height.Sm}",
             "fontSize": "{Font-Size-11}",
             "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-11}"
+            "paragraphSpacing": "{Paragraph_Font_Size_11}"
           },
           "type": "typography"
         }
@@ -1245,7 +1245,7 @@
             "lineHeight": "{Body-Height.Lg}",
             "fontSize": "{Font-Size-16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-16}"
+            "paragraphSpacing": "{Paragraph_Font_Size_16}"
           },
           "type": "typography"
         },
@@ -1256,7 +1256,7 @@
             "lineHeight": "{Body-Height.Md}",
             "fontSize": "{Font-Size-14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-14}"
+            "paragraphSpacing": "{Paragraph_Font_Size_14}"
           },
           "type": "typography"
         },
@@ -1267,7 +1267,7 @@
             "lineHeight": "{Body-Height.Sm}",
             "fontSize": "{Font-Size-12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Paragraph-Font-Size-12}"
+            "paragraphSpacing": "{Paragraph_Font_Size_12}"
           },
           "type": "typography"
         }
@@ -1671,51 +1671,51 @@
       "value": "{Modul-Scale}*4",
       "type": "borderRadius"
     },
-    "Paragraph-Font-Size-11": {
+    "Paragraph_Font_Size_11": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-11}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-12": {
+    "Paragraph_Font_Size_12": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-12}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-14": {
+    "Paragraph_Font_Size_14": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-14}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-16": {
+    "Paragraph_Font_Size_16": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-16}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-22": {
+    "Paragraph_Font_Size_22": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-22}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-24": {
+    "Paragraph_Font_Size_24": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-24}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-28": {
+    "Paragraph_Font_Size_28": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-28}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-32": {
+    "Paragraph_Font_Size_32": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-32}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-36": {
+    "Paragraph_Font_Size_36": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-36}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-40": {
+    "Paragraph_Font_Size_40": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-40}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-48": {
+    "Paragraph_Font_Size_48": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-48}",
       "type": "paragraphSpacing"
     },
-    "Paragraph-Font-Size-56": {
+    "Paragraph_Font_Size_56": {
       "value": "{Paragraph-Spacing-Multipler} * {Font-Size-56}",
       "type": "paragraphSpacing"
     }
