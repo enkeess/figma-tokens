@@ -52,11 +52,11 @@
       "value": "{Modul_Scale} * 0",
       "type": "sizing"
     },
-    "Size-0,25m": {
+    "Size-025m": {
       "value": "{Modul_Scale} / 4",
       "type": "sizing"
     },
-    "Size-0,5m": {
+    "Size-05m": {
       "value": "{Modul_Scale} / 2",
       "type": "sizing"
     },
@@ -104,11 +104,11 @@
       "value": "{Modul_Scale} * 0",
       "type": "spacing"
     },
-    "Space-0,25m": {
+    "Space-025m": {
       "value": "{Modul_Scale} / 4",
       "type": "spacing"
     },
-    "Space-0,5m": {
+    "Space-05m": {
       "value": "{Modul_Scale} / 2",
       "type": "spacing"
     },
@@ -152,64 +152,32 @@
       "value": "{Modul_Scale} * 10",
       "type": "spacing"
     },
-    "0,00": {
-      "value": "0.0",
-      "type": "opacity"
-    },
-    "0,04": {
+    "Opacity_Xxs": {
       "value": "{Opacity_Multiplier} * 0.01",
       "type": "opacity"
     },
-    "0,08": {
+    "Opacity_Xs": {
       "value": "{Opacity_Multiplier} * 0.02",
       "type": "opacity"
     },
-    "0,12": {
-      "value": "{Opacity_Multiplier} * 0.03",
-      "type": "opacity"
-    },
-    "0,16": {
+    "Opacity_S": {
       "value": "{Opacity_Multiplier} * 0.04",
       "type": "opacity"
     },
-    "0,24": {
+    "Opacity_M": {
       "value": "{Opacity_Multiplier} * 0.06",
       "type": "opacity"
     },
-    "0,32": {
+    "Opacity_L": {
       "value": "{Opacity_Multiplier} * 0.08",
       "type": "opacity"
     },
-    "0,40": {
+    "Opacity_Xl": {
       "value": "{Opacity_Multiplier} * 0.1",
       "type": "opacity"
     },
-    "0,48": {
+    "Opacity_Xxl": {
       "value": "{Opacity_Multiplier} * 0.12",
-      "type": "opacity"
-    },
-    "0,56": {
-      "value": "{Opacity_Multiplier} * 0.14",
-      "type": "opacity"
-    },
-    "0,64": {
-      "value": "{Opacity_Multiplier} * 0.16",
-      "type": "opacity"
-    },
-    "0,72": {
-      "value": "{Opacity_Multiplier} * 0.18",
-      "type": "opacity"
-    },
-    "0,80": {
-      "value": "{Opacity_Multiplier} * 0.2",
-      "type": "opacity"
-    },
-    "0,88": {
-      "value": "{Opacity_Multiplier} * 0.22",
-      "type": "opacity"
-    },
-    "0,96": {
-      "value": "{Opacity_Multiplier} * 0.24",
       "type": "opacity"
     },
     "Modul_Scale": {
@@ -1623,10 +1591,6 @@
       "value": "{Modul_Scale}/2",
       "type": "borderWidth"
     },
-    "Radius_False": {
-      "value": "{Modul_Scale}*0",
-      "type": "borderRadius"
-    },
     "Radius_Xs": {
       "value": "{Modul_Scale}*0.25",
       "type": "borderRadius"
@@ -1724,19 +1688,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -1846,19 +1810,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -1968,19 +1932,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2090,19 +2054,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2212,19 +2176,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2334,19 +2298,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2460,19 +2424,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2582,19 +2546,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2704,19 +2668,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2826,19 +2790,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -2948,19 +2912,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
@@ -3070,19 +3034,19 @@
           "type": "color"
         },
         "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,08})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xs})",
           "type": "color"
         },
         "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,16})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_S})",
           "type": "color"
         },
         "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {0,04})",
+          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
         "Border-Enabled": {
