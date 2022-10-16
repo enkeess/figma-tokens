@@ -213,7 +213,7 @@
       "value": "0.55",
       "type": "other"
     },
-    "Display-Height": {
+    "Display_Height": {
       "Lg": {
         "value": "{Line_Height_Multipler} * 18",
         "type": "lineHeights"
@@ -227,7 +227,7 @@
         "type": "lineHeights"
       }
     },
-    "Headline-Height": {
+    "Headline_Height": {
       "Lg": {
         "value": "{Line_Height_Multipler} * 10",
         "type": "lineHeights"
@@ -241,7 +241,7 @@
         "type": "lineHeights"
       }
     },
-    "Title-Height": {
+    "Title_Height": {
       "Lg": {
         "value": "{Line_Height_Multipler} * 7",
         "type": "lineHeights"
@@ -255,7 +255,7 @@
         "type": "lineHeights"
       }
     },
-    "Label-Height": {
+    "Label_Height": {
       "Lg": {
         "value": "{Line_Height_Multipler} * 5",
         "type": "lineHeights"
@@ -269,7 +269,7 @@
         "type": "lineHeights"
       }
     },
-    "Body-Height": {
+    "Body_Height": {
       "Lg": {
         "value": "{Line_Height_Multipler} * 6",
         "type": "lineHeights"
@@ -284,11 +284,11 @@
       }
     },
     "Letter_Spacing_Xs": {
-      "value": "-0.5",
+      "value": "_0.5",
       "type": "letterSpacing"
     },
     "Letter_Spacing_S": {
-      "value": "-0.1",
+      "value": "_0.1",
       "type": "letterSpacing"
     },
     "Letter_Spacing_M": {
@@ -306,7 +306,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Lg}",
+            "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{Font_Size_56}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_56}"
@@ -317,7 +317,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Md}",
+            "lineHeight": "{Display_Height.Md}",
             "fontSize": "{Font_Size_48}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_48}"
@@ -328,7 +328,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Sm}",
+            "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{Font_Size_40}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_40}"
@@ -341,7 +341,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Lg}",
+            "lineHeight": "{Headline_Height.Lg}",
             "fontSize": "{Font_Size_32}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_32}"
@@ -352,7 +352,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Md}",
+            "lineHeight": "{Headline_Height.Md}",
             "fontSize": "{Font_Size_28}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_28}"
@@ -363,7 +363,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Sm}",
+            "lineHeight": "{Headline_Height.Sm}",
             "fontSize": "{Font_Size_24}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_24}"
@@ -376,7 +376,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Lg}",
+            "lineHeight": "{Title_Height.Lg}",
             "fontSize": "{Font_Size_22}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_22}"
@@ -387,7 +387,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Md}",
+            "lineHeight": "{Title_Height.Md}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}"
@@ -398,7 +398,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Sm}",
+            "lineHeight": "{Title_Height.Sm}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -411,7 +411,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Lg}",
+            "lineHeight": "{Label_Height.Lg}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -422,7 +422,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Md}",
+            "lineHeight": "{Label_Height.Md}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}"
@@ -433,7 +433,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Sm}",
+            "lineHeight": "{Label_Height.Sm}",
             "fontSize": "{Font_Size_11}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_11}"
@@ -446,7 +446,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Lg}",
+            "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}"
@@ -457,7 +457,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Md}",
+            "lineHeight": "{Body_Height.Md}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -468,7 +468,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Sm}",
+            "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}"
@@ -485,10 +485,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Semibold}",
-            "lineHeight": "{Display-Height.Lg}",
+            "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{56}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Lg}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Display_Paragraph.Lg}"
           },
           "type": "typography"
         },
@@ -496,10 +496,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Display-Height.Md}",
+            "lineHeight": "{Display_Height.Md}",
             "fontSize": "{48}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Md}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Display_Paragraph.Md}"
           },
           "type": "typography"
         },
@@ -507,10 +507,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Display-Height.Sm}",
+            "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{40}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Display-Paragraph.Sm}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Display_Paragraph.Sm}"
           },
           "type": "typography"
         }
@@ -520,10 +520,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Headline-Height.Lg}",
+            "lineHeight": "{Headline_Height.Lg}",
             "fontSize": "{32}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Lg}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Headline_Paragraph.Lg}"
           },
           "type": "typography"
         },
@@ -531,10 +531,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Headline-Height.Md}",
+            "lineHeight": "{Headline_Height.Md}",
             "fontSize": "{28}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Md}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Headline_Paragraph.Md}"
           },
           "type": "typography"
         },
@@ -542,10 +542,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Headline-Height.Sm}",
+            "lineHeight": "{Headline_Height.Sm}",
             "fontSize": "{24}",
-            "letterSpacing": "{-0,5}",
-            "paragraphSpacing": "{Headline-Paragraph.Sm}"
+            "letterSpacing": "{_0,5}",
+            "paragraphSpacing": "{Headline_Paragraph.Sm}"
           },
           "type": "typography"
         }
@@ -555,10 +555,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Lg}",
+            "lineHeight": "{Title_Height.Lg}",
             "fontSize": "{22}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Lg}"
+            "paragraphSpacing": "{Title_Paragraph.Lg}"
           },
           "type": "typography"
         },
@@ -566,10 +566,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Md}",
+            "lineHeight": "{Title_Height.Md}",
             "fontSize": "{16}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Md}"
+            "paragraphSpacing": "{Title_Paragraph.Md}"
           },
           "type": "typography"
         },
@@ -577,10 +577,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Sm}",
+            "lineHeight": "{Title_Height.Sm}",
             "fontSize": "{14}",
             "letterSpacing": "{0,15}",
-            "paragraphSpacing": "{Title-Paragraph.Sm}"
+            "paragraphSpacing": "{Title_Paragraph.Sm}"
           },
           "type": "typography"
         }
@@ -590,10 +590,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Label-Height.Lg}",
+            "lineHeight": "{Label_Height.Lg}",
             "fontSize": "{14}",
-            "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Lg}"
+            "letterSpacing": "{_0,1}",
+            "paragraphSpacing": "{Label_Paragraph.Lg}"
           },
           "type": "typography"
         },
@@ -601,10 +601,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Label-Height.Md}",
+            "lineHeight": "{Label_Height.Md}",
             "fontSize": "{12}",
-            "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Md}"
+            "letterSpacing": "{_0,1}",
+            "paragraphSpacing": "{Label_Paragraph.Md}"
           },
           "type": "typography"
         },
@@ -612,10 +612,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Label-Height.Sm}",
+            "lineHeight": "{Label_Height.Sm}",
             "fontSize": "{11}",
-            "letterSpacing": "{-0,1}",
-            "paragraphSpacing": "{Label-Paragraph.Sm}"
+            "letterSpacing": "{_0,1}",
+            "paragraphSpacing": "{Label_Paragraph.Sm}"
           },
           "type": "typography"
         }
@@ -625,10 +625,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Light}",
-            "lineHeight": "{Body-Height.Lg}",
+            "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{16}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Lg}"
+            "paragraphSpacing": "{Body_Paragraph.Lg}"
           },
           "type": "typography"
         },
@@ -636,10 +636,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Light}",
-            "lineHeight": "{Body-Height.Md}",
+            "lineHeight": "{Body_Height.Md}",
             "fontSize": "{14}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Md}"
+            "paragraphSpacing": "{Body_Paragraph.Md}"
           },
           "type": "typography"
         },
@@ -647,10 +647,10 @@
           "value": {
             "fontFamily": "{SB Sans Interface}",
             "fontWeight": "{Light}",
-            "lineHeight": "{Body-Height.Sm}",
+            "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{12}",
             "letterSpacing": "{0,1}",
-            "paragraphSpacing": "{Body-Paragraph.Sm}"
+            "paragraphSpacing": "{Body_Paragraph.Sm}"
           },
           "type": "typography"
         }
@@ -662,7 +662,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Lg}",
+            "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{Font_Size_56}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_56}",
@@ -674,7 +674,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Md}",
+            "lineHeight": "{Display_Height.Md}",
             "fontSize": "{Font_Size_48}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_48}",
@@ -686,7 +686,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Sm}",
+            "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{Font_Size_40}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_40}",
@@ -700,7 +700,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Lg}",
+            "lineHeight": "{Headline_Height.Lg}",
             "fontSize": "{Font_Size_32}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_32}",
@@ -712,7 +712,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Md}",
+            "lineHeight": "{Headline_Height.Md}",
             "fontSize": "{Font_Size_28}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_28}",
@@ -724,7 +724,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Sm}",
+            "lineHeight": "{Headline_Height.Sm}",
             "fontSize": "{Font_Size_24}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_24}",
@@ -738,7 +738,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Lg}",
+            "lineHeight": "{Title_Height.Lg}",
             "fontSize": "{Font_Size_22}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_22}",
@@ -750,7 +750,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Md}",
+            "lineHeight": "{Title_Height.Md}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}",
@@ -762,7 +762,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Sm}",
+            "lineHeight": "{Title_Height.Sm}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -776,7 +776,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Lg}",
+            "lineHeight": "{Label_Height.Lg}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -788,7 +788,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Md}",
+            "lineHeight": "{Label_Height.Md}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}",
@@ -800,7 +800,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Sm}",
+            "lineHeight": "{Label_Height.Sm}",
             "fontSize": "{Font_Size_11}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_11}",
@@ -814,7 +814,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Lg}",
+            "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}",
@@ -826,7 +826,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Md}",
+            "lineHeight": "{Body_Height.Md}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -838,7 +838,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Sm}",
+            "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}",
@@ -854,7 +854,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Lg}",
+            "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{Font_Size_56}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_56}",
@@ -866,7 +866,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Md}",
+            "lineHeight": "{Display_Height.Md}",
             "fontSize": "{Font_Size_48}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_48}",
@@ -878,7 +878,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Display-Height.Sm}",
+            "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{Font_Size_40}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_40}",
@@ -892,7 +892,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Lg}",
+            "lineHeight": "{Headline_Height.Lg}",
             "fontSize": "{Font_Size_32}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_32}",
@@ -904,7 +904,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Md}",
+            "lineHeight": "{Headline_Height.Md}",
             "fontSize": "{Font_Size_28}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_28}",
@@ -916,7 +916,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Headline-Height.Sm}",
+            "lineHeight": "{Headline_Height.Sm}",
             "fontSize": "{Font_Size_24}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_24}",
@@ -930,7 +930,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Lg}",
+            "lineHeight": "{Title_Height.Lg}",
             "fontSize": "{Font_Size_22}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_22}",
@@ -942,7 +942,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Md}",
+            "lineHeight": "{Title_Height.Md}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}",
@@ -954,7 +954,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Title-Height.Sm}",
+            "lineHeight": "{Title_Height.Sm}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -968,7 +968,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Lg}",
+            "lineHeight": "{Label_Height.Lg}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -980,7 +980,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Md}",
+            "lineHeight": "{Label_Height.Md}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}",
@@ -992,7 +992,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Semi_Bold}",
-            "lineHeight": "{Label-Height.Sm}",
+            "lineHeight": "{Label_Height.Sm}",
             "fontSize": "{Font_Size_11}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_11}",
@@ -1006,7 +1006,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Lg}",
+            "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}",
@@ -1018,7 +1018,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Md}",
+            "lineHeight": "{Body_Height.Md}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}",
@@ -1030,7 +1030,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Sm}",
+            "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}",
@@ -1046,7 +1046,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Lg}",
+            "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{Font_Size_56}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_56}"
@@ -1057,7 +1057,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Md}",
+            "lineHeight": "{Display_Height.Md}",
             "fontSize": "{Font_Size_48}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_48}"
@@ -1068,7 +1068,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Display-Height.Sm}",
+            "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{Font_Size_40}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_40}"
@@ -1081,7 +1081,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Headline-Height.Lg}",
+            "lineHeight": "{Headline_Height.Lg}",
             "fontSize": "{Font_Size_32}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_32}"
@@ -1092,7 +1092,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Headline-Height.Md}",
+            "lineHeight": "{Headline_Height.Md}",
             "fontSize": "{Font_Size_28}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_28}"
@@ -1103,7 +1103,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Headline-Height.Sm}",
+            "lineHeight": "{Headline_Height.Sm}",
             "fontSize": "{Font_Size_24}",
             "letterSpacing": "{Letter_Spacing_Xs}",
             "paragraphSpacing": "{Paragraph_Font_Size_24}"
@@ -1116,7 +1116,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Lg}",
+            "lineHeight": "{Title_Height.Lg}",
             "fontSize": "{Font_Size_22}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_22}"
@@ -1127,7 +1127,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Md}",
+            "lineHeight": "{Title_Height.Md}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}"
@@ -1138,7 +1138,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Title-Height.Sm}",
+            "lineHeight": "{Title_Height.Sm}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_L}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -1151,7 +1151,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Label-Height.Lg}",
+            "lineHeight": "{Label_Height.Lg}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -1162,7 +1162,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Label-Height.Md}",
+            "lineHeight": "{Label_Height.Md}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}"
@@ -1173,7 +1173,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Bold}",
-            "lineHeight": "{Label-Height.Sm}",
+            "lineHeight": "{Label_Height.Sm}",
             "fontSize": "{Font_Size_11}",
             "letterSpacing": "{Letter_Spacing_S}",
             "paragraphSpacing": "{Paragraph_Font_Size_11}"
@@ -1186,7 +1186,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Lg}",
+            "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_16}"
@@ -1197,7 +1197,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Md}",
+            "lineHeight": "{Body_Height.Md}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_14}"
@@ -1208,7 +1208,7 @@
           "value": {
             "fontFamily": "{SB_Sans_Text_Mono}",
             "fontWeight": "{Regular}",
-            "lineHeight": "{Body-Height.Sm}",
+            "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_M}",
             "paragraphSpacing": "{Paragraph_Font_Size_12}"
@@ -1222,7 +1222,7 @@
       "type": "textDecoration"
     },
     "Line_Through": {
-      "value": "line-through",
+      "value": "line_through",
       "type": "textDecoration"
     },
     "Ref": {
@@ -1458,7 +1458,7 @@
           "type": "color"
         }
       },
-      "ML-Space": {
+      "ML_Space": {
         "10": {
           "value": "#0a0d25",
           "type": "color"
@@ -1671,119 +1671,119 @@
   "Light Mode": {
     "Sys": {
       "Neutral": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Gray.13}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
@@ -1793,241 +1793,241 @@
         }
       },
       "Primary": {
-        "Container-Enabled": {
-          "value": "{Ref.ML-Space.95}",
+        "Container_Enabled": {
+          "value": "{Ref.ML_Space.95}",
           "type": "color"
         },
-        "Container-Hovered": {
-          "value": "{Ref.ML-Space.90}",
+        "Container_Hovered": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Container-Activated": {
-          "value": "{Ref.ML-Space.90}",
+        "Container_Activated": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Container-Disabled": {
-          "value": "{Ref.ML-Space.99}",
+        "Container_Disabled": {
+          "value": "{Ref.ML_Space.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
-          "value": "{Ref.ML-Space.90}",
+        "Border_Enabled": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Border-Hovered": {
-          "value": "{Ref.ML-Space.80}",
+        "Border_Hovered": {
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "Border-Activated": {
-          "value": "{Ref.ML-Space.70}",
+        "Border_Activated": {
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Border-Disabled": {
-          "value": "{Ref.ML-Space.90}",
+        "Border_Disabled": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
-          "value": "{Ref.ML-Space.10}",
+        "Text_Main_Enabled": {
+          "value": "{Ref.ML_Space.10}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
-          "value": "{Ref.ML-Space.40}",
+        "Text_Main_Hovered": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
-          "value": "{Ref.ML-Space.50}",
+        "Text_Main_Activated": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
-          "value": "{Ref.ML-Space.70}",
+        "Text_Main_Disabled": {
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
-          "value": "{Ref.ML-Space.50}",
+        "Text_Support_Enabled": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
-          "value": "{Ref.ML-Space.40}",
+        "Text_Support_Hovered": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
-          "value": "{Ref.ML-Space.50}",
+        "Text_Support_Activated": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
-          "value": "{Ref.ML-Space.80}",
+        "Text_Support_Disabled": {
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
-          "value": "{Ref.ML-Space.70}",
+        "Text_Light_Enabled": {
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
-          "value": "{Ref.ML-Space.40}",
+        "Text_Light_Hovered": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
-          "value": "{Ref.ML-Space.50}",
+        "Text_Light_Activated": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
-          "value": "{Ref.ML-Space.80}",
+        "Text_Light_Disabled": {
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
-          "value": "{Ref.ML-Space.50}",
+        "Accent_Enabled": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
-          "value": "{Ref.ML-Space.60}",
+        "Accent_Hovered": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Accent-Activated": {
-          "value": "{Ref.ML-Space.70}",
+        "Accent_Activated": {
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
-          "value": "{Ref.ML-Space.80}",
+        "Accent_Disabled": {
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "On-Accent": {
-          "value": "{Ref.ML-Space.99}",
+        "On_Accent": {
+          "value": "{Ref.ML_Space.99}",
           "type": "color"
         },
         "Background": {
-          "value": "{Ref.ML-Space.95}",
+          "value": "{Ref.ML_Space.95}",
           "type": "color"
         }
       },
-      "Invert-Neutral": {
-        "Container-Enabled": {
+      "Invert_Neutral": {
+        "Container_Enabled": {
           "value": "{Ref.Gray.13}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Gray.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Gray.20}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Gray.20}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Gray.10}",
           "type": "color"
         },
@@ -2037,119 +2037,119 @@
         }
       },
       "Success": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Green.95}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Green.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Green.10}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Green.99}",
           "type": "color"
         },
@@ -2159,119 +2159,119 @@
         }
       },
       "Warning": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Yellow.95}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Yellow.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Yellow.10}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Yellow.99}",
           "type": "color"
         },
@@ -2281,119 +2281,119 @@
         }
       },
       "Critical": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Red.95}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Red.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Red.10}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Red.99}",
           "type": "color"
         },
@@ -2407,119 +2407,119 @@
   "Dark Mode": {
     "Sys": {
       "Neutral": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Gray.13}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Gray.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Gray.20}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Gray.10}",
           "type": "color"
         },
@@ -2529,241 +2529,241 @@
         }
       },
       "Primary": {
-        "Container-Enabled": {
-          "value": "{Ref.ML-Space.13}",
+        "Container_Enabled": {
+          "value": "{Ref.ML_Space.13}",
           "type": "color"
         },
-        "Container-Hovered": {
-          "value": "{Ref.ML-Space.15}",
+        "Container_Hovered": {
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
-        "Container-Activated": {
-          "value": "{Ref.ML-Space.15}",
+        "Container_Activated": {
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
-        "Container-Disabled": {
-          "value": "{Ref.ML-Space.13}",
+        "Container_Disabled": {
+          "value": "{Ref.ML_Space.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Primary.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Primary.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
-          "value": "{Ref.ML-Space.20}",
+        "Border_Enabled": {
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
-        "Border-Hovered": {
-          "value": "{Ref.ML-Space.30}",
+        "Border_Hovered": {
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
-        "Border-Activated": {
-          "value": "{Ref.ML-Space.40}",
+        "Border_Activated": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Border-Disabled": {
-          "value": "{Ref.ML-Space.20}",
+        "Border_Disabled": {
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
-          "value": "{Ref.ML-Space.80}",
+        "Text_Main_Enabled": {
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
-          "value": "{Ref.ML-Space.90}",
+        "Text_Main_Hovered": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
-          "value": "{Ref.ML-Space.60}",
+        "Text_Main_Activated": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
-          "value": "{Ref.ML-Space.40}",
+        "Text_Main_Disabled": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
-          "value": "{Ref.ML-Space.60}",
+        "Text_Support_Enabled": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
-          "value": "{Ref.ML-Space.90}",
+        "Text_Support_Hovered": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
-          "value": "{Ref.ML-Space.60}",
+        "Text_Support_Activated": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
-          "value": "{Ref.ML-Space.30}",
+        "Text_Support_Disabled": {
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
-          "value": "{Ref.ML-Space.40}",
+        "Text_Light_Enabled": {
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
-          "value": "{Ref.ML-Space.90}",
+        "Text_Light_Hovered": {
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
-          "value": "{Ref.ML-Space.60}",
+        "Text_Light_Activated": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
-          "value": "{Ref.ML-Space.30}",
+        "Text_Light_Disabled": {
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
-          "value": "{Ref.ML-Space.70}",
+        "Accent_Enabled": {
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Accent-Hovered": {
-          "value": "{Ref.ML-Space.60}",
+        "Accent_Hovered": {
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
-        "Accent-Activated": {
-          "value": "{Ref.ML-Space.50}",
+        "Accent_Activated": {
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
-        "Accent-Disabled": {
-          "value": "{Ref.ML-Space.30}",
+        "Accent_Disabled": {
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
-        "On-Accent": {
-          "value": "{Ref.ML-Space.10}",
+        "On_Accent": {
+          "value": "{Ref.ML_Space.10}",
           "type": "color"
         },
         "Background": {
-          "value": "{Ref.ML-Space.10}",
+          "value": "{Ref.ML_Space.10}",
           "type": "color"
         }
       },
-      "Invert-Neutral": {
-        "Container-Enabled": {
+      "Invert_Neutral": {
+        "Container_Enabled": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Invert-Neutral.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Invert_Neutral.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Neutral.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Neutral.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Gray.10}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Gray.60}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Text-On-Accent": {
+        "Text_On_Accent": {
           "value": "{Ref.Gray.99}",
           "type": "color"
         },
@@ -2773,119 +2773,119 @@
         }
       },
       "Success": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Green.13}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Green.15}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Green.15}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Green.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Success.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Success.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Green.15}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Green.20}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Green.30}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Green.13}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Green.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Green.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Green.60}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Green.50}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Green.40}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Green.30}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Green.10}",
           "type": "color"
         },
@@ -2895,119 +2895,119 @@
         }
       },
       "Warning": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Yellow.13}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Yellow.15}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Yellow.15}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Yellow.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Warning.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Warning.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Yellow.15}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Yellow.20}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Yellow.30}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Yellow.13}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Yellow.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Yellow.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Yellow.60}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Yellow.50}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Yellow.40}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Yellow.30}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Yellow.10}",
           "type": "color"
         },
@@ -3017,119 +3017,119 @@
         }
       },
       "Critical": {
-        "Container-Enabled": {
+        "Container_Enabled": {
           "value": "{Ref.Red.13}",
           "type": "color"
         },
-        "Container-Hovered": {
+        "Container_Hovered": {
           "value": "{Ref.Red.15}",
           "type": "color"
         },
-        "Container-Activated": {
+        "Container_Activated": {
           "value": "{Ref.Red.15}",
           "type": "color"
         },
-        "Container-Disabled": {
+        "Container_Disabled": {
           "value": "{Ref.Red.13}",
           "type": "color"
         },
-        "Conteiner-Opacity-Enabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Enabled": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Hovered": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xs})",
+        "Conteiner_Opacity_Hovered": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xs})",
           "type": "color"
         },
-        "Conteiner-Opacity-Activated": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_S})",
+        "Conteiner_Opacity_Activated": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_S})",
           "type": "color"
         },
-        "Conteiner-Opacity-Disabled": {
-          "value": "rgba({Sys.Critical.Accent-Enabled}, {Opacity_Xxs})",
+        "Conteiner_Opacity_Disabled": {
+          "value": "rgba({Sys.Critical.Accent_Enabled}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border-Enabled": {
+        "Border_Enabled": {
           "value": "{Ref.Red.15}",
           "type": "color"
         },
-        "Border-Hovered": {
+        "Border_Hovered": {
           "value": "{Ref.Red.20}",
           "type": "color"
         },
-        "Border-Activated": {
+        "Border_Activated": {
           "value": "{Ref.Red.30}",
           "type": "color"
         },
-        "Border-Disabled": {
+        "Border_Disabled": {
           "value": "{Ref.Red.13}",
           "type": "color"
         },
-        "Text-Main-Enabled": {
+        "Text_Main_Enabled": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Text-Main-Hovered": {
+        "Text_Main_Hovered": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Text-Main-Activated": {
+        "Text_Main_Activated": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Text-Main-Disabled": {
+        "Text_Main_Disabled": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Text-Support-Enabled": {
+        "Text_Support_Enabled": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Text-Support-Hovered": {
+        "Text_Support_Hovered": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Text-Support-Activated": {
+        "Text_Support_Activated": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Text-Support-Disabled": {
+        "Text_Support_Disabled": {
           "value": "{Ref.Red.30}",
           "type": "color"
         },
-        "Text-Light-Enabled": {
+        "Text_Light_Enabled": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Text-Light-Hovered": {
+        "Text_Light_Hovered": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Text-Light-Activated": {
+        "Text_Light_Activated": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Text-Light-Disabled": {
+        "Text_Light_Disabled": {
           "value": "{Ref.Red.30}",
           "type": "color"
         },
-        "Accent-Enabled": {
+        "Accent_Enabled": {
           "value": "{Ref.Red.60}",
           "type": "color"
         },
-        "Accent-Hovered": {
+        "Accent_Hovered": {
           "value": "{Ref.Red.50}",
           "type": "color"
         },
-        "Accent-Activated": {
+        "Accent_Activated": {
           "value": "{Ref.Red.40}",
           "type": "color"
         },
-        "Accent-Disabled": {
+        "Accent_Disabled": {
           "value": "{Ref.Red.30}",
           "type": "color"
         },
-        "On-Accent": {
+        "On_Accent": {
           "value": "{Ref.Red.10}",
           "type": "color"
         },
