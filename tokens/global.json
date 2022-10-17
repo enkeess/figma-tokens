@@ -1228,7 +1228,7 @@
     "Ref": {
       "Gray": {
         "10": {
-          "value": "#0c0c0c",
+          "value": "#0d0d0d",
           "type": "color"
         },
         "13": {
@@ -1821,7 +1821,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Gray.90}",
+          "value": "{Ref.Gray.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -1943,7 +1943,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2065,7 +2065,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Gray.20}",
+          "value": "{Ref.Gray.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2187,7 +2187,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2309,7 +2309,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2431,7 +2431,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2679,7 +2679,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.ML_Space.20}",
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2801,7 +2801,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Gray.90}",
+          "value": "{Ref.Gray.95}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2923,7 +2923,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Green.13}",
+          "value": "{Ref.Green.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -3045,7 +3045,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Yellow.13}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -3167,7 +3167,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Red.13}",
+          "value": "{Ref.Red.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
