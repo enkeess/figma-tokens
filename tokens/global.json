@@ -1666,6 +1666,111 @@
     "Letter_Spacing_L": {
       "value": "0.15",
       "type": "letterSpacing"
+    },
+    "Down": {
+      "Elevation_S": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_025m}",
+          "blur": "{Size_05m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_M": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_05m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_L": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_1m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "Up": {
+      "Elevation_S": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "-{Size_025m}",
+          "blur": "{Size_05m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_M": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "-{Size_05m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_L": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "-{Size_1m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_0m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "Centre": {
+      "Elevation_S": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_0m}",
+          "blur": "{Size_05m}",
+          "spread": "{Size_025m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_M": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_0m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_05m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Elevation_L": {
+        "value": {
+          "x": "{Size_0m}",
+          "y": "{Size_0m}",
+          "blur": "{Size_1m}",
+          "spread": "{Size_1m}",
+          "color": "{Sys.Neutral.Conteiner_Opacity_Enabled}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "Light Mode": {
