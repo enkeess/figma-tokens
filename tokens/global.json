@@ -206,7 +206,7 @@
       "type": "fontWeights"
     },
     "Line_Height_Multipler": {
-      "value": "4",
+      "value": "{Modul_Scale} / 2",
       "type": "other"
     },
     "Paragraph_Spacing_Multipler": {
@@ -284,11 +284,11 @@
       }
     },
     "Letter_Spacing_Xs": {
-      "value": "_0.5",
+      "value": "-0.5",
       "type": "letterSpacing"
     },
     "Letter_Spacing_S": {
-      "value": "_0.1",
+      "value": "-0.1",
       "type": "letterSpacing"
     },
     "Letter_Spacing_M": {
