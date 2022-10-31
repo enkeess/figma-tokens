@@ -1276,7 +1276,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#f7f9fc",
+          "value": "#f3f5f8",
           "type": "color"
         },
         "99": {
@@ -1893,7 +1893,7 @@
           "type": "color"
         },
         "Background": {
-          "value": "{Ref.Gray.95}",
+          "value": "{Ref.Gray.97}",
           "type": "color"
         }
       },
