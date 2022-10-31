@@ -49,107 +49,107 @@
       "type": "fontSizes"
     },
     "Size_0m": {
-      "value": "{Modul_Scale} * 0",
+      "value": "{Module_Scale} * 0",
       "type": "sizing"
     },
     "Size_025m": {
-      "value": "{Modul_Scale} / 4",
+      "value": "{Module_Scale} / 4",
       "type": "sizing"
     },
     "Size_05m": {
-      "value": "{Modul_Scale} / 2",
+      "value": "{Module_Scale} / 2",
       "type": "sizing"
     },
     "Size_1m": {
-      "value": "{Modul_Scale}",
+      "value": "{Module_Scale}",
       "type": "sizing"
     },
     "Size_2m": {
-      "value": "{Modul_Scale} * 2",
+      "value": "{Module_Scale} * 2",
       "type": "sizing"
     },
     "Size_3m": {
-      "value": "{Modul_Scale} * 3",
+      "value": "{Module_Scale} * 3",
       "type": "sizing"
     },
     "Size_4m": {
-      "value": "{Modul_Scale} * 4",
+      "value": "{Module_Scale} * 4",
       "type": "sizing"
     },
     "Size_5m": {
-      "value": "{Modul_Scale} * 5",
+      "value": "{Module_Scale} * 5",
       "type": "sizing"
     },
     "Size_6m": {
-      "value": "{Modul_Scale} * 6",
+      "value": "{Module_Scale} * 6",
       "type": "sizing"
     },
     "Size_7m": {
-      "value": "{Modul_Scale} * 7",
+      "value": "{Module_Scale} * 7",
       "type": "sizing"
     },
     "Size_8m": {
-      "value": "{Modul_Scale} * 8",
+      "value": "{Module_Scale} * 8",
       "type": "sizing"
     },
     "Size_9m": {
-      "value": "{Modul_Scale} * 9",
+      "value": "{Module_Scale} * 9",
       "type": "sizing"
     },
     "Size_10m": {
-      "value": "{Modul_Scale} * 10",
+      "value": "{Module_Scale} * 10",
       "type": "sizing"
     },
     "Space_0m": {
-      "value": "{Modul_Scale} * 0",
+      "value": "{Module_Scale} * 0",
       "type": "spacing"
     },
     "Space_025m": {
-      "value": "{Modul_Scale} / 4",
+      "value": "{Module_Scale} / 4",
       "type": "spacing"
     },
     "Space_05m": {
-      "value": "{Modul_Scale} / 2",
+      "value": "{Module_Scale} / 2",
       "type": "spacing"
     },
     "Space_1m": {
-      "value": "{Modul_Scale}",
+      "value": "{Module_Scale}",
       "type": "spacing"
     },
     "Space_2m": {
-      "value": "{Modul_Scale} * 2",
+      "value": "{Module_Scale} * 2",
       "type": "spacing"
     },
     "Space_3m": {
-      "value": "{Modul_Scale} * 3",
+      "value": "{Module_Scale} * 3",
       "type": "spacing"
     },
     "Space_4m": {
-      "value": "{Modul_Scale} * 4",
+      "value": "{Module_Scale} * 4",
       "type": "spacing"
     },
     "Space_5m": {
-      "value": "{Modul_Scale} * 5",
+      "value": "{Module_Scale} * 5",
       "type": "spacing"
     },
     "Space_6m": {
-      "value": "{Modul_Scale} * 6",
+      "value": "{Module_Scale} * 6",
       "type": "spacing"
     },
     "Space_7m": {
-      "value": "{Modul_Scale} * 7",
+      "value": "{Module_Scale} * 7",
       "type": "spacing"
     },
     "Space_8m": {
-      "value": "{Modul_Scale} * 8",
+      "value": "{Module_Scale} * 8",
       "type": "spacing"
     },
     "Space_9m": {
-      "value": "{Modul_Scale} * 9",
+      "value": "{Module_Scale} * 9",
       "type": "spacing"
     },
     "Space_10m": {
-      "value": "{Modul_Scale} * 10",
+      "value": "{Module_Scale} * 10",
       "type": "spacing"
     },
     "Opacity_Xxs": {
@@ -180,7 +180,7 @@
       "value": "{Opacity_Multiplier} * 0.12",
       "type": "opacity"
     },
-    "Modul_Scale": {
+    "Module_Scale": {
       "value": "8",
       "type": "other",
       "description": "The basic module of the indentation and dimension system"
@@ -206,7 +206,7 @@
       "type": "fontWeights"
     },
     "Line_Height_Multipler": {
-      "value": "{Modul_Scale} / 2",
+      "value": "{Module_Scale} / 2",
       "type": "other"
     },
     "Paragraph_Spacing_Multipler": {
@@ -1576,43 +1576,43 @@
       }
     },
     "Border_Xs": {
-      "value": "{Modul_Scale}/16",
+      "value": "{Module_Scale}/16",
       "type": "borderWidth"
     },
     "Border_S": {
-      "value": "{Modul_Scale}/8",
+      "value": "{Module_Scale}/8",
       "type": "borderWidth"
     },
     "Border_M": {
-      "value": "{Modul_Scale}/4",
+      "value": "{Module_Scale}/4",
       "type": "borderWidth"
     },
     "Border_L": {
-      "value": "{Modul_Scale}/2",
+      "value": "{Module_Scale}/2",
       "type": "borderWidth"
     },
     "Radius_Xs": {
-      "value": "{Modul_Scale}*0.25",
+      "value": "{Module_Scale}*0.25",
       "type": "borderRadius"
     },
     "Radius_S": {
-      "value": "{Modul_Scale}*0.5",
+      "value": "{Module_Scale}*0.5",
       "type": "borderRadius"
     },
     "Radius_M": {
-      "value": "{Modul_Scale}",
+      "value": "{Module_Scale}",
       "type": "borderRadius"
     },
     "Radius_L": {
-      "value": "{Modul_Scale}*2",
+      "value": "{Module_Scale}*2",
       "type": "borderRadius"
     },
     "Radius_Xl": {
-      "value": "{Modul_Scale}*3",
+      "value": "{Module_Scale}*3",
       "type": "borderRadius"
     },
     "Radius_Xxl": {
-      "value": "{Modul_Scale}*4",
+      "value": "{Module_Scale}*4",
       "type": "borderRadius"
     },
     "Paragraph_Font_Size_11": {
