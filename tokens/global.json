@@ -1276,7 +1276,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#f3f5f8",
+          "value": "#f4f5f6",
           "type": "color"
         },
         "99": {
@@ -1286,11 +1286,11 @@
       },
       "Green": {
         "10": {
-          "value": "#041408",
+          "value": "#0C1811",
           "type": "color"
         },
         "13": {
-          "value": "#05190a",
+          "value": "#0f1e16",
           "type": "color"
         },
         "15": {
@@ -1314,7 +1314,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#54ab43",
+          "value": "#6AAC5D",
           "type": "color"
         },
         "70": {
@@ -1344,15 +1344,15 @@
       },
       "Yellow": {
         "10": {
-          "value": "#120c02",
+          "value": "#18140C",
           "type": "color"
         },
         "13": {
-          "value": "#171103",
+          "value": "#1f1a0f",
           "type": "color"
         },
         "15": {
-          "value": "#302509",
+          "value": "#2C2511",
           "type": "color"
         },
         "20": {
@@ -1360,7 +1360,7 @@
           "type": "color"
         },
         "30": {
-          "value": "#947421",
+          "value": "#715816",
           "type": "color"
         },
         "40": {
@@ -1372,7 +1372,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#f0c046",
+          "value": "#d2b364",
           "type": "color"
         },
         "70": {
@@ -1402,15 +1402,15 @@
       },
       "Red": {
         "10": {
-          "value": "#160606",
+          "value": "#1D1111",
           "type": "color"
         },
         "13": {
-          "value": "#210505",
+          "value": "#231010",
           "type": "color"
         },
         "15": {
-          "value": "#3a0e0d",
+          "value": "#331414",
           "type": "color"
         },
         "20": {
@@ -1430,7 +1430,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#e23439",
+          "value": "#D16164",
           "type": "color"
         },
         "70": {
@@ -1460,15 +1460,15 @@
       },
       "ML_Space": {
         "10": {
-          "value": "#0a0d25",
+          "value": "#131420",
           "type": "color"
         },
         "13": {
-          "value": "#0c0f30",
+          "value": "#15172e",
           "type": "color"
         },
         "15": {
-          "value": "#171b49",
+          "value": "#1A1E46",
           "type": "color"
         },
         "20": {
@@ -1488,7 +1488,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#606cf3",
+          "value": "#7D86E8",
           "type": "color"
         },
         "70": {
@@ -1526,7 +1526,7 @@
           "type": "color"
         },
         "15": {
-          "value": "#1e3729",
+          "value": "#142919",
           "type": "color"
         },
         "20": {
@@ -1781,7 +1781,7 @@
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Gray.95}",
+          "value": "{Ref.Gray.97}",
           "type": "color"
         },
         "Container_Activated": {
@@ -1877,15 +1877,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Gray.60}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.70}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.90}",
           "type": "color"
         },
         "On_Accent": {
@@ -1899,11 +1899,11 @@
       },
       "Primary": {
         "Container_Enabled": {
-          "value": "{Ref.ML_Space.95}",
+          "value": "{Ref.ML_Space.97}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.95}",
           "type": "color"
         },
         "Container_Activated": {
@@ -1911,7 +1911,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.ML_Space.99}",
+          "value": "{Ref.ML_Space.97}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -1947,7 +1947,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.ML_Space.10}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -1959,11 +1959,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.ML_Space.70}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.ML_Space.50}",
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -1999,15 +1999,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.ML_Space.60}",
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.ML_Space.70}",
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.ML_Space.80}",
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
         "On_Accent": {
@@ -2143,11 +2143,11 @@
       },
       "Success": {
         "Container_Enabled": {
-          "value": "{Ref.Green.95}",
+          "value": "{Ref.Green.97}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.95}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2155,7 +2155,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Green.99}",
+          "value": "{Ref.Green.97}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2191,7 +2191,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Green.10}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -2203,11 +2203,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Green.50}",
+          "value": "{Ref.Green.60}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -2243,15 +2243,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Green.60}",
+          "value": "{Ref.Green.40}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.40}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.90}",
           "type": "color"
         },
         "On_Accent": {
@@ -2265,11 +2265,11 @@
       },
       "Warning": {
         "Container_Enabled": {
-          "value": "{Ref.Yellow.95}",
+          "value": "{Ref.Yellow.97}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.95}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2277,7 +2277,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Yellow.99}",
+          "value": "{Ref.Yellow.97}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2313,7 +2313,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Yellow.10}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -2329,7 +2329,7 @@
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Yellow.50}",
+          "value": "{Ref.Yellow.60}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -2365,15 +2365,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Yellow.60}",
+          "value": "{Ref.Yellow.40}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.40}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.90}",
           "type": "color"
         },
         "On_Accent": {
@@ -2387,11 +2387,11 @@
       },
       "Critical": {
         "Container_Enabled": {
-          "value": "{Ref.Red.95}",
+          "value": "{Ref.Red.97}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.95}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2399,7 +2399,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Red.99}",
+          "value": "{Ref.Red.97}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2435,7 +2435,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Red.10}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -2447,11 +2447,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Red.50}",
+          "value": "{Ref.Red.60}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -2487,15 +2487,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Red.60}",
+          "value": "{Ref.Red.40}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.40}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.90}",
           "type": "color"
         },
         "On_Accent": {
@@ -2617,11 +2617,11 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.50}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Gray.30}",
+          "value": "{Ref.Gray.15}",
           "type": "color"
         },
         "On_Accent": {
@@ -2635,11 +2635,11 @@
       },
       "Primary": {
         "Container_Enabled": {
-          "value": "{Ref.ML_Space.13}",
+          "value": "{Ref.ML_Space.10}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.ML_Space.15}",
+          "value": "{Ref.ML_Space.13}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2647,7 +2647,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.ML_Space.13}",
+          "value": "{Ref.ML_Space.10}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2667,19 +2667,19 @@
           "type": "color"
         },
         "Border_Enabled": {
-          "value": "{Ref.ML_Space.20}",
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
         "Border_Hovered": {
-          "value": "{Ref.ML_Space.30}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "Border_Activated": {
-          "value": "{Ref.ML_Space.40}",
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.ML_Space.15}",
+          "value": "{Ref.ML_Space.13}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2731,11 +2731,11 @@
           "type": "color"
         },
         "Accent_Enabled": {
-          "value": "{Ref.ML_Space.70}",
+          "value": "{Ref.ML_Space.60}",
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.ML_Space.60}",
+          "value": "{Ref.ML_Space.50}",
           "type": "color"
         },
         "Accent_Activated": {
@@ -2743,7 +2743,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.ML_Space.30}",
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
         "On_Accent": {
@@ -2879,11 +2879,11 @@
       },
       "Success": {
         "Container_Enabled": {
-          "value": "{Ref.Green.13}",
+          "value": "{Ref.Green.10}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Green.15}",
+          "value": "{Ref.Green.13}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2891,7 +2891,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Green.13}",
+          "value": "{Ref.Green.10}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2923,7 +2923,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Green.15}",
+          "value": "{Ref.Green.13}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2983,11 +2983,11 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Green.40}",
+          "value": "{Ref.Green.50}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Green.30}",
+          "value": "{Ref.Green.15}",
           "type": "color"
         },
         "On_Accent": {
@@ -3001,11 +3001,11 @@
       },
       "Warning": {
         "Container_Enabled": {
-          "value": "{Ref.Yellow.13}",
+          "value": "{Ref.Yellow.10}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Yellow.15}",
+          "value": "{Ref.Yellow.13}",
           "type": "color"
         },
         "Container_Activated": {
@@ -3013,7 +3013,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Yellow.13}",
+          "value": "{Ref.Yellow.10}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -3045,7 +3045,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Yellow.15}",
+          "value": "{Ref.Yellow.13}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -3105,11 +3105,11 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Yellow.40}",
+          "value": "{Ref.Yellow.50}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Yellow.30}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         },
         "On_Accent": {
@@ -3123,11 +3123,11 @@
       },
       "Critical": {
         "Container_Enabled": {
-          "value": "{Ref.Red.13}",
+          "value": "{Ref.Red.10}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Red.15}",
+          "value": "{Ref.Red.13}",
           "type": "color"
         },
         "Container_Activated": {
@@ -3135,7 +3135,7 @@
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Red.13}",
+          "value": "{Ref.Red.10}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -3167,7 +3167,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Red.15}",
+          "value": "{Ref.Red.13}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -3227,11 +3227,11 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Red.40}",
+          "value": "{Ref.Red.50}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Red.30}",
+          "value": "{Ref.Red.15}",
           "type": "color"
         },
         "On_Accent": {
