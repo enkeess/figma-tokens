@@ -2695,11 +2695,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.ML_Space.40}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.ML_Space.60}",
+          "value": "{Ref.ML_Space.40}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -2711,11 +2711,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.ML_Space.30}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.ML_Space.40}",
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -2727,7 +2727,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.ML_Space.30}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -2939,11 +2939,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Green.40}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Green.60}",
+          "value": "{Ref.Green.40}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -2955,11 +2955,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Green.30}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Green.40}",
+          "value": "{Ref.Green.30}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -2971,7 +2971,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Green.30}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -3061,11 +3061,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Yellow.40}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Yellow.60}",
+          "value": "{Ref.Yellow.40}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -3077,11 +3077,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Yellow.30}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Yellow.40}",
+          "value": "{Ref.Yellow.30}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -3093,7 +3093,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Yellow.30}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -3183,11 +3183,11 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Red.40}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "Text_Support_Enabled": {
-          "value": "{Ref.Red.60}",
+          "value": "{Ref.Red.40}",
           "type": "color"
         },
         "Text_Support_Hovered": {
@@ -3199,11 +3199,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Red.30}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Red.40}",
+          "value": "{Ref.Red.30}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -3215,7 +3215,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Red.30}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "Accent_Enabled": {
