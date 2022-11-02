@@ -2687,11 +2687,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.ML_Space.80}",
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -2707,7 +2707,7 @@
           "type": "color"
         },
         "Text_Support_Hovered": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "Text_Support_Activated": {
@@ -2723,7 +2723,7 @@
           "type": "color"
         },
         "Text_Light_Hovered": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "Text_Light_Activated": {
@@ -2931,11 +2931,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.70}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -2951,7 +2951,7 @@
           "type": "color"
         },
         "Text_Support_Hovered": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Text_Support_Activated": {
@@ -2967,7 +2967,7 @@
           "type": "color"
         },
         "Text_Light_Hovered": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Text_Light_Activated": {
@@ -3053,11 +3053,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.70}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -3073,7 +3073,7 @@
           "type": "color"
         },
         "Text_Support_Hovered": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Text_Support_Activated": {
@@ -3089,7 +3089,7 @@
           "type": "color"
         },
         "Text_Light_Hovered": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Text_Light_Activated": {
@@ -3175,11 +3175,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.70}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -3195,7 +3195,7 @@
           "type": "color"
         },
         "Text_Support_Hovered": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Text_Support_Activated": {
@@ -3211,7 +3211,7 @@
           "type": "color"
         },
         "Text_Light_Hovered": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Text_Light_Activated": {
