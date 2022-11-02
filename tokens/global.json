@@ -2021,19 +2021,19 @@
       },
       "Invert_Neutral": {
         "Container_Enabled": {
-          "value": "{Ref.Gray.13}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Gray.15}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Gray.15}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "Container_Disabled": {
-          "value": "{Ref.Gray.13}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2053,19 +2053,19 @@
           "type": "color"
         },
         "Border_Enabled": {
-          "value": "{Ref.Gray.20}",
-          "type": "color"
-        },
-        "Border_Hovered": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Border_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
+        "Border_Activated": {
+          "value": "{Ref.Gray.50}",
+          "type": "color"
+        },
         "Border_Disabled": {
-          "value": "{Ref.Gray.15}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2137,7 +2137,7 @@
           "type": "color"
         },
         "Background": {
-          "value": "{Ref.Gray.10}",
+          "value": "{Ref.Gray.15}",
           "type": "color"
         }
       },
