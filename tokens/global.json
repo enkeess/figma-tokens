@@ -1226,6 +1226,10 @@
       "type": "textDecoration"
     },
     "Ref": {
+      "Blackout": {
+        "value": "rgba({Ref.Gray.10}, {Opacity_Xxl})",
+        "type": "color"
+      },
       "Gray": {
         "10": {
           "value": "#0d0d0d",
