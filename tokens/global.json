@@ -1227,7 +1227,7 @@
     },
     "Ref": {
       "Blackout": {
-        "value": "rgba({Ref.Gray.10}, {Opacity_Xxl})",
+        "value": "rgba({Ref.ML_Space.10}, 0.8)",
         "type": "color"
       },
       "Gray": {
