@@ -1272,7 +1272,7 @@
           "type": "color"
         },
         "95": {
-          "value": "#eef0f4",
+          "value": "#ebecef",
           "type": "color"
         },
         "97": {
@@ -1508,7 +1508,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#F0F2FF",
+          "value": "#f1f3ff",
           "type": "color"
         },
         "99": {
@@ -1893,7 +1893,7 @@
           "type": "color"
         },
         "Background": {
-          "value": "{Ref.Gray.97}",
+          "value": "{Ref.Gray.95}",
           "type": "color"
         }
       },
