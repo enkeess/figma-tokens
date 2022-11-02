@@ -1318,11 +1318,11 @@
           "type": "color"
         },
         "70": {
-          "value": "#81C56C",
+          "value": "#86c472",
           "type": "color"
         },
         "80": {
-          "value": "#98e183",
+          "value": "#a3de91",
           "type": "color"
         },
         "90": {
@@ -1330,7 +1330,7 @@
           "type": "color"
         },
         "95": {
-          "value": "#d9facc",
+          "value": "#d6f7c9",
           "type": "color"
         },
         "97": {
@@ -1380,7 +1380,7 @@
           "type": "color"
         },
         "80": {
-          "value": "#fad683",
+          "value": "#f6d792",
           "type": "color"
         },
         "90": {
@@ -1434,11 +1434,11 @@
           "type": "color"
         },
         "70": {
-          "value": "#FF8380",
+          "value": "#fa8783",
           "type": "color"
         },
         "80": {
-          "value": "#ffa098",
+          "value": "#f8a49c",
           "type": "color"
         },
         "90": {
@@ -1885,7 +1885,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Gray.90}",
+          "value": "{Ref.Gray.80}",
           "type": "color"
         },
         "On_Accent": {
@@ -2007,7 +2007,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.ML_Space.90}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "On_Accent": {
@@ -2251,7 +2251,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "On_Accent": {
@@ -2373,7 +2373,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.70}",
           "type": "color"
         },
         "On_Accent": {
@@ -2495,7 +2495,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "On_Accent": {
@@ -2621,7 +2621,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "On_Accent": {
@@ -2743,7 +2743,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.ML_Space.30}",
+          "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
         "On_Accent": {
@@ -2987,7 +2987,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Green.30}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "On_Accent": {
@@ -3109,7 +3109,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Yellow.30}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "On_Accent": {
@@ -3231,7 +3231,7 @@
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Red.30}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "On_Accent": {
