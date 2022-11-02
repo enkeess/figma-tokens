@@ -1841,7 +1841,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Gray.70}",
+          "value": "{Ref.Gray.80}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -1857,11 +1857,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.90}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Gray.70}",
+          "value": "{Ref.Gray.80}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -1873,7 +1873,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.90}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -1963,7 +1963,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.ML_Space.80}",
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -1979,11 +1979,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.ML_Space.80}",
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.ML_Space.70}",
+          "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -1995,7 +1995,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.ML_Space.80}",
+          "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -2207,7 +2207,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.90}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -2223,11 +2223,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.90}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -2239,7 +2239,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.90}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -2329,7 +2329,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.90}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -2345,11 +2345,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.90}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -2361,7 +2361,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.90}",
           "type": "color"
         },
         "Accent_Enabled": {
@@ -2451,7 +2451,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.90}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -2467,11 +2467,11 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.90}",
           "type": "color"
         },
         "Text_Light_Enabled": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Text_Light_Hovered": {
@@ -2483,7 +2483,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.90}",
           "type": "color"
         },
         "Accent_Enabled": {
