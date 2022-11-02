@@ -2133,7 +2133,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Gray.10}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Background": {
