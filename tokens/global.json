@@ -1310,7 +1310,7 @@
           "type": "color"
         },
         "50": {
-          "value": "#399038",
+          "value": "#499048",
           "type": "color"
         },
         "60": {
@@ -1318,7 +1318,7 @@
           "type": "color"
         },
         "70": {
-          "value": "#76c55e",
+          "value": "#81C56C",
           "type": "color"
         },
         "80": {
@@ -1372,11 +1372,11 @@
           "type": "color"
         },
         "60": {
-          "value": "#d2b364",
+          "value": "#E3BF64",
           "type": "color"
         },
         "70": {
-          "value": "#f7cb5f",
+          "value": "#EECC77",
           "type": "color"
         },
         "80": {
@@ -1426,15 +1426,15 @@
           "type": "color"
         },
         "50": {
-          "value": "#c2242c",
+          "value": "#DF5559",
           "type": "color"
         },
         "60": {
-          "value": "#D16164",
+          "value": "#F66D6A",
           "type": "color"
         },
         "70": {
-          "value": "#ff635f",
+          "value": "#FF8380",
           "type": "color"
         },
         "80": {
@@ -1488,7 +1488,7 @@
           "type": "color"
         },
         "60": {
-          "value": "#7D86E8",
+          "value": "#717CF4",
           "type": "color"
         },
         "70": {
@@ -2609,19 +2609,19 @@
           "type": "color"
         },
         "Accent_Enabled": {
-          "value": "{Ref.Gray.60}",
+          "value": "{Ref.Gray.70}",
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.80}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.80}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Gray.15}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "On_Accent": {
@@ -2735,15 +2735,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.ML_Space.50}",
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.ML_Space.50}",
+          "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.ML_Space.15}",
+          "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
         "On_Accent": {
@@ -2979,15 +2979,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Green.50}",
+          "value": "{Ref.Green.70}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Green.50}",
+          "value": "{Ref.Green.70}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Green.15}",
+          "value": "{Ref.Green.30}",
           "type": "color"
         },
         "On_Accent": {
@@ -3101,15 +3101,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Yellow.50}",
+          "value": "{Ref.Yellow.70}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Yellow.50}",
+          "value": "{Ref.Yellow.70}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Yellow.15}",
+          "value": "{Ref.Yellow.30}",
           "type": "color"
         },
         "On_Accent": {
@@ -3223,15 +3223,15 @@
           "type": "color"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Red.50}",
+          "value": "{Ref.Red.70}",
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Red.50}",
+          "value": "{Ref.Red.70}",
           "type": "color"
         },
         "Accent_Disabled": {
-          "value": "{Ref.Red.15}",
+          "value": "{Ref.Red.30}",
           "type": "color"
         },
         "On_Accent": {
