@@ -2065,7 +2065,7 @@
           "type": "color"
         },
         "Border_Activated": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "Border_Disabled": {
@@ -2793,11 +2793,11 @@
           "type": "color"
         },
         "Border_Enabled": {
-          "value": "{Ref.Gray.30}",
+          "value": "{Ref.Gray.40}",
           "type": "color"
         },
         "Border_Hovered": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.50}",
           "type": "color"
         },
         "Border_Activated": {
