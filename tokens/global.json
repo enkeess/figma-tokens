@@ -1678,7 +1678,7 @@
           "y": "{Size_025m}",
           "blur": "{Size_05m}",
           "spread": "{Size_0m}",
-          "color": "rgba({Ref.Gray.10}, {Opacity_Xs})",
+          "color": "rgba({Ref.Gray.10}, {Opacity_Xxs})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1700,7 +1700,7 @@
           "y": "{Size_1m}",
           "blur": "{Size_1m}",
           "spread": "{Size_0m}",
-          "color": "rgba({Ref.Gray.10}, {Opacity_Xs})",
+          "color": "rgba({Ref.Gray.10}, {Opacity_S})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1713,7 +1713,7 @@
           "y": "-{Size_025m}",
           "blur": "{Size_05m}",
           "spread": "{Size_0m}",
-          "color": "rgba({Ref.Gray.10}, {Opacity_Xs})",
+          "color": "rgba({Ref.Gray.10}, {Opacity_Xxs})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1735,7 +1735,7 @@
           "y": "-{Size_1m}",
           "blur": "{Size_1m}",
           "spread": "{Size_0m}",
-          "color": "rgba({Ref.Gray.10}, {Opacity_Xs})",
+          "color": "rgba({Ref.Gray.10}, {Opacity_S})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1759,7 +1759,7 @@
           "y": "{Size_0m}",
           "blur": "{Size_1m}",
           "spread": "{Size_05m}",
-          "color": "rgba({Ref.Gray.30}, {Opacity_Xxs})",
+          "color": "rgba({Ref.Gray.30}, {Opacity_Xs})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1770,7 +1770,7 @@
           "y": "{Size_0m}",
           "blur": "{Size_1m}",
           "spread": "{Size_1m}",
-          "color": "rgba({Ref.Gray.30}, {Opacity_Xxs})",
+          "color": "rgba({Ref.Gray.30}, {Opacity_Xs})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
