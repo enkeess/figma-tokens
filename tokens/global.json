@@ -180,10 +180,6 @@
       "value": "{Opacity_Multiplier} * 0.12",
       "type": "opacity"
     },
-    "Opacity_Xxxl": {
-      "value": "{Opacity_Multiplier} * 0.16",
-      "type": "opacity"
-    },
     "Module_Scale": {
       "value": "8",
       "type": "other",
