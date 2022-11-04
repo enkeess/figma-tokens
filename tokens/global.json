@@ -1227,16 +1227,16 @@
     },
     "Ref": {
       "Blackout": {
-        "value": "rgba({Ref.ML_Space.10}, 0.8)",
+        "value": "rgba({Ref.Gray.20},{Opacity_Xxl})",
         "type": "color"
       },
       "Gray": {
         "10": {
-          "value": "#0d0d0d",
+          "value": "#121212",
           "type": "color"
         },
         "13": {
-          "value": "#131313",
+          "value": "#171717",
           "type": "color"
         },
         "15": {
@@ -1276,15 +1276,15 @@
           "type": "color"
         },
         "95": {
-          "value": "#f1f2f4",
+          "value": "#f0f0f0",
           "type": "color"
         },
         "97": {
-          "value": "#f4f5f8",
+          "value": "#fafafa",
           "type": "color"
         },
         "99": {
-          "value": "#fcfcfc",
+          "value": "#fdfdfd",
           "type": "color"
         }
       },
@@ -1338,7 +1338,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#E7FCD9",
+          "value": "#e2f6d4",
           "type": "color"
         },
         "99": {
@@ -1352,7 +1352,7 @@
           "type": "color"
         },
         "13": {
-          "value": "#1f1a0f",
+          "value": "#211c11",
           "type": "color"
         },
         "15": {
@@ -1396,7 +1396,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#FDF3DD",
+          "value": "#fbf1db",
           "type": "color"
         },
         "99": {
@@ -1410,7 +1410,7 @@
           "type": "color"
         },
         "13": {
-          "value": "#231010",
+          "value": "#251212",
           "type": "color"
         },
         "15": {
@@ -1454,7 +1454,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#fff2f0",
+          "value": "#fbeeec",
           "type": "color"
         },
         "99": {
@@ -1468,7 +1468,7 @@
           "type": "color"
         },
         "13": {
-          "value": "#15172e",
+          "value": "#181a32",
           "type": "color"
         },
         "15": {
@@ -1512,7 +1512,7 @@
           "type": "color"
         },
         "97": {
-          "value": "#f1f3ff",
+          "value": "#eff1fd",
           "type": "color"
         },
         "99": {
@@ -1526,11 +1526,11 @@
           "type": "color"
         },
         "13": {
-          "value": "#0c1912",
+          "value": "#122119",
           "type": "color"
         },
         "15": {
-          "value": "#142919",
+          "value": "#13221a",
           "type": "color"
         },
         "20": {
@@ -1781,19 +1781,19 @@
     "Sys": {
       "Neutral": {
         "Container_Enabled": {
-          "value": "{Ref.Gray.99}",
-          "type": "color"
-        },
-        "Container_Hovered": {
           "value": "{Ref.Gray.97}",
           "type": "color"
         },
-        "Container_Activated": {
+        "Container_Hovered": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
-        "Container_Disabled": {
+        "Container_Activated": {
           "value": "{Ref.Gray.99}",
+          "type": "color"
+        },
+        "Container_Disabled": {
+          "value": "{Ref.Gray.97}",
           "type": "color"
         },
         "Conteiner_Opacity_Enabled": {
@@ -2015,7 +2015,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.ML_Space.99}",
+          "value": "{Ref.ML_Space.97}",
           "type": "color"
         },
         "Background": {
@@ -2521,7 +2521,7 @@
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Gray.15}",
+          "value": "{Ref.Gray.10}",
           "type": "color"
         },
         "Container_Activated": {
@@ -2629,7 +2629,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Gray.10}",
+          "value": "{Ref.Gray.15}",
           "type": "color"
         },
         "Background": {
@@ -2751,7 +2751,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.ML_Space.10}",
+          "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
         "Background": {
@@ -2805,7 +2805,7 @@
           "type": "color"
         },
         "Border_Disabled": {
-          "value": "{Ref.Gray.20}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Main_Enabled": {
@@ -2995,7 +2995,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Green.10}",
+          "value": "{Ref.Green.15}",
           "type": "color"
         },
         "Background": {
@@ -3117,7 +3117,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Yellow.10}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         },
         "Background": {
@@ -3239,7 +3239,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Red.10}",
+          "value": "{Ref.Red.15}",
           "type": "color"
         },
         "Background": {
