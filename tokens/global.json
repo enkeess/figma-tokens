@@ -1809,43 +1809,43 @@
     },
     "Border_Xs": {
       "value": "{Module_Scale}/16",
-      "type": "borderWidth"
+      "type": "BorderWidth"
     },
     "Border_S": {
       "value": "{Module_Scale}/8",
-      "type": "borderWidth"
+      "type": "BorderWidth"
     },
     "Border_M": {
       "value": "{Module_Scale}/4",
-      "type": "borderWidth"
+      "type": "BorderWidth"
     },
     "Border_L": {
       "value": "{Module_Scale}/2",
-      "type": "borderWidth"
+      "type": "BorderWidth"
     },
     "Radius_Xs": {
       "value": "{Module_Scale}*0.25",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Radius_S": {
       "value": "{Module_Scale}*0.5",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Radius_M": {
       "value": "{Module_Scale}",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Radius_L": {
       "value": "{Module_Scale}*2",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Radius_Xl": {
       "value": "{Module_Scale}*3",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Radius_Xxl": {
       "value": "{Module_Scale}*4",
-      "type": "borderRadius"
+      "type": "Border-Radius"
     },
     "Paragraph_Font_Size_11": {
       "value": "{Paragraph_Spacing_Multipler} * {Font_Size_11}",
@@ -2040,19 +2040,19 @@
           "value": "rgba({Ref.Gray.10}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Gray.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Gray.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Gray.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Gray.95}",
           "type": "color"
         },
@@ -2162,19 +2162,19 @@
           "value": "rgba({Ref.ML_Space.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.ML_Space.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.ML_Space.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.ML_Space.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.ML_Space.95}",
           "type": "color"
         },
@@ -2284,19 +2284,19 @@
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Gray.20}",
           "type": "color"
         },
@@ -2406,19 +2406,19 @@
           "value": "rgba({Ref.Green.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Green.95}",
           "type": "color"
         },
@@ -2528,19 +2528,19 @@
           "value": "rgba({Ref.Yellow.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Yellow.95}",
           "type": "color"
         },
@@ -2650,19 +2650,19 @@
           "value": "rgba({Ref.Red.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Red.95}",
           "type": "color"
         },
@@ -2778,19 +2778,19 @@
           "value": "rgba({Ref.Red.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Red.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Red.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Red.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Red.95}",
           "type": "color"
         },
@@ -2900,19 +2900,19 @@
           "value": "rgba({Ref.Orange.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Orange.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Orange.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Orange.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Orange.95}",
           "type": "color"
         },
@@ -3022,19 +3022,19 @@
           "value": "rgba({Ref.Yellow.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Yellow.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Yellow.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Yellow.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Yellow.95}",
           "type": "color"
         },
@@ -3144,19 +3144,19 @@
           "value": "rgba({Ref.Green.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Green.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Green.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Green.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Green.95}",
           "type": "color"
         },
@@ -3266,19 +3266,19 @@
           "value": "rgba({Ref.Blue.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Blue.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Blue.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Blue.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Blue.95}",
           "type": "color"
         },
@@ -3388,19 +3388,19 @@
           "value": "rgba({Ref.Violet.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Violet.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Violet.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Violet.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Violet.95}",
           "type": "color"
         },
@@ -3510,19 +3510,19 @@
           "value": "rgba({Ref.Pink.50}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Pink.90}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Pink.80}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Pink.70}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Pink.95}",
           "type": "color"
         },
@@ -3636,19 +3636,19 @@
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Gray.20}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Gray.15}",
           "type": "color"
         },
@@ -3758,19 +3758,19 @@
           "value": "rgba({Ref.ML_Space.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.ML_Space.15}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.ML_Space.20}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.ML_Space.30}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.ML_Space.13}",
           "type": "color"
         },
@@ -3880,19 +3880,19 @@
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color"
         },
@@ -4002,19 +4002,19 @@
           "value": "rgba({Ref.Green.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Green.15}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Green.20}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Green.30}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Green.13}",
           "type": "color"
         },
@@ -4124,19 +4124,19 @@
           "value": "rgba({Ref.Yellow.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Yellow.15}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Yellow.20}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Yellow.30}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Yellow.13}",
           "type": "color"
         },
@@ -4246,19 +4246,19 @@
           "value": "rgba({Ref.Red.60}, {Opacity_Xxs})",
           "type": "color"
         },
-        "Border_Enabled": {
+        "Line_Enabled": {
           "value": "{Ref.Red.15}",
           "type": "color"
         },
-        "Border_Hovered": {
+        "Line_Hovered": {
           "value": "{Ref.Red.20}",
           "type": "color"
         },
-        "Border_Activated": {
+        "Line_Activated": {
           "value": "{Ref.Red.30}",
           "type": "color"
         },
-        "Border_Disabled": {
+        "Line_Disabled": {
           "value": "{Ref.Red.13}",
           "type": "color"
         },
