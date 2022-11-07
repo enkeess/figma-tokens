@@ -1226,10 +1226,6 @@
       "type": "textDecoration"
     },
     "Ref": {
-      "Blackout": {
-        "value": "rgba({Ref.Gray.20},{Opacity_Xxl})",
-        "type": "color"
-      },
       "Gray": {
         "10": {
           "value": "#121212",
@@ -2742,6 +2738,10 @@
           "value": "{Ref.Red.95}",
           "type": "color"
         }
+      },
+      "Blackout": {
+        "value": "rgba({Ref.Gray.20},{Opacity_Xxl})",
+        "type": "color"
       }
     },
     "Index": {
