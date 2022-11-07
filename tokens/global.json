@@ -1318,7 +1318,7 @@
           "type": "color"
         },
         "70": {
-          "value": "#86c472",
+          "value": "#89c377",
           "type": "color"
         },
         "80": {
@@ -1376,7 +1376,7 @@
           "type": "color"
         },
         "70": {
-          "value": "#EECC77",
+          "value": "#ebcd82",
           "type": "color"
         },
         "80": {
@@ -1434,11 +1434,11 @@
           "type": "color"
         },
         "70": {
-          "value": "#fa8783",
+          "value": "#f09995",
           "type": "color"
         },
         "80": {
-          "value": "#f8a49c",
+          "value": "#f5b5ae",
           "type": "color"
         },
         "90": {
@@ -1600,7 +1600,7 @@
           "type": "color"
         },
         "50": {
-          "value": "#fd9c5d",
+          "value": "#f99e65",
           "type": "color"
         },
         "60": {
@@ -1608,7 +1608,7 @@
           "type": "color"
         },
         "70": {
-          "value": "#febe97",
+          "value": "#f9c09e",
           "type": "color"
         },
         "80": {
@@ -1620,7 +1620,7 @@
           "type": "color"
         },
         "95": {
-          "value": "#feebdb",
+          "value": "#fbe7d7",
           "type": "color"
         },
         "97": {
@@ -1662,11 +1662,11 @@
           "type": "color"
         },
         "60": {
-          "value": "#67b7e2",
+          "value": "#67b2da",
           "type": "color"
         },
         "70": {
-          "value": "#89c7e9",
+          "value": "#8cc1df",
           "type": "color"
         },
         "80": {
@@ -1724,11 +1724,11 @@
           "type": "color"
         },
         "70": {
-          "value": "#b388dd",
+          "value": "#be9de0",
           "type": "color"
         },
         "80": {
-          "value": "#ceadf1",
+          "value": "#d5baf1",
           "type": "color"
         },
         "90": {
@@ -1782,11 +1782,11 @@
           "type": "color"
         },
         "70": {
-          "value": "#dd7ead",
+          "value": "#db91b4",
           "type": "color"
         },
         "80": {
-          "value": "#efa3c7",
+          "value": "#efaecc",
           "type": "color"
         },
         "90": {
@@ -2747,15 +2747,15 @@
     "Index": {
       "Red": {
         "Container_Enabled": {
-          "value": "{Ref.Red.97}",
+          "value": "{Ref.Red.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Red.95}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -2779,15 +2779,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Red.90}",
+          "value": "{Ref.Red.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -2795,7 +2795,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Red.20}",
+          "value": "{Ref.Red.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -2869,15 +2869,15 @@
       },
       "Orange": {
         "Container_Enabled": {
-          "value": "{Ref.Orange.97}",
+          "value": "{Ref.Orange.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Orange.95}",
+          "value": "{Ref.Orange.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Orange.90}",
+          "value": "{Ref.Orange.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -2901,15 +2901,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Orange.90}",
+          "value": "{Ref.Orange.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Orange.80}",
+          "value": "{Ref.Orange.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Orange.70}",
+          "value": "{Ref.Orange.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -2917,7 +2917,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Orange.20}",
+          "value": "{Ref.Orange.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -2991,15 +2991,15 @@
       },
       "Yellow": {
         "Container_Enabled": {
-          "value": "{Ref.Yellow.97}",
+          "value": "{Ref.Yellow.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Yellow.95}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -3023,15 +3023,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Yellow.90}",
+          "value": "{Ref.Yellow.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -3039,7 +3039,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Yellow.20}",
+          "value": "{Ref.Yellow.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -3113,15 +3113,15 @@
       },
       "Green": {
         "Container_Enabled": {
-          "value": "{Ref.Green.97}",
+          "value": "{Ref.Green.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Green.95}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -3145,15 +3145,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Green.90}",
+          "value": "{Ref.Green.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -3161,7 +3161,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Green.20}",
+          "value": "{Ref.Green.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -3235,15 +3235,15 @@
       },
       "Blue": {
         "Container_Enabled": {
-          "value": "{Ref.Blue.97}",
+          "value": "{Ref.Blue.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Blue.95}",
+          "value": "{Ref.Blue.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Blue.90}",
+          "value": "{Ref.Blue.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -3267,15 +3267,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Blue.90}",
+          "value": "{Ref.Blue.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Blue.80}",
+          "value": "{Ref.Blue.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Blue.70}",
+          "value": "{Ref.Blue.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -3283,7 +3283,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Blue.20}",
+          "value": "{Ref.Blue.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -3357,15 +3357,15 @@
       },
       "Violet": {
         "Container_Enabled": {
-          "value": "{Ref.Violet.97}",
+          "value": "{Ref.Violet.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Violet.95}",
+          "value": "{Ref.Violet.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Violet.90}",
+          "value": "{Ref.Violet.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -3389,15 +3389,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Violet.90}",
+          "value": "{Ref.Violet.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Violet.80}",
+          "value": "{Ref.Violet.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Violet.70}",
+          "value": "{Ref.Violet.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -3405,7 +3405,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Violet.20}",
+          "value": "{Ref.Violet.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -3479,15 +3479,15 @@
       },
       "Pink": {
         "Container_Enabled": {
-          "value": "{Ref.Pink.97}",
+          "value": "{Ref.Pink.90}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Pink.95}",
+          "value": "{Ref.Pink.80}",
           "type": "color"
         },
         "Container_Activated": {
-          "value": "{Ref.Pink.90}",
+          "value": "{Ref.Pink.80}",
           "type": "color"
         },
         "Container_Disabled": {
@@ -3511,15 +3511,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Pink.90}",
+          "value": "{Ref.Pink.70}",
           "type": "color"
         },
         "Line_Hovered": {
-          "value": "{Ref.Pink.80}",
+          "value": "{Ref.Pink.60}",
           "type": "color"
         },
         "Line_Activated": {
-          "value": "{Ref.Pink.70}",
+          "value": "{Ref.Pink.50}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -3527,7 +3527,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Pink.20}",
+          "value": "{Ref.Pink.30}",
           "type": "color"
         },
         "Text_Main_Hovered": {
@@ -4343,11 +4343,11 @@
     "Index": {
       "Red": {
         "Container_Enabled": {
-          "value": "{Ref.Red.13}",
+          "value": "{Ref.Red.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Red.15}",
+          "value": "{Ref.Red.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4375,15 +4375,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Red.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Red.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Red.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Red.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -4391,11 +4391,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Red.80}",
+          "value": "{Ref.Red.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -4465,11 +4465,11 @@
       },
       "Orange": {
         "Container_Enabled": {
-          "value": "{Ref.Orange.13}",
+          "value": "{Ref.Orange.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Orange.15}",
+          "value": "{Ref.Orange.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4497,15 +4497,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Orange.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Orange.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Orange.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Orange.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -4513,11 +4513,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Orange.70}",
+          "value": "{Ref.Orange.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Orange.80}",
+          "value": "{Ref.Orange.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -4587,11 +4587,11 @@
       },
       "Yellow": {
         "Container_Enabled": {
-          "value": "{Ref.Yellow.13}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Yellow.15}",
+          "value": "{Ref.Yellow.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4619,15 +4619,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Yellow.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Yellow.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Yellow.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Yellow.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -4635,11 +4635,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Yellow.80}",
+          "value": "{Ref.Yellow.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -4709,11 +4709,11 @@
       },
       "Green": {
         "Container_Enabled": {
-          "value": "{Ref.Green.13}",
+          "value": "{Ref.Green.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Green.15}",
+          "value": "{Ref.Green.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4741,15 +4741,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Green.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Green.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Green.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Green.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -4757,11 +4757,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Green.80}",
+          "value": "{Ref.Green.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -4831,11 +4831,11 @@
       },
       "Blue": {
         "Container_Enabled": {
-          "value": "{Ref.Blue.13}",
+          "value": "{Ref.Blue.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Blue.15}",
+          "value": "{Ref.Blue.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4863,15 +4863,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Blue.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Blue.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Blue.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Blue.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -4879,11 +4879,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Blue.70}",
+          "value": "{Ref.Blue.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Blue.80}",
+          "value": "{Ref.Blue.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -4953,11 +4953,11 @@
       },
       "Violet": {
         "Container_Enabled": {
-          "value": "{Ref.Violet.13}",
+          "value": "{Ref.Violet.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Violet.15}",
+          "value": "{Ref.Violet.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -4985,15 +4985,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Violet.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Violet.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Violet.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Violet.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -5001,11 +5001,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Violet.70}",
+          "value": "{Ref.Violet.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Violet.80}",
+          "value": "{Ref.Violet.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
@@ -5075,11 +5075,11 @@
       },
       "Pink": {
         "Container_Enabled": {
-          "value": "{Ref.Pink.13}",
+          "value": "{Ref.Pink.15}",
           "type": "color"
         },
         "Container_Hovered": {
-          "value": "{Ref.Pink.15}",
+          "value": "{Ref.Pink.20}",
           "type": "color"
         },
         "Container_Activated": {
@@ -5107,15 +5107,15 @@
           "type": "color"
         },
         "Line_Enabled": {
-          "value": "{Ref.Pink.15}",
-          "type": "color"
-        },
-        "Line_Hovered": {
           "value": "{Ref.Pink.20}",
           "type": "color"
         },
-        "Line_Activated": {
+        "Line_Hovered": {
           "value": "{Ref.Pink.30}",
+          "type": "color"
+        },
+        "Line_Activated": {
+          "value": "{Ref.Pink.40}",
           "type": "color"
         },
         "Line_Disabled": {
@@ -5123,11 +5123,11 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Pink.70}",
+          "value": "{Ref.Pink.40}",
           "type": "color"
         },
         "Text_Main_Hovered": {
-          "value": "{Ref.Pink.80}",
+          "value": "{Ref.Pink.50}",
           "type": "color"
         },
         "Text_Main_Activated": {
