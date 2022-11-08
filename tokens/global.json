@@ -207,11 +207,13 @@
     },
     "Line_Height_Multipler": {
       "value": "{Module_Scale} / 2",
-      "type": "other"
+      "type": "other",
+      "description": "Multiplier based on the basic module, to adjust the height of font lines"
     },
     "Paragraph_Spacing_Multipler": {
       "value": "0.55",
-      "type": "other"
+      "type": "other",
+      "description": "Multiplier for adjusting paragraph margins"
     },
     "Display_Height": {
       "Lg": {
@@ -1809,43 +1811,43 @@
     },
     "Border_Xs": {
       "value": "{Module_Scale}/16",
-      "type": "BorderWidth"
+      "type": "Border Width"
     },
     "Border_S": {
       "value": "{Module_Scale}/8",
-      "type": "BorderWidth"
+      "type": "Border Width"
     },
     "Border_M": {
       "value": "{Module_Scale}/4",
-      "type": "BorderWidth"
+      "type": "Border Width"
     },
     "Border_L": {
       "value": "{Module_Scale}/2",
-      "type": "BorderWidth"
+      "type": "Border Width"
     },
     "Radius_Xs": {
       "value": "{Module_Scale}*0.25",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Radius_S": {
       "value": "{Module_Scale}*0.5",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Radius_M": {
       "value": "{Module_Scale}",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Radius_L": {
       "value": "{Module_Scale}*2",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Radius_Xl": {
       "value": "{Module_Scale}*3",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Radius_Xxl": {
       "value": "{Module_Scale}*4",
-      "type": "Border-Radius"
+      "type": "Border Radius"
     },
     "Paragraph_Font_Size_11": {
       "value": "{Paragraph_Spacing_Multipler} * {Font_Size_11}",
