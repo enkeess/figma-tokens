@@ -2271,17 +2271,17 @@
         "Conteiner_Opacity_Enabled": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Hovered": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Activated": {
           "value": "rgba({Ref.Gray.60}, {Opacity_S})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Disabled": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
@@ -2291,107 +2291,107 @@
         "Line_Enabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Hovered": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Disabled": {
           "value": "{Ref.Gray.20}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Enabled": {
           "value": "{Ref.Gray.80}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Disabled": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "On_Accent": {
           "value": "{Ref.Gray.20}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Background": {
           "value": "{Ref.Gray.15}",
@@ -3726,127 +3726,127 @@
         "Conteiner_Opacity_Enabled": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Hovered": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Activated": {
           "value": "rgba({Ref.Gray.60}, {Opacity_S})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Conteiner_Opacity_Disabled": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Activated": {
           "value": "{Ref.Gray.50}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Enabled": {
           "value": "{Ref.Gray.80}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Disabled": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Support_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Enabled": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Hovered": {
           "value": "{Ref.Gray.90}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Activated": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Light_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Enabled": {
           "value": "{Ref.Gray.60}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Hovered": {
           "value": "{Ref.Gray.50}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
           "value": "{Ref.Gray.40}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Disabled": {
           "value": "{Ref.Gray.30}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "On_Accent": {
           "value": "{Ref.Gray.20}",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container"
+          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Background": {
           "value": "{Ref.Gray.15}",
