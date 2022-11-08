@@ -1809,46 +1809,6 @@
         }
       }
     },
-    "Border_Xs": {
-      "value": "{Module_Scale}/16",
-      "type": "Border Width"
-    },
-    "Border_S": {
-      "value": "{Module_Scale}/8",
-      "type": "Border Width"
-    },
-    "Border_M": {
-      "value": "{Module_Scale}/4",
-      "type": "Border Width"
-    },
-    "Border_L": {
-      "value": "{Module_Scale}/2",
-      "type": "Border Width"
-    },
-    "Radius_Xs": {
-      "value": "{Module_Scale}*0.25",
-      "type": "Border Radius"
-    },
-    "Radius_S": {
-      "value": "{Module_Scale}*0.5",
-      "type": "Border Radius"
-    },
-    "Radius_M": {
-      "value": "{Module_Scale}",
-      "type": "Border Radius"
-    },
-    "Radius_L": {
-      "value": "{Module_Scale}*2",
-      "type": "Border Radius"
-    },
-    "Radius_Xl": {
-      "value": "{Module_Scale}*3",
-      "type": "Border Radius"
-    },
-    "Radius_Xxl": {
-      "value": "{Module_Scale}*4",
-      "type": "Border Radius"
-    },
     "Paragraph_Font_Size_11": {
       "value": "{Paragraph_Spacing_Multipler} * {Font_Size_11}",
       "type": "paragraphSpacing"
@@ -2005,6 +1965,46 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Border_Xs": {
+      "value": "{Module_Scale}/16",
+      "type": "borderWidth"
+    },
+    "Border_S": {
+      "value": "{Module_Scale}/8",
+      "type": "borderWidth"
+    },
+    "Border_M": {
+      "value": "{Module_Scale}/4",
+      "type": "borderWidth"
+    },
+    "Border_L": {
+      "value": "{Module_Scale}/2",
+      "type": "borderWidth"
+    },
+    "Radius_Xs": {
+      "value": "{Module_Scale}*0.25",
+      "type": "borderRadius"
+    },
+    "Radius_S": {
+      "value": "{Module_Scale}*0.5",
+      "type": "borderRadius"
+    },
+    "Radius_M": {
+      "value": "{Module_Scale}",
+      "type": "borderRadius"
+    },
+    "Radius_L": {
+      "value": "{Module_Scale}*2",
+      "type": "borderRadius"
+    },
+    "Radius_Xl": {
+      "value": "{Module_Scale}*3",
+      "type": "borderRadius"
+    },
+    "Radius_Xxl": {
+      "value": "{Module_Scale}*4",
+      "type": "borderRadius"
     }
   },
   "Light Mode": {
