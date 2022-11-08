@@ -3548,7 +3548,7 @@
           "type": "color"
         },
         "Text_Main_Disabled": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Support_Enabled": {
@@ -3564,7 +3564,7 @@
           "type": "color"
         },
         "Text_Support_Disabled": {
-          "value": "{Ref.Gray.30}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Text_Light_Enabled": {
@@ -3580,7 +3580,7 @@
           "type": "color"
         },
         "Text_Light_Disabled": {
-          "value": "{Ref.Gray.30}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Accent_Enabled": {
