@@ -1755,19 +1755,19 @@
       "Linear": {
         "Neutral": {
           "Container_Down": {
-            "value": "linear-gradient(0deg, rgba($Sys.Neutral.Container_Enabled, 1) 0%, rgba($Sys.Neutral.Container_Enabled, 0) 100%)",
+            "value": "linear-gradient(0deg, rgba({Sys.Neutral.Container_Enabled}, 1) 0%, rgba({Sys.Neutral.Container_Enabled}, 0) 100%)",
             "type": "color"
           },
           "Container_Up": {
-            "value": "linear-gradient(0deg, rgba($Sys.Neutral.Container_Enabled, 0) 0%, rgba($Sys.Neutral.Container_Enabled, 1) 100%)",
+            "value": "linear-gradient(0deg, rgba({Sys.Neutral.Container_Enabled}, 0) 0%, rgba({Sys.Neutral.Container_Enabled}, 1) 100%)",
             "type": "color"
           },
           "Background_Down": {
-            "value": "linear-gradient(0deg, rgba($Sys.Neutral.Background, 1) 0%, rgba($Sys.Neutral.Background, 0) 100%)",
+            "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 1) 0%, rgba({Sys.Neutral.Background}, 0) 100%)",
             "type": "color"
           },
           "Background_Up": {
-            "value": "linear-gradient(0deg, rgba($Sys.Neutral.Background, 0) 0%, rgba($Sys.Neutral.Background, 1) 100%)",
+            "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 0) 0%, rgba({Sys.Neutral.Background}, 1) 100%)",
             "type": "color"
           }
         }
