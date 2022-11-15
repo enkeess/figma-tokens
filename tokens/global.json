@@ -2093,7 +2093,7 @@
           "type": "color"
         },
         "Text_Main_Activated": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Main_Disabled": {
@@ -2109,7 +2109,7 @@
           "type": "color"
         },
         "Text_Support_Activated": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Support_Disabled": {
@@ -2125,7 +2125,7 @@
           "type": "color"
         },
         "Text_Light_Activated": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Light_Disabled": {
