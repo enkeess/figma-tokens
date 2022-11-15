@@ -2109,7 +2109,7 @@
           "type": "color"
         },
         "Text_Support_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.30}",
           "type": "color"
         },
         "Text_Support_Disabled": {
