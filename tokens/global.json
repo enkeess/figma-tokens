@@ -2327,7 +2327,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.50}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -2347,7 +2347,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Activated": {
-          "value": "{Ref.Gray.60}",
+          "value": "{Ref.Gray.80}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -2402,12 +2402,12 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.70}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.80}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -3769,15 +3769,15 @@
         "Container_Opacity_Disabled": {
           "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
           "type": "color",
-          "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+          "description": "Used only in an inverted container"
         },
         "Line_Enabled": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.30}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Hovered": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.40}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -3787,7 +3787,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Line_Disabled": {
-          "value": "{Ref.Gray.30}",
+          "value": "{Ref.Gray.20}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -3802,7 +3802,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Text_Main_Activated": {
-          "value": "{Ref.Gray.60}",
+          "value": "{Ref.Gray.80}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -3857,12 +3857,12 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Hovered": {
-          "value": "{Ref.Gray.50}",
+          "value": "{Ref.Gray.70}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.80}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
