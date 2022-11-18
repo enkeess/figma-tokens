@@ -3446,7 +3446,7 @@
           "type": "color"
         },
         "Line_Disabled": {
-          "value": "{Ref.Gray.95}",
+          "value": "{Ref.Gray.90}",
           "type": "color"
         },
         "Text_Main_Enabled": {
