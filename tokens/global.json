@@ -2966,7 +2966,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Orange.99}",
+          "value": "{Ref.Orange.15}",
           "type": "color"
         }
       },
@@ -3052,7 +3052,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Yellow.99}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         }
       },
