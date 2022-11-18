@@ -2662,7 +2662,7 @@
           "type": "color"
         },
         "On_Accent": {
-          "value": "{Ref.Yellow.99}",
+          "value": "{Ref.Yellow.15}",
           "type": "color"
         },
         "Background": {
@@ -4901,7 +4901,7 @@
           "type": "color"
         },
         "Line_Disabled": {
-          "value": "{Ref.Gray.13}",
+          "value": "{Ref.Gray.15}",
           "type": "color"
         },
         "Text_Main_Enabled": {
