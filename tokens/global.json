@@ -2141,7 +2141,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.40}",
+          "value": "{Ref.Gray.50}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -2263,7 +2263,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Brand.40}",
+          "value": "{Ref.Brand.50}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -2407,7 +2407,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.60}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -2532,7 +2532,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Green.40}",
+          "value": "{Ref.Green.50}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -2654,7 +2654,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Yellow.40}",
+          "value": "{Ref.Yellow.50}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -2776,7 +2776,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Red.40}",
+          "value": "{Ref.Red.50}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -3596,7 +3596,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.60}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -3718,7 +3718,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Brand.70}",
+          "value": "{Ref.Brand.60}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -3862,7 +3862,7 @@
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
         "Accent_Activated": {
-          "value": "{Ref.Gray.80}",
+          "value": "{Ref.Gray.60}",
           "type": "color",
           "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
         },
@@ -3987,7 +3987,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Green.70}",
+          "value": "{Ref.Green.60}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -4109,7 +4109,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Yellow.70}",
+          "value": "{Ref.Yellow.60}",
           "type": "color"
         },
         "Accent_Disabled": {
@@ -4231,7 +4231,7 @@
           "type": "color"
         },
         "Accent_Activated": {
-          "value": "{Ref.Red.70}",
+          "value": "{Ref.Red.60}",
           "type": "color"
         },
         "Accent_Disabled": {
