@@ -486,7 +486,7 @@
         "L": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Semi_Bold}",
+            "fontWeight": "{Regular}",
             "lineHeight": "{Display_Height.Lg}",
             "fontSize": "{Font_Size_56}",
             "letterSpacing": "{Letter_Spacing_Xs}",
@@ -497,7 +497,7 @@
         "M": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Semi_Bold}",
+            "fontWeight": "{Regular}",
             "lineHeight": "{Display_Height.Md}",
             "fontSize": "{Font_Size_48}",
             "letterSpacing": "{Letter_Spacing_Xs}",
@@ -508,7 +508,7 @@
         "S": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Semi_Bold}",
+            "fontWeight": "{Regular}",
             "lineHeight": "{Display_Height.Sm}",
             "fontSize": "{Font_Size_40}",
             "letterSpacing": "{Letter_Spacing_Xs}",
