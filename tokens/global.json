@@ -624,7 +624,7 @@
         "L": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Light}",
+            "fontWeight": "{Light_Sans}",
             "lineHeight": "{Body_Height.Lg}",
             "fontSize": "{Font_Size_16}",
             "letterSpacing": "{Letter_Spacing_M}",
@@ -635,7 +635,7 @@
         "M": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Light}",
+            "fontWeight": "{Light_Sans}",
             "lineHeight": "{Body_Height.Md}",
             "fontSize": "{Font_Size_14}",
             "letterSpacing": "{Letter_Spacing_M}",
@@ -646,7 +646,7 @@
         "S": {
           "value": {
             "fontFamily": "{SB_Sans_Interface}",
-            "fontWeight": "{Light}",
+            "fontWeight": "{Light_Sans}",
             "lineHeight": "{Body_Height.Sm}",
             "fontSize": "{Font_Size_12}",
             "letterSpacing": "{Letter_Spacing_M}",
@@ -1967,6 +1967,10 @@
     "Radius_Xxl": {
       "value": "{Module_Scale}*4",
       "type": "borderRadius"
+    },
+    "Light_Sans": {
+      "value": "Light",
+      "type": "fontWeights"
     }
   },
   "Cloud": {
