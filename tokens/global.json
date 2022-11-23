@@ -480,8 +480,6 @@
       }
     },
     "Light": {
-      "value": "Light",
-      "type": "fontWeights",
       "Display": {
         "L": {
           "value": {
