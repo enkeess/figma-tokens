@@ -2087,7 +2087,7 @@
           "type": "color"
         },
         "Text_Main_Enabled": {
-          "value": "{Ref.Green.50}",
+          "value": "{Ref.Gray.20}",
           "type": "color"
         },
         "Text_Main_Hovered": {
