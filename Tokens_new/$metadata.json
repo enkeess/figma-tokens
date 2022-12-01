@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
-    "Global",
-    "Global_Copy"
+    "Base_Palette",
+    "System_Palette",
+    "Global"
   ]
 }
