@@ -1,7 +1,8 @@
 {
   "tokenSetOrder": [
     "Palettes/Reference",
-    "Palettes/System",
+    "Palettes/System_light",
+    "Palettes/System_Dark",
     "Anatomy",
     "Fonts/Parameters",
     "Fonts/Typography"

@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "854a88e6bd8a0862964ed4c0818b96b07564b46a",
+    "name": "ML_Space_Light_Mode",
+    "selectedTokenSets": {
+      "Palettes/Reference": "enabled",
+      "Anatomy": "enabled",
+      "Fonts/Parameters": "enabled",
+      "Fonts/Typography": "enabled",
+      "Palettes/System_light": "enabled",
+      "Palettes/System_Dark": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "75c6877396ef8cf62804192c0c9da6d577adcd86",
+    "name": "ML_Space_Dark_mode",
+    "selectedTokenSets": {
+      "Palettes/Reference": "enabled",
+      "Palettes/System_light": "disabled",
+      "Palettes/System_Dark": "enabled",
+      "Anatomy": "enabled",
+      "Fonts/Parameters": "enabled",
+      "Fonts/Typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
