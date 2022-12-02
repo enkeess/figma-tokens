@@ -1,0 +1,226 @@
+{
+  "Font_Size_11": {
+    "value": "11",
+    "type": "fontSizes"
+  },
+  "Font_Size_12": {
+    "value": "12",
+    "type": "fontSizes"
+  },
+  "Font_Size_14": {
+    "value": "14",
+    "type": "fontSizes"
+  },
+  "Font_Size_16": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "Font_Size_22": {
+    "value": "22",
+    "type": "fontSizes"
+  },
+  "Font_Size_24": {
+    "value": "24",
+    "type": "fontSizes"
+  },
+  "Font_Size_28": {
+    "value": "28",
+    "type": "fontSizes"
+  },
+  "Font_Size_32": {
+    "value": "32",
+    "type": "fontSizes"
+  },
+  "Font_Size_36": {
+    "value": "36",
+    "type": "fontSizes"
+  },
+  "Font_Size_40": {
+    "value": "40",
+    "type": "fontSizes"
+  },
+  "Font_Size_48": {
+    "value": "48",
+    "type": "fontSizes"
+  },
+  "Font_Size_56": {
+    "value": "56",
+    "type": "fontSizes"
+  },
+  "SB_Sans_Interface": {
+    "value": "SB Sans Interface",
+    "type": "fontFamilies"
+  },
+  "SB_Sans_Text_Mono": {
+    "value": "SB Sans Text Mono",
+    "type": "fontFamilies"
+  },
+  "Regular": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "Semi_Bold": {
+    "value": "Semibold",
+    "type": "fontWeights"
+  },
+  "Bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "Line_Height_Multipler": {
+    "value": "{Module_Scale} / 2",
+    "type": "other",
+    "description": "Multiplier based on the basic module, to adjust the height of font lines"
+  },
+  "Paragraph_Spacing_Multipler": {
+    "value": "0.55",
+    "type": "other",
+    "description": "Multiplier for adjusting paragraph margins"
+  },
+  "Display_Height": {
+    "Lg": {
+      "value": "{Line_Height_Multipler} * 18",
+      "type": "lineHeights"
+    },
+    "Md": {
+      "value": "{Line_Height_Multipler} * 15",
+      "type": "lineHeights"
+    },
+    "Sm": {
+      "value": "{Line_Height_Multipler} * 12",
+      "type": "lineHeights"
+    }
+  },
+  "Headline_Height": {
+    "Lg": {
+      "value": "{Line_Height_Multipler} * 10",
+      "type": "lineHeights"
+    },
+    "Md": {
+      "value": "{Line_Height_Multipler} * 9",
+      "type": "lineHeights"
+    },
+    "Sm": {
+      "value": "{Line_Height_Multipler} * 8",
+      "type": "lineHeights"
+    }
+  },
+  "Title_Height": {
+    "Lg": {
+      "value": "{Line_Height_Multipler} * 7",
+      "type": "lineHeights"
+    },
+    "Md": {
+      "value": "{Line_Height_Multipler} * 6",
+      "type": "lineHeights"
+    },
+    "Sm": {
+      "value": "{Line_Height_Multipler} * 5",
+      "type": "lineHeights"
+    }
+  },
+  "Label_Height": {
+    "Lg": {
+      "value": "{Line_Height_Multipler} * 5",
+      "type": "lineHeights"
+    },
+    "Md": {
+      "value": "{Line_Height_Multipler} * 4",
+      "type": "lineHeights"
+    },
+    "Sm": {
+      "value": "{Line_Height_Multipler} * 3.5",
+      "type": "lineHeights"
+    }
+  },
+  "Body_Height": {
+    "Lg": {
+      "value": "{Line_Height_Multipler} * 6",
+      "type": "lineHeights"
+    },
+    "Md": {
+      "value": "{Line_Height_Multipler} * 5",
+      "type": "lineHeights"
+    },
+    "Sm": {
+      "value": "{Line_Height_Multipler} * 4",
+      "type": "lineHeights"
+    }
+  },
+  "Letter_Spacing_Xs": {
+    "value": "-0.5",
+    "type": "letterSpacing"
+  },
+  "Letter_Spacing_S": {
+    "value": "-0.1",
+    "type": "letterSpacing"
+  },
+  "Letter_Spacing_M": {
+    "value": "0.1",
+    "type": "letterSpacing"
+  },
+  "Underline": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "Line_Through": {
+    "value": "line_through",
+    "type": "textDecoration"
+  },
+  "Paragraph_Font_Size_11": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_11}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_12": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_12}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_14": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_14}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_16": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_16}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_22": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_22}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_24": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_24}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_28": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_28}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_32": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_32}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_36": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_36}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_40": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_40}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_48": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_48}",
+    "type": "paragraphSpacing"
+  },
+  "Paragraph_Font_Size_56": {
+    "value": "{Paragraph_Spacing_Multipler} * {Font_Size_56}",
+    "type": "paragraphSpacing"
+  },
+  "Letter_Spacing_L": {
+    "value": "0.15",
+    "type": "letterSpacing"
+  },
+  "Light_Sans": {
+    "value": "Light",
+    "type": "fontWeights"
+  }
+}
