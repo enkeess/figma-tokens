@@ -1,0 +1,10 @@
+{
+  "Contauner": {
+    "value": {
+      "borderRadius": "{Radius_L}",
+      "fill": "{Sys.Primary.Accent_Enabled}",
+      "height": "{Size_7m}"
+    },
+    "type": "composition"
+  }
+}

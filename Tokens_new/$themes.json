@@ -8,7 +8,8 @@
       "Fonts/Parameters": "enabled",
       "Fonts/Typography": "enabled",
       "Palettes/System_light": "enabled",
-      "Palettes/System_Dark": "disabled"
+      "Palettes/System_Dark": "disabled",
+      "Components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -21,7 +22,8 @@
       "Palettes/System_Dark": "enabled",
       "Anatomy": "enabled",
       "Fonts/Parameters": "enabled",
-      "Fonts/Typography": "enabled"
+      "Fonts/Typography": "enabled",
+      "Components/button": "enabled"
     },
     "$figmaStyleReferences": {}
   }

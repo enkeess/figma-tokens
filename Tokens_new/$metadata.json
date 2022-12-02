@@ -5,6 +5,7 @@
     "Palettes/System_Dark",
     "Anatomy",
     "Fonts/Parameters",
-    "Fonts/Typography"
+    "Fonts/Typography",
+    "Components/button"
   ]
 }
