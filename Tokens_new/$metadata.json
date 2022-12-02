@@ -1,7 +1,9 @@
 {
   "tokenSetOrder": [
-    "Base_Palette",
-    "System_Palette",
-    "Global"
+    "Palettes/Reference",
+    "Palettes/System",
+    "Anatomy",
+    "Fonts/Parameters",
+    "Fonts/Typography"
   ]
 }
