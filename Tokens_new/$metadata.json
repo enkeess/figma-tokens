@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "Base/Palettes/Reference",
+    "Base/Color",
     "Base/Anatomy",
-    "Base/Fonts/Parameters",
+    "Base/Fonts",
     "Base/Components/Button",
     "ML_Space/Palettes/Light_Mode",
     "ML_Space/Palettes/Dark_Mode",

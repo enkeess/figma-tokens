@@ -3,14 +3,14 @@
     "id": "854a88e6bd8a0862964ed4c0818b96b07564b46a",
     "name": "ML_Space_Light_Mode",
     "selectedTokenSets": {
-      "Base/Palettes/Reference": "enabled",
       "Base/Anatomy": "enabled",
-      "Base/Fonts/Parameters": "enabled",
       "ML_Space/Palettes/Light_Mode": "enabled",
       "ML_Space/Palettes/Dark_Mode": "disabled",
       "ML_Space/Typography": "enabled",
       "Base/Components/Button": "enabled",
-      "ML_Space/Comp": "disabled"
+      "ML_Space/Comp": "disabled",
+      "Base/Color": "enabled",
+      "Base/Fonts": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -18,14 +18,14 @@
     "id": "75c6877396ef8cf62804192c0c9da6d577adcd86",
     "name": "ML_Space_Dark_mode",
     "selectedTokenSets": {
-      "Base/Palettes/Reference": "enabled",
       "Base/Anatomy": "enabled",
-      "Base/Fonts/Parameters": "enabled",
       "ML_Space/Palettes/Light_Mode": "disabled",
       "ML_Space/Palettes/Dark_Mode": "enabled",
       "ML_Space/Typography": "enabled",
       "Base/Components/Button": "enabled",
-      "ML_Space/Comp": "disabled"
+      "ML_Space/Comp": "disabled",
+      "Base/Color": "enabled",
+      "Base/Fonts": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.Container_Enabled": "S:080496b057a7496476a4b2d664ad4e9e074209b4,",
