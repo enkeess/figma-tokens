@@ -1,0 +1,52 @@
+{
+  "Sun": {
+    "Line_8": {
+      "value": {
+        "opacity": "{Opacity_Xxl}"
+      },
+      "type": "composition"
+    },
+    "Line_7": {
+      "value": {
+        "opacity": "{Opacity_Xl}"
+      },
+      "type": "composition"
+    },
+    "Line_6": {
+      "value": {
+        "opacity": "{Opacity_L}"
+      },
+      "type": "composition"
+    },
+    "Line_5": {
+      "value": {
+        "opacity": "{Opacity_M}"
+      },
+      "type": "composition"
+    },
+    "Line_4": {
+      "value": {
+        "opacity": "{Opacity_S}"
+      },
+      "type": "composition"
+    },
+    "Line_3": {
+      "value": {
+        "opacity": "{Opacity_S}"
+      },
+      "type": "composition"
+    },
+    "Line_2": {
+      "value": {
+        "opacity": "{Opacity_Xs}"
+      },
+      "type": "composition"
+    },
+    "Line_1": {
+      "value": {
+        "opacity": "100"
+      },
+      "type": "composition"
+    }
+  }
+}

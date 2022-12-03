@@ -45,6 +45,41 @@
     },
     "type": "composition"
   },
+  "Load": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Activated}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}"
+    },
+    "type": "composition",
+    "Enabled": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Hovered": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Pressed": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Disabled": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    }
+  },
   "Disabled": {
     "value": {
       "borderRadius": "{Radius_M}",
@@ -71,10 +106,24 @@
       },
       "type": "composition"
     },
+    "Focused": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
     "Pressed": {
       "value": {
         "typography": "{Sans.Label.S}",
         "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Load": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.Text_Main_Disabled}"
       },
       "type": "composition"
     },
@@ -86,7 +135,7 @@
       "type": "composition"
     }
   },
-  "Icon": {
+  "Element": {
     "Enabled": {
       "value": {
         "fill": "{Sys.Primary.On_Accent}"
@@ -99,7 +148,19 @@
       },
       "type": "composition"
     },
+    "Focused": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
     "Pressed": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Load": {
       "value": {
         "fill": "{Sys.Primary.On_Accent}"
       },
