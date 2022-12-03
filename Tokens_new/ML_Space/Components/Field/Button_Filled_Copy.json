@@ -1,0 +1,102 @@
+{
+  "Enabled": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Enabled}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}"
+    },
+    "type": "composition"
+  },
+  "Hovered": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Hovered}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}"
+    },
+    "type": "composition"
+  },
+  "Pressed": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Activated}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}"
+    },
+    "type": "composition"
+  },
+  "Disabled": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Disabled}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}"
+    },
+    "type": "composition"
+  },
+  "Label": {
+    "Enabled": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Hovered": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Pressed": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Disabled": {
+      "value": {
+        "typography": "{Sans.Label.S}",
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    }
+  },
+  "Icon": {
+    "Enabled": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Hovered": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Pressed": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    },
+    "Disabled": {
+      "value": {
+        "fill": "{Sys.Primary.On_Accent}"
+      },
+      "type": "composition"
+    }
+  }
+}

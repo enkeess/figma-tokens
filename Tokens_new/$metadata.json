@@ -6,6 +6,7 @@
     "ML_Space/Palettes/Light_Mode",
     "ML_Space/Palettes/Dark_Mode",
     "ML_Space/Typography",
-    "ML_Space/Components/Button/Button_Filled"
+    "ML_Space/Components/Button/Button_Filled",
+    "ML_Space/Components/Field/Button_Filled_Copy"
   ]
 }
