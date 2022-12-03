@@ -19,7 +19,7 @@
   "ButtonFilled_Pressed": {
     "value": {
       "borderRadius": "{Radius_M}",
-      "fill": "{Sys.Primary.Accent_Hovered}",
+      "fill": "{Sys.Primary.Accent_Activated}",
       "height": "{Size_4m}"
     },
     "type": "composition"
@@ -27,7 +27,7 @@
   "ButtonFilled_Disabled": {
     "value": {
       "borderRadius": "{Radius_M}",
-      "fill": "{Sys.Primary.Accent_Hovered}",
+      "fill": "{Sys.Primary.Accent_Disabled}",
       "height": "{Size_4m}"
     },
     "type": "composition"
