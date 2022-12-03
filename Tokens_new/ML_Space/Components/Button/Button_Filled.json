@@ -21,6 +21,19 @@
     },
     "type": "composition"
   },
+  "Focused": {
+    "value": {
+      "borderRadius": "{Radius_M}",
+      "fill": "{Sys.Primary.Accent_Hovered}",
+      "height": "{Size_4m}",
+      "itemSpacing": "{Space_025m}",
+      "paddingRight": "{Space_1m}",
+      "paddingLeft": "{Space_2m}",
+      "border": "{Sys.Primary.Line_Activated}",
+      "borderWidth": "{Border_L}"
+    },
+    "type": "composition"
+  },
   "Pressed": {
     "value": {
       "borderRadius": "{Radius_M}",
