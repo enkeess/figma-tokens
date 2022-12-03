@@ -9,7 +9,7 @@
       "ML_Space/Typography": "enabled",
       "Base/Fonts": "enabled",
       "Base/Colors": "enabled",
-      "ML_Space/Components/Button": "enabled"
+      "ML_Space/Components/Button/Button_Filled": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.Container_Enabled": "S:6f722bd72f821cfaa623a1c804babd5f8b7e967b,",
@@ -627,7 +627,7 @@
       "ML_Space/Typography": "enabled",
       "Base/Fonts": "enabled",
       "Base/Colors": "enabled",
-      "ML_Space/Components/Button": "enabled"
+      "ML_Space/Components/Button/Button_Filled": "enabled"
     },
     "$figmaStyleReferences": {}
   }
