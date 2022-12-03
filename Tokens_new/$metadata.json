@@ -3,10 +3,9 @@
     "Base/Colors",
     "Base/Anatomy",
     "Base/Fonts",
-    "Base/Components/Button",
     "ML_Space/Palettes/Light_Mode",
     "ML_Space/Palettes/Dark_Mode",
     "ML_Space/Typography",
-    "ML_Space/Comp"
+    "ML_Space/Components/Button"
   ]
 }
