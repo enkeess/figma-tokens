@@ -94,42 +94,42 @@
   "Label": {
     "Enabled": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.On_Accent}"
       },
       "type": "composition"
     },
     "Hovered": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.On_Accent}"
       },
       "type": "composition"
     },
     "Focused": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.On_Accent}"
       },
       "type": "composition"
     },
     "Pressed": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.On_Accent}"
       },
       "type": "composition"
     },
     "Load": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.Text_Main_Disabled}"
       },
       "type": "composition"
     },
     "Disabled": {
       "value": {
-        "typography": "{Sans.Label.S}",
+        "typography": "{Sans.Label.M}",
         "fill": "{Sys.Primary.On_Accent}"
       },
       "type": "composition"
