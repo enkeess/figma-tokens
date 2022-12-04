@@ -1,5 +1,20 @@
 [
   {
+    "id": "75c6877396ef8cf62804192c0c9da6d577adcd86",
+    "name": "ML_Space_Dark_mode",
+    "selectedTokenSets": {
+      "Base/Anatomy": "enabled",
+      "Base/Fonts": "enabled",
+      "Base/Colors": "enabled",
+      "Components/Button/Button_Filled": "enabled",
+      "Palettes/Light_Mode": "disabled",
+      "Palettes/Dark_Mode": "enabled",
+      "Typography": "enabled",
+      "Components/Element/load": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "854a88e6bd8a0862964ed4c0818b96b07564b46a",
     "name": "ML_Space_Light_Mode",
     "selectedTokenSets": {
@@ -10,7 +25,7 @@
       "Palettes/Light_Mode": "enabled",
       "Palettes/Dark_Mode": "disabled",
       "Typography": "enabled",
-      "Components/Element/load": "disabled"
+      "Components/Element/load": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.Container_Enabled": "S:6f722bd72f821cfaa623a1c804babd5f8b7e967b,",
@@ -617,20 +632,5 @@
       "Crossed_Out.Body.M": "S:21f2c32640ad99afb6f92d785db61b1b96fa5edb,",
       "Crossed_Out.Body.S": "S:06d8cc09bcbdd965de3549a610bba4141e8b485f,"
     }
-  },
-  {
-    "id": "75c6877396ef8cf62804192c0c9da6d577adcd86",
-    "name": "ML_Space_Dark_mode",
-    "selectedTokenSets": {
-      "Base/Anatomy": "enabled",
-      "Base/Fonts": "enabled",
-      "Base/Colors": "enabled",
-      "Components/Button/Button_Filled": "enabled",
-      "Palettes/Light_Mode": "disabled",
-      "Palettes/Dark_Mode": "enabled",
-      "Typography": "enabled",
-      "Components/Element/load": "disabled"
-    },
-    "$figmaStyleReferences": {}
   }
 ]

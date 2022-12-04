@@ -102,7 +102,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingLeft": "{Space_1m}"
         },
         "type": "composition"
       },
@@ -113,7 +113,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingLeft": "{Space_1m}"
         },
         "type": "composition"
       },
@@ -124,7 +124,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}",
+          "paddingLeft": "{Space_1m}",
           "border": "{Sys.Primary.Line_Activated}",
           "borderWidth": "{Border_L}"
         },
@@ -137,7 +137,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingLeft": "{Space_1m}"
         },
         "type": "composition"
       },
@@ -148,7 +148,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingLeft": "{Space_1m}"
         },
         "type": "composition",
         "Enabled": {
@@ -183,7 +183,7 @@
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingLeft": "{Space_1m}"
         },
         "type": "composition"
       }
@@ -195,8 +195,8 @@
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
         },
         "type": "composition"
       },
@@ -206,8 +206,8 @@
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
         },
         "type": "composition"
       },
@@ -217,8 +217,8 @@
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}",
           "border": "{Sys.Primary.Line_Activated}",
           "borderWidth": "{Border_L}"
         },
@@ -230,8 +230,8 @@
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
         },
         "type": "composition"
       },
@@ -241,8 +241,8 @@
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
         },
         "type": "composition",
         "Enabled": {
@@ -276,8 +276,8 @@
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
           "itemSpacing": "{Space_025m}",
-          "paddingRight": "{Space_1m}",
-          "paddingLeft": "{Space_2m}"
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
         },
         "type": "composition"
       }
