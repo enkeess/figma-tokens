@@ -282,7 +282,7 @@
         "type": "composition"
       }
     },
-    "Typography": {
+    "Label": {
       "Enabled": {
         "value": {
           "typography": "{Sans.Label.M}",
@@ -307,7 +307,7 @@
       "Pressed": {
         "value": {
           "typography": "{Sans.Label.M}",
-          "fill": "{Sys.Primary.On_Accent}"
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
         },
         "type": "composition"
       },
@@ -321,7 +321,7 @@
       "Disabled": {
         "value": {
           "typography": "{Sans.Label.M}",
-          "fill": "{Sys.Primary.On_Accent}"
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
         },
         "type": "composition"
       }
@@ -347,7 +347,7 @@
       },
       "Pressed": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
         },
         "type": "composition"
       },
@@ -359,7 +359,7 @@
       },
       "Disabled": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
         },
         "type": "composition"
       }
