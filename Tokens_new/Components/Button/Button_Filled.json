@@ -1,98 +1,100 @@
 {
   "Size_Sm": {
-    "Enabled": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Enabled}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}"
-      },
-      "type": "composition"
-    },
-    "Hovered": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Hovered}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}"
-      },
-      "type": "composition"
-    },
-    "Focused": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Hovered}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}",
-        "border": "{Sys.Primary.Line_Activated}",
-        "borderWidth": "{Border_L}"
-      },
-      "type": "composition"
-    },
-    "Pressed": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Activated}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}"
-      },
-      "type": "composition"
-    },
-    "Load": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Activated}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}"
-      },
-      "type": "composition",
+    "Label_Element": {
       "Enabled": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
         },
         "type": "composition"
       },
       "Hovered": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
         },
         "type": "composition"
       },
       "Pressed": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
         },
         "type": "composition"
       },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
       "Disabled": {
         "value": {
-          "fill": "{Sys.Primary.On_Accent}"
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
         },
         "type": "composition"
       }
     },
-    "Disabled": {
-      "value": {
-        "borderRadius": "{Radius_M}",
-        "fill": "{Sys.Primary.Accent_Disabled}",
-        "height": "{Size_4m}",
-        "itemSpacing": "{Space_025m}",
-        "paddingRight": "{Space_1m}",
-        "paddingLeft": "{Space_2m}"
-      },
-      "type": "composition"
-    },
-    "Label": {
+    "Typography": {
       "Enabled": {
         "value": {
           "typography": "{Sans.Label.M}",
@@ -170,6 +172,194 @@
       "Disabled": {
         "value": {
           "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
         },
         "type": "composition"
       }
