@@ -1,0 +1,1455 @@
+{
+  "Sys": {
+    "Neutral": {
+      "Container_Enabled": {
+        "value": "{Ref.Gray.13}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Gray.10}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Gray.13}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Gray.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Gray.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Gray.90}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Gray.30}",
+        "type": "color"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Gray.90}",
+        "type": "color"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Gray.90}",
+        "type": "color"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Gray.70}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{Ref.Gray.10}",
+        "type": "color"
+      }
+    },
+    "Primary": {
+      "Container_Enabled": {
+        "value": "{Ref.Brand.ML_Space.13}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Brand.ML_Space.15}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Brand.ML_Space.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Brand.ML_Space.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Brand.ML_Space.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Brand.ML_Space.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Brand.ML_Space.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Brand.ML_Space.15}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Brand.ML_Space.30}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Brand.ML_Space.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Brand.ML_Space.70}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Brand.ML_Space.80}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Brand.ML_Space.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Brand.ML_Space.40}",
+        "type": "color"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Brand.ML_Space.80}",
+        "type": "color"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Brand.ML_Space.60}",
+        "type": "color"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Brand.ML_Space.30}",
+        "type": "color"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Brand.ML_Space.80}",
+        "type": "color"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Brand.ML_Space.60}",
+        "type": "color"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Brand.ML_Space.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Brand.ML_Space.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Brand.ML_Space.60}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Brand.ML_Space.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Brand.ML_Space.15}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{Ref.Brand.ML_Space.10}",
+        "type": "color"
+      }
+    },
+    "Invert_Neutral": {
+      "Container_Enabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Gray.30}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Gray.40}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xs})",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_S})",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color",
+        "description": "Used only in an inverted container"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Gray.70}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "On_Accent": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Used only in an Sys.Invert_Neutral.Container & Sys.Invert_Neutral.Background"
+      },
+      "Background": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      }
+    },
+    "Success": {
+      "Container_Enabled": {
+        "value": "{Ref.Green.13}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Green.15}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Green.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Green.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Green.15}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Green.30}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Green.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Green.70}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Green.80}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Green.40}",
+        "type": "color"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Green.80}",
+        "type": "color"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Green.30}",
+        "type": "color"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Green.80}",
+        "type": "color"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Green.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Green.15}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{Ref.Green.10}",
+        "type": "color"
+      }
+    },
+    "Warning": {
+      "Container_Enabled": {
+        "value": "{Ref.Yellow.13}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Yellow.15}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Yellow.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Yellow.15}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Yellow.30}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Yellow.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Yellow.30}",
+        "type": "color"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Yellow.15}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{Ref.Yellow.10}",
+        "type": "color"
+      }
+    },
+    "Critical": {
+      "Container_Enabled": {
+        "value": "{Ref.Red.13}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Red.15}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Red.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Red.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Red.15}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Red.30}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Red.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Red.70}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Red.80}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Text_Support_Enabled": {
+        "value": "{Ref.Red.40}",
+        "type": "color"
+      },
+      "Text_Support_Hovered": {
+        "value": "{Ref.Red.80}",
+        "type": "color"
+      },
+      "Text_Support_Activated": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Text_Support_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Text_Light_Enabled": {
+        "value": "{Ref.Red.30}",
+        "type": "color"
+      },
+      "Text_Light_Hovered": {
+        "value": "{Ref.Red.80}",
+        "type": "color"
+      },
+      "Text_Light_Activated": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Text_Light_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Red.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Red.15}",
+        "type": "color"
+      },
+      "Background": {
+        "value": "{Ref.Red.10}",
+        "type": "color"
+      }
+    },
+    "Blackout": {
+      "value": "rgba({Ref.Gray.20},{Opacity_Xxl})",
+      "type": "color"
+    }
+  },
+  "Index": {
+    "Red": {
+      "Container_Enabled": {
+        "value": "{Ref.Red.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Red.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Red.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Red.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Red.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Red.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Red.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Red.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Red.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Red.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Red.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Red.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Red.15}",
+        "type": "color"
+      }
+    },
+    "Orange": {
+      "Container_Enabled": {
+        "value": "{Ref.Orange.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Orange.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Orange.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Orange.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Orange.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Orange.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Orange.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Orange.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Orange.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Orange.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Orange.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Orange.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Orange.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Orange.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Orange.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Orange.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Orange.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Orange.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Orange.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Orange.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Orange.15}",
+        "type": "color"
+      }
+    },
+    "Yellow": {
+      "Container_Enabled": {
+        "value": "{Ref.Yellow.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Yellow.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Yellow.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Yellow.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Yellow.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Yellow.15}",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "Container_Enabled": {
+        "value": "{Ref.Green.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Green.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Green.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Green.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Green.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Green.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Green.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Green.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Green.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Green.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Green.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Green.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Green.15}",
+        "type": "color"
+      }
+    },
+    "Blue": {
+      "Container_Enabled": {
+        "value": "{Ref.Blue.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Blue.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Blue.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Blue.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Blue.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Blue.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Blue.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Blue.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Blue.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Blue.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Blue.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Blue.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Blue.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Blue.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Blue.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Blue.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Blue.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Blue.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Blue.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Blue.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Blue.15}",
+        "type": "color"
+      }
+    },
+    "Violet": {
+      "Container_Enabled": {
+        "value": "{Ref.Violet.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Violet.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Violet.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Violet.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Violet.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Violet.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Violet.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Violet.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Violet.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Violet.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Violet.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Violet.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Violet.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Violet.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Violet.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Violet.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Violet.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Violet.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Violet.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Violet.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Violet.15}",
+        "type": "color"
+      }
+    },
+    "Pink": {
+      "Container_Enabled": {
+        "value": "{Ref.Pink.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Pink.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Pink.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Pink.10}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Pink.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Pink.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Pink.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Pink.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Pink.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Pink.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Pink.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Pink.13}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Pink.40}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Pink.50}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Pink.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Pink.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Pink.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Pink.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Pink.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Pink.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Pink.15}",
+        "type": "color"
+      }
+    },
+    "Gray": {
+      "Container_Enabled": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      },
+      "Container_Hovered": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Container_Activated": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Container_Disabled": {
+        "value": "{Ref.Gray.13}",
+        "type": "color"
+      },
+      "Container_Opacity_Enabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Container_Opacity_Hovered": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xs})",
+        "type": "color"
+      },
+      "Container_Opacity_Activated": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_S})",
+        "type": "color"
+      },
+      "Container_Opacity_Disabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity_Xxs})",
+        "type": "color"
+      },
+      "Line_Enabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Line_Hovered": {
+        "value": "{Ref.Gray.30}",
+        "type": "color"
+      },
+      "Line_Activated": {
+        "value": "{Ref.Gray.40}",
+        "type": "color"
+      },
+      "Line_Disabled": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      },
+      "Text_Main_Enabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color"
+      },
+      "Text_Main_Hovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color"
+      },
+      "Text_Main_Activated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Text_Main_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "Accent_Enabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color"
+      },
+      "Accent_Hovered": {
+        "value": "{Ref.Gray.70}",
+        "type": "color"
+      },
+      "Accent_Activated": {
+        "value": "{Ref.Gray.70}",
+        "type": "color"
+      },
+      "Accent_Disabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color"
+      },
+      "On_Accent": {
+        "value": "{Ref.Gray.15}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,1064 @@
+{
+  "Size_Sm": {
+    "Label_Element": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label": {
+      "Enabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element": {
+      "Enabled": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "Size_Md": {
+    "Label_Element": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_2m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label": {
+      "Enabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element": {
+      "Enabled": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "Size_Lg": {
+    "Label_Element": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "itemSpacing": "{Space_025m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_1m}",
+          "paddingLeft": "{Space_1m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element_Only": {
+      "Enabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Hovered}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}",
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border_L}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Activated}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition",
+        "Enabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Hovered": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Pressed": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Disabled": {
+          "value": {
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        }
+      },
+      "Disabled": {
+        "value": {
+          "borderRadius": "{Radius_M}",
+          "fill": "{Sys.Primary.Accent_Disabled}",
+          "height": "{Size_4m}",
+          "paddingRight": "{Space_05m}",
+          "paddingLeft": "{Space_05m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label": {
+      "Enabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "typography": "{Sans.Label.M}",
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    },
+    "Element": {
+      "Enabled": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Hovered": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Focused": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Pressed": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
+        },
+        "type": "composition"
+      },
+      "Load": {
+        "value": {
+          "fill": "{Sys.Primary.On_Accent}"
+        },
+        "type": "composition"
+      },
+      "Disabled": {
+        "value": {
+          "fill": "{Sys.Primary.Text_Light_Disabled}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

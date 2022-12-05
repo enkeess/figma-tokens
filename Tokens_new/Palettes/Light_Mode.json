@@ -124,123 +124,123 @@
     },
     "Primary": {
       "Container_Enabled": {
-        "value": "{Ref.Brand.97}",
+        "value": "{Ref.Brand.ML_Space.97}",
         "type": "color"
       },
       "Container_Hovered": {
-        "value": "{Ref.Brand.95}",
+        "value": "{Ref.Brand.ML_Space.95}",
         "type": "color"
       },
       "Container_Activated": {
-        "value": "{Ref.Brand.90}",
+        "value": "{Ref.Brand.ML_Space.90}",
         "type": "color"
       },
       "Container_Disabled": {
-        "value": "{Ref.Brand.97}",
+        "value": "{Ref.Brand.ML_Space.97}",
         "type": "color"
       },
       "Container_Opacity_Enabled": {
-        "value": "rgba({Ref.Brand.50}, {Opacity_Xxs})",
+        "value": "rgba({Ref.Brand.ML_Space.50}, {Opacity_Xxs})",
         "type": "color"
       },
       "Container_Opacity_Hovered": {
-        "value": "rgba({Ref.Brand.50}, {Opacity_Xs})",
+        "value": "rgba({Ref.Brand.ML_Space.50}, {Opacity_Xs})",
         "type": "color"
       },
       "Container_Opacity_Activated": {
-        "value": "rgba({Ref.Brand.50}, {Opacity_S})",
+        "value": "rgba({Ref.Brand.ML_Space.50}, {Opacity_S})",
         "type": "color"
       },
       "Container_Opacity_Disabled": {
-        "value": "rgba({Ref.Brand.50}, {Opacity_Xxs})",
+        "value": "rgba({Ref.Brand.ML_Space.50}, {Opacity_Xxs})",
         "type": "color"
       },
       "Line_Enabled": {
-        "value": "{Ref.Brand.90}",
+        "value": "{Ref.Brand.ML_Space.90}",
         "type": "color"
       },
       "Line_Hovered": {
-        "value": "{Ref.Brand.80}",
+        "value": "{Ref.Brand.ML_Space.80}",
         "type": "color"
       },
       "Line_Activated": {
-        "value": "{Ref.Brand.70}",
+        "value": "{Ref.Brand.ML_Space.70}",
         "type": "color"
       },
       "Line_Disabled": {
-        "value": "{Ref.Brand.95}",
+        "value": "{Ref.Brand.ML_Space.95}",
         "type": "color"
       },
       "Text_Main_Enabled": {
-        "value": "{Ref.Brand.20}",
+        "value": "{Ref.Brand.ML_Space.20}",
         "type": "color"
       },
       "Text_Main_Hovered": {
-        "value": "{Ref.Brand.40}",
+        "value": "{Ref.Brand.ML_Space.40}",
         "type": "color"
       },
       "Text_Main_Activated": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.ML_Space.50}",
         "type": "color"
       },
       "Text_Main_Disabled": {
-        "value": "{Ref.Brand.90}",
+        "value": "{Ref.Brand.ML_Space.90}",
         "type": "color"
       },
       "Text_Support_Enabled": {
-        "value": "{Ref.Brand.60}",
+        "value": "{Ref.Brand.ML_Space.60}",
         "type": "color"
       },
       "Text_Support_Hovered": {
-        "value": "{Ref.Brand.40}",
+        "value": "{Ref.Brand.ML_Space.40}",
         "type": "color"
       },
       "Text_Support_Activated": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.ML_Space.50}",
         "type": "color"
       },
       "Text_Support_Disabled": {
-        "value": "{Ref.Brand.90}",
+        "value": "{Ref.Brand.ML_Space.90}",
         "type": "color"
       },
       "Text_Light_Enabled": {
-        "value": "{Ref.Brand.80}",
+        "value": "{Ref.Brand.ML_Space.80}",
         "type": "color"
       },
       "Text_Light_Hovered": {
-        "value": "{Ref.Brand.40}",
+        "value": "{Ref.Brand.ML_Space.40}",
         "type": "color"
       },
       "Text_Light_Activated": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.ML_Space.50}",
         "type": "color"
       },
       "Text_Light_Disabled": {
-        "value": "{Ref.Brand.90}",
+        "value": "{Ref.Brand.ML_Space.90}",
         "type": "color"
       },
       "Accent_Enabled": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.ML_Space.50}",
         "type": "color"
       },
       "Accent_Hovered": {
-        "value": "{Ref.Brand.40}",
+        "value": "{Ref.Brand.ML_Space.40}",
         "type": "color"
       },
       "Accent_Activated": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.ML_Space.50}",
         "type": "color"
       },
       "Accent_Disabled": {
-        "value": "{Ref.Brand.80}",
+        "value": "{Ref.Brand.ML_Space.80}",
         "type": "color"
       },
       "On_Accent": {
-        "value": "{Ref.Brand.97}",
+        "value": "{Ref.Brand.ML_Space.97}",
         "type": "color"
       },
       "Background": {
-        "value": "{Ref.Brand.95}",
+        "value": "{Ref.Brand.ML_Space.95}",
         "type": "color"
       }
     },
