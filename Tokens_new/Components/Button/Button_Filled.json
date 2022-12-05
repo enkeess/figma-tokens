@@ -100,7 +100,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -111,7 +110,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -122,7 +120,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -135,7 +132,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -146,7 +142,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -181,7 +176,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -194,7 +188,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -205,7 +198,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -216,7 +208,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -229,7 +220,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -240,7 +230,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -275,7 +264,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -466,7 +454,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -477,7 +464,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -488,7 +474,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -501,7 +486,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -512,7 +496,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -547,7 +530,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -560,7 +542,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -571,7 +552,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -582,7 +562,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -595,7 +574,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -606,7 +584,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -641,7 +618,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -832,7 +808,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -843,7 +818,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -854,7 +828,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -867,7 +840,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -878,7 +850,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -913,7 +884,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_1m}",
           "paddingLeft": "{Space_1m}"
         },
@@ -926,7 +896,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Enabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -937,7 +906,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -948,7 +916,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Hovered}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}",
           "border": "{Sys.Primary.Line_Activated}",
@@ -961,7 +928,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -972,7 +938,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Activated}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
@@ -1007,7 +972,6 @@
           "borderRadius": "{Radius_M}",
           "fill": "{Sys.Primary.Accent_Disabled}",
           "height": "{Size_4m}",
-          "itemSpacing": "{Space_025m}",
           "paddingRight": "{Space_05m}",
           "paddingLeft": "{Space_05m}"
         },
