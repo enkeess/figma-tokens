@@ -314,7 +314,7 @@
       "Load": {
         "value": {
           "typography": "{Sans.Label.M}",
-          "fill": "{Sys.Primary.Text_Support_Enabled}"
+          "fill": "{Sys.Primary.Text_Light_Enabled}"
         },
         "type": "composition"
       },
