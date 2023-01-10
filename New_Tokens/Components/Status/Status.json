@@ -1,0 +1,234 @@
+{
+  "Status_Indicator": {
+    "Primary": {
+      "Xxs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size.050m}",
+          "width": "{Size.050m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.012m}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size.1m}",
+          "width": "{Size.1m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.018m}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size.2m}",
+          "width": "{Size.2m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.025m}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Primary.Accent_Enabled}",
+          "height": "{Size.3m}",
+          "width": "{Size.3m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.038m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Neutral": {
+      "Xxs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Neutral.Accent_Enabled}",
+          "height": "{Size.050m}",
+          "width": "{Size.050m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.012m}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Neutral.Accent_Enabled}",
+          "height": "{Size.1m}",
+          "width": "{Size.1m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.018m}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Neutral.Accent_Enabled}",
+          "height": "{Size.2m}",
+          "width": "{Size.2m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.025m}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Neutral.Accent_Enabled}",
+          "height": "{Size.3m}",
+          "width": "{Size.3m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.038m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Critical": {
+      "Xxs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Critical.Accent_Enabled}",
+          "height": "{Size.050m}",
+          "width": "{Size.050m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.012m}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Critical.Accent_Enabled}",
+          "height": "{Size.1m}",
+          "width": "{Size.1m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.018m}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Critical.Accent_Enabled}",
+          "height": "{Size.2m}",
+          "width": "{Size.2m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.025m}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Critical.Accent_Enabled}",
+          "height": "{Size.3m}",
+          "width": "{Size.3m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.038m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Warning": {
+      "Xxs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Warning.Accent_Enabled}",
+          "height": "{Size.050m}",
+          "width": "{Size.050m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.012m}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Warning.Accent_Enabled}",
+          "height": "{Size.1m}",
+          "width": "{Size.1m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.018m}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Warning.Accent_Enabled}",
+          "height": "{Size.2m}",
+          "width": "{Size.2m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.025m}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Warning.Accent_Enabled}",
+          "height": "{Size.3m}",
+          "width": "{Size.3m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.038m}"
+        },
+        "type": "composition"
+      }
+    },
+    "Success": {
+      "Xxs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Success.Accent_Enabled}",
+          "height": "{Size.050m}",
+          "width": "{Size.050m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.012m}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Success.Accent_Enabled}",
+          "height": "{Size.1m}",
+          "width": "{Size.1m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.018m}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Success.Accent_Enabled}",
+          "height": "{Size.2m}",
+          "width": "{Size.2m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.025m}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Status_Indicator.Single}",
+          "fill": "{Sys.Success.Accent_Enabled}",
+          "height": "{Size.3m}",
+          "width": "{Size.3m}",
+          "border": "{Sys.Neutral.On_Accent}",
+          "borderWidth": "{Border.038m}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

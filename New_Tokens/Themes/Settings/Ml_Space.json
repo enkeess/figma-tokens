@@ -1,0 +1,320 @@
+{
+  "Size": {
+    "General": {
+      "Shape": {
+        "Xxs": {
+          "value": "{Size.2m}",
+          "type": "sizing"
+        },
+        "Xs": {
+          "value": "{Size.3m}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{Size.4m}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{Size.5m}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{Size.6m}",
+          "type": "sizing"
+        },
+        "Xl": {
+          "value": "{Size.7m}",
+          "type": "sizing"
+        },
+        "Xxl": {
+          "value": "{Size.8m}",
+          "type": "sizing"
+        }
+      }
+    },
+    "Button": {
+      "Xxs": {
+        "value": "{Size.General.Shape.Xxs}",
+        "type": "sizing"
+      },
+      "Xs": {
+        "value": "{Size.General.Shape.Xs}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{Size.General.Shape.S}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{Size.General.Shape.M}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{Size.General.Shape.L}",
+        "type": "sizing"
+      }
+    },
+    "Avatar": {
+      "Xxs": {
+        "value": "{Size.General.Shape.Xxs}",
+        "type": "sizing"
+      },
+      "Xs": {
+        "value": "{Size.General.Shape.Xs}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{Size.General.Shape.S}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{Size.General.Shape.L}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{Size.General.Shape.Xxl}",
+        "type": "sizing"
+      },
+      "Xl": {
+        "value": "{Size.General.Shape.Xxl}+{Size.General.Shape.Xs}",
+        "type": "sizing"
+      },
+      "Xxl": {
+        "value": "{Size.General.Shape.Xl}*2",
+        "type": "sizing"
+      }
+    }
+  },
+  "Radius": {
+    "General": {
+      "Shape": {
+        "Xxs": {
+          "value": "{Radius.025m}",
+          "type": "borderRadius"
+        },
+        "Xs": {
+          "value": "{Radius.050m}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{Radius.1m}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.2m}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.3m}",
+          "type": "borderRadius"
+        },
+        "Xl": {
+          "value": "{Radius.4m}",
+          "type": "borderRadius"
+        },
+        "Xxl": {
+          "value": "{Radius.5m}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Button": {
+      "Xxs": {
+        "value": "{Radius.General.Shape.Xs}",
+        "type": "borderRadius"
+      },
+      "Xs": {
+        "value": "{Radius.General.Shape.Xs}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{Radius.General.Shape.S}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{Radius.General.Shape.S}",
+        "type": "borderRadius"
+      },
+      "L": {
+        "value": "{Radius.General.Shape.S}",
+        "type": "borderRadius"
+      }
+    },
+    "Counter": {
+      "S": {
+        "value": "{Radius.General.Shape.Xs}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{Radius.General.Shape.S}",
+        "type": "borderRadius"
+      }
+    },
+    "Status_Indicator": {
+      "Single": {
+        "value": "{Radius.General.Shape.M}",
+        "type": "borderRadius"
+      }
+    },
+    "Avatar": {
+      "User": {
+        "Xxs": {
+          "value": "{Radius.General.Shape.S}",
+          "type": "borderRadius"
+        },
+        "Xs": {
+          "value": "{Radius.General.Shape.M}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{Radius.General.Shape.L}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.General.Shape.L}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.General.Shape.Xl}",
+          "type": "borderRadius"
+        },
+        "Xl": {
+          "value": "{Radius.General.Shape.L}*2",
+          "type": "borderRadius"
+        },
+        "Xxl": {
+          "value": "{Radius.General.Shape.Xl} * 2",
+          "type": "borderRadius"
+        }
+      },
+      "Corp": {
+        "Xxs": {
+          "value": "{Radius.General.Shape.Xs}",
+          "type": "borderRadius"
+        },
+        "Xs": {
+          "value": "{Radius.General.Shape.Xs}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{Radius.General.Shape.Xs}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.General.Shape.S}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.General.Shape.M}",
+          "type": "borderRadius"
+        },
+        "Xl": {
+          "value": "{Radius.General.Shape.L}",
+          "type": "borderRadius"
+        },
+        "Xxl": {
+          "value": "{Radius.General.Shape.L}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
+  "Space": {
+    "Button": {
+      "Xxs": {
+        "From_Icon": {
+          "value": "{Space.025m}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{Space.025m}",
+          "type": "spacing"
+        },
+        "From_Label": {
+          "value": "{Space.050m}",
+          "type": "spacing"
+        }
+      },
+      "Xs": {
+        "From_Icon": {
+          "value": "{Space.050m}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{Space.025m}",
+          "type": "spacing"
+        },
+        "From_Label": {
+          "value": "{Space.1m}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "From_Icon": {
+          "value": "{Space.1m}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{Space.050m}",
+          "type": "spacing"
+        },
+        "From_Label": {
+          "value": "{Space.2m}",
+          "type": "spacing"
+        }
+      },
+      "M": {
+        "From_Icon": {
+          "value": "{Space.2m}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{Space.050m}",
+          "type": "spacing"
+        },
+        "From_Label": {
+          "value": "{Space.3m}",
+          "type": "spacing"
+        }
+      },
+      "L": {
+        "From_Icon": {
+          "value": "{Space.3m}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{Space.050m}",
+          "type": "spacing"
+        },
+        "From_Label": {
+          "value": "{Space.4m}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "Border": {
+    "Button": {
+      "Container_Outline": {
+        "Single": {
+          "value": "{Border.025m}",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "State_Focused": {
+      "S": {
+        "value": "{Border.025m}",
+        "type": "borderWidth"
+      },
+      "M": {
+        "value": "{Border.038m}",
+        "type": "borderWidth"
+      },
+      "L": {
+        "value": "{Border.050m}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

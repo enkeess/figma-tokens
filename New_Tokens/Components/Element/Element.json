@@ -1,0 +1,96 @@
+{
+  "Layout_Badge_S": {
+    "value": {
+      "sizing": "{Size.050m}",
+      "paddingLeft": "{Space.0m}",
+      "paddingBottom": "{Space.0m}"
+    },
+    "type": "composition"
+  },
+  "Layout_Badge_M": {
+    "value": {
+      "sizing": "{Size.1m}",
+      "paddingLeft": "{Space.0m}",
+      "paddingBottom": "{Space.0m}"
+    },
+    "type": "composition"
+  },
+  "Icon": {
+    "Multi_Tone": {
+      "Tone_Alpha_8": {
+        "value": {
+          "opacity": "{Opacity.A048}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_7": {
+        "value": {
+          "opacity": "{Opacity.A040}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_6": {
+        "value": {
+          "opacity": "{Opacity.A032}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_5": {
+        "value": {
+          "opacity": "{Opacity.A024}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_4": {
+        "value": {
+          "opacity": "{Opacity.A016}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_3": {
+        "value": {
+          "opacity": "{Opacity.A008}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_2": {
+        "value": {
+          "opacity": "{Opacity.A004}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_1": {
+        "value": {
+          "opacity": "100"
+        },
+        "type": "composition"
+      }
+    },
+    "Duo_Tone ": {
+      "Tone_Alpha_2": {
+        "value": {
+          "opacity": "{Opacity.A048}"
+        },
+        "type": "composition"
+      },
+      "Tone_Alpha_1": {
+        "value": {
+          "opacity": "100"
+        },
+        "type": "composition"
+      }
+    },
+    "Size_Xs": {
+      "value": "{Size.General.Shape.Xxs}",
+      "type": "sizing"
+    },
+    "Size_S": {
+      "value": "{Size.General.Shape.Xs}",
+      "type": "sizing"
+    }
+  },
+  "Label_Badge": {
+    "value": "{Space.1m}",
+    "type": "spacing"
+  }
+}

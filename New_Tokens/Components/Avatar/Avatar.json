@@ -1,0 +1,3818 @@
+{
+  "Avatar": {
+    "Badge_Avatar": {
+      "Xxs": {
+        "value": {
+          "paddingLeft": "{Space.2m}-{Space.050m}",
+          "paddingTop": "{Space.2m}-{Space.050m}",
+          "sizing": "{Size.Avatar.Xxs}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "paddingLeft": "{Space.2m}",
+          "paddingTop": "{Space.2m}",
+          "sizing": "{Size.Avatar.Xs}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "paddingLeft": "{Space.3m}",
+          "paddingTop": "{Space.3m}",
+          "sizing": "{Size.Avatar.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "paddingLeft": "{Space.4m}",
+          "paddingTop": "{Space.4m}",
+          "sizing": "{Size.Avatar.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "paddingLeft": "{Space.6m}",
+          "paddingTop": "{Space.6m}",
+          "sizing": "{Size.Avatar.L}"
+        },
+        "type": "composition"
+      },
+      "Xl": {
+        "value": {
+          "paddingLeft": "{Space.8m}",
+          "paddingTop": "{Space.8m}",
+          "sizing": "{Size.Avatar.Xl}"
+        },
+        "type": "composition"
+      },
+      "Xxl": {
+        "value": {
+          "paddingLeft": "{Space.10m}+{Space.1m}",
+          "paddingTop": "{Space.10m}+{Space.1m}",
+          "sizing": "{Size.Avatar.Xxl}"
+        },
+        "type": "composition"
+      }
+    },
+    "User_Monogram": {
+      "Size_Xxs": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xs": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_S": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.S}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_M": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.M}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_L": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.L}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xl": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xxl": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.User.Xxl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    },
+    "Corp_Monogram": {
+      "Size_Xxs": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xs": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xs}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xs}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_S": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.S}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Label.L}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_M": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.M}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.M}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Title.L}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_L": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.L}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Headline.M}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xl": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Display.S}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Size_Xxl": {
+        "Red": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Red.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Red.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Orange": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Orange.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Orange.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Yellow": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Yellow.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Yellow.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Green": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Green.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Green.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Blue": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Blue.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Blue.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Violet": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Violet.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Violet.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Pink": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Pink.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Pink.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Gray": {
+          "Enabled": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Gray.Container_Enabled}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Hovered": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          },
+          "Focused": {
+            "value": {
+              "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+              "fill": "{Index.Gray.Container_Hovered}",
+              "sizing": "{Size.Avatar.Xxl}"
+            },
+            "type": "composition"
+          }
+        },
+        "Text": {
+          "Red": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Red.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Orange": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Orange.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Yellow": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Yellow.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Green": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Green.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Blue": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Blue.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Violet": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Violet.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Pink": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Pink.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          },
+          "Gray": {
+            "value": {
+              "typography": "{Sans.Display.M}",
+              "fill": "{Index.Gray.Text_Main_Enabled}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    }
+  }
+}

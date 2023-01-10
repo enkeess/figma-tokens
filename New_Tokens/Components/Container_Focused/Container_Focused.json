@@ -1,0 +1,56 @@
+{
+  "Container_Focused": {
+    "Primary": {
+      "S": {
+        "value": {
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border.State_Focused.S}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      },
+      "M": {
+        "value": {
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border.State_Focused.M}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      },
+      "L": {
+        "value": {
+          "border": "{Sys.Primary.Line_Activated}",
+          "borderWidth": "{Border.State_Focused.L}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      }
+    },
+    "Available": {
+      "S": {
+        "value": {
+          "border": "{Sys.Available.Complementary}",
+          "borderWidth": "{Border.State_Focused.S}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      },
+      "M": {
+        "value": {
+          "border": "{Sys.Available.Complementary}",
+          "borderWidth": "{Border.State_Focused.M}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      },
+      "L": {
+        "value": {
+          "border": "{Sys.Available.Complementary}",
+          "borderWidth": "{Border.State_Focused.L}"
+        },
+        "type": "composition",
+        "description": "Radius_Token & Size — installs a public component"
+      }
+    }
+  }
+}

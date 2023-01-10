@@ -1,0 +1,370 @@
+{
+  "Counter": {
+    "Primary": {
+      "Size_S": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.S}",
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.025m} / 4",
+            "paddingLeft": "{Space.025m} / 4",
+            "itemSpacing": "{Space.025m} / 2"
+          },
+          "type": "composition"
+        }
+      },
+      "Size_M": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Primary.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Primary.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.050m} - 0.5",
+            "paddingLeft": "{Space.050m} - 0.5",
+            "itemSpacing": "{Space.025m}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Neutral": {
+      "Size_S": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.S}",
+            "fill": "{Sys.Neutral.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Neutral.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.025m} / 4",
+            "paddingLeft": "{Space.025m} / 4",
+            "itemSpacing": "{Space.025m} / 2"
+          },
+          "type": "composition"
+        }
+      },
+      "Size_M": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Neutral.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Neutral.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.050m} - 0.5",
+            "paddingLeft": "{Space.050m} - 0.5",
+            "itemSpacing": "{Space.025m}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Critical": {
+      "Size_S": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.S}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.2m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.S}",
+            "fill": "{Sys.Critical.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Critical.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.025m} / 4",
+            "paddingLeft": "{Space.025m} / 4",
+            "itemSpacing": "{Space.025m} / 2"
+          },
+          "type": "composition"
+        }
+      },
+      "Size_M": {
+        "Count": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_Plus": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.025m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Count_K": {
+          "value": {
+            "borderRadius": "{Radius.Counter.M}",
+            "fill": "{Sys.Critical.Accent_Enabled}",
+            "height": "{Size.3m}",
+            "paddingRight": "{Space.050m}",
+            "paddingLeft": "{Space.050m}",
+            "border": "{Sys.Neutral.On_Accent}",
+            "borderWidth": "{Border.018m}"
+          },
+          "type": "composition"
+        },
+        "Text": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Critical.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Sign": {
+          "value": {
+            "typography": "{Sans.Label.L}",
+            "fill": "{Sys.Critical.On_Accent}"
+          },
+          "type": "composition"
+        },
+        "Centering_Count": {
+          "value": {
+            "paddingRight": "{Space.050m} - 0.5",
+            "paddingLeft": "{Space.050m} - 0.5",
+            "itemSpacing": "{Space.025m}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
