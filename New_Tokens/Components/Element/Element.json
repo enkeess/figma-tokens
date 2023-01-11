@@ -90,7 +90,7 @@
     }
   },
   "Label_Badge": {
-    "value": "{Space.1m}",
+    "value": "{Space.050m}",
     "type": "spacing"
   }
 }
