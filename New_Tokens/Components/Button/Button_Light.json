@@ -230,7 +230,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -551,7 +551,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -872,7 +872,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
@@ -1193,7 +1193,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
@@ -1514,7 +1514,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
@@ -1837,7 +1837,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -2158,7 +2158,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -2479,7 +2479,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
@@ -2800,7 +2800,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
@@ -3121,7 +3121,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
@@ -3444,7 +3444,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -3765,7 +3765,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.S}",
@@ -4086,7 +4086,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
@@ -4407,7 +4407,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
@@ -4728,7 +4728,7 @@
             "type": "composition"
           }
         },
-        "Text": {
+        "Label": {
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
