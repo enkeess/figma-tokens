@@ -183,7 +183,7 @@
       "type": "textDecoration"
     },
     "Line_Through": {
-      "value": "line_through",
+      "value": "line-through",
       "type": "textDecoration"
     }
   },

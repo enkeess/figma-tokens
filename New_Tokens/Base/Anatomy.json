@@ -1,7 +1,7 @@
 {
   "Shadow": {
     "Elevation": {
-      "Lavel_1": {
+      "Level_1": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -22,7 +22,7 @@
         ],
         "type": "boxShadow"
       },
-      "Lavel_2": {
+      "Level_2": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -43,7 +43,7 @@
         ],
         "type": "boxShadow"
       },
-      "Lavel_3": {
+      "Level_3": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -64,7 +64,7 @@
         ],
         "type": "boxShadow"
       },
-      "Lavel_4": {
+      "Level_4": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -85,7 +85,7 @@
         ],
         "type": "boxShadow"
       },
-      "Lavel_5": {
+      "Level_5": {
         "value": [
           {
             "x": "{Size.0m}",
