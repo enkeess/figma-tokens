@@ -1,39 +1,39 @@
 {
   "Counter": {
     "Primary": {
-      "Size_S": {
+      "SizeS": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -41,18 +41,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.S}",
-            "fill": "{Sys.Primary.On_Accent}"
+            "fill": "{Sys.Primary.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Primary.On_Accent}"
+            "fill": "{Sys.Primary.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.025m} / 4",
             "paddingLeft": "{Space.025m} / 4",
@@ -61,39 +61,39 @@
           "type": "composition"
         }
       },
-      "Size_M": {
+      "SizeM": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Primary.Accent_Enabled}",
+            "fill": "{Sys.Primary.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -101,18 +101,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Primary.On_Accent}"
+            "fill": "{Sys.Primary.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Primary.On_Accent}"
+            "fill": "{Sys.Primary.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.050m} - 0.5",
             "paddingLeft": "{Space.050m} - 0.5",
@@ -123,39 +123,39 @@
       }
     },
     "Neutral": {
-      "Size_S": {
+      "SizeS": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -163,18 +163,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.S}",
-            "fill": "{Sys.Neutral.On_Accent}"
+            "fill": "{Sys.Neutral.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Neutral.On_Accent}"
+            "fill": "{Sys.Neutral.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.025m} / 4",
             "paddingLeft": "{Space.025m} / 4",
@@ -183,39 +183,39 @@
           "type": "composition"
         }
       },
-      "Size_M": {
+      "SizeM": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Neutral.Accent_Enabled}",
+            "fill": "{Sys.Neutral.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -223,18 +223,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Neutral.On_Accent}"
+            "fill": "{Sys.Neutral.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Neutral.On_Accent}"
+            "fill": "{Sys.Neutral.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.050m} - 0.5",
             "paddingLeft": "{Space.050m} - 0.5",
@@ -245,39 +245,39 @@
       }
     },
     "Critical": {
-      "Size_S": {
+      "SizeS": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.2m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -285,18 +285,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.S}",
-            "fill": "{Sys.Critical.On_Accent}"
+            "fill": "{Sys.Critical.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Critical.On_Accent}"
+            "fill": "{Sys.Critical.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.025m} / 4",
             "paddingLeft": "{Space.025m} / 4",
@@ -305,39 +305,39 @@
           "type": "composition"
         }
       },
-      "Size_M": {
+      "SizeM": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_Plus": {
+        "CountPlus": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.025m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
         },
-        "Count_K": {
+        "CountK": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
-            "fill": "{Sys.Critical.Accent_Enabled}",
+            "fill": "{Sys.Critical.AccentEnabled}",
             "height": "{Size.3m}",
             "paddingRight": "{Space.050m}",
             "paddingLeft": "{Space.050m}",
-            "border": "{Sys.Neutral.On_Accent}",
+            "border": "{Sys.Neutral.OnAccent}",
             "borderWidth": "{Border.018m}"
           },
           "type": "composition"
@@ -345,18 +345,18 @@
         "Text": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Critical.On_Accent}"
+            "fill": "{Sys.Critical.OnAccent}"
           },
           "type": "composition"
         },
         "Sign": {
           "value": {
             "typography": "{Sans.Label.L}",
-            "fill": "{Sys.Critical.On_Accent}"
+            "fill": "{Sys.Critical.OnAccent}"
           },
           "type": "composition"
         },
-        "Centering_Count": {
+        "CenteringCount": {
           "value": {
             "paddingRight": "{Space.050m} - 0.5",
             "paddingLeft": "{Space.050m} - 0.5",

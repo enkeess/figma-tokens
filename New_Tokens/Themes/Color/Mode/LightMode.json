@@ -1,0 +1,1813 @@
+{
+  "Sys": {
+    "Neutral": {
+      "ContainerEnabled": {
+        "value": "{Ref.Gray.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Gray.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Gray.99}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Gray.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Gray.10}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Gray.10}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Gray.10}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Gray.10}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Gray.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Gray.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Gray.70}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Gray.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "Background": {
+        "value": "{Ref.Gray.95}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "Primary": {
+      "ContainerEnabled": {
+        "value": "{Ref.Brand.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Brand.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Brand.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Brand.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Brand.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Brand.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Brand.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Brand.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Brand.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Brand.80}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Brand.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Brand.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Brand.20}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Brand.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Brand.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Brand.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Brand.60}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Brand.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Brand.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Brand.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Brand.80}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Brand.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Brand.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Brand.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Brand.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Brand.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Brand.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Brand.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Brand.97}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "Background": {
+        "value": "{Ref.Brand.95}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "InvertNeutral": {
+      "ContainerEnabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity.A004})",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Gray.60}, {Opacity.A008})",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Gray.60}, {Opacity.A016})",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Gray.60}, {Opacity.A004})",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "LineEnabled": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "AccentHovered": {
+        "value": "{Ref.Gray.70}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "AccentActivated": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "OnAccent": {
+        "value": "{Ref.Gray.20}",
+        "type": "color",
+        "description": "Используй только поверх Sys.InvertNeutral.Container & Sys.InvertNeutral.Background"
+      },
+      "Background": {
+        "value": "{Ref.Gray.15}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "Success": {
+      "ContainerEnabled": {
+        "value": "{Ref.Green.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Green.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Green.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Green.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Green.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Green.20}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Green.60}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Green.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "Background": {
+        "value": "{Ref.Green.95}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "Warning": {
+      "ContainerEnabled": {
+        "value": "{Ref.Yellow.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Yellow.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Yellow.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Yellow.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "Background": {
+        "value": "{Ref.Yellow.95}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "Critical": {
+      "ContainerEnabled": {
+        "value": "{Ref.Red.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Red.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Red.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Red.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Red.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Red.20}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportEnabled": {
+        "value": "{Ref.Red.60}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextSupportDisabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightEnabled": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextLightDisabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Red.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "Background": {
+        "value": "{Ref.Red.95}",
+        "type": "color",
+        "description": "Используется для дальней поверхность по оси Z, поверх этого тона строится интерфейс."
+      }
+    },
+    "Blackout": {
+      "value": "rgba({Ref.Gray.20},{Opacity.A048})",
+      "type": "color",
+      "description": "Цвет затемнения экрана для фокусировки внимания пользователя на основной операции, например при вызове модального окна."
+    },
+    "Available": {
+      "Complementary": {
+        "value": "{Ref.Gray.10}",
+        "type": "color",
+        "description": "Самые доступные цвета палитры. Используются для компонентов к которым требуется постоянное внимание пользователя: курсор мыши, каретка ввода текста, фокусное состояние компонента и т.п."
+      },
+      "OnComplementary": {
+        "value": "{Ref.Gray.99}",
+        "type": "color",
+        "description": "Самые доступные цвета палитры. Используются для компонентов к которым требуется постоянное внимание пользователя: курсор мыши, каретка ввода текста, фокусное состояние компонента и т.п."
+      }
+    }
+  },
+  "Index": {
+    "Red": {
+      "ContainerEnabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Red.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Red.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Red.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Red.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Red.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Red.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Red.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Red.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Red.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Red.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Red.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Orange": {
+      "ContainerEnabled": {
+        "value": "{Ref.Orange.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Orange.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Orange.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Orange.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Orange.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Orange.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Orange.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Orange.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Orange.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Orange.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Orange.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Orange.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Orange.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Orange.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Orange.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Orange.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Orange.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Orange.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Orange.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Orange.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Orange.20}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Yellow": {
+      "ContainerEnabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Yellow.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Yellow.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Yellow.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Yellow.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Yellow.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Yellow.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Yellow.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Yellow.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Yellow.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Yellow.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Yellow.20}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Green": {
+      "ContainerEnabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Green.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Green.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Green.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Green.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Green.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Green.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Green.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Green.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Green.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Green.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Green.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Blue": {
+      "ContainerEnabled": {
+        "value": "{Ref.Blue.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Blue.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Blue.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Blue.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Blue.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Blue.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Blue.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Blue.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Blue.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Blue.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Blue.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Blue.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Blue.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Blue.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Blue.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Blue.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Blue.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Blue.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Blue.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Blue.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Blue.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Violet": {
+      "ContainerEnabled": {
+        "value": "{Ref.Violet.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Violet.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Violet.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Violet.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Violet.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Violet.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Violet.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Violet.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Violet.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Violet.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Violet.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Violet.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Violet.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Violet.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Violet.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Violet.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Violet.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Violet.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Violet.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Violet.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Violet.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Pink": {
+      "ContainerEnabled": {
+        "value": "{Ref.Pink.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Pink.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Pink.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Pink.97}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Pink.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Pink.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Pink.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Pink.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Pink.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Pink.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Pink.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Pink.95}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Pink.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Pink.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Pink.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Pink.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Pink.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Pink.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Pink.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Pink.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Pink.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    },
+    "Gray": {
+      "ContainerEnabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerHovered": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerActivated": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerDisabled": {
+        "value": "{Ref.Gray.95}",
+        "type": "color",
+        "description": "Поверхность поверх Background, используется для блока страницы, карт, поверхностей компонентов, к примеру поле ввода."
+      },
+      "ContainerOpacityEnabled": {
+        "value": "rgba({Ref.Gray.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityHovered": {
+        "value": "rgba({Ref.Gray.50}, {Opacity.A008})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityActivated": {
+        "value": "rgba({Ref.Gray.50}, {Opacity.A016})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "ContainerOpacityDisabled": {
+        "value": "rgba({Ref.Gray.50}, {Opacity.A004})",
+        "type": "color",
+        "description": "Рекомендуется к использованию поверх Container. Применяется для прозрачных поверхностей, карт, поверхности компонента. При наложении “ContainerOpacity” друг на друга создаются дополнительные оттенки (вложенная иерархия)."
+      },
+      "LineEnabled": {
+        "value": "{Ref.Gray.70}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineHovered": {
+        "value": "{Ref.Gray.60}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineActivated": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "LineDisabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Окантовка для “Container”, “Container-Opacity”, “Background”. Используется для тонких линий обводок, бордеров, дивайдеров, нешироких второстепенных полос."
+      },
+      "TextMainEnabled": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainHovered": {
+        "value": "{Ref.Gray.30}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainActivated": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "TextMainDisabled": {
+        "value": "{Ref.Gray.90}",
+        "type": "color",
+        "description": "Все текстовые тона применяются к тексту и иконкам. TextMain — для основного текста и иконок. TextSupport — для вспомогательного текста и иконок. TextLight — для третьестепенного текста и иконок."
+      },
+      "AccentEnabled": {
+        "value": "{Ref.Gray.50}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentHovered": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentActivated": {
+        "value": "{Ref.Gray.40}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "AccentDisabled": {
+        "value": "{Ref.Gray.80}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      },
+      "OnAccent": {
+        "value": "{Ref.Gray.99}",
+        "type": "color",
+        "description": "Accent — Основной тон цвета, используется для акцента на любой поверхности требующая внимания пользователя: текст, иконка, линия, контейнер. OnAccent — гарантирует лучшую считываемость элементов, текста и иконок поверх Accent цвета."
+      }
+    }
+  },
+  "Gradient": {
+    "Linear": {
+      "Neutral": {
+        "ContainerDown": {
+          "value": "linear-gradient(0deg, rgba({Sys.Neutral.ContainerEnabled}, 1) 0%, rgba({Sys.Neutral.ContainerEnabled}, 0.08) 72%, rgba({Sys.Neutral.ContainerEnabled}, 0) 100%)",
+          "type": "color"
+        },
+        "ContainerUp": {
+          "value": "linear-gradient(0deg, rgba({Sys.Neutral.ContainerEnabled}, 0) 0%, rgba({Sys.Neutral.ContainerEnabled}, 0.08) 24%, rgba({Sys.Neutral.ContainerEnabled}, 1) 100%)",
+          "type": "color"
+        },
+        "BackgroundDown": {
+          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 1) 0%, rgba({Sys.Neutral.Background}, 0.08) 72%, rgba({Sys.Neutral.Background}, 0) 100%)",
+          "type": "color"
+        },
+        "BackgroundUp": {
+          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 0) 0%, rgba({Sys.Neutral.Background}, 0.08) 24%, rgba({Sys.Neutral.Background}, 1) 100%)",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "Shadow": {
     "Elevation": {
-      "Level_1": {
+      "Level1": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -22,7 +22,7 @@
         ],
         "type": "boxShadow"
       },
-      "Level_2": {
+      "Level2": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -43,7 +43,7 @@
         ],
         "type": "boxShadow"
       },
-      "Level_3": {
+      "Level3": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -64,7 +64,7 @@
         ],
         "type": "boxShadow"
       },
-      "Level_4": {
+      "Level4": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -85,7 +85,7 @@
         ],
         "type": "boxShadow"
       },
-      "Level_5": {
+      "Level5": {
         "value": [
           {
             "x": "{Size.0m}",
@@ -110,153 +110,153 @@
   },
   "Size": {
     "0m": {
-      "value": "{Module_Scale} * 0",
+      "value": "{ModuleScale} * 0",
       "type": "sizing"
     },
     "025m": {
-      "value": "{Module_Scale} / 4",
+      "value": "{ModuleScale} / 4",
       "type": "sizing"
     },
     "050m": {
-      "value": "{Module_Scale} / 2",
+      "value": "{ModuleScale} / 2",
       "type": "sizing"
     },
     "1m": {
-      "value": "{Module_Scale}",
+      "value": "{ModuleScale}",
       "type": "sizing"
     },
     "2m": {
-      "value": "{Module_Scale} * 2",
+      "value": "{ModuleScale} * 2",
       "type": "sizing"
     },
     "3m": {
-      "value": "{Module_Scale} * 3",
+      "value": "{ModuleScale} * 3",
       "type": "sizing"
     },
     "4m": {
-      "value": "{Module_Scale} * 4",
+      "value": "{ModuleScale} * 4",
       "type": "sizing"
     },
     "5m": {
-      "value": "{Module_Scale} * 5",
+      "value": "{ModuleScale} * 5",
       "type": "sizing"
     },
     "6m": {
-      "value": "{Module_Scale} * 6",
+      "value": "{ModuleScale} * 6",
       "type": "sizing"
     },
     "7m": {
-      "value": "{Module_Scale} * 7",
+      "value": "{ModuleScale} * 7",
       "type": "sizing"
     },
     "8m": {
-      "value": "{Module_Scale} * 8",
+      "value": "{ModuleScale} * 8",
       "type": "sizing"
     },
     "9m": {
-      "value": "{Module_Scale} * 9",
+      "value": "{ModuleScale} * 9",
       "type": "sizing"
     },
     "10m": {
-      "value": "{Module_Scale} * 10",
+      "value": "{ModuleScale} * 10",
       "type": "sizing"
     }
   },
   "Space": {
     "0m": {
-      "value": "{Module_Scale} * 0",
+      "value": "{ModuleScale} * 0",
       "type": "spacing"
     },
     "025m": {
-      "value": "{Module_Scale} / 4",
+      "value": "{ModuleScale} / 4",
       "type": "spacing"
     },
     "050m": {
-      "value": "{Module_Scale} / 2",
+      "value": "{ModuleScale} / 2",
       "type": "spacing"
     },
     "1m": {
-      "value": "{Module_Scale}",
+      "value": "{ModuleScale}",
       "type": "spacing"
     },
     "2m": {
-      "value": "{Module_Scale} * 2",
+      "value": "{ModuleScale} * 2",
       "type": "spacing"
     },
     "3m": {
-      "value": "{Module_Scale} * 3",
+      "value": "{ModuleScale} * 3",
       "type": "spacing"
     },
     "4m": {
-      "value": "{Module_Scale} * 4",
+      "value": "{ModuleScale} * 4",
       "type": "spacing"
     },
     "5m": {
-      "value": "{Module_Scale} * 5",
+      "value": "{ModuleScale} * 5",
       "type": "spacing"
     },
     "6m": {
-      "value": "{Module_Scale} * 6",
+      "value": "{ModuleScale} * 6",
       "type": "spacing"
     },
     "7m": {
-      "value": "{Module_Scale} * 7",
+      "value": "{ModuleScale} * 7",
       "type": "spacing"
     },
     "8m": {
-      "value": "{Module_Scale} * 8",
+      "value": "{ModuleScale} * 8",
       "type": "spacing"
     },
     "9m": {
-      "value": "{Module_Scale} * 9",
+      "value": "{ModuleScale} * 9",
       "type": "spacing"
     },
     "10m": {
-      "value": "{Module_Scale} * 10",
+      "value": "{ModuleScale} * 10",
       "type": "spacing"
     }
   },
   "Opacity": {
     "A0": {
-      "value": "{Opacity_Multiplier} * 0",
+      "value": "{OpacityMultiplier} * 0",
       "type": "opacity"
     },
     "A004": {
-      "value": "{Opacity_Multiplier} * 0.01",
+      "value": "{OpacityMultiplier} * 0.01",
       "type": "opacity"
     },
     "A008": {
-      "value": "{Opacity_Multiplier} * 0.02",
+      "value": "{OpacityMultiplier} * 0.02",
       "type": "opacity"
     },
     "A016": {
-      "value": "{Opacity_Multiplier} * 0.04",
+      "value": "{OpacityMultiplier} * 0.04",
       "type": "opacity"
     },
     "A024": {
-      "value": "{Opacity_Multiplier} * 0.06",
+      "value": "{OpacityMultiplier} * 0.06",
       "type": "opacity"
     },
     "A032": {
-      "value": "{Opacity_Multiplier} * 0.08",
+      "value": "{OpacityMultiplier} * 0.08",
       "type": "opacity"
     },
     "A040": {
-      "value": "{Opacity_Multiplier} * 0.1",
+      "value": "{OpacityMultiplier} * 0.1",
       "type": "opacity"
     },
     "A048": {
-      "value": "{Opacity_Multiplier} * 0.12",
+      "value": "{OpacityMultiplier} * 0.12",
       "type": "opacity"
     }
   },
   "Border": {
     "006m": {
-      "value": "{Module_Scale}/16",
+      "value": "{ModuleScale}/16",
       "type": "borderWidth"
     },
     "012m": {
-      "value": "{Module_Scale}/8",
+      "value": "{ModuleScale}/8",
       "type": "borderWidth"
     },
     "018m": {
@@ -264,7 +264,7 @@
       "type": "borderWidth"
     },
     "025m": {
-      "value": "{Module_Scale}/4",
+      "value": "{ModuleScale}/4",
       "type": "borderWidth"
     },
     "038m": {
@@ -272,50 +272,50 @@
       "type": "borderWidth"
     },
     "050m": {
-      "value": "{Module_Scale}/2",
+      "value": "{ModuleScale}/2",
       "type": "borderWidth"
     }
   },
   "Radius": {
     "0m": {
-      "value": "{Module_Scale}*0",
+      "value": "{ModuleScale}*0",
       "type": "borderRadius"
     },
     "025m": {
-      "value": "{Module_Scale}*0.25",
+      "value": "{ModuleScale}*0.25",
       "type": "borderRadius"
     },
     "050m": {
-      "value": "{Module_Scale}*0.5",
+      "value": "{ModuleScale}*0.5",
       "type": "borderRadius"
     },
     "1m": {
-      "value": "{Module_Scale}",
+      "value": "{ModuleScale}",
       "type": "borderRadius"
     },
     "2m": {
-      "value": "{Module_Scale}*2",
+      "value": "{ModuleScale}*2",
       "type": "borderRadius"
     },
     "3m": {
-      "value": "{Module_Scale}*3",
+      "value": "{ModuleScale}*3",
       "type": "borderRadius"
     },
     "4m": {
-      "value": "{Module_Scale}*4",
+      "value": "{ModuleScale}*4",
       "type": "borderRadius"
     },
     "5m": {
-      "value": "{Module_Scale}*5",
+      "value": "{ModuleScale}*5",
       "type": "borderRadius"
     }
   },
-  "Module_Scale": {
+  "ModuleScale": {
     "value": "8",
     "type": "other",
     "description": "The basic module of the indentation and dimension system"
   },
-  "Opacity_Multiplier": {
+  "OpacityMultiplier": {
     "value": "4",
     "type": "other",
     "description": "Basic Opacity multiplier"

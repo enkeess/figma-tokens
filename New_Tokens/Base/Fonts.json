@@ -1,5 +1,5 @@
 {
-  "Font_Size": {
+  "FontSize": {
     "11": {
       "value": "11",
       "type": "fontSizes"
@@ -49,22 +49,22 @@
       "type": "fontSizes"
     }
   },
-  "Font_Family": {
-    "SB_Sans_Interface": {
+  "FontFamily": {
+    "SBSansInterface": {
       "value": "SB Sans Interface",
       "type": "fontFamilies"
     },
-    "SB_Sans_Text_Mono": {
+    "SBSansTextMono": {
       "value": "SB Sans Text Mono",
       "type": "fontFamilies"
     }
   },
-  "Font_Weight": {
+  "FontWeight": {
     "Regular": {
       "value": "Regular",
       "type": "fontWeights"
     },
-    "Semi_Bold": {
+    "SemiBold": {
       "value": "Semibold",
       "type": "fontWeights"
     },
@@ -72,94 +72,94 @@
       "value": "Bold",
       "type": "fontWeights"
     },
-    "Light_Sans": {
+    "LightSans": {
       "value": "Light",
       "type": "fontWeights"
     }
   },
-  "Line_Height_Multipler": {
-    "value": "{Module_Scale} / 2",
+  "LineHeightMultipler": {
+    "value": "{ModuleScale} / 2",
     "type": "other",
     "description": "Multiplier based on the basic module, to adjust the height of font lines"
   },
-  "Paragraph_Spacing_Multipler": {
+  "ParagraphSpacingMultipler": {
     "value": "0.55",
     "type": "other",
     "description": "Multiplier for adjusting paragraph margins"
   },
-  "Line_Height": {
+  "LineHeight": {
     "Display": {
       "Lg": {
-        "value": "{Line_Height_Multipler} * 18",
+        "value": "{LineHeightMultipler} * 18",
         "type": "lineHeights"
       },
       "Md": {
-        "value": "{Line_Height_Multipler} * 15",
+        "value": "{LineHeightMultipler} * 15",
         "type": "lineHeights"
       },
       "Sm": {
-        "value": "{Line_Height_Multipler} * 12",
+        "value": "{LineHeightMultipler} * 12",
         "type": "lineHeights"
       }
     },
     "Headline": {
       "Lg": {
-        "value": "{Line_Height_Multipler} * 10",
+        "value": "{LineHeightMultipler} * 10",
         "type": "lineHeights"
       },
       "Md": {
-        "value": "{Line_Height_Multipler} * 9",
+        "value": "{LineHeightMultipler} * 9",
         "type": "lineHeights"
       },
       "Sm": {
-        "value": "{Line_Height_Multipler} * 8",
+        "value": "{LineHeightMultipler} * 8",
         "type": "lineHeights"
       }
     },
     "Title": {
       "Lg": {
-        "value": "{Line_Height_Multipler} * 7",
+        "value": "{LineHeightMultipler} * 7",
         "type": "lineHeights"
       },
       "Md": {
-        "value": "{Line_Height_Multipler} * 6",
+        "value": "{LineHeightMultipler} * 6",
         "type": "lineHeights"
       },
       "Sm": {
-        "value": "{Line_Height_Multipler} * 5",
+        "value": "{LineHeightMultipler} * 5",
         "type": "lineHeights"
       }
     },
     "Label": {
       "Lg": {
-        "value": "{Line_Height_Multipler} * 5",
+        "value": "{LineHeightMultipler} * 5",
         "type": "lineHeights"
       },
       "Md": {
-        "value": "{Line_Height_Multipler} * 4",
+        "value": "{LineHeightMultipler} * 4",
         "type": "lineHeights"
       },
       "Sm": {
-        "value": "{Line_Height_Multipler} * 3.5",
+        "value": "{LineHeightMultipler} * 3.5",
         "type": "lineHeights"
       }
     },
     "Body": {
       "Lg": {
-        "value": "{Line_Height_Multipler} * 6",
+        "value": "{LineHeightMultipler} * 6",
         "type": "lineHeights"
       },
       "Md": {
-        "value": "{Line_Height_Multipler} * 5",
+        "value": "{LineHeightMultipler} * 5",
         "type": "lineHeights"
       },
       "Sm": {
-        "value": "{Line_Height_Multipler} * 4",
+        "value": "{LineHeightMultipler} * 4",
         "type": "lineHeights"
       }
     }
   },
-  "Letter_Spacing": {
+  "LetterSpacing": {
     "Xs": {
       "value": "-0.5",
       "type": "letterSpacing"
@@ -177,63 +177,63 @@
       "type": "letterSpacing"
     }
   },
-  "Text_Decoration": {
+  "TextDecoration": {
     "Underline": {
       "value": "underline",
       "type": "textDecoration"
     },
-    "Line_Through": {
+    "LineThrough": {
       "value": "line-through",
       "type": "textDecoration"
     }
   },
-  "Paragraph_Spacing": {
-    "Font_Size_11": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.11}",
+  "ParagraphSpacing": {
+    "FontSize11": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.11}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_12": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.12}",
+    "FontSize12": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.12}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_14": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.14}",
+    "FontSize14": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.14}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_16": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.16}",
+    "FontSize16": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.16}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_22": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.22}",
+    "FontSize22": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.22}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_24": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.24}",
+    "FontSize24": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.24}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_28": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.28}",
+    "FontSize28": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.28}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_32": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.32}",
+    "FontSize32": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.32}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_36": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.36}",
+    "FontSize36": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.36}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_40": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.40}",
+    "FontSize40": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.40}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_48": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.48}",
+    "FontSize48": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.48}",
       "type": "paragraphSpacing"
     },
-    "Font_Size_56": {
-      "value": "{Paragraph_Spacing_Multipler} * {Font_Size.56}",
+    "FontSize56": {
+      "value": "{ParagraphSpacingMultipler} * {FontSize.56}",
       "type": "paragraphSpacing"
     }
   }

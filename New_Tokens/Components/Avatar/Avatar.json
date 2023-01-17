@@ -1,6 +1,6 @@
 {
   "Avatar": {
-    "Badge_Avatar": {
+    "BadgeAvatar": {
       "Xxs": {
         "value": {
           "paddingLeft": "{Space.2m}-{Space.050m}",
@@ -58,13 +58,13 @@
         "type": "composition"
       }
     },
-    "User_Monogram": {
-      "Size_Xxs": {
+    "UserMonogram": {
+      "SizeXxs": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -72,7 +72,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -80,7 +80,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -90,7 +90,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -98,7 +98,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -106,7 +106,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -116,7 +116,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -124,7 +124,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -132,7 +132,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -142,7 +142,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -150,7 +150,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -158,7 +158,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -168,7 +168,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -176,7 +176,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -184,7 +184,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -194,7 +194,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -202,7 +202,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -210,7 +210,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -220,7 +220,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -228,7 +228,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -236,7 +236,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -246,7 +246,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -254,7 +254,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -262,7 +262,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -272,67 +272,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xs": {
+      "SizeXs": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -340,7 +340,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -348,7 +348,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -358,7 +358,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -366,7 +366,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -374,7 +374,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -384,7 +384,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -392,7 +392,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -400,7 +400,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -410,7 +410,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -418,7 +418,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -426,7 +426,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -436,7 +436,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -444,7 +444,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -452,7 +452,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -462,7 +462,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -470,7 +470,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -478,7 +478,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -488,7 +488,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -496,7 +496,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -504,7 +504,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -514,7 +514,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -522,7 +522,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -530,7 +530,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -540,67 +540,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_S": {
+      "SizeS": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -608,7 +608,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -616,7 +616,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -626,7 +626,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -634,7 +634,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -642,7 +642,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -652,7 +652,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -660,7 +660,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -668,7 +668,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -678,7 +678,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -686,7 +686,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -694,7 +694,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -704,7 +704,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -712,7 +712,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -720,7 +720,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -730,7 +730,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -738,7 +738,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -746,7 +746,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -756,7 +756,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -764,7 +764,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -772,7 +772,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -782,7 +782,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -790,7 +790,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -798,7 +798,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.S}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -808,67 +808,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_M": {
+      "SizeM": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -876,7 +876,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -884,7 +884,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -894,7 +894,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -902,7 +902,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -910,7 +910,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -920,7 +920,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -928,7 +928,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -936,7 +936,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -946,7 +946,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -954,7 +954,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -962,7 +962,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -972,7 +972,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -980,7 +980,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -988,7 +988,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -998,7 +998,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1006,7 +1006,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1014,7 +1014,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1024,7 +1024,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1032,7 +1032,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1040,7 +1040,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1050,7 +1050,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1058,7 +1058,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1066,7 +1066,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.M}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -1076,67 +1076,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_L": {
+      "SizeL": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1144,7 +1144,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1152,7 +1152,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1162,7 +1162,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1170,7 +1170,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1178,7 +1178,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1188,7 +1188,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1196,7 +1196,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1204,7 +1204,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1214,7 +1214,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1222,7 +1222,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1230,7 +1230,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1240,7 +1240,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1248,7 +1248,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1256,7 +1256,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1266,7 +1266,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1274,7 +1274,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1282,7 +1282,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1292,7 +1292,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1300,7 +1300,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1308,7 +1308,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1318,7 +1318,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1326,7 +1326,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1334,7 +1334,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.L}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -1344,67 +1344,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xl": {
+      "SizeXl": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1412,7 +1412,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1420,7 +1420,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1430,7 +1430,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1438,7 +1438,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1446,7 +1446,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1456,7 +1456,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1464,7 +1464,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1472,7 +1472,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1482,7 +1482,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1490,7 +1490,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1498,7 +1498,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1508,7 +1508,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1516,7 +1516,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1524,7 +1524,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1534,7 +1534,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1542,7 +1542,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1550,7 +1550,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1560,7 +1560,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1568,7 +1568,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1576,7 +1576,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1586,7 +1586,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1594,7 +1594,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1602,7 +1602,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -1612,67 +1612,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xxl": {
+      "SizeXxl": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1680,7 +1680,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1688,7 +1688,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1698,7 +1698,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1706,7 +1706,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1714,7 +1714,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1724,7 +1724,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1732,7 +1732,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1740,7 +1740,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1750,7 +1750,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1758,7 +1758,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1766,7 +1766,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1776,7 +1776,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1784,7 +1784,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1792,7 +1792,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1802,7 +1802,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1810,7 +1810,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1818,7 +1818,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1828,7 +1828,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1836,7 +1836,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1844,7 +1844,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1854,7 +1854,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1862,7 +1862,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1870,7 +1870,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.User.Xxl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -1880,69 +1880,69 @@
           "Red": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       }
     },
-    "Corp_Monogram": {
-      "Size_Xxs": {
+    "CorpMonogram": {
+      "SizeXxs": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1950,7 +1950,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1958,7 +1958,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1968,7 +1968,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1976,7 +1976,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1984,7 +1984,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -1994,7 +1994,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2002,7 +2002,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2010,7 +2010,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2020,7 +2020,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2028,7 +2028,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2036,7 +2036,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2046,7 +2046,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2054,7 +2054,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2062,7 +2062,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2072,7 +2072,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2080,7 +2080,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2088,7 +2088,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2098,7 +2098,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2106,7 +2106,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2114,7 +2114,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2124,7 +2124,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2132,7 +2132,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2140,7 +2140,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxs}"
             },
             "type": "composition"
@@ -2150,67 +2150,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xs": {
+      "SizeXs": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2218,7 +2218,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2226,7 +2226,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2236,7 +2236,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2244,7 +2244,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2252,7 +2252,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2262,7 +2262,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2270,7 +2270,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2278,7 +2278,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2288,7 +2288,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2296,7 +2296,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2304,7 +2304,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2314,7 +2314,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2322,7 +2322,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2330,7 +2330,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2340,7 +2340,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2348,7 +2348,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2356,7 +2356,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2366,7 +2366,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2374,7 +2374,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2382,7 +2382,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2392,7 +2392,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2400,7 +2400,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2408,7 +2408,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xs}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xs}"
             },
             "type": "composition"
@@ -2418,67 +2418,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_S": {
+      "SizeS": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2486,7 +2486,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2494,7 +2494,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2504,7 +2504,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2512,7 +2512,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2520,7 +2520,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2530,7 +2530,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2538,7 +2538,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2546,7 +2546,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2556,7 +2556,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2564,7 +2564,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2572,7 +2572,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2582,7 +2582,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2590,7 +2590,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2598,7 +2598,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2608,7 +2608,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2616,7 +2616,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2624,7 +2624,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2634,7 +2634,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2642,7 +2642,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2650,7 +2650,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2660,7 +2660,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2668,7 +2668,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2676,7 +2676,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.S}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.S}"
             },
             "type": "composition"
@@ -2686,67 +2686,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_M": {
+      "SizeM": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2754,7 +2754,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2762,7 +2762,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2772,7 +2772,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2780,7 +2780,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2788,7 +2788,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2798,7 +2798,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2806,7 +2806,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2814,7 +2814,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2824,7 +2824,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2832,7 +2832,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2840,7 +2840,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2850,7 +2850,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2858,7 +2858,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2866,7 +2866,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2876,7 +2876,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2884,7 +2884,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2892,7 +2892,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2902,7 +2902,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2910,7 +2910,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2918,7 +2918,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2928,7 +2928,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2936,7 +2936,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2944,7 +2944,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.M}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.M}"
             },
             "type": "composition"
@@ -2954,67 +2954,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Title.L}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_L": {
+      "SizeL": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3022,7 +3022,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3030,7 +3030,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3040,7 +3040,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3048,7 +3048,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3056,7 +3056,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3066,7 +3066,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3074,7 +3074,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3082,7 +3082,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3092,7 +3092,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3100,7 +3100,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3108,7 +3108,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3118,7 +3118,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3126,7 +3126,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3134,7 +3134,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3144,7 +3144,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3152,7 +3152,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3160,7 +3160,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3170,7 +3170,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3178,7 +3178,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3186,7 +3186,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3196,7 +3196,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3204,7 +3204,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3212,7 +3212,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.L}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.L}"
             },
             "type": "composition"
@@ -3222,67 +3222,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Headline.M}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xl": {
+      "SizeXl": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3290,7 +3290,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3298,7 +3298,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3308,7 +3308,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3316,7 +3316,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3324,7 +3324,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3334,7 +3334,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3342,7 +3342,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3350,7 +3350,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3360,7 +3360,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3368,7 +3368,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3376,7 +3376,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3386,7 +3386,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3394,7 +3394,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3402,7 +3402,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3412,7 +3412,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3420,7 +3420,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3428,7 +3428,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3438,7 +3438,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3446,7 +3446,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3454,7 +3454,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3464,7 +3464,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3472,7 +3472,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3480,7 +3480,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xl}"
             },
             "type": "composition"
@@ -3490,67 +3490,67 @@
           "Red": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Display.S}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_Xxl": {
+      "SizeXxl": {
         "Red": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Red.Container_Enabled}",
+              "fill": "{Index.Red.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3558,7 +3558,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3566,7 +3566,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Red.Container_Hovered}",
+              "fill": "{Index.Red.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3576,7 +3576,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Orange.Container_Enabled}",
+              "fill": "{Index.Orange.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3584,7 +3584,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3592,7 +3592,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Orange.Container_Hovered}",
+              "fill": "{Index.Orange.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3602,7 +3602,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Yellow.Container_Enabled}",
+              "fill": "{Index.Yellow.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3610,7 +3610,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3618,7 +3618,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Yellow.Container_Hovered}",
+              "fill": "{Index.Yellow.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3628,7 +3628,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Green.Container_Enabled}",
+              "fill": "{Index.Green.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3636,7 +3636,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3644,7 +3644,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Green.Container_Hovered}",
+              "fill": "{Index.Green.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3654,7 +3654,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Blue.Container_Enabled}",
+              "fill": "{Index.Blue.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3662,7 +3662,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3670,7 +3670,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Blue.Container_Hovered}",
+              "fill": "{Index.Blue.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3680,7 +3680,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Violet.Container_Enabled}",
+              "fill": "{Index.Violet.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3688,7 +3688,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3696,7 +3696,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Violet.Container_Hovered}",
+              "fill": "{Index.Violet.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3706,7 +3706,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Pink.Container_Enabled}",
+              "fill": "{Index.Pink.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3714,7 +3714,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3722,7 +3722,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Pink.Container_Hovered}",
+              "fill": "{Index.Pink.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3732,7 +3732,7 @@
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Gray.Container_Enabled}",
+              "fill": "{Index.Gray.ContainerEnabled}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3740,7 +3740,7 @@
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3748,7 +3748,7 @@
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Avatar.Corp.Xxl}",
-              "fill": "{Index.Gray.Container_Hovered}",
+              "fill": "{Index.Gray.ContainerHovered}",
               "sizing": "{Size.Avatar.Xxl}"
             },
             "type": "composition"
@@ -3758,56 +3758,56 @@
           "Red": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Red.Text_Main_Enabled}"
+              "fill": "{Index.Red.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Orange": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Orange.Text_Main_Enabled}"
+              "fill": "{Index.Orange.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Yellow": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Yellow.Text_Main_Enabled}"
+              "fill": "{Index.Yellow.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Green": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Green.Text_Main_Enabled}"
+              "fill": "{Index.Green.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Blue": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Blue.Text_Main_Enabled}"
+              "fill": "{Index.Blue.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Violet": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Violet.Text_Main_Enabled}"
+              "fill": "{Index.Violet.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Pink": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Pink.Text_Main_Enabled}"
+              "fill": "{Index.Pink.TextMainEnabled}"
             },
             "type": "composition"
           },
           "Gray": {
             "value": {
               "typography": "{Sans.Display.M}",
-              "fill": "{Index.Gray.Text_Main_Enabled}"
+              "fill": "{Index.Gray.TextMainEnabled}"
             },
             "type": "composition"
           }

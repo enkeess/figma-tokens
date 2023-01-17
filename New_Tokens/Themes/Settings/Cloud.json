@@ -150,7 +150,7 @@
         "type": "borderRadius"
       }
     },
-    "Status_Indicator": {
+    "StatusIndicator": {
       "Single": {
         "value": "{Radius.General.Shape.M}",
         "type": "borderRadius"
@@ -222,7 +222,7 @@
   "Space": {
     "Button": {
       "Xxs": {
-        "From_Icon": {
+        "FromIcon": {
           "value": "{Space.025m}",
           "type": "spacing"
         },
@@ -230,13 +230,13 @@
           "value": "{Space.025m}",
           "type": "spacing"
         },
-        "From_Label": {
+        "FromLabel": {
           "value": "{Space.050m}",
           "type": "spacing"
         }
       },
       "Xs": {
-        "From_Icon": {
+        "FromIcon": {
           "value": "{Space.050m}",
           "type": "spacing"
         },
@@ -244,13 +244,13 @@
           "value": "{Space.025m}",
           "type": "spacing"
         },
-        "From_Label": {
+        "FromLabel": {
           "value": "{Space.1m}",
           "type": "spacing"
         }
       },
       "S": {
-        "From_Icon": {
+        "FromIcon": {
           "value": "{Space.1m}",
           "type": "spacing"
         },
@@ -258,13 +258,13 @@
           "value": "{Space.050m}",
           "type": "spacing"
         },
-        "From_Label": {
+        "FromLabel": {
           "value": "{Space.2m}",
           "type": "spacing"
         }
       },
       "M": {
-        "From_Icon": {
+        "FromIcon": {
           "value": "{Space.2m}",
           "type": "spacing"
         },
@@ -272,13 +272,13 @@
           "value": "{Space.050m}",
           "type": "spacing"
         },
-        "From_Label": {
+        "FromLabel": {
           "value": "{Space.3m}",
           "type": "spacing"
         }
       },
       "L": {
-        "From_Icon": {
+        "FromIcon": {
           "value": "{Space.3m}",
           "type": "spacing"
         },
@@ -286,7 +286,7 @@
           "value": "{Space.050m}",
           "type": "spacing"
         },
-        "From_Label": {
+        "FromLabel": {
           "value": "{Space.4m}",
           "type": "spacing"
         }
@@ -295,14 +295,14 @@
   },
   "Border": {
     "Button": {
-      "Container_Outline": {
+      "ContainerOutline": {
         "Single": {
           "value": "{Border.025m}",
           "type": "borderWidth"
         }
       }
     },
-    "State_Focused": {
+    "StateFocused": {
       "S": {
         "value": "{Border.025m}",
         "type": "borderWidth"

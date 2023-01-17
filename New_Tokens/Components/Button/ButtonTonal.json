@@ -1,207 +1,206 @@
 {
-  "Button_Outline": {
+  "ButtonTonal": {
     "Primary": {
-      "Size_S": {
-        "Label_Icon": {
+      "SizeS": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Enabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -210,42 +209,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -253,7 +252,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -261,243 +260,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_M": {
-        "Label_Icon": {
+      "SizeM": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -506,42 +505,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -549,7 +548,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -557,243 +556,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_L": {
-        "Label_Icon": {
+      "SizeL": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Enabled}",
+              "fill": "{Sys.Primary.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Hovered}",
+              "fill": "{Sys.Primary.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Line_Activated}",
+              "fill": "{Sys.Primary.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Primary.Accent_Disabled}",
+              "fill": "{Sys.Primary.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -802,42 +801,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -845,7 +844,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -853,37 +852,37 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Hovered}"
+              "fill": "{Sys.Primary.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Primary.Text_Support_Enabled}"
+              "fill": "{Sys.Primary.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Enabled}"
+              "fill": "{Sys.Primary.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Primary.Accent_Disabled}"
+              "fill": "{Sys.Primary.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -891,207 +890,207 @@
       }
     },
     "Neutral": {
-      "Size_S": {
-        "Label_Icon": {
+      "SizeS": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -1100,42 +1099,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -1143,7 +1142,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -1151,243 +1150,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_M": {
-        "Label_Icon": {
+      "SizeM": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -1396,42 +1395,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -1439,7 +1438,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -1447,243 +1446,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_L": {
-        "Label_Icon": {
+      "SizeL": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Enabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Hovered}",
+              "fill": "{Sys.Neutral.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Line_Activated}",
+              "fill": "{Sys.Neutral.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Neutral.Accent_Disabled}",
+              "fill": "{Sys.Neutral.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -1692,42 +1691,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -1735,7 +1734,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -1743,37 +1742,37 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Hovered}"
+              "fill": "{Sys.Neutral.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Neutral.Text_Support_Enabled}"
+              "fill": "{Sys.Neutral.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Enabled}"
+              "fill": "{Sys.Neutral.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Neutral.Accent_Disabled}"
+              "fill": "{Sys.Neutral.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -1781,207 +1780,207 @@
       }
     },
     "Critical": {
-      "Size_S": {
-        "Label_Icon": {
+      "SizeS": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "itemSpacing": "{Space.Button.S.Gap}",
-              "paddingRight": "{Space.Button.S.From_Icon}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromIcon}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
-              "paddingRight": "{Space.Button.S.From_Label}",
-              "paddingLeft": "{Space.Button.S.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.S.FromLabel}",
+              "paddingLeft": "{Space.Button.S.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.S}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.S}",
               "width": "{Size.Button.S}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -1990,42 +1989,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -2033,7 +2032,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.M}",
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -2041,243 +2040,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_M": {
-        "Label_Icon": {
+      "SizeM": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "itemSpacing": "{Space.Button.M.Gap}",
-              "paddingRight": "{Space.Button.M.From_Icon}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromIcon}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
-              "paddingRight": "{Space.Button.M.From_Label}",
-              "paddingLeft": "{Space.Button.M.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.M.FromLabel}",
+              "paddingLeft": "{Space.Button.M.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.M}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.M}",
               "width": "{Size.Button.M}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -2286,42 +2285,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -2329,7 +2328,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -2337,243 +2336,243 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
         }
       },
-      "Size_L": {
-        "Label_Icon": {
+      "SizeL": {
+        "LabelIcon": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "itemSpacing": "{Space.Button.L.Gap}",
-              "paddingRight": "{Space.Button.L.From_Icon}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromIcon}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Label_Only": {
+        "LabelOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
-              "paddingRight": "{Space.Button.L.From_Label}",
-              "paddingLeft": "{Space.Button.L.From_Label}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "paddingRight": "{Space.Button.L.FromLabel}",
+              "paddingLeft": "{Space.Button.L.FromLabel}",
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
         },
-        "Icon_Only": {
+        "IconOnly": {
           "Enabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Enabled}",
+              "fill": "{Sys.Critical.ContainerOpacityEnabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Hovered}",
+              "fill": "{Sys.Critical.ContainerOpacityHovered}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Line_Activated}",
+              "fill": "{Sys.Critical.ContainerOpacityActivated}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
               "borderRadius": "{Radius.Button.L}",
-              "border": "{Sys.Critical.Accent_Disabled}",
+              "fill": "{Sys.Critical.ContainerOpacityDisabled}",
               "height": "{Size.Button.L}",
               "width": "{Size.Button.L}",
-              "borderWidth": "{Border.Button.Container_Outline.Single}"
+              "borderWidth": "{Border.Button.ContainerOutline.Single}"
             },
             "type": "composition"
           }
@@ -2582,42 +2581,42 @@
           "Enabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
-          "Load_Label_Only": {
+          "LoadLabelOnly": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Primary.Text_Support_Enabled}",
+              "fill": "{Sys.Primary.TextSupportEnabled}",
               "opacity": "{Opacity.A0}"
             },
             "type": "composition"
@@ -2625,7 +2624,7 @@
           "Disabled": {
             "value": {
               "typography": "{Sans.Label.L}",
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
@@ -2633,37 +2632,37 @@
         "Icon": {
           "Enabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Hovered": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Focused": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Hovered}"
+              "fill": "{Sys.Critical.AccentHovered}"
             },
             "type": "composition"
           },
           "Pressed": {
             "value": {
-              "fill": "{Sys.Critical.Text_Support_Enabled}"
+              "fill": "{Sys.Critical.TextSupportEnabled}"
             },
             "type": "composition"
           },
           "Load": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Enabled}"
+              "fill": "{Sys.Critical.AccentEnabled}"
             },
             "type": "composition"
           },
           "Disabled": {
             "value": {
-              "fill": "{Sys.Critical.Accent_Disabled}"
+              "fill": "{Sys.Critical.AccentDisabled}"
             },
             "type": "composition"
           }
