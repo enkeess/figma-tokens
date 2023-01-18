@@ -76,11 +76,11 @@
         "type": "sizing"
       },
       "Xl": {
-        "value": "{Size.General.Shape.Xxl}+{Size.General.Shape.Xs}",
+        "value": "{Size.General.Shape.Xxl} + {Size.General.Shape.Xs}",
         "type": "sizing"
       },
       "Xxl": {
-        "value": "{Size.General.Shape.Xl}*2",
+        "value": "{Size.General.Shape.Xl} * 2",
         "type": "sizing"
       }
     }
@@ -179,7 +179,7 @@
           "type": "borderRadius"
         },
         "Xl": {
-          "value": "{Radius.General.Shape.L}*2",
+          "value": "{Radius.General.Shape.L} * 2",
           "type": "borderRadius"
         },
         "Xxl": {

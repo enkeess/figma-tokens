@@ -252,41 +252,41 @@
   },
   "Border": {
     "006m": {
-      "value": "{ModuleScale}/16",
+      "value": "{ModuleScale} / 16",
       "type": "borderWidth"
     },
     "012m": {
-      "value": "{ModuleScale}/8",
+      "value": "{ModuleScale} / 8",
       "type": "borderWidth"
     },
     "018m": {
-      "value": "{Border.006m}+{Border.012m}",
+      "value": "{Border.006m} + {Border.012m}",
       "type": "borderWidth"
     },
     "025m": {
-      "value": "{ModuleScale}/4",
+      "value": "{ModuleScale} / 4",
       "type": "borderWidth"
     },
     "038m": {
-      "value": "{Border.025m}+{Border.012m}",
+      "value": "{Border.025m} + {Border.012m}",
       "type": "borderWidth"
     },
     "050m": {
-      "value": "{ModuleScale}/2",
+      "value": "{ModuleScale} / 2",
       "type": "borderWidth"
     }
   },
   "Radius": {
     "0m": {
-      "value": "{ModuleScale}*0",
+      "value": "{ModuleScale} * 0",
       "type": "borderRadius"
     },
     "025m": {
-      "value": "{ModuleScale}*0.25",
+      "value": "{ModuleScale} * 0.25",
       "type": "borderRadius"
     },
     "050m": {
-      "value": "{ModuleScale}*0.5",
+      "value": "{ModuleScale} * 0.5",
       "type": "borderRadius"
     },
     "1m": {
@@ -294,19 +294,19 @@
       "type": "borderRadius"
     },
     "2m": {
-      "value": "{ModuleScale}*2",
+      "value": "{ModuleScale} * 2",
       "type": "borderRadius"
     },
     "3m": {
-      "value": "{ModuleScale}*3",
+      "value": "{ModuleScale} * 3",
       "type": "borderRadius"
     },
     "4m": {
-      "value": "{ModuleScale}*4",
+      "value": "{ModuleScale} * 4",
       "type": "borderRadius"
     },
     "5m": {
-      "value": "{ModuleScale}*5",
+      "value": "{ModuleScale} * 5",
       "type": "borderRadius"
     }
   },

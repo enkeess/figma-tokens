@@ -3,8 +3,8 @@
     "BadgeAvatar": {
       "Xxs": {
         "value": {
-          "paddingLeft": "{Space.2m}-{Space.050m}",
-          "paddingTop": "{Space.2m}-{Space.050m}",
+          "paddingLeft": "{Space.2m} - {Space.050m}",
+          "paddingTop": "{Space.2m} - {Space.050m}",
           "sizing": "{Size.Avatar.Xxs}"
         },
         "type": "composition"
@@ -51,8 +51,8 @@
       },
       "Xxl": {
         "value": {
-          "paddingLeft": "{Space.10m}+{Space.1m}",
-          "paddingTop": "{Space.10m}+{Space.1m}",
+          "paddingLeft": "{Space.10m} + {Space.1m}",
+          "paddingTop": "{Space.10m} + {Space.1m}",
           "sizing": "{Size.Avatar.Xxl}"
         },
         "type": "composition"
