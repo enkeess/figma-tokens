@@ -5,7 +5,7 @@
         "LabelIcon": {
           "Enabled": {
             "value": {
-              "height": "{Size.Button.Xs}",
+              "height": "{Size.Button.Xxs}",
               "itemSpacing": "{Space.Button.Xxs.Gap}",
               "paddingRight": "{Space.Button.Xxs.FromIcon}",
               "paddingLeft": "{Space.Button.Xxs.FromLabel}"
