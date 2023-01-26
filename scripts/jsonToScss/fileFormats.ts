@@ -70,13 +70,6 @@ export const SCSSThemeVariablesFormat: Named<Format> = {
 export const SCSSComponentFormat: Named<Format> = {
   name: FormatName.SCSSComponent,
   formatter: function ({ dictionary }) {
-    const compositeTokens: TransformedToken[] = [];
-    const otherTokens: TransformedToken[] = [];
-
-    dictionary.allTokens.forEach(token =>
-      ([TYPOGRAPHY, COMPOSITION].includes(token.type) ? compositeTokens : otherTokens).push(token),
-    );
-
     const replaceRefs = ({ value, valueWithRefs }: { value: unknown; valueWithRefs: unknown }) => {
       let replacedValue = String(value);
 
@@ -136,11 +129,11 @@ ${indent})`;
         return tokenDictionaryTemplate(token);
       }
 
-      if (![TYPOGRAPHY, COMPOSITION].includes(token.type)) {
-        return simpleTokenTemplate(token);
+      if ([TYPOGRAPHY, COMPOSITION].includes(token.type)) {
+        return compositeTokenTemplate(token);
       }
 
-      return compositeTokenTemplate(token);
+      return simpleTokenTemplate(token);
     };
 
     return `@use 'sass:map';
