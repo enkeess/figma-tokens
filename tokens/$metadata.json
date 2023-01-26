@@ -19,7 +19,6 @@
     "Components/Button/ButtonLight",
     "Components/Button/ButtonOutline",
     "Components/Button/ButtonSupport",
-    "Components/Button/ButtonTonal",
-    "Components/ContainerFocused/ContainerFocused"
+    "Components/Button/ButtonTonal"
   ]
 }
