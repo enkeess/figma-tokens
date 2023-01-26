@@ -1,7 +1,7 @@
 {
   "ButtonOutline": {
     "Primary": {
-      "Container": {
+      "Border": {
         "Enabled": {
           "value": "{Sys.Primary.AccentEnabled}",
           "type": "color"
@@ -81,7 +81,7 @@
       }
     },
     "Neutral": {
-      "Container": {
+      "Border": {
         "Enabled": {
           "value": "{Sys.Neutral.AccentEnabled}",
           "type": "color"
@@ -161,7 +161,7 @@
       }
     },
     "Critical": {
-      "Container": {
+      "Border": {
         "Enabled": {
           "value": "{Sys.Critical.AccentEnabled}",
           "type": "color"
