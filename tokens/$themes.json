@@ -18,7 +18,6 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Components/ContainerFocused/ContainerFocused": "enabled",
       "Themes/Color/Mode/DarkMode": "enabled"
     },
     "$figmaStyleReferences": {
@@ -478,7 +477,6 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Components/ContainerFocused/ContainerFocused": "enabled",
       "Themes/Color/Mode/DarkMode": "enabled"
     },
     "$figmaStyleReferences": {
@@ -938,7 +936,6 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Components/ContainerFocused/ContainerFocused": "enabled",
       "Themes/Color/Mode/LightMode": "enabled"
     },
     "$figmaStyleReferences": {
@@ -1398,7 +1395,6 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Components/ContainerFocused/ContainerFocused": "enabled",
       "Themes/Color/Mode/LightMode": "enabled"
     },
     "$figmaStyleReferences": {
