@@ -1,0 +1,19 @@
+{
+  "extends": "ts-config-single-spa",
+  "ts-node": {
+    "compilerOptions": {"module": "CommonJS"},
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2017", "dom", "dom.iterable", "esnext"],
+    "types": ["node"],
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": ["./"],
+  "exclude": ["node_modules"]
+}

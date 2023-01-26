@@ -1,0 +1,23 @@
+{
+  "name": "@sbercloud/figma-tokens",
+  "version": "0.0.1",
+  "description": "Figma Tokens for Cloud Design System ",
+  "homepage": "https://git.sbercloud.tech/sbercloud-ui/figma-tokens/-/tree/master/",
+  "repository": {
+    "type": "git",
+    "url": "https://git.sbercloud.tech/sbercloud-ui/figma-tokens.git"
+  },
+  "scripts": {
+    "build:tokens": "ts-node scripts/buildTokens.ts",
+    "build:styles": "ts-node scripts/jsonToScss/index.ts",
+    "build:all": "rm -rf build && npm run build:tokens && npm run build:styles"
+  },
+  "files": ["build/scss/**/*"],
+  "devDependencies": {
+    "@sbercloud/ft-all-linters-pack": "2.1.0",
+    "style-dictionary": "3.7.2",
+    "token-transformer": "0.0.29",
+    "ts-config-single-spa": "3.0.0",
+    "ts-node": "10.9.1"
+  }
+}

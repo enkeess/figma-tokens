@@ -1,0 +1,4 @@
+include:
+  - project: sbercloud-ui/cicd
+    ref: FF-1536
+    file: /gitlab-ci-figma-tokens.yml
