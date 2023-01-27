@@ -1413,7 +1413,6 @@
       "Crossed out.Body.L": "S:1f281867134cf3c530824ea9b3b303b88c8290b6,",
       "Crossed out.Body.M": "S:9b0355b0ce3183501230532893572064689e640f,",
       "Crossed out.Body.S": "S:0f4f719f4cbfd6265f6080ac56d2b8eb22ecf0a0,",
-      "Ref.Brand.MLSpace.10": "S:5a6af55eb3ba67f6fda4f587b5133807ad17ecfd,",
       "Ref.Brand.MLSpace.13": "S:2961be7891fb82efc41f90fcf2689d3d24e56293,",
       "Ref.Brand.MLSpace.15": "S:1ce99eadaaa703840ea4818dd43a3f259ab4b995,",
       "Ref.Brand.MLSpace.20": "S:b8db0bd62dfd046b4ab36c178ca77226afa094f8,",
@@ -1919,9 +1918,7 @@
       "Index.Gray.AccentActivated": "S:acd35bb4b298299667abc0ccc0ee895304762475,",
       "Index.Gray.AccentDisabled": "S:4f149b9343183d037a9b8201b5acd0e6a6125124,",
       "Index.Gray.OnAccent": "S:9ee293164936f347b460cb8a9f6e9677954abb4a,",
-      "Sans.Display.L": "S:6f47544115971e2c2711d87fcc6b4ee3532c10e2,",
       "Sans.Display.M": "S:3aab8fe6cdff136075440cc532b0b91f329efda4,",
-      "Sans.Display.S": "S:11956ed9504c674bd32f8ae4a86df5c1f79de4f4,",
       "Sans.Headline.L": "S:fd0aeddf012151924460d226da42c1a951577977,",
       "Sans.Headline.M": "S:1b06ceea7c0151c71372ff3ac54acb615ab9c4f0,",
       "Sans.Headline.S": "S:35b94837306114c93ac029e256f7205dca4ae2b8,",
@@ -2277,7 +2274,9 @@
       "ButtonLight.Label.SizeL": "S:85d2104ce05b990304df9360b5e9dadcc70f687c,",
       "ButtonFilled.Label.SizeS": "S:37f79c90fe2a0e5edda86222cd1e116b198cb4fc,",
       "ButtonFilled.Label.SizeM": "S:3aa9c52f3af90979ad6394e97911f9d04dc9bb1b,",
-      "ButtonFilled.Label.SizeL": "S:25b091a494bff7396e4935f688b8cf2d4954a499,"
+      "ButtonFilled.Label.SizeL": "S:25b091a494bff7396e4935f688b8cf2d4954a499,",
+      "Sans.Display.L": "S:6f47544115971e2c2711d87fcc6b4ee3532c10e2,",
+      "Sans.Display.S": "S:11956ed9504c674bd32f8ae4a86df5c1f79de4f4,"
     }
   }
 ]
