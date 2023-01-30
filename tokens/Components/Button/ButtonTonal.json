@@ -18,7 +18,7 @@
             "height": "{Size.Button.S}",
             "paddingRight": "{Space.Button.S.FromLabel}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderWidth": "{Border.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
           },
           "type": "composition"
         },

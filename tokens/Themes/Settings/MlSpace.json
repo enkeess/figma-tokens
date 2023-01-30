@@ -293,7 +293,7 @@
       }
     }
   },
-  "Border": {
+  "BorderWidth": {
     "Button": {
       "ContainerOutline": {
         "Single": {
@@ -301,19 +301,59 @@
           "type": "borderWidth"
         }
       }
-    },
-    "StateFocused": {
+    }
+  },
+  "Border": {
+    "StateFocusPrimary": {
       "S": {
-        "value": "{Border.025m}",
-        "type": "borderWidth"
+        "value": {
+          "width": "{Border.025m}",
+          "style": "Solid",
+          "color": "Sys.Primary.LineActivated"
+        },
+        "type": "border"
       },
       "M": {
-        "value": "{Border.038m}",
-        "type": "borderWidth"
+        "value": {
+          "width": "{Border.038m}",
+          "style": "Solid",
+          "color": "Sys.Primary.LineActivated"
+        },
+        "type": "border"
       },
       "L": {
-        "value": "{Border.050m}",
-        "type": "borderWidth"
+        "value": {
+          "width": "{Border.050m}",
+          "style": "Solid",
+          "color": "Sys.Primary.LineActivated"
+        },
+        "type": "border"
+      }
+    },
+    "StateFocusAvailable": {
+      "S": {
+        "value": {
+          "width": "{Border.025m}",
+          "style": "Solid",
+          "color": "Sys.Available.Complementary"
+        },
+        "type": "border"
+      },
+      "M": {
+        "value": {
+          "width": "{Border.038m}",
+          "style": "Solid",
+          "color": "Sys.Available.Complementary"
+        },
+        "type": "border"
+      },
+      "L": {
+        "value": {
+          "width": "{Border.050m}",
+          "style": "Solid",
+          "color": "Sys.Available.Complementary"
+        },
+        "type": "border"
       }
     }
   }
