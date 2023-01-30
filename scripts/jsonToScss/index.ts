@@ -12,15 +12,10 @@ import {
   SCSSThemeVariablesFormat,
 } from './fileFormats';
 import { SourceTokensFilter } from './tokenFilters';
-import {
-  TypographyComponentsTransform,
-  TypographyThemeTransform,
-  TypographyThemeVariablesTransform,
-} from './tokenTransforms';
+import { TypographyComponentsTransform, TypographyThemeTransform } from './tokenTransforms';
 import { getComponentStylesConfig, getThemeStylesConfig } from './utils';
 
 StyleDictionaryPackage.registerTransform(TypographyThemeTransform);
-StyleDictionaryPackage.registerTransform(TypographyThemeVariablesTransform);
 StyleDictionaryPackage.registerTransform(TypographyComponentsTransform);
 
 StyleDictionaryPackage.registerFormat(SCSSBaseFormat);

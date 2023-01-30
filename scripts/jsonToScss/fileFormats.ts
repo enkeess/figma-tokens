@@ -1,7 +1,7 @@
-import { Format, Named, TransformedToken, TransformedTokens } from 'style-dictionary';
+import { Format, Named } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITION, FormatName, TYPOGRAPHY } from './constants';
-import { figmaTokenToCssProps, toKebabCase } from './utils';
+import { FormatName, TYPOGRAPHY, ValueFormat } from './constants';
+import { buildScssMapValue, toKebabCase } from './utils';
 
 export const SCSSBaseFormat: Named<Format> = {
   name: FormatName.SCSSBase,
@@ -61,98 +61,80 @@ body[data-theme='${theme}'] {
 
 export const SCSSThemeVariablesFormat: Named<Format> = {
   name: FormatName.SCSSThemeVariables,
-  formatter: ({ dictionary }) =>
-    dictionary.allTokens
-      .map(token => (token.type === TYPOGRAPHY ? token.value : `$${token.name}: --${token.name};`))
-      .join('\n'),
+  formatter: ({ dictionary }) => {
+    const getVariableEntry = (name: string) => `$${name}: --${name};`;
+
+    const printVariableMap = () => `$theme-variables: (
+  ${Object.entries(dictionary.tokens)
+    .map(
+      ([key, value]) =>
+        `${toKebabCase(key)}: ${buildScssMapValue({
+          dictionary,
+          token: value,
+          depth: 1,
+          valueFormat: ValueFormat.CSSVar,
+        })}`,
+    )
+    .join(',\n  ')}
+);`;
+
+    const printVariableList = () =>
+      dictionary.allTokens
+        .map(token =>
+          token.type === TYPOGRAPHY
+            ? Object.entries(token.value)
+                .map(([key]) => getVariableEntry(`${token.name}-${toKebabCase(key)}`))
+                .join('\n')
+            : getVariableEntry(token.name),
+        )
+        .join('\n');
+
+    return [printVariableMap(), printVariableList()].join('\n\n');
+  },
 };
 
 export const SCSSComponentFormat: Named<Format> = {
   name: FormatName.SCSSComponent,
   formatter: function ({ dictionary }) {
-    const replaceRefs = ({ value, valueWithRefs }: { value: unknown; valueWithRefs: unknown }) => {
-      let replacedValue = String(value);
-
-      if (dictionary.usesReference(valueWithRefs)) {
-        const refs = dictionary.getReferences(valueWithRefs);
-
-        refs.forEach(ref => {
-          replacedValue = replacedValue.replace(ref.value, `$${ref.name}`);
-        });
-      }
-
-      return replacedValue;
-    };
-
-    const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
-
-    const buildTokenMapValue = (token: TransformedTokens, depth = 0): string => {
-      const indent = new Array(depth).fill(BASE_INDENT).join('');
-      const indentPlus1 = indent + BASE_INDENT;
-
-      const tokenToString = (token: Record<string, any>, formatter: (key: string, value: any) => string) =>
-        Object.entries(token)
-          .map(([key, value]) => formatter(key, value))
-          .join(`,\n${indentPlus1}`);
-
-      const wrapInBrackets = (str: string) => `(
-${indentPlus1}${str}
-${indent})`;
-
-      const tokenDictionaryTemplate = (token: TransformedTokens) =>
-        wrapInBrackets(
-          tokenToString(
-            token,
-            (key, tokenInner) => `${toKebabCase(key)}: ${buildTokenMapValue(tokenInner, depth + 1)}`,
-          ),
-        );
-
-      const simpleTokenTemplate = (token: TransformedToken) =>
-        `${replaceRefs({ value: token.value, valueWithRefs: token.original.value })}`;
-
-      const compositeTokenTemplate = (token: TransformedToken) => {
-        const cssEntryToString = (key: string, value: string) =>
-          figmaTokenToCssProps({ token, key: toKebabCase(key) })
-            .map(prop => `"${prop}": ${value}`)
-            .join(`,\n${indentPlus1}`);
-
-        return wrapInBrackets(
-          tokenToString(token.value, (key, value) =>
-            value && typeof value === 'object'
-              ? `${tokenToString(value, cssEntryToString)}`
-              : cssEntryToString(key, replaceRefs({ value, valueWithRefs: token.original.value[key] })),
-          ),
-        );
-      };
-
-      if (!isToken(token)) {
-        return tokenDictionaryTemplate(token);
-      }
-
-      if ([TYPOGRAPHY, COMPOSITION].includes(token.type)) {
-        return compositeTokenTemplate(token);
-      }
-
-      return simpleTokenTemplate(token);
-    };
-
     return `@use 'sass:map';
+@use 'sass:list';
 
 @import '../themes/styles-base-variables';
 @import '../themes/styles-theme-variables';
 
+@function joinStr($list, $separator) {
+  $result: list.nth($list, 1);
+
+  @for $i from 2 through (list.length($list)) {
+    $result: $result + $separator + list.nth($list, $i);
+  }
+
+  @return $result;
+}
+
 @function simple-var($map: (), $keys...) {
-  @return var(map-get($map, $keys...));
+  $single-key: joinStr($keys, "-");
+  $map-value: map.get($map, $single-key);
+
+  @if $map-value {
+    @return var($map-value);
+  }
+
+  @return var(map.get($map, $keys...));
 }
 
 @mixin composite-var($map: (), $keys...) {
-  @each $key, $value in map-get($map, $keys...) {
+  $single-key: joinStr($keys, '-');
+  $map-value: map.get($map, $single-key);
+  $map: if($map-value, $map-value, map.get($map, $keys...));
+
+  @each $key, $value in $map {
     #{$key}: var($value);
   }
 }
 
 ${Object.entries(dictionary.tokens)
-  .map(([key, value]) => `$${toKebabCase(key)}: ${buildTokenMapValue(value)}`)
+  .map(([key, value]) => `$${toKebabCase(key)}: ${buildScssMapValue({ dictionary, token: value })}`)
   .join(';\n\n')}    
 `;
   },

@@ -1,6 +1,6 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
-import { SCSS_BUILD_DIRECTORY, TOKENS_BUILD_DIRECTORY } from '../../constants';
+import { SCSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
 import { BASE, BASE_VARIABLES, FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
 
 export function getThemeStylesConfig(theme: string) {
@@ -17,11 +17,7 @@ export function getThemeStylesConfig(theme: string) {
       [PLATFORM]: {
         transforms: [
           ...StyleDictionaryPackage.transformGroup.scss,
-          {
-            [THEME_VARIABLES]: TransformName.TypographyThemeVariables,
-            [BASE]: '',
-            [BASE_VARIABLES]: '',
-          }[theme] ?? TransformName.TypographyTheme,
+          Object.values(Themes).includes(theme as Themes) ? TransformName.TypographyTheme : '',
         ].filter(item => item),
         buildPath: `${SCSS_BUILD_DIRECTORY}/themes/`,
         files: [

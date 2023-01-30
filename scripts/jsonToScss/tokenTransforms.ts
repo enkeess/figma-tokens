@@ -18,24 +18,6 @@ export const TypographyThemeTransform: Named<Transform> = {
   },
 };
 
-export const TypographyThemeVariablesTransform: Named<Transform> = {
-  type: 'value',
-  transitive: true,
-  name: TransformName.TypographyThemeVariables,
-  matcher: ({ type }) => [TYPOGRAPHY].includes(type),
-  transformer: ({ value, name }) => {
-    if (!value) return;
-
-    const flattendedValue = Object.entries(value).map(([key]) => {
-      const varName = `${name}-${toKebabCase(key)}`;
-      return `$${varName}: --${varName};`;
-    }, '\n');
-
-    return `// ${name}
-${flattendedValue.join('\n')}`;
-  },
-};
-
 export const TypographyComponentsTransform: Named<Transform> = {
   type: 'value',
   transitive: true,

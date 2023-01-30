@@ -16,10 +16,14 @@ export enum FormatName {
 
 export enum TransformName {
   TypographyTheme = 'typography/theme',
-  TypographyThemeVariables = 'typography/theme-variables',
   TypographyComponents = 'typography/components',
 }
 
 export enum FilterName {
   SourceTokens = 'source-tokens',
+}
+
+export enum ValueFormat {
+  Original = 'Original',
+  CSSVar = 'CSSVar',
 }
