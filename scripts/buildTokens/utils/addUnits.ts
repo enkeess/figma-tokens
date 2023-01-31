@@ -5,8 +5,8 @@ const TOKENS_PATH_TO_ADD_UNITS = {
   px: [
     ['Base/Anatomy', 'ModuleScale'],
     ['Base/Fonts', 'FontSize'],
+    ['Base/Fonts', 'LetterSpacing'],
   ],
-  em: [['Base/Fonts', 'LetterSpacing']],
 };
 
 export const addUnits = (rawTokens: Record<string, any>) => {
