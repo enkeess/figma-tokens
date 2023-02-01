@@ -97,38 +97,16 @@ export const SCSSComponentFormat: Named<Format> = {
   name: FormatName.SCSSComponent,
   formatter: function ({ dictionary }) {
     return `@use 'sass:map';
-@use 'sass:list';
 
 @import '../themes/styles-base-variables';
 @import '../themes/styles-theme-variables';
 
-@function joinStr($list, $separator) {
-  $result: list.nth($list, 1);
-
-  @for $i from 2 through (list.length($list)) {
-    $result: $result + $separator + list.nth($list, $i);
-  }
-
-  @return $result;
-}
-
 @function simple-var($map: (), $keys...) {
-  $single-key: joinStr($keys, "-");
-  $map-value: map.get($map, $single-key);
-
-  @if $map-value {
-    @return var($map-value);
-  }
-
   @return var(map.get($map, $keys...));
 }
 
 @mixin composite-var($map: (), $keys...) {
-  $single-key: joinStr($keys, '-');
-  $map-value: map.get($map, $single-key);
-  $map: if($map-value, $map-value, map.get($map, $keys...));
-
-  @each $key, $value in $map {
+  @each $key, $value in map.get($map, $keys...) {
     #{$key}: var($value);
   }
 }
