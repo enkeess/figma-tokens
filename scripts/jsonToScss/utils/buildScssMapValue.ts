@@ -72,7 +72,7 @@ ${indent})`;
 
   const compositeTokenTemplate = (token: TransformedToken) => {
     const cssEntryToString = (key: string, value: string) =>
-      figmaTokenToCssProps({ token, key: toKebabCase(key) })
+      figmaTokenToCssProps(toKebabCase(key))
         .map(
           prop => `"${prop}": ${valueFormat === ValueFormat.Original ? value : `--${token.name}-${toKebabCase(key)}`}`,
         )
