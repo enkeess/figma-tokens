@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/compare/npm0.1.0...npm0.2.0) (2023-02-03)
+
+
+### Features
+
+* update dependencies ([1f23846](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/1f23846ca01ec968b2b33b63ef9006a067d4da73))
+
 # [0.1.0](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/compare/npm0.0.1...npm0.1.0) (2023-02-03)
 
 
