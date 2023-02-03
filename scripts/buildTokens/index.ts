@@ -15,6 +15,7 @@ export const THEME_MAP = {
 (async () => {
   await fs.mkdir(TOKENS_BUILD_DIRECTORY, { recursive: true });
 
+  // для каждой темы получаем имя и набора файлов с токенами для этой темы
   for (const { name, selectedTokenSets } of themeConfig) {
     const theme = THEME_MAP[name];
     const paths = Object.keys(selectedTokenSets);
@@ -34,6 +35,7 @@ export const THEME_MAP = {
       }, {}),
     );
 
+    // генерим json-файл с токенами для темы
     await generateTokenFile({
       name: theme,
       subDir: 'themes',
@@ -43,7 +45,9 @@ export const THEME_MAP = {
     });
 
     // TODO: make correct condition for generation
+    // здесь нам нужно по 1 файлу для базовых стилей и компонентов, а не для каждой темы, поэтому такое условие добавлено
     if (theme === Themes.Green) {
+      // генерим файл для базовых стилей
       await generateTokenFile({
         name: 'base',
         subDir: 'themes',
@@ -60,6 +64,7 @@ export const THEME_MAP = {
           .map(item => `${item[0].toLowerCase()}${item.substring(1)}`)
           .join('-');
 
+        // генерим файл для каждого компонента
         await generateTokenFile({
           name,
           subDir: 'components',

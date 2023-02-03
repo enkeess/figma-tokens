@@ -3,6 +3,12 @@ import { Format, Named } from 'style-dictionary';
 import { FormatName, TYPOGRAPHY, ValueFormat } from './constants';
 import { buildScssMapValue, toKebabCase } from './utils';
 
+// Файл с форматами для файлов
+// Format - функция, которая принимает в себя итоговый список токенов и возвращает контент файла
+// (т.е. на текущий момент - это контент scss файла)
+// https://amzn.github.io/style-dictionary/#/formats
+
+// Формат для scss-файла базовых стилей
 export const SCSSBaseFormat: Named<Format> = {
   name: FormatName.SCSSBase,
   formatter: ({ dictionary }) => {
@@ -21,6 +27,7 @@ body {
   },
 };
 
+// Формат для scss-файла с токенами для базовых стилей
 export const SCSSBaseVariablesFormat: Named<Format> = {
   name: FormatName.SCSSBaseVariables,
   formatter: ({ dictionary }) => {
@@ -37,6 +44,7 @@ export const SCSSBaseVariablesFormat: Named<Format> = {
   },
 };
 
+// Формат для scss-файла тематических стилей
 export const SCSSThemeFormat: Named<Format> = {
   name: FormatName.SCSSTheme,
   formatter: ({ dictionary, options }) => {
@@ -59,6 +67,7 @@ body[data-theme='${theme}'] {
   },
 };
 
+// Формат для scss-файла с токенами для тематических стилей
 export const SCSSThemeVariablesFormat: Named<Format> = {
   name: FormatName.SCSSThemeVariables,
   formatter: ({ dictionary }) => {
@@ -93,6 +102,7 @@ export const SCSSThemeVariablesFormat: Named<Format> = {
   },
 };
 
+// Формат для scss-файла с токенами для компонента
 export const SCSSComponentFormat: Named<Format> = {
   name: FormatName.SCSSComponent,
   formatter: function ({ dictionary }) {
