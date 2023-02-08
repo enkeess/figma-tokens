@@ -76,7 +76,7 @@
         "type": "sizing"
       },
       "Xl": {
-        "value": "{Size.General.Shape.Xxl} + {Size.General.Shape.Xs}",
+        "value": "{Size.General.Shape.L} + {Size.General.Shape.M}",
         "type": "sizing"
       },
       "Xxl": {
@@ -120,33 +120,33 @@
     },
     "Button": {
       "Xxs": {
-        "value": "{Radius.General.Shape.Xs}",
+        "value": "{Radius.General.Shape.S}",
         "type": "borderRadius"
       },
       "Xs": {
-        "value": "{Radius.General.Shape.Xs}",
+        "value": "{Radius.General.Shape.M}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{Radius.General.Shape.M}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{Radius.General.Shape.L}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{Radius.General.Shape.L}",
         "type": "borderRadius"
       }
     },
     "Counter": {
       "S": {
-        "value": "{Radius.General.Shape.Xs}",
+        "value": "{Radius.General.Shape.S}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{Radius.General.Shape.M}",
         "type": "borderRadius"
       }
     },
