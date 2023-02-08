@@ -6,9 +6,6 @@
       "Base/Colors": "source",
       "Base/Anatomy": "enabled",
       "Base/Fonts": "source",
-      "Themes/Color/Cloud": "source",
-      "Themes/Typography/Cloud": "enabled",
-      "Themes/Settings/Cloud": "enabled",
       "Components/Counter/Counter": "enabled",
       "Components/Status/Status": "enabled",
       "Components/Avatar/Avatar": "enabled",
@@ -18,7 +15,10 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Themes/Color/Mode/DarkMode": "enabled"
+      "Themes/Color/LightMode": "disabled",
+      "Themes/Color/DarkMode": "enabled",
+      "Themes/Typography/Typography": "disabled",
+      "Themes/Settings/Settings": "disabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:c258ef0c56b0f09969db25c1bd786b84842182fe,",
@@ -469,15 +469,15 @@
       "Components/Status/Status": "enabled",
       "Components/Avatar/Avatar": "enabled",
       "Components/Element/Element": "enabled",
-      "Themes/Color/MlSpace": "source",
-      "Themes/Typography/MlSpace": "enabled",
-      "Themes/Settings/MlSpace": "enabled",
       "Components/Button/ButtonFilled": "enabled",
       "Components/Button/ButtonLight": "enabled",
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Themes/Color/Mode/DarkMode": "enabled"
+      "Themes/Color/LightMode": "disabled",
+      "Themes/Color/DarkMode": "enabled",
+      "Themes/Typography/Typography": "enabled",
+      "Themes/Settings/Settings": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:ec91fc0ba2a3efb6bf618f9ad6fe504bfdaab373,",
@@ -924,9 +924,6 @@
       "Base/Colors": "source",
       "Base/Anatomy": "enabled",
       "Base/Fonts": "source",
-      "Themes/Color/Cloud": "source",
-      "Themes/Typography/Cloud": "enabled",
-      "Themes/Settings/Cloud": "enabled",
       "Components/Counter/Counter": "enabled",
       "Components/Status/Status": "enabled",
       "Components/Avatar/Avatar": "enabled",
@@ -936,7 +933,10 @@
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Themes/Color/Mode/LightMode": "enabled"
+      "Themes/Color/LightMode": "enabled",
+      "Themes/Color/DarkMode": "disabled",
+      "Themes/Typography/Typography": "disabled",
+      "Themes/Settings/Settings": "disabled"
     },
     "$figmaStyleReferences": {
       "Sans.Display.L": "S:fe4ac7931516db1daecf9a9cf4c8e71969c4f9ef,",
@@ -1387,15 +1387,15 @@
       "Components/Status/Status": "enabled",
       "Components/Avatar/Avatar": "enabled",
       "Components/Element/Element": "enabled",
-      "Themes/Color/MlSpace": "source",
-      "Themes/Typography/MlSpace": "enabled",
-      "Themes/Settings/MlSpace": "source",
       "Components/Button/ButtonFilled": "enabled",
       "Components/Button/ButtonLight": "enabled",
       "Components/Button/ButtonOutline": "enabled",
       "Components/Button/ButtonSupport": "enabled",
       "Components/Button/ButtonTonal": "enabled",
-      "Themes/Color/Mode/LightMode": "enabled"
+      "Themes/Color/LightMode": "enabled",
+      "Themes/Color/DarkMode": "disabled",
+      "Themes/Typography/Typography": "enabled",
+      "Themes/Settings/Settings": "source"
     },
     "$figmaStyleReferences": {
       "Crossed out.Display.L": "S:b8af05aa806bc496f6a99908bcc70c3c9fc85103,",
@@ -2278,5 +2278,27 @@
       "Sans.Display.L": "S:a3660efa5d33285922f8dbc2ef41e55474cca904,",
       "Sans.Display.S": "S:1654f8c962aaeeb4b5ac9ec4195cb511da8d13a3,"
     }
+  },
+  {
+    "id": "6ee1ce6b85a5bbc50d919625bb2814de2268ebbb",
+    "name": "BrandLightMode",
+    "selectedTokenSets": {
+      "Base/Colors": "source",
+      "Base/Anatomy": "source",
+      "Base/Fonts": "source",
+      "Components/Element/Element": "source",
+      "Components/Counter/Counter": "source",
+      "Components/Status/Status": "source",
+      "Components/Avatar/Avatar": "source",
+      "Components/Button/ButtonFilled": "source",
+      "Components/Button/ButtonLight": "source",
+      "Components/Button/ButtonOutline": "source",
+      "Components/Button/ButtonSupport": "source",
+      "Components/Button/ButtonTonal": "source",
+      "Themes/Color/LightMode": "enabled",
+      "Themes/Typography/Typography": "enabled",
+      "Themes/Settings/Settings": "source"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
