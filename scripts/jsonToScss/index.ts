@@ -10,14 +10,14 @@ import {
   SCSSComponentFormat,
   SCSSThemeFormat,
   SCSSThemeVariablesFormat,
-} from './fileFormats';
+} from './fileFormatters';
 import { SourceTokensFilter } from './tokenFilters';
-import { TypographyComponentsTransform, TypographyThemeTransform } from './tokenTransforms';
+import { ComponentsTransform, ThemeTransform } from './transformers';
 import { getComponentStylesConfig, getThemeStylesConfig } from './utils';
 
 // подключаем трансофрмеры для токенов
-StyleDictionaryPackage.registerTransform(TypographyThemeTransform);
-StyleDictionaryPackage.registerTransform(TypographyComponentsTransform);
+StyleDictionaryPackage.registerTransform(ThemeTransform);
+StyleDictionaryPackage.registerTransform(ComponentsTransform);
 
 // подключаем форматы для файлов
 StyleDictionaryPackage.registerFormat(SCSSBaseFormat);
@@ -39,7 +39,7 @@ StyleDictionaryPackage.registerFilter(SourceTokensFilter);
   StyleDictionary.buildPlatform(PLATFORM);
 });
 
-// нереим scss-файлы с токенами для компонентов
+// переим scss-файлы с токенами для компонентов
 (async () => {
   const componentFiles = await fs.readdir(`${TOKENS_BUILD_DIRECTORY}/components`);
 

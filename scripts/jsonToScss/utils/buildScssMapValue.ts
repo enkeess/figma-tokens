@@ -1,12 +1,12 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITION, TYPOGRAPHY, ValueFormat } from '../constants';
+import { BASE_INDENT, COMPOSITE_TOKENS, COMPOSITION, ValueFormat } from '../constants';
 import { figmaTokenToCssProps } from './figmaTokenToCssProps';
 import { toKebabCase } from './toKebabCase';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
 
-const replaceRefs = ({
+function replaceRefs({
   dictionary,
   value,
   valueWithRefs,
@@ -14,7 +14,7 @@ const replaceRefs = ({
   dictionary: Dictionary;
   value: unknown;
   valueWithRefs: unknown;
-}) => {
+}) {
   let replacedValue = String(value);
 
   if (dictionary.usesReference(valueWithRefs)) {
@@ -26,9 +26,9 @@ const replaceRefs = ({
   }
 
   return replacedValue;
-};
+}
 
-export const buildScssMapValue = ({
+export function buildScssMapValue({
   dictionary,
   token,
   depth = 0,
@@ -38,7 +38,7 @@ export const buildScssMapValue = ({
   token: TransformedTokens;
   depth?: number;
   valueFormat?: ValueFormat;
-}): string => {
+}): string {
   const indent = new Array(depth).fill(BASE_INDENT).join('');
   const indentPlus1 = indent + BASE_INDENT;
 
@@ -91,9 +91,9 @@ ${indent})`;
     return tokenDictionaryTemplate(token);
   }
 
-  if ([TYPOGRAPHY, COMPOSITION].includes(token.type)) {
+  if ([...COMPOSITE_TOKENS, COMPOSITION].includes(token.type)) {
     return compositeTokenTemplate(token);
   }
 
   return simpleTokenTemplate(token);
-};
+}

@@ -15,7 +15,7 @@ export function getComponentStylesConfig(componentFile: string) {
     ],
     platforms: {
       [PLATFORM]: {
-        transforms: [...StyleDictionaryPackage.transformGroup.scss, TransformName.TypographyComponents],
+        transforms: [...StyleDictionaryPackage.transformGroup.scss, TransformName.Components],
         buildPath: `${SCSS_BUILD_DIRECTORY}/components/`,
         files: [
           {

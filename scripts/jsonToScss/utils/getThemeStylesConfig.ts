@@ -17,7 +17,7 @@ export function getThemeStylesConfig(theme: string) {
       [PLATFORM]: {
         transforms: [
           ...StyleDictionaryPackage.transformGroup.scss,
-          Object.values(Themes).includes(theme as Themes) ? TransformName.TypographyTheme : '',
+          Object.values(Themes).includes(theme as Themes) ? TransformName.Theme : '',
         ].filter(item => item),
         buildPath: `${SCSS_BUILD_DIRECTORY}/themes/`,
         files: [

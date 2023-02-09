@@ -2,9 +2,15 @@ export const PLATFORM = 'web';
 export const BASE = 'base';
 export const BASE_VARIABLES = 'base-variables';
 export const THEME_VARIABLES = 'theme-variables';
-export const TYPOGRAPHY = 'typography';
 export const COMPOSITION = 'composition';
 export const BASE_INDENT = '  ';
+
+export enum CompositeToken {
+  Border = 'border',
+  Typography = 'typography',
+}
+
+export const COMPOSITE_TOKENS = Object.values(CompositeToken);
 
 export enum FormatName {
   SCSSBase = 'scss/base',
@@ -15,8 +21,8 @@ export enum FormatName {
 }
 
 export enum TransformName {
-  TypographyTheme = 'typography/theme',
-  TypographyComponents = 'typography/components',
+  Theme = 'theme',
+  Components = 'components',
 }
 
 export enum FilterName {
