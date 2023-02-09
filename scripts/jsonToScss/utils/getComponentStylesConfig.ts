@@ -11,7 +11,7 @@ export function getComponentStylesConfig(componentFile: string) {
     source: [componentPath],
     include: [
       `${TOKENS_BUILD_DIRECTORY}/themes/tokens-base.json`,
-      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-green.json`,
+      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-brand.json`,
     ],
     platforms: {
       [PLATFORM]: {

@@ -47,21 +47,17 @@ export const SCSSBaseVariablesFormat: Named<Format> = {
 // Формат для scss-файла тематических стилей
 export const SCSSThemeFormat: Named<Format> = {
   name: FormatName.SCSSTheme,
-  formatter: ({ dictionary, options }) => {
-    const { theme } = options;
+  formatter: ({ dictionary }) => {
     const tokenValues = dictionary.allTokens
-      .map(token => (token.type === TYPOGRAPHY ? token.value : `$${token.name}: ${token.value},`))
+      .map(token =>
+        token.type === TYPOGRAPHY
+          ? token.value.replace(/\$/g, '--').replace(/,/g, ';')
+          : `--${token.name}: ${token.value};`,
+      )
       .join('\n  ');
 
-    return `@import './styles-base-variables';
-@import './styles-theme-variables';
-
-$theme-map-${theme}: (
+    return `.theme {
   ${tokenValues}
-);
-
-body[data-theme='${theme}'] {
-  @include spread-map($theme-map-${theme});
 }
 `;
   },

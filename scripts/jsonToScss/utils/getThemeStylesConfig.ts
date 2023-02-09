@@ -8,7 +8,7 @@ export function getThemeStylesConfig(theme: string) {
     source: [
       `${TOKENS_BUILD_DIRECTORY}/themes/tokens-${
         {
-          [THEME_VARIABLES]: 'green',
+          [THEME_VARIABLES]: 'brand',
           [BASE_VARIABLES]: 'base',
         }[theme] ?? theme
       }.json`,
@@ -22,7 +22,7 @@ export function getThemeStylesConfig(theme: string) {
         buildPath: `${SCSS_BUILD_DIRECTORY}/themes/`,
         files: [
           {
-            destination: `styles-${theme}.scss`,
+            destination: `styles-${theme}${theme === 'brand' || theme === 'brandDark' ? '.module' : ''}.scss`,
             format:
               {
                 [THEME_VARIABLES]: FormatName.SCSSThemeVariables,

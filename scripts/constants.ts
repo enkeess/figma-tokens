@@ -1,8 +1,6 @@
 export enum Themes {
-  Purple = 'purple',
-  PurpleDark = 'purpleDark',
-  Green = 'green',
-  GreenDark = 'greenDark',
+  Brand = 'brand',
+  BrandDark = 'brandDark',
 }
 
 export const TOKENS_DIRECTORY = './tokens';

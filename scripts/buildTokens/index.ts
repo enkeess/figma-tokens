@@ -6,10 +6,8 @@ import { generateTokenFile } from './generateTokenFile';
 import { addUnits } from './utils';
 
 export const THEME_MAP = {
-  CloudLightMode: Themes.Green,
-  CloudDarkMode: Themes.GreenDark,
-  MlSpaceLightMode: Themes.Purple,
-  MlSpaceDarkMode: Themes.PurpleDark,
+  BrandLightMode: Themes.Brand,
+  BrandDarkMode: Themes.BrandDark,
 };
 
 (async () => {
@@ -46,7 +44,7 @@ export const THEME_MAP = {
 
     // TODO: make correct condition for generation
     // здесь нам нужно по 1 файлу для базовых стилей и компонентов, а не для каждой темы, поэтому такое условие добавлено
-    if (theme === Themes.Green) {
+    if (theme === Themes.Brand) {
       // генерим файл для базовых стилей
       await generateTokenFile({
         name: 'base',
