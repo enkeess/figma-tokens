@@ -1,7 +1,6 @@
 {
-  "extends": "ts-config-single-spa",
+  "extends": "@sbercloud/ft-config-tsconfig",
   "ts-node": {
-    "compilerOptions": {"module": "CommonJS"},
     "files": true
   },
   "compilerOptions": {
