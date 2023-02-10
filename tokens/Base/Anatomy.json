@@ -1,21 +1,21 @@
 {
-  "Shadow": {
+  "BoxShadow": {
     "Elevation": {
       "Level1": {
         "value": [
           {
-            "x": "{Size.0m}",
-            "y": "{Size.0m}",
-            "blur": "{Size.050m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.050m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A004})",
             "type": "dropShadow"
           },
           {
-            "x": "{Size.0m}",
-            "y": "{Size.025m}",
-            "blur": "{Size.050m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.025m}",
+            "blur": "{Dimension.050m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A004})",
             "type": "dropShadow"
           }
@@ -25,18 +25,18 @@
       "Level2": {
         "value": [
           {
-            "x": "{Size.0m}",
-            "y": "{Size.0m}",
-            "blur": "{Size.050m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.050m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A004})",
             "type": "dropShadow"
           },
           {
-            "x": "{Size.0m}",
-            "y": "{Size.050m}",
-            "blur": "{Size.1m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.050m}",
+            "blur": "{Dimension.1m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           }
@@ -46,18 +46,18 @@
       "Level3": {
         "value": [
           {
-            "x": "{Size.0m}",
-            "y": "{Size.0m}",
-            "blur": "{Size.1m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.1m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           },
           {
-            "x": "{Size.0m}",
-            "y": "{Size.1m}",
-            "blur": "{Size.2m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.1m}",
+            "blur": "{Dimension.2m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           }
@@ -67,18 +67,18 @@
       "Level4": {
         "value": [
           {
-            "x": "{Size.0m}",
-            "y": "{Size.0m}",
-            "blur": "{Size.1m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.1m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           },
           {
-            "x": "{Size.0m}",
-            "y": "{Size.2m}",
-            "blur": "{Size.2m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.2m}",
+            "blur": "{Dimension.2m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           }
@@ -88,18 +88,18 @@
       "Level5": {
         "value": [
           {
-            "x": "{Size.0m}",
-            "y": "{Size.0m}",
-            "blur": "{Size.2m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.2m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           },
           {
-            "x": "{Size.0m}",
-            "y": "{Size.3m}",
-            "blur": "{Size.2m}",
-            "spread": "{Size.0m}",
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.3m}",
+            "blur": "{Dimension.2m}",
+            "spread": "{Dimension.0m}",
             "color": "rgba({Ref.Gray.10}, {Opacity.A008})",
             "type": "dropShadow"
           }
@@ -108,112 +108,58 @@
       }
     }
   },
-  "Size": {
+  "Dimension": {
     "0m": {
-      "value": "{ModuleScale} * 0",
-      "type": "sizing"
+      "value": "{DimensionModule} * 0",
+      "type": "dimension"
     },
     "025m": {
-      "value": "{ModuleScale} / 4",
-      "type": "sizing"
+      "value": "{DimensionModule} / 4",
+      "type": "dimension"
     },
     "050m": {
-      "value": "{ModuleScale} / 2",
-      "type": "sizing"
+      "value": "{DimensionModule} / 2",
+      "type": "dimension"
     },
     "1m": {
-      "value": "{ModuleScale}",
-      "type": "sizing"
+      "value": "{DimensionModule}",
+      "type": "dimension"
     },
     "2m": {
-      "value": "{ModuleScale} * 2",
-      "type": "sizing"
+      "value": "{DimensionModule} * 2",
+      "type": "dimension"
     },
     "3m": {
-      "value": "{ModuleScale} * 3",
-      "type": "sizing"
+      "value": "{DimensionModule} * 3",
+      "type": "dimension"
     },
     "4m": {
-      "value": "{ModuleScale} * 4",
-      "type": "sizing"
+      "value": "{DimensionModule} * 4",
+      "type": "dimension"
     },
     "5m": {
-      "value": "{ModuleScale} * 5",
-      "type": "sizing"
+      "value": "{DimensionModule} * 5",
+      "type": "dimension"
     },
     "6m": {
-      "value": "{ModuleScale} * 6",
-      "type": "sizing"
+      "value": "{DimensionModule} * 6",
+      "type": "dimension"
     },
     "7m": {
-      "value": "{ModuleScale} * 7",
-      "type": "sizing"
+      "value": "{DimensionModule} * 7",
+      "type": "dimension"
     },
     "8m": {
-      "value": "{ModuleScale} * 8",
-      "type": "sizing"
+      "value": "{DimensionModule} * 8",
+      "type": "dimension"
     },
     "9m": {
-      "value": "{ModuleScale} * 9",
-      "type": "sizing"
+      "value": "{DimensionModule} * 9",
+      "type": "dimension"
     },
     "10m": {
-      "value": "{ModuleScale} * 10",
-      "type": "sizing"
-    }
-  },
-  "Space": {
-    "0m": {
-      "value": "{ModuleScale} * 0",
-      "type": "spacing"
-    },
-    "025m": {
-      "value": "{ModuleScale} / 4",
-      "type": "spacing"
-    },
-    "050m": {
-      "value": "{ModuleScale} / 2",
-      "type": "spacing"
-    },
-    "1m": {
-      "value": "{ModuleScale}",
-      "type": "spacing"
-    },
-    "2m": {
-      "value": "{ModuleScale} * 2",
-      "type": "spacing"
-    },
-    "3m": {
-      "value": "{ModuleScale} * 3",
-      "type": "spacing"
-    },
-    "4m": {
-      "value": "{ModuleScale} * 4",
-      "type": "spacing"
-    },
-    "5m": {
-      "value": "{ModuleScale} * 5",
-      "type": "spacing"
-    },
-    "6m": {
-      "value": "{ModuleScale} * 6",
-      "type": "spacing"
-    },
-    "7m": {
-      "value": "{ModuleScale} * 7",
-      "type": "spacing"
-    },
-    "8m": {
-      "value": "{ModuleScale} * 8",
-      "type": "spacing"
-    },
-    "9m": {
-      "value": "{ModuleScale} * 9",
-      "type": "spacing"
-    },
-    "10m": {
-      "value": "{ModuleScale} * 10",
-      "type": "spacing"
+      "value": "{DimensionModule} * 10",
+      "type": "dimension"
     }
   },
   "Opacity": {
@@ -250,68 +196,34 @@
       "type": "opacity"
     }
   },
-  "Border": {
+  "BorderWidth": {
     "006m": {
-      "value": "{ModuleScale} / 16",
+      "value": "{DimensionModule} / 16",
       "type": "borderWidth"
     },
     "012m": {
-      "value": "{ModuleScale} / 8",
+      "value": "{DimensionModule} / 8",
       "type": "borderWidth"
     },
     "018m": {
-      "value": "{Border.006m} + {Border.012m}",
+      "value": "{BorderWidth.006m} + {BorderWidth.012m}",
       "type": "borderWidth"
     },
     "025m": {
-      "value": "{ModuleScale} / 4",
+      "value": "{DimensionModule} / 4",
       "type": "borderWidth"
     },
     "038m": {
-      "value": "{Border.025m} + {Border.012m}",
+      "value": "{BorderWidth.025m} + {BorderWidth.012m}",
       "type": "borderWidth"
     },
     "050m": {
-      "value": "{ModuleScale} / 2",
+      "value": "{DimensionModule} / 2",
       "type": "borderWidth"
     }
   },
-  "Radius": {
-    "0m": {
-      "value": "{ModuleScale} * 0",
-      "type": "borderRadius"
-    },
-    "025m": {
-      "value": "{ModuleScale} * 0.25",
-      "type": "borderRadius"
-    },
-    "050m": {
-      "value": "{ModuleScale} * 0.5",
-      "type": "borderRadius"
-    },
-    "1m": {
-      "value": "{ModuleScale}",
-      "type": "borderRadius"
-    },
-    "2m": {
-      "value": "{ModuleScale} * 2",
-      "type": "borderRadius"
-    },
-    "3m": {
-      "value": "{ModuleScale} * 3",
-      "type": "borderRadius"
-    },
-    "4m": {
-      "value": "{ModuleScale} * 4",
-      "type": "borderRadius"
-    },
-    "5m": {
-      "value": "{ModuleScale} * 5",
-      "type": "borderRadius"
-    }
-  },
-  "ModuleScale": {
-    "value": "8",
+  "DimensionModule": {
+    "value": "8{px}",
     "type": "other",
     "description": "The basic module of the indentation and dimension system"
   },
@@ -319,5 +231,19 @@
     "value": "4",
     "type": "other",
     "description": "Basic Opacity multiplier"
+  },
+  "px": {
+    "value": "px",
+    "type": "other"
+  },
+  "BorderStyles": {
+    "Solid": {
+      "value": "solid",
+      "type": "other"
+    },
+    "Dashed": {
+      "value": "dashed",
+      "type": "other"
+    }
   }
 }

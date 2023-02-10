@@ -1,17 +1,17 @@
 {
   "LayoutBadgeS": {
     "value": {
-      "sizing": "{Size.050m}",
-      "paddingLeft": "{Space.0m}",
-      "paddingBottom": "{Space.0m}"
+      "sizing": "{Dimension.050m}",
+      "paddingLeft": "{Dimension.0m}",
+      "paddingBottom": "{Dimension.0m}"
     },
     "type": "composition"
   },
   "LayoutBadgeM": {
     "value": {
-      "sizing": "{Size.1m}",
-      "paddingLeft": "{Space.0m}",
-      "paddingBottom": "{Space.0m}"
+      "sizing": "{Dimension.1m}",
+      "paddingLeft": "{Dimension.0m}",
+      "paddingBottom": "{Dimension.0m}"
     },
     "type": "composition"
   },
@@ -81,16 +81,16 @@
       }
     },
     "SizeXs": {
-      "value": "{Size.General.Shape.Xxs}",
+      "value": "{Dimension.2m}",
       "type": "sizing"
     },
     "SizeS": {
-      "value": "{Size.General.Shape.Xs}",
+      "value": "{Dimension.3m}",
       "type": "sizing"
     }
   },
   "LabelBadge": {
-    "value": "{Space.050m}",
+    "value": "{DimensionTheme.General.4px}",
     "type": "spacing"
   },
   "ContainerFocused": {

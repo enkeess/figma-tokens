@@ -18,7 +18,7 @@
             "height": "{Size.Button.S}",
             "paddingRight": "{Space.Button.S.FromLabel}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
           },
           "type": "composition"
         },
@@ -92,8 +92,12 @@
     },
     "Label": {
       "LoadLabelOnly": {
-        "value": "{Opacity.A0}",
-        "type": "opacity"
+        "value": {
+          "opacity": "{Opacity.A0}"
+        },
+        "description": "Скрывает лейбл для кнопки LabelOnly в состоянии Load",
+        "type": "composition",
+        "inheritTypeLevel": 3
       }
     }
   }

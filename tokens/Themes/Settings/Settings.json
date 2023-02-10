@@ -1,219 +1,211 @@
 {
-  "Size": {
+  "DimensionTheme": {
     "General": {
-      "Shape": {
-        "Xxs": {
-          "value": "{Size.2m}",
-          "type": "sizing"
-        },
-        "Xs": {
-          "value": "{Size.3m}",
-          "type": "sizing"
-        },
-        "S": {
-          "value": "{Size.4m}",
-          "type": "sizing"
-        },
-        "M": {
-          "value": "{Size.5m}",
-          "type": "sizing"
-        },
-        "L": {
-          "value": "{Size.6m}",
-          "type": "sizing"
-        },
-        "Xl": {
-          "value": "{Size.7m}",
-          "type": "sizing"
-        },
-        "Xxl": {
-          "value": "{Size.8m}",
-          "type": "sizing"
-        }
+      "2px": {
+        "value": "{Dimension.025m}",
+        "type": "dimension"
+      },
+      "0px": {
+        "value": "{Dimension.0m}",
+        "type": "dimension"
+      },
+      "4px": {
+        "value": "{Dimension.050m}",
+        "type": "dimension"
+      },
+      "8px": {
+        "value": "{Dimension.1m}",
+        "type": "dimension"
+      },
+      "16px": {
+        "value": "{Dimension.2m}",
+        "type": "dimension"
+      },
+      "24px": {
+        "value": "{Dimension.3m}",
+        "type": "dimension"
+      },
+      "32px": {
+        "value": "{Dimension.4m}",
+        "type": "dimension"
+      },
+      "40px": {
+        "value": "{Dimension.5m}",
+        "type": "dimension"
+      },
+      "48px": {
+        "value": "{Dimension.6m}",
+        "type": "dimension"
+      },
+      "56px": {
+        "value": "{Dimension.7m}",
+        "type": "dimension"
+      },
+      "64px": {
+        "value": "{Dimension.8m}",
+        "type": "dimension"
+      },
+      "72px": {
+        "value": "{Dimension.9m}",
+        "type": "dimension"
+      },
+      "80px": {
+        "value": "{Dimension.10m}",
+        "type": "dimension"
       }
-    },
+    }
+  },
+  "Size": {
     "Button": {
       "Xxs": {
-        "value": "{Size.General.Shape.Xxs}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       },
       "Xs": {
-        "value": "{Size.General.Shape.Xs}",
+        "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
       },
       "S": {
-        "value": "{Size.General.Shape.S}",
+        "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
       "M": {
-        "value": "{Size.General.Shape.M}",
+        "value": "{DimensionTheme.General.40px}",
         "type": "sizing"
       },
       "L": {
-        "value": "{Size.General.Shape.L}",
+        "value": "{DimensionTheme.General.48px}",
         "type": "sizing"
       }
     },
     "Avatar": {
       "Xxs": {
-        "value": "{Size.General.Shape.Xxs}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       },
       "Xs": {
-        "value": "{Size.General.Shape.Xs}",
+        "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
       },
       "S": {
-        "value": "{Size.General.Shape.S}",
+        "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
       "M": {
-        "value": "{Size.General.Shape.L}",
+        "value": "{DimensionTheme.General.48px}",
         "type": "sizing"
       },
       "L": {
-        "value": "{Size.General.Shape.Xxl}",
+        "value": "{DimensionTheme.General.64px}",
         "type": "sizing"
       },
       "Xl": {
-        "value": "{Size.General.Shape.L} + {Size.General.Shape.M}",
+        "value": "{DimensionTheme.General.8px} * 11",
         "type": "sizing"
       },
       "Xxl": {
-        "value": "{Size.General.Shape.Xl} * 2",
+        "value": "{DimensionTheme.General.8px} * 14",
         "type": "sizing"
       }
     }
   },
   "Radius": {
-    "General": {
-      "Shape": {
-        "Xxs": {
-          "value": "{Radius.025m}",
-          "type": "borderRadius"
-        },
-        "Xs": {
-          "value": "{Radius.050m}",
-          "type": "borderRadius"
-        },
-        "S": {
-          "value": "{Radius.1m}",
-          "type": "borderRadius"
-        },
-        "M": {
-          "value": "{Radius.2m}",
-          "type": "borderRadius"
-        },
-        "L": {
-          "value": "{Radius.3m}",
-          "type": "borderRadius"
-        },
-        "Xl": {
-          "value": "{Radius.4m}",
-          "type": "borderRadius"
-        },
-        "Xxl": {
-          "value": "{Radius.5m}",
-          "type": "borderRadius"
-        }
-      }
-    },
     "Button": {
       "Xxs": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "Xs": {
-        "value": "{Radius.General.Shape.M}",
+        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{Radius.General.Shape.M}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{Radius.General.Shape.L}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{Radius.General.Shape.L}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
     "Counter": {
       "S": {
-        "value": "{Radius.General.Shape.S}",
+        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{Radius.General.Shape.M}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
     "StatusIndicator": {
       "Single": {
-        "value": "{Radius.General.Shape.M}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
     "Avatar": {
       "User": {
         "Xxs": {
-          "value": "{Radius.General.Shape.S}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         },
         "Xs": {
-          "value": "{Radius.General.Shape.M}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         },
         "S": {
-          "value": "{Radius.General.Shape.L}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         },
         "M": {
-          "value": "{Radius.General.Shape.L}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         },
         "L": {
-          "value": "{Radius.General.Shape.Xl}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "borderRadius"
         },
         "Xl": {
-          "value": "{Radius.General.Shape.L} * 2",
+          "value": "{DimensionTheme.General.48px}",
           "type": "borderRadius"
         },
         "Xxl": {
-          "value": "{Radius.General.Shape.Xl} * 2",
+          "value": "{DimensionTheme.General.64px}",
           "type": "borderRadius"
         }
       },
       "Corp": {
         "Xxs": {
-          "value": "{Radius.General.Shape.Xs}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "Xs": {
-          "value": "{Radius.General.Shape.Xs}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "S": {
-          "value": "{Radius.General.Shape.Xs}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "M": {
-          "value": "{Radius.General.Shape.S}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         },
         "L": {
-          "value": "{Radius.General.Shape.M}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         },
         "Xl": {
-          "value": "{Radius.General.Shape.L}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         },
         "Xxl": {
-          "value": "{Radius.General.Shape.L}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         }
       }
@@ -223,83 +215,103 @@
     "Button": {
       "Xxs": {
         "FromIcon": {
-          "value": "{Space.025m}",
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         },
         "Gap": {
-          "value": "{Space.025m}",
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{Space.050m}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
       },
       "Xs": {
         "FromIcon": {
-          "value": "{Space.050m}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "Gap": {
-          "value": "{Space.025m}",
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{Space.1m}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       },
       "S": {
         "FromIcon": {
-          "value": "{Space.1m}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
         "Gap": {
-          "value": "{Space.050m}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{Space.2m}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
       },
       "M": {
         "FromIcon": {
-          "value": "{Space.2m}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         },
         "Gap": {
-          "value": "{Space.050m}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{Space.3m}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         }
       },
       "L": {
         "FromIcon": {
-          "value": "{Space.3m}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         },
         "Gap": {
-          "value": "{Space.050m}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{Space.4m}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         }
       }
     }
   },
   "BorderWidth": {
-    "Button": {
-      "ContainerOutline": {
-        "Single": {
-          "value": "{Border.025m}",
-          "type": "borderWidth"
-        }
+    "General": {
+      "05px": {
+        "value": "{BorderWidth.006m}",
+        "type": "borderWidth"
+      },
+      "1px": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      },
+      "2px": {
+        "value": "{BorderWidth.025m}",
+        "type": "borderWidth"
+      },
+      "3px": {
+        "value": "{BorderWidth.038m}",
+        "type": "borderWidth"
+      },
+      "4px": {
+        "value": "{BorderWidth.050m}",
+        "type": "borderWidth"
+      }
+    },
+    "ButtonOutline": {
+      "Single": {
+        "value": "{BorderWidth.General.2px}",
+        "type": "borderWidth"
       }
     }
   },
@@ -307,25 +319,25 @@
     "StateFocusPrimary": {
       "S": {
         "value": {
-          "width": "{Border.025m}",
-          "style": "Solid",
-          "color": "Sys.Primary.LineActivated"
+          "width": "{BorderWidth.General.2px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Primary.LineActivated}"
         },
         "type": "border"
       },
       "M": {
         "value": {
-          "width": "{Border.038m}",
-          "style": "Solid",
-          "color": "Sys.Primary.LineActivated"
+          "width": "{BorderWidth.General.3px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Primary.LineActivated}"
         },
         "type": "border"
       },
       "L": {
         "value": {
-          "width": "{Border.050m}",
-          "style": "Solid",
-          "color": "Sys.Primary.LineActivated"
+          "width": "{BorderWidth.General.4px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Primary.LineActivated}"
         },
         "type": "border"
       }
@@ -333,25 +345,25 @@
     "StateFocusAvailable": {
       "S": {
         "value": {
-          "width": "{Border.025m}",
-          "style": "Solid",
-          "color": "Sys.Available.Complementary"
+          "width": "{BorderWidth.General.2px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Available.Complementary}"
         },
         "type": "border"
       },
       "M": {
         "value": {
-          "width": "{Border.038m}",
-          "style": "Solid",
-          "color": "Sys.Available.Complementary"
+          "width": "{BorderWidth.General.3px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Available.Complementary}"
         },
         "type": "border"
       },
       "L": {
         "value": {
-          "width": "{Border.050m}",
-          "style": "Solid",
-          "color": "Sys.Available.Complementary"
+          "width": "{BorderWidth.General.4px}",
+          "style": "{BorderStyles.Solid}",
+          "color": "{Sys.Available.Complementary}"
         },
         "type": "border"
       }

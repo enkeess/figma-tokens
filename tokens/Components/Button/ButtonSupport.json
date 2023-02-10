@@ -25,7 +25,7 @@
             "height": "{Size.Button.Xxs}",
             "paddingRight": "{Space.Button.Xxs.FromLabel}",
             "paddingLeft": "{Space.Button.Xxs.FromLabel}",
-            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
           },
           "type": "composition"
         },
@@ -44,7 +44,7 @@
             "itemSpacing": "{Space.Button.Xs.Gap}",
             "paddingRight": "{Space.Button.Xs.FromIcon}",
             "paddingLeft": "{Space.Button.Xs.FromLabel}",
-            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
           },
           "type": "composition"
         },
@@ -62,7 +62,7 @@
             "height": "{Size.Button.Xs}",
             "paddingRight": "{Space.Button.Xs.FromLabel}",
             "paddingLeft": "{Space.Button.Xs.FromLabel}",
-            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
           },
           "type": "composition"
         },
@@ -81,7 +81,7 @@
             "itemSpacing": "{Space.Button.S.Gap}",
             "paddingRight": "{Space.Button.S.FromIcon}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderWidth": "{BorderWidth.Button.ContainerOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
           },
           "type": "composition"
         },
@@ -183,8 +183,12 @@
     },
     "Label": {
       "LoadLabelOnly": {
-        "value": "{Opacity.A0}",
-        "type": "opacity"
+        "value": {
+          "opacity": "{Opacity.A0}"
+        },
+        "description": "Скрывает лейбл для кнопки LabelOnly в состоянии Load",
+        "type": "composition",
+        "inheritTypeLevel": 3
       }
     }
   }

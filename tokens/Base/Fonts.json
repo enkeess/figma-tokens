@@ -78,7 +78,7 @@
     }
   },
   "LineHeightMultipler": {
-    "value": "{ModuleScale} / 2",
+    "value": "{DimensionModule} / 2",
     "type": "other",
     "description": "Multiplier based on the basic module, to adjust the height of font lines"
   },

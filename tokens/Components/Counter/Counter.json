@@ -6,11 +6,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -18,11 +18,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -30,11 +30,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -54,9 +54,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.025m} / 4",
-            "paddingLeft": "{Space.025m} / 4",
-            "itemSpacing": "{Space.025m} / 2"
+            "paddingRight": "{Spacing.025m} / 4",
+            "paddingLeft": "{Spacing.025m} / 4",
+            "itemSpacing": "{Spacing.025m} / 2"
           },
           "type": "composition"
         }
@@ -66,11 +66,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -78,11 +78,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -90,11 +90,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Primary.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -114,9 +114,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.050m} - 0.5",
-            "paddingLeft": "{Space.050m} - 0.5",
-            "itemSpacing": "{Space.025m}"
+            "paddingRight": "{Spacing.050m} - 0.5",
+            "paddingLeft": "{Spacing.050m} - 0.5",
+            "itemSpacing": "{Spacing.025m}"
           },
           "type": "composition"
         }
@@ -128,11 +128,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -140,11 +140,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -152,11 +152,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -176,9 +176,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.025m} / 4",
-            "paddingLeft": "{Space.025m} / 4",
-            "itemSpacing": "{Space.025m} / 2"
+            "paddingRight": "{Spacing.025m} / 4",
+            "paddingLeft": "{Spacing.025m} / 4",
+            "itemSpacing": "{Spacing.025m} / 2"
           },
           "type": "composition"
         }
@@ -188,11 +188,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -200,11 +200,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -212,11 +212,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Neutral.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -236,9 +236,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.050m} - 0.5",
-            "paddingLeft": "{Space.050m} - 0.5",
-            "itemSpacing": "{Space.025m}"
+            "paddingRight": "{Spacing.050m} - 0.5",
+            "paddingLeft": "{Spacing.050m} - 0.5",
+            "itemSpacing": "{Spacing.025m}"
           },
           "type": "composition"
         }
@@ -250,11 +250,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -262,11 +262,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -274,11 +274,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.2m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.2m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -298,9 +298,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.025m} / 4",
-            "paddingLeft": "{Space.025m} / 4",
-            "itemSpacing": "{Space.025m} / 2"
+            "paddingRight": "{Spacing.025m} / 4",
+            "paddingLeft": "{Spacing.025m} / 4",
+            "itemSpacing": "{Spacing.025m} / 2"
           },
           "type": "composition"
         }
@@ -310,11 +310,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -322,11 +322,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.025m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.025m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -334,11 +334,11 @@
           "value": {
             "borderRadius": "{Radius.Counter.M}",
             "fill": "{Sys.Critical.AccentEnabled}",
-            "height": "{Size.3m}",
-            "paddingRight": "{Space.050m}",
-            "paddingLeft": "{Space.050m}",
+            "height": "{Sizing.3m}",
+            "paddingRight": "{Spacing.050m}",
+            "paddingLeft": "{Spacing.050m}",
             "border": "{Sys.Neutral.OnAccent}",
-            "borderWidth": "{Border.018m}"
+            "borderWidth": "{BorderWidth.018m}"
           },
           "type": "composition"
         },
@@ -358,9 +358,9 @@
         },
         "CenteringCount": {
           "value": {
-            "paddingRight": "{Space.050m} - 0.5",
-            "paddingLeft": "{Space.050m} - 0.5",
-            "itemSpacing": "{Space.025m}"
+            "paddingRight": "{Spacing.050m} - 0.5",
+            "paddingLeft": "{Spacing.050m} - 0.5",
+            "itemSpacing": "{Spacing.025m}"
           },
           "type": "composition"
         }

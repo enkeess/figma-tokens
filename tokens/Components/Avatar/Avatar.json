@@ -3,56 +3,56 @@
     "BadgeAvatar": {
       "Xxs": {
         "value": {
-          "paddingLeft": "{Space.2m} - {Space.050m}",
-          "paddingTop": "{Space.2m} - {Space.050m}",
+          "paddingLeft": "{Spacing.2m} - {Spacing.050m}",
+          "paddingTop": "{Spacing.2m} - {Spacing.050m}",
           "sizing": "{Size.Avatar.Xxs}"
         },
         "type": "composition"
       },
       "Xs": {
         "value": {
-          "paddingLeft": "{Space.2m}",
-          "paddingTop": "{Space.2m}",
+          "paddingLeft": "{Spacing.2m}",
+          "paddingTop": "{Spacing.2m}",
           "sizing": "{Size.Avatar.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "paddingLeft": "{Space.3m}",
-          "paddingTop": "{Space.3m}",
+          "paddingLeft": "{Spacing.3m}",
+          "paddingTop": "{Spacing.3m}",
           "sizing": "{Size.Avatar.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "paddingLeft": "{Space.4m}",
-          "paddingTop": "{Space.4m}",
+          "paddingLeft": "{Spacing.4m}",
+          "paddingTop": "{Spacing.4m}",
           "sizing": "{Size.Avatar.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "paddingLeft": "{Space.6m}",
-          "paddingTop": "{Space.6m}",
+          "paddingLeft": "{Spacing.6m}",
+          "paddingTop": "{Spacing.6m}",
           "sizing": "{Size.Avatar.L}"
         },
         "type": "composition"
       },
       "Xl": {
         "value": {
-          "paddingLeft": "{Space.8m}",
-          "paddingTop": "{Space.8m}",
+          "paddingLeft": "{Spacing.8m}",
+          "paddingTop": "{Spacing.8m}",
           "sizing": "{Size.Avatar.Xl}"
         },
         "type": "composition"
       },
       "Xxl": {
         "value": {
-          "paddingLeft": "{Space.10m} + {Space.1m}",
-          "paddingTop": "{Space.10m} + {Space.1m}",
+          "paddingLeft": "{Spacing.10m} + {Spacing.1m}",
+          "paddingTop": "{Spacing.10m} + {Spacing.1m}",
           "sizing": "{Size.Avatar.Xxl}"
         },
         "type": "composition"

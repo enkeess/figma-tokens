@@ -5,10 +5,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Size.050m}",
-          "width": "{Size.050m}",
+          "height": "{Sizing.050m}",
+          "width": "{Sizing.050m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.012m}"
+          "borderWidth": "{BorderWidth.012m}"
         },
         "type": "composition"
       },
@@ -16,10 +16,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Size.1m}",
-          "width": "{Size.1m}",
+          "height": "{Sizing.1m}",
+          "width": "{Sizing.1m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.018m}"
+          "borderWidth": "{BorderWidth.018m}"
         },
         "type": "composition"
       },
@@ -27,10 +27,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Size.2m}",
-          "width": "{Size.2m}",
+          "height": "{Sizing.2m}",
+          "width": "{Sizing.2m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       },
@@ -38,10 +38,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Size.3m}",
-          "width": "{Size.3m}",
+          "height": "{Sizing.3m}",
+          "width": "{Sizing.3m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       }
@@ -51,10 +51,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Size.050m}",
-          "width": "{Size.050m}",
+          "height": "{Sizing.050m}",
+          "width": "{Sizing.050m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.012m}"
+          "borderWidth": "{BorderWidth.012m}"
         },
         "type": "composition"
       },
@@ -62,10 +62,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Size.1m}",
-          "width": "{Size.1m}",
+          "height": "{Sizing.1m}",
+          "width": "{Sizing.1m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.018m}"
+          "borderWidth": "{BorderWidth.018m}"
         },
         "type": "composition"
       },
@@ -73,10 +73,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Size.2m}",
-          "width": "{Size.2m}",
+          "height": "{Sizing.2m}",
+          "width": "{Sizing.2m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       },
@@ -84,10 +84,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Size.3m}",
-          "width": "{Size.3m}",
+          "height": "{Sizing.3m}",
+          "width": "{Sizing.3m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       }
@@ -97,10 +97,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Size.050m}",
-          "width": "{Size.050m}",
+          "height": "{Sizing.050m}",
+          "width": "{Sizing.050m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.012m}"
+          "borderWidth": "{BorderWidth.012m}"
         },
         "type": "composition"
       },
@@ -108,10 +108,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Size.1m}",
-          "width": "{Size.1m}",
+          "height": "{Sizing.1m}",
+          "width": "{Sizing.1m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.018m}"
+          "borderWidth": "{BorderWidth.018m}"
         },
         "type": "composition"
       },
@@ -119,10 +119,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Size.2m}",
-          "width": "{Size.2m}",
+          "height": "{Sizing.2m}",
+          "width": "{Sizing.2m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       },
@@ -130,10 +130,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Size.3m}",
-          "width": "{Size.3m}",
+          "height": "{Sizing.3m}",
+          "width": "{Sizing.3m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       }
@@ -143,10 +143,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Size.050m}",
-          "width": "{Size.050m}",
+          "height": "{Sizing.050m}",
+          "width": "{Sizing.050m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.012m}"
+          "borderWidth": "{BorderWidth.012m}"
         },
         "type": "composition"
       },
@@ -154,10 +154,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Size.1m}",
-          "width": "{Size.1m}",
+          "height": "{Sizing.1m}",
+          "width": "{Sizing.1m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.018m}"
+          "borderWidth": "{BorderWidth.018m}"
         },
         "type": "composition"
       },
@@ -165,10 +165,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Size.2m}",
-          "width": "{Size.2m}",
+          "height": "{Sizing.2m}",
+          "width": "{Sizing.2m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       },
@@ -176,10 +176,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Size.3m}",
-          "width": "{Size.3m}",
+          "height": "{Sizing.3m}",
+          "width": "{Sizing.3m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       }
@@ -189,10 +189,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Size.050m}",
-          "width": "{Size.050m}",
+          "height": "{Sizing.050m}",
+          "width": "{Sizing.050m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.012m}"
+          "borderWidth": "{BorderWidth.012m}"
         },
         "type": "composition"
       },
@@ -200,10 +200,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Size.1m}",
-          "width": "{Size.1m}",
+          "height": "{Sizing.1m}",
+          "width": "{Sizing.1m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.018m}"
+          "borderWidth": "{BorderWidth.018m}"
         },
         "type": "composition"
       },
@@ -211,10 +211,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Size.2m}",
-          "width": "{Size.2m}",
+          "height": "{Sizing.2m}",
+          "width": "{Sizing.2m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       },
@@ -222,10 +222,10 @@
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
           "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Size.3m}",
-          "width": "{Size.3m}",
+          "height": "{Sizing.3m}",
+          "width": "{Sizing.3m}",
           "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{Border.038m}"
+          "borderWidth": "{BorderWidth.038m}"
         },
         "type": "composition"
       }
