@@ -251,7 +251,7 @@
       },
       "S": {
         "FromIcon": {
-          "value": "{Space.1m}",
+          "value": "{Space.3m}",
           "type": "spacing"
         },
         "Gap": {
