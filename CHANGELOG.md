@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.0...npm0.3.1) (2023-02-10)
+
+
+### Bug Fixes
+
+* git remote origin url has been changed ([419200e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/419200e458479de8a28d3f493f551629a87b5877))
+
 # [0.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.2.0...npm0.3.0) (2023-02-10)
 
 
