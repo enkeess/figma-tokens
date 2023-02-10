@@ -3,7 +3,6 @@ import { promises as fs } from 'fs';
 import themeConfig from '../../tokens/$themes.json';
 import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
 import { generateTokenFile } from './generateTokenFile';
-import { addUnits } from './utils';
 
 export const THEME_MAP = {
   BrandLightMode: Themes.Brand,
@@ -16,7 +15,9 @@ export const THEME_MAP = {
   // для каждой темы получаем имя и набора файлов с токенами для этой темы
   for (const { name, selectedTokenSets } of themeConfig) {
     const theme = THEME_MAP[name];
-    const paths = Object.keys(selectedTokenSets);
+    const paths = Object.keys(selectedTokenSets).filter(
+      x => x.startsWith('Components/Button') || !x.startsWith('Components'),
+    ); // TODO: фильтрую, тк Игорь не порефачил, без фильтра не резолвятся токены у всех компонентов, кроме кнопки
     const basePaths = paths.filter(tokens => tokens.startsWith('Base'));
     const themePaths = paths.filter(tokens => tokens.startsWith('Themes'));
     const componentsPaths = paths.filter(tokens => tokens.startsWith('Components'));
@@ -25,13 +26,10 @@ export const THEME_MAP = {
       paths.map(currentPath => fs.readFile(`${TOKENS_DIRECTORY}/${currentPath}.json`, { encoding: 'utf8' })),
     );
 
-    const rawTokens = addUnits(
-      result.reduce((result, currentFile, index) => {
-        result[paths[index]] = JSON.parse(currentFile);
-
-        return result;
-      }, {}),
-    );
+    const rawTokens: Record<string, any> = result.reduce((result, currentFile, index) => {
+      result[paths[index]] = JSON.parse(currentFile);
+      return result;
+    }, {});
 
     // генерим json-файл с токенами для темы
     await generateTokenFile({
