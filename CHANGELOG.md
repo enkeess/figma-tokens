@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.2...npm0.3.3) (2023-02-10)
+
+
+### Bug Fixes
+
+* build tokens for refactored figma ([a7f169d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a7f169dcc2f944e966e9dfcc8a0bacd9e4d88b35))
+* update default brand ([9f488f1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9f488f11bb48703d929a4f0f2da2c2d524160c0c))
+
 ## [0.3.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.1...npm0.3.2) (2023-02-10)
 
 
