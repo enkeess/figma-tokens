@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/compare/npm0.2.0...npm0.3.0) (2023-02-10)
+
+
+### Bug Fixes
+
+* brand color ([763c697](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/763c697699793e7a9efd9dbfff042d55e8f2fa44))
+* brand color ([378ba55](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/378ba55fb07bed8f656bea45ad0dd3dfaeb379d1))
+* brand settings ([b078b32](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/b078b32bddaecd49364dde83c22d4d2492860869))
+* removed unnecessary themes, left 2 modifications ([9bf006d](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/9bf006de11d63d8d1273a51b186b12e0daeaa028))
+* target test architecture of the theme ([a5e0b05](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/a5e0b05208d84f989b71dfb19acf892b0675f73d))
+
+
+### Features
+
+* only 1 brand within BASE layer ([5d5609d](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/commit/5d5609d02604d9ef016efa37d324a19c44766f08))
+
 # [0.2.0](https://git.sbercloud.tech/sbercloud-ui/figma-tokens/compare/npm0.1.0...npm0.2.0) (2023-02-03)
 
 
