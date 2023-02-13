@@ -1,12 +1,12 @@
 {
   "DimensionTheme": {
     "General": {
-      "2px": {
-        "value": "{Dimension.025m}",
-        "type": "dimension"
-      },
       "0px": {
         "value": "{Dimension.0m}",
+        "type": "dimension"
+      },
+      "2px": {
+        "value": "{Dimension.025m}",
         "type": "dimension"
       },
       "4px": {
@@ -51,6 +51,24 @@
       },
       "80px": {
         "value": "{Dimension.10m}",
+        "type": "dimension"
+      }
+    },
+    "CompensationText": {
+      "005": {
+        "value": "{Dimension.025m} / 4",
+        "type": "dimension"
+      },
+      "015": {
+        "value": "{Dimension.025m} - {DimensionTheme.CompensationText.005}",
+        "type": "dimension"
+      },
+      "025": {
+        "value": "{Dimension.025m} + {DimensionTheme.CompensationText.005}",
+        "type": "dimension"
+      },
+      "035": {
+        "value": "{Dimension.050m} - {DimensionTheme.CompensationText.005}",
         "type": "dimension"
       }
     }
@@ -133,12 +151,16 @@
       }
     },
     "Counter": {
-      "S": {
+      "Xs": {
         "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
-      "M": {
+      "S": {
         "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
