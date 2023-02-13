@@ -16,8 +16,9 @@
       "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/LightMode": "enabled",
-      "Themes/Typography/Typography": "enabled",
-      "Themes/Settings/Settings": "source"
+      "Themes/Typography": "enabled",
+      "Themes/Settings": "source",
+      "Themes/Effects": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:63872c290805e80809acbb507ef60afbc17f85dc,",
@@ -469,8 +470,9 @@
       "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/DarkMode": "enabled",
-      "Themes/Typography/Typography": "enabled",
-      "Themes/Settings/Settings": "source"
+      "Themes/Typography": "enabled",
+      "Themes/Settings": "source",
+      "Themes/Effects": "enabled"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
