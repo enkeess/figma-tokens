@@ -8,7 +8,7 @@
             "height": "{DimensionTheme.General.16px}",
             "paddingRight": "{DimensionTheme.General.4px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -18,7 +18,7 @@
             "height": "{DimensionTheme.General.16px}",
             "paddingRight": "{DimensionTheme.General.2px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -28,7 +28,7 @@
             "height": "{DimensionTheme.General.16px}",
             "paddingRight": "{DimensionTheme.General.4px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -48,7 +48,7 @@
             "height": "{DimensionTheme.General.24px}",
             "paddingRight": "{DimensionTheme.General.4px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -58,7 +58,7 @@
             "height": "{DimensionTheme.General.24px}",
             "paddingRight": "{DimensionTheme.General.2px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -68,7 +68,7 @@
             "height": "{DimensionTheme.General.24px}",
             "paddingRight": "{DimensionTheme.General.4px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
-            "borderWidth": "{BorderWidth.018m}"
+            "borderWidth": "{BorderWidth.Counter.Single}"
           },
           "type": "composition"
         },
@@ -85,7 +85,7 @@
         "Indicator": {
           "value": {
             "borderRadius": "{Radius.Counter.Xs}",
-            "borderWidth": "{BorderWidth.018m}",
+            "borderWidth": "{BorderWidth.Counter.Single}",
             "sizing": "{DimensionTheme.General.8px}"
           },
           "type": "composition"

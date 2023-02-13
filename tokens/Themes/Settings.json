@@ -335,6 +335,12 @@
         "value": "{BorderWidth.General.2px}",
         "type": "borderWidth"
       }
+    },
+    "Counter": {
+      "Single": {
+        "value": "{BorderWidth.018m}",
+        "type": "borderWidth"
+      }
     }
   },
   "Border": {
