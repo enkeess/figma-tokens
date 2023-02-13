@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.4...npm0.4.0) (2023-02-13)
+
+
+### Features
+
+* **[FF-1673](https://jira.sbercloud.tech/browse/FF-1673):** added border composite token ([c9ff60a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c9ff60a87b96f555d0314de91a7fd7de4cdaf819))
+
 ## [0.3.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.3...npm0.3.4) (2023-02-13)
 
 
