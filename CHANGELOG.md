@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.3...npm0.3.4) (2023-02-13)
+
+
+### Bug Fixes
+
+* moved shadow from base in theme, added Effects file and background blur token ([e21e989](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e21e989a54f75fe78d4b306298fb91a24c03de16))
+
 ## [0.3.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.2...npm0.3.3) (2023-02-10)
 
 
