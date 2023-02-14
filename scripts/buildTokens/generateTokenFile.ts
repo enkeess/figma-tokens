@@ -26,7 +26,7 @@ export const generateTokenFile = async ({
   setsToInclude: string[];
   options?: TransformerOptions;
 }) => {
-  const tokenSetDirectory = `${TOKENS_BUILD_DIRECTORY}/${subDir}`;
+  const tokenSetDirectory = `${TOKENS_BUILD_DIRECTORY}${subDir}`;
 
   await fs.mkdir(tokenSetDirectory, { recursive: true });
 

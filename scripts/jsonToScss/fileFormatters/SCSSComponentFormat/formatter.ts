@@ -1,6 +1,7 @@
 import { FormatterArguments } from 'style-dictionary/types/Format';
 
-import { buildScssMapValue, toKebabCase } from '../../utils';
+import { toKebabCase } from '../../../utils';
+import { buildScssMapValue } from '../../utils';
 
 export function formatter({ dictionary }: FormatterArguments) {
   return `@use 'sass:map';

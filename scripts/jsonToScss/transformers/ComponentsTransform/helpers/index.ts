@@ -1,6 +1,6 @@
 import { TransformedToken } from 'style-dictionary';
 
-import { CompositeToken } from '../../../constants';
+import { CompositeToken } from '../../../../constants';
 import { transformBorderToken } from './transformBorderToken';
 import { transformTypographyToken } from './transformTypographyToken';
 

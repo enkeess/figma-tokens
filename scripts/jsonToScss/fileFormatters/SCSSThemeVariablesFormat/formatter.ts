@@ -1,8 +1,10 @@
 import { Dictionary } from 'style-dictionary';
 import { FormatterArguments } from 'style-dictionary/types/Format';
 
-import { COMPOSITE_TOKENS, ValueFormat } from '../../constants';
-import { buildScssMapValue, toKebabCase } from '../../utils';
+import { COMPOSITE_TOKENS } from '../../../constants';
+import { toKebabCase } from '../../../utils';
+import { ValueFormat } from '../../constants';
+import { buildScssMapValue } from '../../utils';
 
 function getVariableEntry(name: string) {
   return `$${name}: --${name};`;

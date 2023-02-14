@@ -1,8 +1,8 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITE_TOKENS, COMPOSITION, ValueFormat } from '../constants';
-import { figmaTokenToCssProps } from './figmaTokenToCssProps';
-import { toKebabCase } from './toKebabCase';
+import { BASE_INDENT, COMPOSITE_TOKENS, COMPOSITION } from '../../constants';
+import { figmaTokenToCssProps, toKebabCase } from '../../utils';
+import { ValueFormat } from '../constants';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
 

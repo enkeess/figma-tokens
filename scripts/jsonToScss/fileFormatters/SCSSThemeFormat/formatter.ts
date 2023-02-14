@@ -1,7 +1,7 @@
 import { Dictionary } from 'style-dictionary';
 import { FormatterArguments } from 'style-dictionary/types/Format';
 
-import { COMPOSITE_TOKENS } from '../../constants';
+import { COMPOSITE_TOKENS } from '../../../constants';
 
 function getTokenValues(dictionary: Dictionary) {
   return dictionary.allTokens

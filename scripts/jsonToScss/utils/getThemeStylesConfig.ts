@@ -1,12 +1,21 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
-import { SCSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
-import { BASE, BASE_VARIABLES, FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
+import {
+  BASE,
+  BASE_VARIABLES,
+  FormatName,
+  PLATFORM,
+  SCSS_BUILD_DIRECTORY,
+  THEME_VARIABLES,
+  Themes,
+  TOKENS_BUILD_DIRECTORY,
+} from '../../constants';
+import { TransformName } from '../constants';
 
 export function getThemeStylesConfig(theme: string) {
   return {
     source: [
-      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-${
+      `${TOKENS_BUILD_DIRECTORY}themes/tokens-${
         {
           [THEME_VARIABLES]: 'brand',
           [BASE_VARIABLES]: 'base',
@@ -19,7 +28,7 @@ export function getThemeStylesConfig(theme: string) {
           ...StyleDictionaryPackage.transformGroup.scss,
           Object.values(Themes).includes(theme as Themes) ? TransformName.Theme : '',
         ].filter(item => item),
-        buildPath: `${SCSS_BUILD_DIRECTORY}/themes/`,
+        buildPath: `${SCSS_BUILD_DIRECTORY}themes/`,
         files: [
           {
             destination: `styles-${theme}${theme === 'brand' || theme === 'brandDark' ? '.module' : ''}.scss`,

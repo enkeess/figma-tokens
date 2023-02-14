@@ -2,8 +2,7 @@ import { promises as fs } from 'fs';
 
 import StyleDictionaryPackage from 'style-dictionary';
 
-import { Themes, TOKENS_BUILD_DIRECTORY } from '../constants';
-import { BASE, BASE_VARIABLES, PLATFORM, THEME_VARIABLES } from './constants';
+import { BASE, BASE_VARIABLES, PLATFORM, THEME_VARIABLES, Themes, TOKENS_BUILD_DIRECTORY } from '../constants';
 import {
   SCSSBaseFormat,
   SCSSBaseVariablesFormat,
@@ -39,9 +38,9 @@ StyleDictionaryPackage.registerFilter(SourceTokensFilter);
   StyleDictionary.buildPlatform(PLATFORM);
 });
 
-// переим scss-файлы с токенами для компонентов
+// генерим scss-файлы с токенами для компонентов
 (async () => {
-  const componentFiles = await fs.readdir(`${TOKENS_BUILD_DIRECTORY}/components`);
+  const componentFiles = await fs.readdir(`${TOKENS_BUILD_DIRECTORY}components`);
 
   for (const componentFile of componentFiles) {
     const StyleDictionary = StyleDictionaryPackage.extend(getComponentStylesConfig(componentFile));

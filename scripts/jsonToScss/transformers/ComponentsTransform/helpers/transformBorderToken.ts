@@ -1,6 +1,6 @@
 import { TransformedToken } from 'style-dictionary';
 
-import { toKebabCase } from '../../../utils';
+import { toKebabCase } from '../../../../utils';
 
 export function transformBorderToken(token: Partial<TransformedToken>) {
   const { name, type, value } = token;
