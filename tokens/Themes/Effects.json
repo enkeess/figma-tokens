@@ -110,8 +110,7 @@
   },
   "BackgroundBlur": {
     "value": {
-      "backgroundBlur": "{Dimension.050m}",
-      "fill": "{Sys.Blackout}"
+      "backgroundBlur": "{Dimension.050m}"
     },
     "type": "composition"
   }
