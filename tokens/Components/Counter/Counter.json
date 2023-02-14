@@ -16,7 +16,7 @@
           "value": {
             "borderRadius": "{Radius.Counter.S}",
             "height": "{DimensionTheme.General.16px}",
-            "paddingRight": "{DimensionTheme.General.2px}",
+            "paddingRight": "{DimensionTheme.General.4px}",
             "paddingLeft": "{DimensionTheme.General.4px}",
             "borderWidth": "{BorderWidth.Counter.Single}"
           },
@@ -32,11 +32,9 @@
           },
           "type": "composition"
         },
-        "CenteringCount": {
+        "MinimalSize": {
           "value": {
-            "paddingRight": "{DimensionTheme.CompensationText.005}",
-            "paddingLeft": "{DimensionTheme.CompensationText.005}",
-            "itemSpacing": "{DimensionTheme.General.0px}"
+            "width": "{DimensionTheme.General.8px}"
           },
           "type": "composition"
         }
@@ -72,11 +70,9 @@
           },
           "type": "composition"
         },
-        "CenteringCount": {
+        "MinimalSize": {
           "value": {
-            "paddingRight": "{DimensionTheme.CompensationText.035}",
-            "paddingLeft": "{DimensionTheme.CompensationText.035}",
-            "itemSpacing": "{DimensionTheme.General.2px}"
+            "width": "{DimensionTheme.General.16px}"
           },
           "type": "composition"
         }
