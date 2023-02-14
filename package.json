@@ -9,9 +9,8 @@
   },
   "scripts": {
     "build:tokens": "ts-node scripts/buildTokens",
-    "build:styles": "ts-node scripts/jsonToScss",
-    "build:ts-variables": "ts-node scripts/jsonToTs",
-    "build:all": "rm -rf build && npm run build:tokens && npm run build:styles && npm run build:ts-variables"
+    "build:style-files": "ts-node scripts/buildStyleFiles",
+    "build:all": "rm -rf build && npm run build:tokens && npm run build:style-files"
   },
   "files": [
     "build/scss/**/*",
