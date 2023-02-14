@@ -291,30 +291,34 @@
   },
   "BorderWidth": {
     "General": {
-      "05px": {
+      "Xxs": {
         "value": "{BorderWidth.006m}",
         "type": "borderWidth"
       },
-      "1px": {
+      "Xs": {
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       },
-      "2px": {
+      "S": {
+        "value": "{BorderWidth.018m}",
+        "type": "borderWidth"
+      },
+      "M": {
         "value": "{BorderWidth.025m}",
         "type": "borderWidth"
       },
-      "3px": {
+      "L": {
         "value": "{BorderWidth.038m}",
         "type": "borderWidth"
       },
-      "4px": {
+      "Xl": {
         "value": "{BorderWidth.050m}",
         "type": "borderWidth"
       }
     },
     "ButtonOutline": {
       "Single": {
-        "value": "{BorderWidth.General.2px}",
+        "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
       }
     },
@@ -329,7 +333,7 @@
     "StateFocusPrimary": {
       "S": {
         "value": {
-          "width": "{BorderWidth.General.2px}",
+          "width": "{BorderWidth.General.M}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Primary.LineActivated}"
         },
@@ -337,7 +341,7 @@
       },
       "M": {
         "value": {
-          "width": "{BorderWidth.General.3px}",
+          "width": "{BorderWidth.General.L}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Primary.LineActivated}"
         },
@@ -345,7 +349,7 @@
       },
       "L": {
         "value": {
-          "width": "{BorderWidth.General.4px}",
+          "width": "{BorderWidth.General.Xl}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Primary.LineActivated}"
         },
@@ -355,7 +359,7 @@
     "StateFocusAvailable": {
       "S": {
         "value": {
-          "width": "{BorderWidth.General.2px}",
+          "width": "{BorderWidth.General.M}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Available.Complementary}"
         },
@@ -363,7 +367,7 @@
       },
       "M": {
         "value": {
-          "width": "{BorderWidth.General.3px}",
+          "width": "{BorderWidth.General.L}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Available.Complementary}"
         },
@@ -371,7 +375,7 @@
       },
       "L": {
         "value": {
-          "width": "{BorderWidth.General.4px}",
+          "width": "{BorderWidth.General.Xl}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Available.Complementary}"
         },

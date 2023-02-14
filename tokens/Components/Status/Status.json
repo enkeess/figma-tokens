@@ -1,231 +1,39 @@
 {
   "StatusIndicator": {
-    "Primary": {
+    "Container": {
       "Xxs": {
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Sizing.050m}",
-          "width": "{Sizing.050m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.012m}"
+          "height": "{DimensionTheme.General.4px}",
+          "width": "{DimensionTheme.General.4px}",
+          "borderWidth": "{BorderWidth.General.Xs}"
         },
         "type": "composition"
       },
       "Xs": {
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Sizing.1m}",
-          "width": "{Sizing.1m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.018m}"
+          "height": "{DimensionTheme.General.8px}",
+          "width": "{DimensionTheme.General.8px}",
+          "borderWidth": "{BorderWidth.General.S}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Sizing.2m}",
-          "width": "{Sizing.2m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
+          "height": "{DimensionTheme.General.16px}",
+          "width": "{DimensionTheme.General.16px}",
+          "borderWidth": "{BorderWidth.General.L}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
           "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Primary.AccentEnabled}",
-          "height": "{Sizing.3m}",
-          "width": "{Sizing.3m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      }
-    },
-    "Neutral": {
-      "Xxs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Sizing.050m}",
-          "width": "{Sizing.050m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.012m}"
-        },
-        "type": "composition"
-      },
-      "Xs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Sizing.1m}",
-          "width": "{Sizing.1m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.018m}"
-        },
-        "type": "composition"
-      },
-      "S": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Sizing.2m}",
-          "width": "{Sizing.2m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Neutral.AccentEnabled}",
-          "height": "{Sizing.3m}",
-          "width": "{Sizing.3m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      }
-    },
-    "Critical": {
-      "Xxs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Sizing.050m}",
-          "width": "{Sizing.050m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.012m}"
-        },
-        "type": "composition"
-      },
-      "Xs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Sizing.1m}",
-          "width": "{Sizing.1m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.018m}"
-        },
-        "type": "composition"
-      },
-      "S": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Sizing.2m}",
-          "width": "{Sizing.2m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Critical.AccentEnabled}",
-          "height": "{Sizing.3m}",
-          "width": "{Sizing.3m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      }
-    },
-    "Warning": {
-      "Xxs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Sizing.050m}",
-          "width": "{Sizing.050m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.012m}"
-        },
-        "type": "composition"
-      },
-      "Xs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Sizing.1m}",
-          "width": "{Sizing.1m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.018m}"
-        },
-        "type": "composition"
-      },
-      "S": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Sizing.2m}",
-          "width": "{Sizing.2m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Warning.AccentEnabled}",
-          "height": "{Sizing.3m}",
-          "width": "{Sizing.3m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      }
-    },
-    "Success": {
-      "Xxs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Sizing.050m}",
-          "width": "{Sizing.050m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.012m}"
-        },
-        "type": "composition"
-      },
-      "Xs": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Sizing.1m}",
-          "width": "{Sizing.1m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.018m}"
-        },
-        "type": "composition"
-      },
-      "S": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Sizing.2m}",
-          "width": "{Sizing.2m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "fill": "{Sys.Success.AccentEnabled}",
-          "height": "{Sizing.3m}",
-          "width": "{Sizing.3m}",
-          "border": "{Sys.Neutral.OnAccent}",
-          "borderWidth": "{BorderWidth.038m}"
+          "height": "{DimensionTheme.General.24px}",
+          "width": "{DimensionTheme.General.24px}",
+          "borderWidth": "{BorderWidth.General.Xl}"
         },
         "type": "composition"
       }
