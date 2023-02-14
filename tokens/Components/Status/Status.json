@@ -38,5 +38,27 @@
         "type": "composition"
       }
     }
+  },
+  "Status": {
+    "Container": {
+      "Xs": {
+        "value": {
+          "height": "{DimensionTheme.General.16px}",
+          "paddingRight": "{DimensionTheme.General.4px}",
+          "paddingLeft": "{DimensionTheme.General.4px}",
+          "itemSpacing": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{DimensionTheme.General.24px}",
+          "paddingRight": "{DimensionTheme.General.4px}",
+          "paddingLeft": "{DimensionTheme.General.4px}",
+          "itemSpacing": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      }
+    }
   }
 }
