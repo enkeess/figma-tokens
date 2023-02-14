@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.0...npm0.4.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* added BorderWidth.Counter.Single in settings and component tokens ([82eff1e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/82eff1e8b3eabbe0784d1b93793b1cae667e8b0f))
+* added MinimalSizes, removed CenteringCount ([c2d9820](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c2d9820c7b06e3c4494e6fe88e226292cc31d445))
+* Refactoring all Counter Component ([72dfd4f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/72dfd4f5eeabe66ea2b4e9fdf4be2481810b29aa))
+* remove color from BackgroundBlur ([ea7a12c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ea7a12c98db87522d14b40683a4ac96d51f65ec1))
+* remove DimensionTheme.CompensationText ([e7ba551](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e7ba5514b72997d3b80ad27369140ef598ab1ebb))
+
 # [0.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.3.4...npm0.4.0) (2023-02-13)
 
 
