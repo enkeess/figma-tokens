@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.1...npm0.4.2) (2023-02-15)
+
+
+### Bug Fixes
+
+* item spacing status ([6eda83c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6eda83ce120a118c67565056ff1c775bfab9ee0d))
+* rename BorderWidth.General, refactoring Status component tokens ([cd038ef](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cd038efc8431248a18c58472d17780d70ac2a0ff))
+
 ## [0.4.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.0...npm0.4.1) (2023-02-14)
 
 
