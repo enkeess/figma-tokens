@@ -44,7 +44,7 @@
         "type": "composition"
       }
     },
-    "UserMonogram": {
+    "User": {
       "SizeXxs": {
         "value": {
           "borderRadius": "{Radius.Avatar.User.Xxs}",
@@ -95,7 +95,7 @@
         "type": "composition"
       }
     },
-    "CorpMonogram": {
+    "Corp": {
       "SizeXxs": {
         "value": {
           "borderRadius": "{Radius.Avatar.Corp.Xxs}",
