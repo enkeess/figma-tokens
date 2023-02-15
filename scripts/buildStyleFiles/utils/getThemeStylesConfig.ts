@@ -1,34 +1,23 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
 import { SCSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
-import { BASE, BASE_VARIABLES, FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
+import { FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
 
 export function getThemeStylesConfig(theme: string) {
+  const isThemeFile = Object.values(Themes).includes(theme as Themes);
+
   return {
-    source: [
-      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-${
-        {
-          [THEME_VARIABLES]: 'brand',
-          [BASE_VARIABLES]: 'base',
-        }[theme] ?? theme
-      }.json`,
-    ],
+    source: [`${TOKENS_BUILD_DIRECTORY}/themes/tokens-${theme === THEME_VARIABLES ? 'brand' : theme}.json`],
     platforms: {
       [PLATFORM]: {
-        transforms: [
-          ...StyleDictionaryPackage.transformGroup.scss,
-          Object.values(Themes).includes(theme as Themes) ? TransformName.Theme : '',
-        ].filter(item => item),
+        transforms: isThemeFile
+          ? [...StyleDictionaryPackage.transformGroup.scss, TransformName.Theme]
+          : StyleDictionaryPackage.transformGroup.scss,
         buildPath: `${SCSS_BUILD_DIRECTORY}/themes/`,
         files: [
           {
-            destination: `styles-${theme}${theme === 'brand' || theme === 'brandDark' ? '.module' : ''}.scss`,
-            format:
-              {
-                [THEME_VARIABLES]: FormatName.SCSSThemeVariables,
-                [BASE]: FormatName.SCSSBase,
-                [BASE_VARIABLES]: FormatName.SCSSBaseVariables,
-              }[theme] ?? FormatName.SCSSTheme,
+            destination: `styles-${theme}${isThemeFile ? '.module' : ''}.scss`,
+            format: theme === THEME_VARIABLES ? FormatName.SCSSThemeVariables : FormatName.SCSSTheme,
             options: {
               theme,
             },

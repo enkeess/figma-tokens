@@ -1,6 +1,4 @@
 export const PLATFORM = 'web';
-export const BASE = 'base';
-export const BASE_VARIABLES = 'base-variables';
 export const THEME_VARIABLES = 'theme-variables';
 export const BASE_INDENT = '  ';
 
@@ -13,12 +11,9 @@ export enum CompositeToken {
 export const COMPOSITE_TOKENS = Object.values(CompositeToken);
 
 export enum FormatName {
-  SCSSBase = 'scss/base',
-  SCSSBaseVariables = 'scss/base-variables',
   SCSSTheme = 'scss/theme',
   SCSSThemeVariables = 'scss/theme-variables',
   SCSSComponent = 'scss/component',
-  TSBaseVariables = 'ts/base-variables',
   TSThemeVariables = 'ts/theme-variables',
 }
 

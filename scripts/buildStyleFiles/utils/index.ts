@@ -3,6 +3,6 @@ export * from './buildTsMapValue';
 export * from './figmaTokenToCssProps';
 export * from './getComponentStylesConfig';
 export * from './getThemeStylesConfig';
-export * from './getTSVariablesConfig';
+export * from './getTSThemeVariablesConfig';
 export * from './toCamelCase';
 export * from './toKebabCase';

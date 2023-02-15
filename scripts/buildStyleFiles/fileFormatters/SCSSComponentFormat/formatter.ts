@@ -4,8 +4,7 @@ import { buildScssMapValue, toKebabCase } from '../../utils';
 
 export function formatter({ dictionary }: FormatterArguments) {
   return `@use 'sass:map';
-  
-@import '../themes/styles-base-variables';
+
 @import '../themes/styles-theme-variables';
 
 @function simple-var($map: (), $keys...) {

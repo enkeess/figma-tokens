@@ -37,21 +37,12 @@ export const THEME_MAP = {
       subDir: 'themes',
       allTokens: rawTokens,
       allSets: paths,
-      setsToInclude: themePaths,
+      setsToInclude: [...basePaths, ...themePaths],
     });
 
     // TODO: make correct condition for generation
-    // здесь нам нужно по 1 файлу для базовых стилей и компонентов, а не для каждой темы, поэтому такое условие добавлено
+    // здесь нам нужно по 1 файлу для компонентов, а не для каждой темы, поэтому такое условие добавлено
     if (theme === Themes.Brand) {
-      // генерим файл для базовых стилей
-      await generateTokenFile({
-        name: 'base',
-        subDir: 'themes',
-        allTokens: rawTokens,
-        allSets: paths,
-        setsToInclude: basePaths,
-      });
-
       for (const componentPath of componentsPaths) {
         const name = componentPath
           .split('/')

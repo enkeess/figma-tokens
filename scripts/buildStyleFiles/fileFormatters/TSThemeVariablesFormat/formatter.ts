@@ -3,11 +3,7 @@ import { FormatterArguments } from 'style-dictionary/types/Format';
 import { buildTsMapValue } from '../../utils';
 
 export function formatter({ dictionary }: FormatterArguments) {
-  return `import { baseVars } from './styles-base-variables';
-
-export { baseVars };
-
-export function simpleVar(variable: string): string {
+  return `export function simpleVar(variable: string): string {
   return \`var(\${variable})\`;
 }
 
