@@ -1,6 +1,6 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITE_TOKENS, COMPOSITION, ValueFormat } from '../constants';
+import { BASE_INDENT, COMPOSITE_TOKENS, ValueFormat } from '../constants';
 import { figmaTokenToCssProps, toKebabCase } from '../utils';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
@@ -90,7 +90,7 @@ ${indent})`;
     return tokenDictionaryTemplate(token);
   }
 
-  if ([...COMPOSITE_TOKENS, COMPOSITION].includes(token.type)) {
+  if (COMPOSITE_TOKENS.includes(token.type)) {
     return compositeTokenTemplate(token);
   }
 
