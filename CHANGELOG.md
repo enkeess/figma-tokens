@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.2...npm0.4.3) (2023-02-15)
+
+
+### Bug Fixes
+
+* refactoring Monogram tokens ([02faffb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/02faffbc2e88c266f02930cf1e683285beab2011))
+* removed mathematics from BadgeAvatar ([ae547e5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ae547e52c5edc5a485aa46b5f9f9c4f0a82fe77c))
+* renamed avatars tokens ([227a0dd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/227a0dd3026223da5a036ad7968d684418ad6810))
+
 ## [0.4.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.1...npm0.4.2) (2023-02-15)
 
 
