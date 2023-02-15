@@ -16,7 +16,11 @@ export const THEME_MAP = {
   for (const { name, selectedTokenSets } of themeConfig) {
     const theme = THEME_MAP[name];
     const paths = Object.keys(selectedTokenSets).filter(
-      x => x.startsWith('Components/Button') || !x.startsWith('Components'),
+      x =>
+        x.startsWith('Components/Button') ||
+        x.startsWith('Components/Counter') ||
+        x.startsWith('Components/Avatar') ||
+        !x.startsWith('Components'),
     ); // TODO: фильтрую, тк Игорь не порефачил, без фильтра не резолвятся токены у всех компонентов, кроме кнопки
     const basePaths = paths.filter(tokens => tokens.startsWith('Base'));
     const themePaths = paths.filter(tokens => tokens.startsWith('Themes'));
