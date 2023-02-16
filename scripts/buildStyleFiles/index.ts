@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import StyleDictionaryPackage from 'style-dictionary';
 
 import { Themes, TOKENS_BUILD_DIRECTORY } from '../constants';
-import { PLATFORM, THEME_VARIABLES } from './constants';
+import { PLATFORM } from './constants';
 import {
   SCSSComponentFormat,
   SCSSThemeFormat,
@@ -12,8 +12,12 @@ import {
 } from './fileFormatters';
 import { SourceTokensFilter } from './tokenFilters';
 import { ComponentsTransform, ThemeTransform } from './transformers';
-import { getComponentStylesConfig, getThemeStylesConfig, getTSThemeVariablesConfig } from './utils';
-import { getBrandCssModuleConfig } from './utils/getBrandCssModuleConfig';
+import {
+  getComponentStylesConfig,
+  getCSSModuleThemeConfig,
+  getSCSSThemeVariablesConfig,
+  getTSThemeVariablesConfig,
+} from './utils';
 
 // подключаем трансофрмеры для токенов
 StyleDictionaryPackage.registerTransform(ThemeTransform);
@@ -28,18 +32,12 @@ StyleDictionaryPackage.registerFormat(TSThemeVariablesFormat);
 // подключаем фильтры для токенов
 StyleDictionaryPackage.registerFilter(SourceTokensFilter);
 
-// генерим scss-файлы с помощью конфигов для темы:
-// - файл с токенами для тем
+// генерим scss-файл с токенами для тем
+StyleDictionaryPackage.extend(getSCSSThemeVariablesConfig()).buildPlatform(PLATFORM);
 
-([THEME_VARIABLES] as const).map(theme => {
-  const StyleDictionary = StyleDictionaryPackage.extend(getThemeStylesConfig(theme));
-  StyleDictionary.buildPlatform(PLATFORM);
-});
-
-// - файл со тематическими стилями
+// генерим scss-файл с тематическими стилями
 Object.values(Themes).map(theme => {
-  const StyleDictionary = StyleDictionaryPackage.extend(getBrandCssModuleConfig(theme));
-  StyleDictionary.buildPlatform(PLATFORM);
+  StyleDictionaryPackage.extend(getCSSModuleThemeConfig(theme)).buildPlatform(PLATFORM);
 });
 
 // генерим scss-файлы с токенами для компонентов
@@ -47,11 +45,9 @@ Object.values(Themes).map(theme => {
   const componentFiles = await fs.readdir(`${TOKENS_BUILD_DIRECTORY}/components`);
 
   for (const componentFile of componentFiles) {
-    const StyleDictionary = StyleDictionaryPackage.extend(getComponentStylesConfig(componentFile));
-    StyleDictionary.buildPlatform(PLATFORM);
+    StyleDictionaryPackage.extend(getComponentStylesConfig(componentFile)).buildPlatform(PLATFORM);
   }
 })();
 
 // генерим ts-файл с токенами для тем
-const StyleDictionary = StyleDictionaryPackage.extend(getTSThemeVariablesConfig());
-StyleDictionary.buildPlatform(PLATFORM);
+StyleDictionaryPackage.extend(getTSThemeVariablesConfig()).buildPlatform(PLATFORM);

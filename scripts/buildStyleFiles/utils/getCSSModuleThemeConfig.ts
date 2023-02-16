@@ -3,7 +3,7 @@ import StyleDictionaryPackage from 'style-dictionary';
 import { CSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
 import { FormatName, PLATFORM, TransformName } from '../constants';
 
-export function getBrandCssModuleConfig(theme: Themes) {
+export function getCSSModuleThemeConfig(theme: Themes) {
   return {
     source: [`${TOKENS_BUILD_DIRECTORY}/themes/tokens-${theme}.json`],
     platforms: {
