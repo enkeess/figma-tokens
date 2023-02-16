@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.5.0...npm0.6.0) (2023-02-16)
+
+
+### Features
+
+* **[FF-1687](https://jira.sbercloud.tech/browse/FF-1687):** changed import rules ([6b4a670](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6b4a67097d6bd91935a5e18ee59ccba0dd308595))
+
 # [0.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.3...npm0.5.0) (2023-02-16)
 
 
