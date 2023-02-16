@@ -2,7 +2,7 @@
   "ButtonFilled": {
     "Container": {
       "SizeS": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.S}",
             "height": "{Size.Button.S}",
@@ -31,7 +31,7 @@
         }
       },
       "SizeM": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.M}",
             "height": "{Size.Button.M}",
@@ -60,7 +60,7 @@
         }
       },
       "SizeL": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.L}",
             "height": "{Size.Button.L}",

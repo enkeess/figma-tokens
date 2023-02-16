@@ -2,7 +2,7 @@
   "ButtonSupport": {
     "Container": {
       "SizeS": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "height": "{Size.Button.S}",
             "itemSpacing": "{Space.Button.S.Gap}",
@@ -12,7 +12,7 @@
           },
           "type": "composition"
         },
-        "IconLabel": {
+        "IconBefore": {
           "value": {
             "height": "{Size.Button.S}",
             "itemSpacing": "{Space.Button.S.Gap}",
@@ -38,7 +38,7 @@
         }
       },
       "SizeM": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
@@ -47,7 +47,7 @@
           },
           "type": "composition"
         },
-        "IconLabel": {
+        "IconBefore": {
           "value": {
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
@@ -73,7 +73,7 @@
         }
       },
       "SizeL": {
-        "LabelIcon": {
+        "IconAfter": {
           "value": {
             "height": "{Size.Button.L}",
             "itemSpacing": "{Space.Button.L.Gap}",
@@ -82,7 +82,7 @@
           },
           "type": "composition"
         },
-        "IconLabel": {
+        "IconBefore": {
           "value": {
             "height": "{Size.Button.L}",
             "itemSpacing": "{Space.Button.L.Gap}",
