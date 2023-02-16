@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.3...npm0.5.0) (2023-02-16)
+
+
+### Bug Fixes
+
+* **[FF-1651](https://jira.sbercloud.tech/browse/FF-1651):** add counter and avatar tokens ([8a4948b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8a4948bcfbdca2aae119b762daeb776a6a528674))
+* **[FF-1651](https://jira.sbercloud.tech/browse/FF-1651):** merge base and theme styles ([3854561](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/385456170a6320203312d72cb6d820b5d0055392))
+* **[FF-1651](https://jira.sbercloud.tech/browse/FF-1651):** support composition tokens in base and theme styles ([2afc2cb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2afc2cb486d6f9b40da4765ca325738a60c7c1ea))
+
+
+### Features
+
+* **[FF-1651](https://jira.sbercloud.tech/browse/FF-1651):** add typescript tokens ([c2b7973](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c2b7973ada8c180d03f1e8f68773648e9cfe8c7a))
+
 ## [0.4.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.4.2...npm0.4.3) (2023-02-15)
 
 
