@@ -9,7 +9,19 @@ function getVariableEntry(name: string) {
 }
 
 function printVariableMap(dictionary: Dictionary) {
-  return `$theme-variables: (
+  return `@use 'sass:map';
+
+@function simple-var($map: (), $keys...) {
+  @return var(map.get($map, $keys...));
+}
+
+@mixin composite-var($map: (), $keys...) {
+  @each $key, $value in map.get($map, $keys...) {
+    #{$key}: var($value);
+  }
+}
+
+$theme-variables: (
   ${Object.entries(dictionary.tokens)
     .map(
       ([key, value]) =>

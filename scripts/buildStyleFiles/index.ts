@@ -13,6 +13,7 @@ import {
 import { SourceTokensFilter } from './tokenFilters';
 import { ComponentsTransform, ThemeTransform } from './transformers';
 import { getComponentStylesConfig, getThemeStylesConfig, getTSThemeVariablesConfig } from './utils';
+import { getBrandCssModuleConfig } from './utils/getBrandCssModuleConfig';
 
 // подключаем трансофрмеры для токенов
 StyleDictionaryPackage.registerTransform(ThemeTransform);
@@ -27,11 +28,17 @@ StyleDictionaryPackage.registerFormat(TSThemeVariablesFormat);
 // подключаем фильтры для токенов
 StyleDictionaryPackage.registerFilter(SourceTokensFilter);
 
-// генерим scss-файлы c помощью конфигов для темы:
+// генерим scss-файлы с помощью конфигов для темы:
 // - файл с токенами для тем
-// - файл со тематическими стилями
-[THEME_VARIABLES, ...Object.values(Themes)].map(theme => {
+
+([THEME_VARIABLES] as const).map(theme => {
   const StyleDictionary = StyleDictionaryPackage.extend(getThemeStylesConfig(theme));
+  StyleDictionary.buildPlatform(PLATFORM);
+});
+
+// - файл со тематическими стилями
+Object.values(Themes).map(theme => {
+  const StyleDictionary = StyleDictionaryPackage.extend(getBrandCssModuleConfig(theme));
   StyleDictionary.buildPlatform(PLATFORM);
 });
 

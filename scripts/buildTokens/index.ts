@@ -5,7 +5,7 @@ import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
 import { generateTokenFile } from './generateTokenFile';
 
 export const THEME_MAP = {
-  BrandLightMode: Themes.Brand,
+  BrandLightMode: Themes.BrandLight,
   BrandDarkMode: Themes.BrandDark,
 };
 
@@ -46,7 +46,7 @@ export const THEME_MAP = {
 
     // TODO: make correct condition for generation
     // здесь нам нужно по 1 файлу для компонентов, а не для каждой темы, поэтому такое условие добавлено
-    if (theme === Themes.Brand) {
+    if (theme === Themes.BrandLight) {
       for (const componentPath of componentsPaths) {
         const name = componentPath
           .split('/')

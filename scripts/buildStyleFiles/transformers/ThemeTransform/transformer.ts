@@ -8,6 +8,6 @@ export function transformer(token: TransformedToken) {
 
   const flattenedValue = Object.entries(value).map(([key, v]) => `$${name}-${toKebabCase(key)}: ${v},`, '\n');
 
-  return `// ${name}
+  return `/* ${name} */
   ${flattenedValue.join('\n  ')}`;
 }

@@ -10,12 +10,18 @@
   "scripts": {
     "build:tokens": "ts-node scripts/buildTokens",
     "build:style-files": "ts-node scripts/buildStyleFiles",
-    "build:all": "rm -rf build && npm run build:tokens && npm run build:style-files"
+    "build:all": "rm -rf build && npm run build:tokens && npm run build:style-files && npm rum build:ts-after && npm run build:css-after && npm run build:delete-support-files",
+    "build:ts-after": "tsc build/ts/styles-theme-variables.ts --declaration",
+    "build:css-after": "touch build/css/brand.module.css && cat build/css/light.module.css >> build/css/brand.module.css && echo \n >> build/css/brand.module.css && cat build/css/dark.module.css >> build/css/brand.module.css",
+    "build:delete-support-files": "rm -rf build/ts/styles-theme-variables.ts build/css/light.module.css build/css/dark.module.css"
   },
   "files": [
-    "build/scss/**/*",
-    "build/ts/**/*"
+    "build/scss",
+    "build/css",
+    "build/ts"
   ],
+  "main": "./build/ts/styles-theme-variables.js",
+  "types": "./build/ts/styles-theme-variables.d.ts",
   "devDependencies": {
     "@sbercloud/ft-all-linters-pack": "2.1.4",
     "@sbercloud/ft-config-semantic-release": "2.1.2",

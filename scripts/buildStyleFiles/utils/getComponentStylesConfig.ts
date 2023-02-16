@@ -1,6 +1,6 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
-import { SCSS_BUILD_DIRECTORY, TOKENS_BUILD_DIRECTORY } from '../../constants';
+import { SCSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
 import { FilterName, FormatName, PLATFORM, TransformName } from '../constants';
 
 export function getComponentStylesConfig(componentFile: string) {
@@ -11,7 +11,7 @@ export function getComponentStylesConfig(componentFile: string) {
     source: [componentPath],
     include: [
       `${TOKENS_BUILD_DIRECTORY}/themes/tokens-base.json`,
-      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-brand.json`,
+      `${TOKENS_BUILD_DIRECTORY}/themes/tokens-${Themes.BrandLight}.json`,
     ],
     platforms: {
       [PLATFORM]: {

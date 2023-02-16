@@ -15,10 +15,10 @@ function getTokenValues(dictionary: Dictionary) {
     .join('\n  ');
 }
 
-export function formatter({ dictionary }: FormatterArguments) {
+export function formatter({ dictionary, options }: FormatterArguments) {
   const tokenValues = getTokenValues(dictionary);
 
-  return `.theme {
+  return `.${options.theme} {
   ${tokenValues}
 }
 `;
