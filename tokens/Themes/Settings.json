@@ -57,14 +57,6 @@
   },
   "Size": {
     "Button": {
-      "Xxs": {
-        "value": "{DimensionTheme.General.16px}",
-        "type": "sizing"
-      },
-      "Xs": {
-        "value": "{DimensionTheme.General.24px}",
-        "type": "sizing"
-      },
       "S": {
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
