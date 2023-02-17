@@ -475,8 +475,8 @@
       "Themes/Typography": "enabled",
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
-      "Components/DropZone/DropZone": "source",
-      "Components/Loader/Loader": "source"
+      "Components/Loader/Loader": "enabled",
+      "Components/DropZone/DropZone": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
