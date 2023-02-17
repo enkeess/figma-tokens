@@ -63,7 +63,7 @@
     "DuoTone": {
       "ToneAlpha2": {
         "value": {
-          "opacity": "{Opacity.A048}"
+          "opacity": "{Opacity.A024}"
         },
         "type": "composition"
       },

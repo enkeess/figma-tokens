@@ -19,6 +19,7 @@
       "Themes/Typography": "enabled",
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
+      "Components/Loader/Loader": "enabled",
       "Components/DropZone/DropZone": "source"
     },
     "$figmaStyleReferences": {
@@ -474,6 +475,7 @@
       "Themes/Typography": "enabled",
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
+      "Components/Loader/Loader": "enabled",
       "Components/DropZone/DropZone": "source"
     },
     "$figmaStyleReferences": {
