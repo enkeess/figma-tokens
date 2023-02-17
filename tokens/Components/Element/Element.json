@@ -1,21 +1,15 @@
 {
-  "LayoutBadgeS": {
-    "value": {
-      "sizing": "{Dimension.050m}",
-      "paddingLeft": "{Dimension.0m}",
-      "paddingBottom": "{Dimension.0m}"
-    },
-    "type": "composition"
-  },
-  "LayoutBadgeM": {
-    "value": {
-      "sizing": "{Dimension.1m}",
-      "paddingLeft": "{Dimension.0m}",
-      "paddingBottom": "{Dimension.0m}"
-    },
-    "type": "composition"
-  },
   "Icon": {
+    "Badge": {
+      "LayoutBadgeM": {
+        "value": {
+          "sizing": "{Dimension.1m}",
+          "paddingLeft": "{Dimension.0m}",
+          "paddingBottom": "{Dimension.0m}"
+        },
+        "type": "composition"
+      }
+    },
     "MultiTone": {
       "ToneAlpha8": {
         "value": {
