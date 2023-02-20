@@ -17,6 +17,7 @@
     "Components/Button/ButtonOutline",
     "Components/Button/ButtonSupport",
     "Components/Button/ButtonTonal",
+    "Components/DropZone/DropZone",
     "Components/Loader/Loader",
     "Components/DropZone/DropZone"
   ]
