@@ -99,6 +99,28 @@
         "value": "{DimensionTheme.General.8px} * 14",
         "type": "sizing"
       }
+    },
+    "StatusIndicator": {
+      "Xxs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "sizing"
+      },
+      "Xs": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -155,7 +177,23 @@
       }
     },
     "StatusIndicator": {
-      "Single": {
+      "Xxs": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      },
+      "Xs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "L": {
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }

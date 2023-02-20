@@ -1,39 +1,75 @@
 {
   "StatusIndicator": {
+    "Indicator": {
+      "SizeXxs": {
+        "value": {
+          "borderRadius": "{Radius.StatusIndicator.Xxs}",
+          "borderWidth": "{BorderWidth.General.Xs}",
+          "sizing": "{Size.StatusIndicator.Xxs}"
+        },
+        "type": "composition"
+      },
+      "SizeXs": {
+        "value": {
+          "borderRadius": "{Radius.StatusIndicator.Xs}",
+          "borderWidth": "{BorderWidth.General.S}",
+          "sizing": "{Size.StatusIndicator.Xs}"
+        },
+        "type": "composition"
+      },
+      "SizeS": {
+        "value": {
+          "borderRadius": "{Radius.StatusIndicator.S}",
+          "borderWidth": "{BorderWidth.General.M}",
+          "sizing": "{Size.StatusIndicator.S}"
+        },
+        "type": "composition"
+      },
+      "SizeM": {
+        "value": {
+          "borderRadius": "{Radius.StatusIndicator.M}",
+          "borderWidth": "{BorderWidth.General.L}",
+          "sizing": "{Size.StatusIndicator.M}"
+        },
+        "type": "composition"
+      },
+      "SizeL": {
+        "value": {
+          "borderRadius": "{Radius.StatusIndicator.L}",
+          "borderWidth": "{BorderWidth.General.Xl}",
+          "sizing": "{Size.StatusIndicator.L}"
+        },
+        "type": "composition"
+      }
+    },
     "Container": {
-      "Xxs": {
+      "SizeXxs": {
         "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "height": "{DimensionTheme.General.4px}",
-          "width": "{DimensionTheme.General.4px}",
-          "borderWidth": "{BorderWidth.General.Xs}"
+          "sizing": "{DimensionTheme.General.4px}"
         },
         "type": "composition"
       },
-      "Xs": {
+      "SizeXs": {
         "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "height": "{DimensionTheme.General.8px}",
-          "width": "{DimensionTheme.General.8px}",
-          "borderWidth": "{BorderWidth.General.S}"
+          "sizing": "{DimensionTheme.General.8px}"
         },
         "type": "composition"
       },
-      "S": {
+      "SizeS": {
         "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "height": "{DimensionTheme.General.16px}",
-          "width": "{DimensionTheme.General.16px}",
-          "borderWidth": "{BorderWidth.General.L}"
+          "sizing": "{DimensionTheme.General.16px}"
         },
         "type": "composition"
       },
-      "M": {
+      "SizeM": {
         "value": {
-          "borderRadius": "{Radius.StatusIndicator.Single}",
-          "height": "{DimensionTheme.General.24px}",
-          "width": "{DimensionTheme.General.24px}",
-          "borderWidth": "{BorderWidth.General.Xl}"
+          "sizing": "{DimensionTheme.General.16px}"
+        },
+        "type": "composition"
+      },
+      "SizeL": {
+        "value": {
+          "sizing": "{DimensionTheme.General.24px}"
         },
         "type": "composition"
       }
