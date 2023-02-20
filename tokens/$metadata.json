@@ -16,6 +16,7 @@
     "Components/Button/ButtonLight",
     "Components/Button/ButtonOutline",
     "Components/Button/ButtonSupport",
-    "Components/Button/ButtonTonal"
+    "Components/Button/ButtonTonal",
+    "Components/DropZone/DropZone"
   ]
 }

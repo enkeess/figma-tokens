@@ -18,7 +18,8 @@
       "Themes/Color/LightMode": "enabled",
       "Themes/Typography": "enabled",
       "Themes/Settings": "source",
-      "Themes/Effects": "enabled"
+      "Themes/Effects": "enabled",
+      "Components/DropZone/DropZone": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:63872c290805e80809acbb507ef60afbc17f85dc,",
@@ -472,7 +473,8 @@
       "Themes/Color/DarkMode": "enabled",
       "Themes/Typography": "enabled",
       "Themes/Settings": "source",
-      "Themes/Effects": "enabled"
+      "Themes/Effects": "enabled",
+      "Components/DropZone/DropZone": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
