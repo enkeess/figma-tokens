@@ -132,6 +132,12 @@
         "type": "borderRadius"
       }
     },
+    "DropZone": {
+      "Single": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      }
+    },
     "Counter": {
       "Xs": {
         "value": "{DimensionTheme.General.4px}",
@@ -378,6 +384,15 @@
           "width": "{BorderWidth.General.Xl}",
           "style": "{BorderStyles.Solid}",
           "color": "{Sys.Available.Complementary}"
+        },
+        "type": "border"
+      }
+    },
+    "DropZone": {
+      "Single": {
+        "value": {
+          "width": "{BorderWidth.General.Xs}",
+          "style": "{BorderStyles.Dashed}"
         },
         "type": "border"
       }

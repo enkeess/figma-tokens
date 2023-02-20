@@ -1,1 +1,9 @@
-{}
+{
+  "DropZone": {
+    "value": {
+      "borderRadius": "{Radius.DropZone.Single}",
+      "border": "{Border.DropZone.Single}"
+    },
+    "type": "composition"
+  }
+}
