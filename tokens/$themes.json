@@ -20,7 +20,8 @@
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
       "Components/Loader/Loader": "enabled",
-      "Components/DropZone/DropZone": "source"
+      "Components/DropZone/DropZone": "source",
+      "Components/ProgressBar/ProgressBar": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",

@@ -1,0 +1,28 @@
+{
+  "ProgressBar": {
+    "PageTop": {
+      "Single": {
+        "value": {
+          "height": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      }
+    },
+    "Loading": {
+      "SizeXs": {
+        "value": {
+          "height": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.ProgressBarLoading.SizeXs}"
+        },
+        "type": "composition"
+      },
+      "SizeS": {
+        "value": {
+          "height": "{DimensionTheme.General.4px}",
+          "borderRadius": "{Radius.ProgressBarLoading.SizeXs}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

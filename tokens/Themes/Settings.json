@@ -144,6 +144,16 @@
         "type": "borderRadius"
       }
     },
+    "ProgressBarLoading": {
+      "SizeXs": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      },
+      "SizeS": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      }
+    },
     "StatusIndicator": {
       "Single": {
         "value": "{DimensionTheme.General.16px}",
