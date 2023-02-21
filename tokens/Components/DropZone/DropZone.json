@@ -4,7 +4,17 @@
       "Single": {
         "value": {
           "borderRadius": "{Radius.DropZone.Single}",
-          "border": "{Border.DropZone.Single}"
+          "border": "{Border.DropZone.Single}",
+          "verticalPadding": "{DimensionTheme.General.8px}",
+          "horizontalPadding": "{DimensionTheme.General.8px}"
+        },
+        "type": "composition"
+      }
+    },
+    "LauoutContent": {
+      "Single": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}"
         },
         "type": "composition"
       }
