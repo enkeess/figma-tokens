@@ -144,7 +144,7 @@
         "type": "borderRadius"
       }
     },
-    "ProgressBarLoading": {
+    "ProgressBar": {
       "SizeXs": {
         "value": "{DimensionTheme.General.2px}",
         "type": "borderRadius"
@@ -220,6 +220,12 @@
           "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         }
+      }
+    },
+    "ProgressBarPage": {
+      "Single": {
+        "value": "{DimensionTheme.General.0px}",
+        "type": "borderRadius"
       }
     }
   },

@@ -1,25 +1,28 @@
 {
-  "ProgressBar": {
-    "PageTop": {
+  "ProgressBarPage": {
+    "Container": {
       "Single": {
         "value": {
-          "height": "{DimensionTheme.General.2px}"
+          "height": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.ProgressBarPage.Single}"
         },
         "type": "composition"
       }
-    },
-    "Loading": {
+    }
+  },
+  "ProgressBar": {
+    "Container": {
       "SizeXs": {
         "value": {
           "height": "{DimensionTheme.General.2px}",
-          "borderRadius": "{Radius.ProgressBarLoading.SizeXs}"
+          "borderRadius": "{Radius.ProgressBar.SizeXs}"
         },
         "type": "composition"
       },
       "SizeS": {
         "value": {
           "height": "{DimensionTheme.General.4px}",
-          "borderRadius": "{Radius.ProgressBarLoading.SizeXs}"
+          "borderRadius": "{Radius.ProgressBar.SizeXs}"
         },
         "type": "composition"
       }
