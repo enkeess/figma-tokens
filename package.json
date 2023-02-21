@@ -8,12 +8,13 @@
     "url": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens.git"
   },
   "scripts": {
+    "build:all": "npm run clean:all && npm run build:tokens && npm run build:style-files && npm rum build:ts-after && npm run build:css-after && npm run clean:support-files",
     "build:tokens": "ts-node scripts/buildTokens",
     "build:style-files": "ts-node scripts/buildStyleFiles",
-    "build:all": "rm -rf build && npm run build:tokens && npm run build:style-files && npm rum build:ts-after && npm run build:css-after && npm run build:delete-support-files",
     "build:ts-after": "tsc build/ts/styles-theme-variables.ts --declaration",
     "build:css-after": "touch build/css/brand.module.css && cat build/css/light.module.css >> build/css/brand.module.css && echo \n >> build/css/brand.module.css && cat build/css/dark.module.css >> build/css/brand.module.css",
-    "build:delete-support-files": "rm -rf build/ts/styles-theme-variables.ts build/css/light.module.css build/css/dark.module.css"
+    "clean:all": "rm -rf build",
+    "clean:support-files": "rm -rf build/ts/styles-theme-variables.ts build/css/light.module.css build/css/dark.module.css"
   },
   "files": [
     "build/scss",

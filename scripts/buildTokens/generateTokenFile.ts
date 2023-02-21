@@ -6,7 +6,6 @@ import { TOKENS_BUILD_DIRECTORY } from '../constants';
 import { enhanceTree } from './utils';
 
 const DEFAULT_TRANSFORMER_OPTIONS: TransformerOptions = {
-  expandShadow: true,
   throwErrorWhenNotResolved: true,
   resolveReferences: true,
 };

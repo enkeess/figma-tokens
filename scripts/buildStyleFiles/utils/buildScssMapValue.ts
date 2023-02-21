@@ -1,6 +1,6 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITE_TOKENS, ValueFormat } from '../constants';
+import { BASE_INDENT, BOX_SHADOW_CSS_PROP, COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../constants';
 import { figmaTokenToCssProps, toKebabCase } from '../utils';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
@@ -20,7 +20,7 @@ function replaceRefs({
     const refs = dictionary.getReferences(valueWithRefs);
 
     refs.forEach(ref => {
-      replacedValue = replacedValue.replace(ref.value, `$${ref.name}`);
+      replacedValue = replacedValue.replace(String(ref.value), `$${ref.name}`);
     });
   }
 
@@ -66,10 +66,14 @@ ${indent})`;
 
   const simpleTokenTemplate = (token: TransformedToken) =>
     valueFormat === ValueFormat.Original
-      ? `${replaceRefs({ dictionary, value: token.value, valueWithRefs: token.original.value })}`
+      ? replaceRefs({ dictionary, value: token.value, valueWithRefs: token.original.value })
       : `--${token.name}`;
 
   const compositeTokenTemplate = (token: TransformedToken) => {
+    if (token.type === CompositeToken.BoxShadow) {
+      return simpleTokenTemplate(token);
+    }
+
     const cssEntryToString = (key: string, value: string) =>
       figmaTokenToCssProps(toKebabCase(key))
         .map(
@@ -79,8 +83,8 @@ ${indent})`;
 
     return wrapInBrackets(
       tokenToString(token.value, (key, value) =>
-        value && typeof value === 'object'
-          ? `${tokenToString(value, cssEntryToString)}`
+        value && typeof value === 'object' && key !== BOX_SHADOW_CSS_PROP
+          ? tokenToString(value, cssEntryToString)
           : cssEntryToString(key, replaceRefs({ dictionary, value, valueWithRefs: token.original.value[key] })),
       ),
     );

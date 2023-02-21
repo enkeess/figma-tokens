@@ -1,8 +1,8 @@
 import { TransformedToken } from 'style-dictionary';
 
-import { COMPOSITE_TOKENS, CompositeToken } from '../../constants';
+import { COMPOSITE_TOKENS } from '../../constants';
 
 export function matcher(token: TransformedToken) {
   const { type } = token;
-  return type !== CompositeToken.Composition && COMPOSITE_TOKENS.includes(type);
+  return COMPOSITE_TOKENS.includes(type);
 }

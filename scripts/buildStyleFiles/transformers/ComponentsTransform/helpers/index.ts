@@ -12,6 +12,9 @@ export function transformTokenByType(token: Partial<TransformedToken>) {
     }
     case CompositeToken.Typography:
       return transformTypographyToken({ name, value });
+    case CompositeToken.Composition:
+    case CompositeToken.BoxShadow:
+      return value;
     default: {
       throw new Error(`Uncaught type: <${type}> in ~ComponentsTransform~`);
     }

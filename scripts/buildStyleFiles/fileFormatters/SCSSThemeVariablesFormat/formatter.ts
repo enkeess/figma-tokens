@@ -1,7 +1,7 @@
 import { Dictionary } from 'style-dictionary';
 import { FormatterArguments } from 'style-dictionary/types/Format';
 
-import { COMPOSITE_TOKENS, ValueFormat } from '../../constants';
+import { COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../../constants';
 import { buildScssMapValue, toKebabCase } from '../../utils';
 
 function getVariableEntry(name: string) {
@@ -40,6 +40,10 @@ function printVariableList(dictionary: Dictionary) {
   return dictionary.allTokens
     .map(token => {
       if (COMPOSITE_TOKENS.includes(token.type)) {
+        if (token.type === CompositeToken.BoxShadow) {
+          return getVariableEntry(token.name);
+        }
+
         return Object.entries(token.value)
           .map(([key]) => getVariableEntry(`${token.name}-${toKebabCase(key)}`))
           .join('\n');

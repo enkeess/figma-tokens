@@ -15,13 +15,7 @@ export const THEME_MAP = {
   // для каждой темы получаем имя и набора файлов с токенами для этой темы
   for (const { name, selectedTokenSets } of themeConfig) {
     const theme = THEME_MAP[name];
-    const paths = Object.keys(selectedTokenSets).filter(
-      x =>
-        x.startsWith('Components/Button') ||
-        x.startsWith('Components/Counter') ||
-        x.startsWith('Components/Avatar') ||
-        !x.startsWith('Components'),
-    ); // TODO: фильтрую, тк Игорь не порефачил, без фильтра не резолвятся токены у всех компонентов, кроме кнопки
+    const paths = Object.keys(selectedTokenSets);
     const basePaths = paths.filter(tokens => tokens.startsWith('Base'));
     const themePaths = paths.filter(tokens => tokens.startsWith('Themes'));
     const componentsPaths = paths.filter(tokens => tokens.startsWith('Components'));

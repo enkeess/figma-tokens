@@ -1,14 +1,4 @@
-function ensureArray<T>(item: null | undefined | T | T[]): T[] {
-  if (Array.isArray(item)) {
-    return item;
-  }
-
-  if (item === undefined || item === null) {
-    return [];
-  }
-
-  return [item];
-}
+import { ensureArray } from './ensureArray';
 
 // утилита для преобразования св-ва из фигмы в св-во css
 // - это нужно для композитных токенов, внутри которых лежит несколько св-в

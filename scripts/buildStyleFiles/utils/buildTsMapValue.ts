@@ -1,6 +1,6 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
-import { BASE_INDENT, COMPOSITE_TOKENS } from '../constants';
+import { BASE_INDENT, BOX_SHADOW_CSS_PROP, COMPOSITE_TOKENS, CompositeToken } from '../constants';
 import { figmaTokenToCssProps, toCamelCase, toKebabCase } from '../utils';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
@@ -44,6 +44,10 @@ ${indent}}`;
   const simpleTokenTemplate = (token: TransformedToken) => `'--${token.name}'`;
 
   const compositeTokenTemplate = (token: TransformedToken) => {
+    if (token.type === CompositeToken.BoxShadow) {
+      return simpleTokenTemplate(token);
+    }
+
     const cssEntryToString = (key: string) =>
       figmaTokenToCssProps(toKebabCase(key))
         .map(prop => `'${prop}': '--${token.name}-${toKebabCase(key)}'`)
@@ -51,7 +55,9 @@ ${indent}}`;
 
     return wrapInBrackets(
       tokenToString(token.value, (key, value) =>
-        value && typeof value === 'object' ? `${tokenToString(value, cssEntryToString)}` : cssEntryToString(key),
+        value && typeof value === 'object' && key !== BOX_SHADOW_CSS_PROP
+          ? `${tokenToString(value, cssEntryToString)}`
+          : cssEntryToString(key),
       ),
     );
   };

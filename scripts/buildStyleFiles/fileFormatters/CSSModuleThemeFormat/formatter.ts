@@ -7,7 +7,7 @@ function getTokenValues(dictionary: Dictionary) {
   return dictionary.allTokens
     .map(token => {
       if (COMPOSITE_TOKENS.includes(token.type)) {
-        return token.value.replace(/\$/g, '--').replace(/,/g, ';');
+        return token.value;
       }
 
       return `--${token.name}: ${token.value};`;
