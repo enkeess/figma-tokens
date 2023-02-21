@@ -14,5 +14,6 @@ export function defaultTransformer(token: Partial<TransformedToken>) {
     return `--${name}-${toKebabCase(key)}: ${v};`;
   });
 
-  return `/* ${name} */` + '\n  ' + flattenedValue.join('\n  ');
+  return `/* ${name} */
+  ${flattenedValue.join('\n  ')}`;
 }

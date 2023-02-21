@@ -8,7 +8,7 @@ export function transformTokenByType(token: Partial<TransformedToken>) {
   const { type, name, value } = token;
   switch (type) {
     case CompositeToken.Border: {
-      return transformBorderToken({ type, value, name });
+      return transformBorderToken({ value, name });
     }
     case CompositeToken.Typography:
       return transformTypographyToken({ name, value });

@@ -11,7 +11,7 @@ import {
   TSThemeVariablesFormat,
 } from './fileFormatters';
 import { SourceTokensFilter } from './tokenFilters';
-import { ComponentsTransform, ThemeTransform } from './transformers';
+import { ComponentsTransform, ThemeTransform, ThemeVariablesTransform } from './transformers';
 import {
   getComponentStylesConfig,
   getCSSModuleThemeConfig,
@@ -21,6 +21,7 @@ import {
 
 // подключаем трансофрмеры для токенов
 StyleDictionaryPackage.registerTransform(ThemeTransform);
+StyleDictionaryPackage.registerTransform(ThemeVariablesTransform);
 StyleDictionaryPackage.registerTransform(ComponentsTransform);
 
 // подключаем форматы для файлов

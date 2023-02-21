@@ -7,10 +7,10 @@ import { transformer } from './transformer';
 // Transform - функция, которая принимает сырой токен и может его преобразовать в какой-либо формат
 // https://amzn.github.io/style-dictionary/#/transforms
 
-export const ThemeTransform: Named<Transform> = {
+export const ThemeVariablesTransform: Named<Transform> = {
   type: 'value',
   transitive: true,
-  name: TransformName.Theme,
+  name: TransformName.ThemeVariables,
   matcher,
   transformer,
 };

@@ -1,5 +1,7 @@
+import StyleDictionaryPackage from 'style-dictionary';
+
 import { Themes, TOKENS_BUILD_DIRECTORY, TS_BUILD_DIRECTORY } from '../../constants';
-import { FormatName, PLATFORM, THEME_VARIABLES } from '../constants';
+import { FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
 
 export function getTSThemeVariablesConfig() {
   return {
@@ -7,7 +9,7 @@ export function getTSThemeVariablesConfig() {
     platforms: {
       [PLATFORM]: {
         buildPath: `${TS_BUILD_DIRECTORY}/`,
-        transformGroup: 'scss',
+        transforms: [...StyleDictionaryPackage.transformGroup.scss, TransformName.ThemeVariables],
         files: [
           {
             format: FormatName.TSThemeVariables,

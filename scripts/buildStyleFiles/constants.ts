@@ -22,6 +22,7 @@ export enum FormatName {
 
 export enum TransformName {
   Theme = 'theme',
+  ThemeVariables = 'theme-variables',
   Components = 'components',
 }
 
