@@ -1,4 +1,4 @@
 export * from './SCSSComponentFormat';
-export * from './SCSSThemeFormat';
+export * from './CSSModuleThemeFormat';
 export * from './SCSSThemeVariablesFormat';
 export * from './TSThemeVariablesFormat';

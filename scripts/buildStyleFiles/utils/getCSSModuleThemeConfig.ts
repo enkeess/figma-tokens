@@ -13,7 +13,7 @@ export function getCSSModuleThemeConfig(theme: Themes) {
         files: [
           {
             destination: `${theme}.module.css`,
-            format: FormatName.SCSSTheme,
+            format: FormatName.CSSModuleTheme,
             options: {
               theme,
             },

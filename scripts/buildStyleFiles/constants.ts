@@ -11,7 +11,7 @@ export enum CompositeToken {
 export const COMPOSITE_TOKENS = Object.values(CompositeToken);
 
 export enum FormatName {
-  SCSSTheme = 'scss/theme',
+  CSSModuleTheme = 'css-module/theme',
   SCSSThemeVariables = 'scss/theme-variables',
   SCSSComponent = 'scss/component',
   TSThemeVariables = 'ts/theme-variables',

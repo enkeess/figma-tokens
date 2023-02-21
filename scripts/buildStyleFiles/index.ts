@@ -5,8 +5,8 @@ import StyleDictionaryPackage from 'style-dictionary';
 import { Themes, TOKENS_BUILD_DIRECTORY } from '../constants';
 import { PLATFORM } from './constants';
 import {
+  CSSModuleThemeFormat,
   SCSSComponentFormat,
-  SCSSThemeFormat,
   SCSSThemeVariablesFormat,
   TSThemeVariablesFormat,
 } from './fileFormatters';
@@ -24,7 +24,7 @@ StyleDictionaryPackage.registerTransform(ThemeTransform);
 StyleDictionaryPackage.registerTransform(ComponentsTransform);
 
 // подключаем форматы для файлов
-StyleDictionaryPackage.registerFormat(SCSSThemeFormat);
+StyleDictionaryPackage.registerFormat(CSSModuleThemeFormat);
 StyleDictionaryPackage.registerFormat(SCSSThemeVariablesFormat);
 StyleDictionaryPackage.registerFormat(SCSSComponentFormat);
 StyleDictionaryPackage.registerFormat(TSThemeVariablesFormat);
