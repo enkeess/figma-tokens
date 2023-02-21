@@ -1,4 +1,4 @@
-import { ensureArray } from './ensureArray';
+import { ensureArray } from '../../utils';
 
 // утилита для преобразования св-ва из фигмы в св-во css
 // - это нужно для композитных токенов, внутри которых лежит несколько св-в

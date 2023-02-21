@@ -1,4 +1,4 @@
-import { ensureArray } from './ensureArray';
+import { ensureArray } from '../../utils';
 
 export type ShadowItem = {
   x: string;

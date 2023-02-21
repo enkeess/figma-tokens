@@ -2,14 +2,14 @@ import { promises as fs } from 'fs';
 
 import themeConfig from '../../tokens/$themes.json';
 import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
-import { generateTokenFile } from './generateTokenFile';
+import { createTokenFile, generateTokens } from './utils';
 
 export const THEME_MAP = {
   BrandLightMode: Themes.BrandLight,
   BrandDarkMode: Themes.BrandDark,
 };
 
-(async () => {
+export const buildTokens = async () => {
   await fs.mkdir(TOKENS_BUILD_DIRECTORY, { recursive: true });
 
   // для каждой темы получаем имя и набора файлов с токенами для этой темы
@@ -30,12 +30,14 @@ export const THEME_MAP = {
     }, {});
 
     // генерим json-файл с токенами для темы
-    await generateTokenFile({
+    await createTokenFile({
       name: theme,
       subDir: 'themes',
-      allTokens: rawTokens,
-      allSets: paths,
-      setsToInclude: [...basePaths, ...themePaths],
+      resolvedTokens: generateTokens({
+        allTokens: rawTokens,
+        allSets: paths,
+        setsToInclude: [...basePaths, ...themePaths],
+      }),
     });
 
     // TODO: make correct condition for generation
@@ -50,15 +52,17 @@ export const THEME_MAP = {
           .join('-');
 
         // генерим файл для каждого компонента
-        await generateTokenFile({
+        await createTokenFile({
           name,
           subDir: 'components',
-          allTokens: rawTokens,
-          allSets: paths,
-          setsToInclude: [componentPath],
-          options: { resolveReferences: false, preserveRawValue: true },
+          resolvedTokens: generateTokens({
+            allTokens: rawTokens,
+            allSets: paths,
+            setsToInclude: [componentPath],
+            options: { resolveReferences: false, preserveRawValue: true },
+          }),
         });
       }
     }
   }
-})();
+};

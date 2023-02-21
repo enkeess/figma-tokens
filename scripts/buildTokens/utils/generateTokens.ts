@@ -1,34 +1,23 @@
-import { promises as fs } from 'fs';
-
 import { TransformerOptions, transformTokens } from 'token-transformer';
 
-import { TOKENS_BUILD_DIRECTORY } from '../constants';
-import { enhanceTree } from './utils';
+import { enhanceTree } from './enhanceTree';
 
 const DEFAULT_TRANSFORMER_OPTIONS: TransformerOptions = {
   throwErrorWhenNotResolved: true,
   resolveReferences: true,
 };
 
-export const generateTokenFile = async ({
-  name,
-  subDir,
+export const generateTokens = ({
   allTokens,
   allSets,
   setsToInclude,
   options,
 }: {
-  name: string;
-  subDir: string;
   allTokens: Record<string, any>;
   allSets: string[];
   setsToInclude: string[];
   options?: TransformerOptions;
 }) => {
-  const tokenSetDirectory = `${TOKENS_BUILD_DIRECTORY}/${subDir}`;
-
-  await fs.mkdir(tokenSetDirectory, { recursive: true });
-
   const resolvedTokens = transformTokens(
     allTokens,
     allSets,
@@ -51,10 +40,5 @@ export const generateTokenFile = async ({
     });
   }
 
-  const fileName = `${tokenSetDirectory}/tokens-${name}.json`;
-
-  await fs.writeFile(fileName, JSON.stringify(resolvedTokens), 'utf8');
-
-  // eslint-disable-next-line no-console
-  console.log(`${fileName} - done`);
+  return resolvedTokens;
 };

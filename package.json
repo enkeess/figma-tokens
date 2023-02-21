@@ -8,13 +8,7 @@
     "url": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens.git"
   },
   "scripts": {
-    "build:all": "npm run clean:all && npm run build:tokens && npm run build:style-files && npm rum build:ts-after && npm run build:css-after && npm run clean:support-files",
-    "build:tokens": "ts-node scripts/buildTokens",
-    "build:style-files": "ts-node scripts/buildStyleFiles",
-    "build:ts-after": "tsc build/ts/styles-theme-variables.ts --declaration",
-    "build:css-after": "touch build/css/brand.module.css && cat build/css/light.module.css >> build/css/brand.module.css && echo \n >> build/css/brand.module.css && cat build/css/dark.module.css >> build/css/brand.module.css",
-    "clean:all": "rm -rf build",
-    "clean:support-files": "rm -rf build/ts/styles-theme-variables.ts build/css/light.module.css build/css/dark.module.css"
+    "build:all": "ts-node scripts/buildAll"
   },
   "files": [
     "build/scss",
@@ -27,6 +21,8 @@
     "@sbercloud/ft-all-linters-pack": "2.1.4",
     "@sbercloud/ft-config-semantic-release": "2.1.2",
     "@sbercloud/ft-config-tsconfig": "1.1.1",
+    "@types/shelljs": "0.8.11",
+    "shelljs": "0.8.5",
     "style-dictionary": "3.7.2",
     "token-transformer": "0.0.29"
   }
