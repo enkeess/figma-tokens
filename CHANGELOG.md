@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.6.0...npm0.7.0) (2023-02-21)
+
+
+### Bug Fixes
+
+* **[FF-1787](https://jira.sbercloud.tech/browse/FF-1787):** modify border token formatting ([5563e02](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5563e02d40825b4888632e72258e2aaef78e028f))
+
+
+### Features
+
+* **[FF-1787](https://jira.sbercloud.tech/browse/FF-1787):** add box-shadow support ([e586da6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e586da6502c2e733ff76df8b3c31a4e04ac7b52f))
+
 # [0.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.5.0...npm0.6.0) (2023-02-16)
 
 
