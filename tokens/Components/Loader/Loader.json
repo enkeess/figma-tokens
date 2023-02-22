@@ -52,5 +52,34 @@
         "type": "composition"
       }
     }
+  },
+  "ProgressBarPage": {
+    "Container": {
+      "Single": {
+        "value": {
+          "height": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.ProgressBarPage.Single}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "ProgressBar": {
+    "Container": {
+      "SizeXs": {
+        "value": {
+          "height": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.ProgressBar.SizeXs}"
+        },
+        "type": "composition"
+      },
+      "SizeS": {
+        "value": {
+          "height": "{DimensionTheme.General.4px}",
+          "borderRadius": "{Radius.ProgressBar.SizeXs}"
+        },
+        "type": "composition"
+      }
+    }
   }
 }

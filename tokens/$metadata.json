@@ -21,6 +21,6 @@
     "Components/DropZone/DropZone",
     "Components/Loader/Loader",
     "Components/DropZone/DropZone",
-    "Components/ProgressBar/ProgressBar"
+    "Components/Loader/Loader"
   ]
 }
