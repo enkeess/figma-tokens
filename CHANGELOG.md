@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.7.2...npm0.8.0) (2023-02-28)
+
+
+### Features
+
+* mergePackageJson prepack script has been added ([7307af6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7307af68649caac46efeb9905206527733556c02))
+
 ## [0.7.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.7.1...npm0.7.2) (2023-02-28)
 
 
