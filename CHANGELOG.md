@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.7.1...npm0.7.2) (2023-02-28)
+
+
+### Performance Improvements
+
+* update eslint rules ([852ba41](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/852ba41a0f1a2e046bd438e0d371c34b79c8ac20))
+
 ## [0.7.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.7.0...npm0.7.1) (2023-02-28)
 
 
