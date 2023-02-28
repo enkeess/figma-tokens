@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.7.0...npm0.7.1) (2023-02-28)
+
+
+### Dependencies
+
+* update infrastructure dependencies ([b9a3c05](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b9a3c05a29a547e333f7b073c75cd819f405f4ef))
+
 # [0.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.6.0...npm0.7.0) (2023-02-21)
 
 
