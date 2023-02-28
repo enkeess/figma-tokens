@@ -8,7 +8,8 @@
     "url": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens.git"
   },
   "scripts": {
-    "build:all": "ts-node scripts/buildAll"
+    "build:all": "ts-node scripts/buildAll",
+    "prepack": "ts-node scripts/mergePackageJson"
   },
   "files": [
     "build/scss",
