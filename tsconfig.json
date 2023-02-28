@@ -8,7 +8,6 @@
     "lib": ["es2017", "dom", "dom.iterable", "esnext"],
     "types": ["node"],
     "strict": true,
-    "isolatedModules": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
