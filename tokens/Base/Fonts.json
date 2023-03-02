@@ -1,51 +1,56 @@
 {
+  "FontSizeMultiplier": {
+    "value": "{DimensionModule} / 8",
+    "type": "other",
+    "description": "Multiplier based on the basic module, to adjust the size of fonts"
+  },
   "FontSize": {
     "11": {
-      "value": "11",
+      "value": "{FontSizeMultiplier} * 11",
       "type": "fontSizes"
     },
     "12": {
-      "value": "12",
+      "value": "{FontSizeMultiplier} * 12",
       "type": "fontSizes"
     },
     "14": {
-      "value": "14",
+      "value": "{FontSizeMultiplier} * 14",
       "type": "fontSizes"
     },
     "16": {
-      "value": "16",
+      "value": "{FontSizeMultiplier} * 16",
       "type": "fontSizes"
     },
     "22": {
-      "value": "22",
+      "value": "{FontSizeMultiplier} * 22",
       "type": "fontSizes"
     },
     "24": {
-      "value": "24",
+      "value": "{FontSizeMultiplier} * 24",
       "type": "fontSizes"
     },
     "28": {
-      "value": "28",
+      "value": "{FontSizeMultiplier} * 28",
       "type": "fontSizes"
     },
     "32": {
-      "value": "32",
+      "value": "{FontSizeMultiplier} * 32",
       "type": "fontSizes"
     },
     "36": {
-      "value": "36",
+      "value": "{FontSizeMultiplier} * 36",
       "type": "fontSizes"
     },
     "40": {
-      "value": "40",
+      "value": "{FontSizeMultiplier} * 40",
       "type": "fontSizes"
     },
     "48": {
-      "value": "48",
+      "value": "{FontSizeMultiplier} * 48",
       "type": "fontSizes"
     },
     "56": {
-      "value": "56",
+      "value": "{FontSizeMultiplier} * 56",
       "type": "fontSizes"
     }
   },
