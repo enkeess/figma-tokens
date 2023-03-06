@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.2...npm0.8.3) (2023-03-06)
+
+
+### Bug Fixes
+
+* **[FF-1770](https://jira.sbercloud.tech/browse/FF-1770):** add outline var mixin ([0c4dea5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0c4dea57ed88cf42af1db7274f3d47f3194968f5))
+* **[FF-1770](https://jira.sbercloud.tech/browse/FF-1770):** support vertical-padding and horizontal-padding ([b19f6c0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b19f6c08be647b204e1df4ce465ea9516fae0063))
+
 ## [0.8.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.1...npm0.8.2) (2023-02-28)
 
 
