@@ -21,6 +21,12 @@ function printVariableMap(dictionary: Dictionary) {
   }
 }
 
+@mixin outline-var($map: (), $keys...) {
+  outline-width: simple-var(map.get($map, $keys...), 'border-width');
+  outline-style: simple-var(map.get($map, $keys...), 'border-style');
+  outline-color: simple-var(map.get($map, $keys...), 'border-color');
+}
+
 $theme-variables: (
   ${Object.entries(dictionary.tokens)
     .map(
