@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.5...npm0.8.6) (2023-03-09)
+
+
+### Bug Fixes
+
+* **[FF-1806](https://jira.sbercloud.tech/browse/FF-1806):** support case with 0 keys passed to simple-var and composite-var ([63aff84](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/63aff848860c58012555e041582fee8c8863e00c))
+
 ## [0.8.5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.4...npm0.8.5) (2023-03-09)
 
 
