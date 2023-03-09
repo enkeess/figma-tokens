@@ -10,13 +10,17 @@ function getVariableEntry(name: string) {
 
 function printVariableMap(dictionary: Dictionary) {
   return `@use 'sass:map';
+@use 'sass:list';
 
 @function simple-var($map: (), $keys...) {
-  @return var(map.get($map, $keys...));
+  $value: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+  @return var($value);
 }
 
 @mixin composite-var($map: (), $keys...) {
-  @each $key, $value in map.get($map, $keys...) {
+  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+
+  @each $key, $value in $inner-map {
     #{$key}: var($value);
   }
 }
