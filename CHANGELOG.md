@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.4...npm0.8.5) (2023-03-09)
+
+
+### Bug Fixes
+
+* **[FF-1806](https://jira.sbercloud.tech/browse/FF-1806):** enhance scss build with separate maps for composite vars ([ee92320](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ee92320e2caff96ad12d8bdd285a397de19541e1))
+
 ## [0.8.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.3...npm0.8.4) (2023-03-09)
 
 
