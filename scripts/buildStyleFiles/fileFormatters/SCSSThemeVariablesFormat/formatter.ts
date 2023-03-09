@@ -50,9 +50,18 @@ function printVariableList(dictionary: Dictionary) {
           return getVariableEntry(token.name);
         }
 
-        return Object.entries(token.value)
+        const flatVars = Object.entries(token.value)
           .map(([key]) => getVariableEntry(`${token.name}-${toKebabCase(key)}`))
           .join('\n');
+
+        const mapVars = `$${toKebabCase(token.name)}: ${buildScssMapValue({
+          dictionary,
+          token,
+          valueFormat: ValueFormat.CSSVar,
+        })};`;
+
+        return `${mapVars}
+${flatVars}`;
       }
 
       return getVariableEntry(token.name);

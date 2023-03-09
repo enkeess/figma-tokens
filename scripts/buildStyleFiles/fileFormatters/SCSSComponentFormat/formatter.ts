@@ -7,6 +7,10 @@ export function formatter({ dictionary }: FormatterArguments) {
 
 ${Object.entries(dictionary.tokens)
   .map(([key, value]) => `$${toKebabCase(key)}: ${buildScssMapValue({ dictionary, token: value })}`)
-  .join(';\n\n')}    
+  .join(';\n\n')};
+
+${dictionary.allTokens
+  .map(token => `$${toKebabCase(token.name)}: ${buildScssMapValue({ dictionary, token })}`)
+  .join(';\n\n')};
 `;
 }
