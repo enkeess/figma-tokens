@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.3...npm0.8.4) (2023-03-09)
+
+
+### Bug Fixes
+
+* **[FF-1824](https://jira.sbercloud.tech/browse/FF-1824):** temp fix of font sizes ([ac2c04c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ac2c04c5fd67814dc88614fbd6381b5bc2703700))
+* added DropZone Component & settings tokens ([9244c84](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9244c84c2918f62ff1ea341b4e42376ce6c031c3))
+* added file DropZone & connected to all mode ([4208dd6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/4208dd62e36ac2b27a1c59828b6cfccc2a979884))
+* added LayoutContent DropZone & paddigs Container ([d46564e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d46564e2edb8052ded586bbe15810744fa4e4323))
+* DropZone renamed in DropZone.Container.Single ([dbd1145](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dbd11452d744458ef96d9019bd1753fd5023bebc))
+
 ## [0.8.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.2...npm0.8.3) (2023-03-06)
 
 
