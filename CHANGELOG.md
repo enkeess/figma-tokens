@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.6...npm0.8.7) (2023-03-09)
+
+
+### Bug Fixes
+
+* added file DropZone & connected to all mode ([7b1bbdf](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7b1bbdf2eaa932d64b279b975d2575bded5a44d5))
+* added Loader package ([b4595d7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b4595d7936f4c0c3963912c3bce1495effb47327))
+* added Loader package ([45d34cf](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/45d34cf1a25dd98da4d281c745c4c9dc6f046225))
+* Loader connected to themes how source ([ac67761](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ac677619728db6bb101ec98772ca30151b9131d1))
+* Loader connected to themes how source ([c353421](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c353421b9cd5aabe11c88ba5d76afcfc2d6e4ba8))
+* removed LayoutBadgeS, renamed LayoutBadgeM in Icon.Badge.LayoutBadgeM ([b0474ca](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b0474ca91aad65c5382e26a849c7756956103b20))
+* removed Xxs & Xs sizes for ButtonLight & ButtonSupport, removed Xxs & Xs for SettingsSizeButton ([48db6d1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/48db6d12f5f17fd603d1ae2862040e34cdefbed9))
+* renamed IconLabel in IconBefore & LabelIcon in IconAfter ([e950159](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e9501595026fe98e717ee39ce78e7974ddaaa1f7))
+
 ## [0.8.6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.5...npm0.8.6) (2023-03-09)
 
 
