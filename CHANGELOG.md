@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.7...npm0.8.8) (2023-03-10)
+
+
+### Bug Fixes
+
+* added file ProgressBar & tokens component, file conected all modes ([d4e1c65](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d4e1c6576ecec4f3529291d8f81ec842a4311efa))
+* renamed all tokens ([eac8f4c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/eac8f4cfb66cafb6f974a2ab529ff6fca406afc5))
+* renamed file ProgressBar in Loader ([40d6b3c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/40d6b3c469100565a31409d21e9029a58f905a2e))
+
 ## [0.8.7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.6...npm0.8.7) (2023-03-09)
 
 
