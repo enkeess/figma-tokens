@@ -26,9 +26,11 @@ function printVariableMap(dictionary: Dictionary) {
 }
 
 @mixin outline-var($map: (), $keys...) {
-  outline-width: simple-var(map.get($map, $keys...), 'border-width');
-  outline-style: simple-var(map.get($map, $keys...), 'border-style');
-  outline-color: simple-var(map.get($map, $keys...), 'border-color');
+  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+
+  outline-width: simple-var($inner-map, 'border-width');
+  outline-style: simple-var($inner-map, 'border-style');
+  outline-color: simple-var($inner-map, 'border-color');
 }
 
 $theme-variables: (
