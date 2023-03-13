@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.10](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.9...npm0.8.10) (2023-03-13)
+
+
+### Bug Fixes
+
+* **[FF-1806](https://jira.sbercloud.tech/browse/FF-1806):** support case with 0 keys passed to outline-var ([7d455ed](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7d455ed303920501b1733f0d873a462ac597df57))
+
 ## [0.8.9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.8...npm0.8.9) (2023-03-13)
 
 
