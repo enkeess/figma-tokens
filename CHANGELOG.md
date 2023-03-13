@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.8...npm0.8.9) (2023-03-13)
+
+
+### Bug Fixes
+
+* autofix ([5889f10](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5889f1046a3ee9863cc171c3441e5de9b0cd430b))
+
 ## [0.8.8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.7...npm0.8.8) (2023-03-10)
 
 
