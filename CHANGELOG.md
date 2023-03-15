@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.11](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.10...npm0.8.11) (2023-03-15)
+
+
+### Bug Fixes
+
+* added StatusIndicator sizes & radius in settings, added container & SizeL ([f3cb5c6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f3cb5c68cd4c6a26eecfed2387428a4bfce714b4))
+
 ## [0.8.10](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.9...npm0.8.10) (2023-03-13)
 
 
