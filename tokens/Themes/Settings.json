@@ -437,7 +437,7 @@
     "DropZone": {
       "Single": {
         "value": {
-          "width": "{BorderWidth.General.Xs}",
+          "width": "{BorderWidth.General.M}",
           "style": "{BorderStyles.Dashed}"
         },
         "type": "border"
