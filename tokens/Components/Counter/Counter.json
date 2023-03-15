@@ -1,7 +1,7 @@
 {
   "Counter": {
     "Container": {
-      "SizeS": {
+      "S": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.S}",
@@ -39,7 +39,7 @@
           "type": "composition"
         }
       },
-      "SizeM": {
+      "M": {
         "Count": {
           "value": {
             "borderRadius": "{Radius.Counter.M}",
@@ -73,16 +73,6 @@
         "MinimalSize": {
           "value": {
             "width": "{DimensionTheme.General.16px}"
-          },
-          "type": "composition"
-        }
-      },
-      "SizeXs": {
-        "Indicator": {
-          "value": {
-            "borderRadius": "{Radius.Counter.Xs}",
-            "borderWidth": "{BorderWidth.Counter.Single}",
-            "sizing": "{DimensionTheme.General.8px}"
           },
           "type": "composition"
         }
