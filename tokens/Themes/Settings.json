@@ -121,6 +121,28 @@
         "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
       }
+    },
+    "Counter": {
+      "S": {
+        "MinimalWidth": {
+          "value": "{Space.Counter.S} + {Size.Counter.S.LimiterFigma}  + {Space.Counter.S}",
+          "type": "sizing"
+        },
+        "LimiterFigma": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "sizing"
+        }
+      },
+      "M": {
+        "MinimalWidth": {
+          "value": "{Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M}",
+          "type": "sizing"
+        },
+        "LimiterFigma": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -348,6 +370,16 @@
           "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         }
+      }
+    },
+    "Counter": {
+      "S": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
       }
     }
   },
