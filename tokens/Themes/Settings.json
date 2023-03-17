@@ -231,7 +231,7 @@
       }
     },
     "Avatar": {
-      "User": {
+      "Round": {
         "Xxs": {
           "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
@@ -261,7 +261,7 @@
           "type": "borderRadius"
         }
       },
-      "Corp": {
+      "Square": {
         "Xxs": {
           "value": "{DimensionTheme.General.4px}",
           "type": "borderRadius"

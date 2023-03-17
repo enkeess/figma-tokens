@@ -44,103 +44,103 @@
         "type": "composition"
       }
     },
-    "User": {
-      "SizeXxs": {
+    "Round": {
+      "Xxs": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.Xxs}",
+          "borderRadius": "{Radius.Avatar.Round.Xxs}",
           "sizing": "{Size.Avatar.Xxs}"
         },
         "type": "composition"
       },
-      "SizeXs": {
+      "Xs": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.Xs}",
+          "borderRadius": "{Radius.Avatar.Round.Xs}",
           "sizing": "{Size.Avatar.Xs}"
         },
         "type": "composition"
       },
-      "SizeS": {
+      "S": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.S}",
+          "borderRadius": "{Radius.Avatar.Round.S}",
           "sizing": "{Size.Avatar.S}"
         },
         "type": "composition"
       },
-      "SizeM": {
+      "M": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.M}",
+          "borderRadius": "{Radius.Avatar.Round.M}",
           "sizing": "{Size.Avatar.M}"
         },
         "type": "composition"
       },
-      "SizeL": {
+      "L": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.L}",
+          "borderRadius": "{Radius.Avatar.Round.L}",
           "sizing": "{Size.Avatar.L}"
         },
         "type": "composition"
       },
-      "SizeXl": {
+      "Xl": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.Xl}",
+          "borderRadius": "{Radius.Avatar.Round.Xl}",
           "sizing": "{Size.Avatar.Xl}"
         },
         "type": "composition"
       },
-      "SizeXxl": {
+      "Xxl": {
         "value": {
-          "borderRadius": "{Radius.Avatar.User.Xxl}",
+          "borderRadius": "{Radius.Avatar.Round.Xxl}",
           "sizing": "{Size.Avatar.Xxl}"
         },
         "type": "composition"
       }
     },
-    "Corp": {
-      "SizeXxs": {
+    "Square": {
+      "Xxs": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.Xxs}",
+          "borderRadius": "{Radius.Avatar.Square.Xxs}",
           "sizing": "{Size.Avatar.Xxs}"
         },
         "type": "composition"
       },
-      "SizeXs": {
+      "Xs": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.Xs}",
+          "borderRadius": "{Radius.Avatar.Square.Xs}",
           "sizing": "{Size.Avatar.Xs}"
         },
         "type": "composition"
       },
-      "SizeS": {
+      "S": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.S}",
+          "borderRadius": "{Radius.Avatar.Square.S}",
           "sizing": "{Size.Avatar.S}"
         },
         "type": "composition"
       },
-      "SizeM": {
+      "M": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.M}",
+          "borderRadius": "{Radius.Avatar.Square.M}",
           "sizing": "{Size.Avatar.M}"
         },
         "type": "composition"
       },
-      "SizeL": {
+      "L": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.L}",
+          "borderRadius": "{Radius.Avatar.Square.L}",
           "sizing": "{Size.Avatar.L}"
         },
         "type": "composition"
       },
-      "SizeXl": {
+      "Xl": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.Xl}",
+          "borderRadius": "{Radius.Avatar.Square.Xl}",
           "sizing": "{Size.Avatar.Xl}"
         },
         "type": "composition"
       },
-      "SizeXxl": {
+      "Xxl": {
         "value": {
-          "borderRadius": "{Radius.Avatar.Corp.Xxl}",
+          "borderRadius": "{Radius.Avatar.Square.Xxl}",
           "sizing": "{Size.Avatar.Xxl}"
         },
         "type": "composition"
