@@ -139,7 +139,7 @@
           "type": "sizing"
         },
         "LimiterFigma": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "sizing"
         }
       }
