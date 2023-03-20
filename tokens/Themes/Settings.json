@@ -125,7 +125,7 @@
     "Counter": {
       "S": {
         "MinimalWidth": {
-          "value": "{Space.Counter.S} + {Size.Counter.S.LimiterFigma}  + {Space.Counter.S}",
+          "value": "{BorderWidth.Counter.Single} + {Space.Counter.S} + {Size.Counter.S.LimiterFigma} + {Space.Counter.S} + {BorderWidth.Counter.Single}",
           "type": "sizing"
         },
         "LimiterFigma": {
@@ -135,7 +135,7 @@
       },
       "M": {
         "MinimalWidth": {
-          "value": "{Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M}",
+          "value": "{BorderWidth.Counter.Single} + {Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M} + {BorderWidth.Counter.Single}",
           "type": "sizing"
         },
         "LimiterFigma": {
