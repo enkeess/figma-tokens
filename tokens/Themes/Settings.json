@@ -378,7 +378,7 @@
         "type": "spacing"
       },
       "M": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
         "type": "spacing"
       }
     }
