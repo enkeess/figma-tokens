@@ -374,11 +374,11 @@
     },
     "Counter": {
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.2px}",
         "type": "spacing"
       },
       "M": {
-        "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+        "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
     }
@@ -418,7 +418,7 @@
     },
     "Counter": {
       "Single": {
-        "value": "{BorderWidth.018m}",
+        "value": "{BorderWidth.025m}",
         "type": "borderWidth"
       }
     }
