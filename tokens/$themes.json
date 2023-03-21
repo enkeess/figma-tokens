@@ -457,7 +457,12 @@
       "Shadow.Elevation.Level2": "S:38fc4e812ae4734141ff1d2fab9a334d7a21fe95,",
       "Shadow.Elevation.Level3": "S:13bcf2a1140e5de48fa000b2df7b0581bb1bafa0,",
       "Shadow.Elevation.Level4": "S:e2d2e6fe2023a63004806e60fbc14e5774056935,",
-      "Shadow.Elevation.Level5": "S:f586545e9949afa6620795ee13e5d81c7a1e1bdb,"
+      "Shadow.Elevation.Level5": "S:f586545e9949afa6620795ee13e5d81c7a1e1bdb,",
+      "BoxShadow.Elevation.Level1": "S:f5fc88aae8ce828d75c9a0ede84889430b1a4ff3,",
+      "BoxShadow.Elevation.Level2": "S:e4f10f54163c4c7e86dca35348ee418d36681a08,",
+      "BoxShadow.Elevation.Level3": "S:6e45395f22981bd27ddba8ec73ee1d0e405337dd,",
+      "BoxShadow.Elevation.Level4": "S:eabbc24396e6c3dcabe7c1c401d75b4b7b1a7a10,",
+      "BoxShadow.Elevation.Level5": "S:bb71ed67668a633c2141711c33dfdc9e27f57fcc,"
     }
   },
   {
