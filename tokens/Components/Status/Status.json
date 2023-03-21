@@ -82,16 +82,18 @@
           "height": "{DimensionTheme.General.16px}",
           "paddingRight": "{DimensionTheme.General.4px}",
           "paddingLeft": "{DimensionTheme.General.4px}",
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.Status.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
           "height": "{DimensionTheme.General.24px}",
-          "paddingRight": "{DimensionTheme.General.4px}",
+          "paddingRight": "{DimensionTheme.General.8px}",
           "paddingLeft": "{DimensionTheme.General.4px}",
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{DimensionTheme.General.2px}",
+          "borderRadius": "{Radius.Status.S}"
         },
         "type": "composition"
       }

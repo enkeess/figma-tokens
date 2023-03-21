@@ -198,6 +198,16 @@
         "type": "borderRadius"
       }
     },
+    "Status": {
+      "Xs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      }
+    },
     "Avatar": {
       "User": {
         "Xxs": {
