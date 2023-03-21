@@ -913,7 +913,12 @@
       "Mono.Label.S": "S:7ec07da2d05b46715f114667a97bfdf43b4d012d,",
       "Mono.Body.L": "S:7ee4b78a9cd9bef6f78f1f4e404decb91d2a5fdb,",
       "Mono.Body.M": "S:d46cc2c8aff711e767bdff87425a8cbf7476a70c,",
-      "Mono.Body.S": "S:0873c7ba88a7c77beeedb62646b3850d063016cf,"
+      "Mono.Body.S": "S:0873c7ba88a7c77beeedb62646b3850d063016cf,",
+      "BoxShadow.Elevation.Level1": "S:c65cda0ceeb8d61978d475342202dc44e552665c,",
+      "BoxShadow.Elevation.Level2": "S:fac4e79eed5705e1d111b4fdc2a11f9f8b932bd3,",
+      "BoxShadow.Elevation.Level3": "S:10e5b1b442bb91213dda3eb1d6f33fe691671380,",
+      "BoxShadow.Elevation.Level4": "S:eb523225b97c5260374b26edb0ad12b87a72c4c6,",
+      "BoxShadow.Elevation.Level5": "S:73daf9a4fcc8e35bd450239e2c4722b50ab88827,"
     }
   }
 ]
