@@ -88,7 +88,7 @@
     "description": "Multiplier based on the basic module, to adjust the height of font lines"
   },
   "ParagraphSpacingMultipler": {
-    "value": "0.55",
+    "value": "0.55{px}",
     "type": "other",
     "description": "Multiplier for adjusting paragraph margins"
   },
@@ -166,19 +166,19 @@
   },
   "LetterSpacing": {
     "Xs": {
-      "value": "-0.5",
+      "value": "-0.5{px}",
       "type": "letterSpacing"
     },
     "S": {
-      "value": "-0.1",
+      "value": "-0.1{px}",
       "type": "letterSpacing"
     },
     "M": {
-      "value": "0.1",
+      "value": "0.1{px}",
       "type": "letterSpacing"
     },
     "L": {
-      "value": "0.15",
+      "value": "0.15{px}",
       "type": "letterSpacing"
     }
   },
