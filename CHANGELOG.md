@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.13](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.12...npm0.8.13) (2023-03-22)
+
+
+### Bug Fixes
+
+* **[FF-1954](https://jira.sbercloud.tech/browse/FF-1954):** remove additional px from paragraph spacing ([d78dcad](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d78dcad32f406d4dc5067887166cb036a76732d9))
+* **[FF-1954](https://jira.sbercloud.tech/browse/FF-1954):** support custom font weights ([ac5771f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ac5771f445b46ca33e431e117b83aad24e8c2965))
+* renamed sizes ([d059f12](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d059f12979579ae97986c5e8df0c7e16debe2f66))
+
 ## [0.8.12](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.11...npm0.8.12) (2023-03-15)
 
 
