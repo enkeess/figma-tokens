@@ -88,7 +88,7 @@
     "description": "Multiplier based on the basic module, to adjust the height of font lines"
   },
   "ParagraphSpacingMultipler": {
-    "value": "0.55{px}",
+    "value": "0.55",
     "type": "other",
     "description": "Multiplier for adjusting paragraph margins"
   },
