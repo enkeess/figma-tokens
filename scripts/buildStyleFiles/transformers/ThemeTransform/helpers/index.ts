@@ -4,6 +4,7 @@ import { CompositeToken } from '../../../constants';
 import { defaultTransformer } from './defaultTransformer';
 import { transformBorderToken } from './transformBorderToken';
 import { transformBoxShadowToken } from './transformBoxShadowToken';
+import { transformTypographyToken } from './transformTypographyToken';
 
 export function transformTokenByType(token: Partial<TransformedToken>) {
   const { type, name, value } = token;
@@ -14,6 +15,7 @@ export function transformTokenByType(token: Partial<TransformedToken>) {
     case CompositeToken.Border:
       return transformBorderToken({ value, name });
     case CompositeToken.Typography:
+      return transformTypographyToken({ value, name });
     case CompositeToken.Composition:
       return defaultTransformer({ value, name });
     default: {

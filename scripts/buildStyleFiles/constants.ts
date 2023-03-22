@@ -12,6 +12,7 @@ export enum CompositeToken {
 export const COMPOSITE_TOKENS = Object.values(CompositeToken);
 
 export const BOX_SHADOW_CSS_PROP = CompositeToken.BoxShadow;
+export const FONT_WEIGHT_CSS_PROP = 'fontWeight';
 
 export enum FormatName {
   CSSModuleTheme = 'css-module/theme',

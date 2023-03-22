@@ -2,6 +2,7 @@ export * from './buildScssMapValue';
 export * from './buildTsMapValue';
 export * from './figmaTokenToCssProps';
 export * from './formatBoxShadowValue';
+export * from './formatFontWeightValue';
 export * from './getComponentStylesConfig';
 export * from './getCSSModuleThemeConfig';
 export * from './getSCSSThemeVariablesConfig';
