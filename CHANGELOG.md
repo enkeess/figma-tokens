@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.14](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.13...npm0.8.14) (2023-03-23)
+
+
+### Bug Fixes
+
+* **[FF-1965](https://jira.sbercloud.tech/browse/FF-1965):** update padding in size M ([5363b54](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5363b54a33eaecbf98e4caa72cfabcd8efe20819))
+* padding update ([a82a7c9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a82a7c9dbdaed3ac53a7402310a7617ec2a03059))
+* padding update ([f5f3d9c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f5f3d9cf25b348215168eff7e54565c690edeb6d))
+* removed size Xs & renamed all size ([b8eaca9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b8eaca994c54a0eda838131ac32d0e882cfbe5e4))
+* Space & BorderWidth ([154d4b1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/154d4b1eb44bdfc4e781a588bdb355ce6f9b6b00))
+* update MinimalWidth ([e8fa358](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e8fa358088d7d0ceb44b8ab5675d6d999580f86f))
+
 ## [0.8.13](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.12...npm0.8.13) (2023-03-22)
 
 
