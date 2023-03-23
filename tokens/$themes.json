@@ -20,7 +20,8 @@
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
       "Components/DropZone/DropZone": "source",
-      "Components/Loader/Loader": "source"
+      "Components/Loader/Loader": "source",
+      "Components/Pagination": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
@@ -486,7 +487,8 @@
       "Themes/Settings": "source",
       "Themes/Effects": "enabled",
       "Components/Loader/Loader": "source",
-      "Components/DropZone/DropZone": "source"
+      "Components/DropZone/DropZone": "source",
+      "Components/Pagination": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:63872c290805e80809acbb507ef60afbc17f85dc,",

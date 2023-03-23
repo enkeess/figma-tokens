@@ -18,6 +18,7 @@
     "Components/Button/ButtonSupport",
     "Components/Button/ButtonTonal",
     "Components/Loader/Loader",
-    "Components/DropZone/DropZone"
+    "Components/DropZone/DropZone",
+    "Components/Pagination"
   ]
 }
