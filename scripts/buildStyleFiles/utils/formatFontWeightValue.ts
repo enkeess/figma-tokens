@@ -35,4 +35,4 @@ const COMMON_FONT_WEIGHTS = {
 };
 
 export const formatFontWeightValue = (value: unknown): string =>
-  COMMON_FONT_WEIGHTS[String(value).replace(/\s/g, '').toLowerCase()] ?? value;
+  COMMON_FONT_WEIGHTS[String(value).replace(/-/g, '').replace(/\s/g, '').toLowerCase()] ?? value;
