@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.15](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.14...npm0.8.15) (2023-03-23)
+
+
+### Bug Fixes
+
+* **[FF-1954](https://jira.sbercloud.tech/browse/FF-1954):** support font weights with dash in the name ([88cecdb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/88cecdb57fb73da9c1306998ddeba86c18e450a5))
+
 ## [0.8.14](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.13...npm0.8.14) (2023-03-23)
 
 
