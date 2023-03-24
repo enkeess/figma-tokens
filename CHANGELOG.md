@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.16](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.15...npm0.8.16) (2023-03-24)
+
+
+### Bug Fixes
+
+* renamed User in Round & Corp in Square & all sizes on component layer. Also renamed User in Round & Corp in Square on theme layer ([925707a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/925707ab15823a8cb6bbc9d367b9ee2de8031ed5))
+
 ## [0.8.15](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.14...npm0.8.15) (2023-03-23)
 
 
