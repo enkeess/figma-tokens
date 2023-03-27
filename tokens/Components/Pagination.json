@@ -1,1 +1,37 @@
-{}
+{
+  "Pagination": {
+    "PageButton": {
+      "Container": {
+        "value": {
+          "height": "{DimensionTheme.General.32px}",
+          "borderRadius": "{Radius.Pagination.PageButton.Single}"
+        },
+        "type": "composition"
+      }
+    },
+    "PageButtonSlider": {
+      "Container": {
+        "value": {
+          "height": "{DimensionTheme.General.32px}"
+        },
+        "type": "composition"
+      },
+      "DotPage": {
+        "Default": {
+          "value": {
+            "sizing": "{Size.Pagination.PageButtonSlider.DotPage.Default}",
+            "borderRadius": "{Radius.Pagination.PageButtonSlider.DotPage.Single}"
+          },
+          "type": "composition"
+        },
+        "Interactions": {
+          "value": {
+            "sizing": "{Size.Pagination.PageButtonSlider.DotPage.Interaction}",
+            "borderRadius": "{Radius.Pagination.PageButtonSlider.DotPage.Single}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

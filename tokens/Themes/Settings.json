@@ -143,6 +143,34 @@
           "type": "sizing"
         }
       }
+    },
+    "Pagination": {
+      "PageButton": {
+        "MininalWidth": {
+          "value": "{Space.Pagination.PageButton.Single} + {Size.Pagination.PageButton.LimiterFigma} + {Space.Pagination.PageButton.Single}",
+          "type": "sizing"
+        },
+        "LimiterFigma": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        }
+      },
+      "PageButtonSlider": {
+        "Container": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        },
+        "DotPage": {
+          "Default": {
+            "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "Interaction": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -292,6 +320,22 @@
         }
       }
     },
+    "Pagination": {
+      "PageButton": {
+        "Single": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        }
+      },
+      "PageButtonSlider": {
+        "DotPage": {
+          "Single": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
     "ProgressBarPage": {
       "Single": {
         "value": "{DimensionTheme.General.0px}",
@@ -380,6 +424,14 @@
       "M": {
         "value": "{DimensionTheme.General.4px} + {BorderWidth.006m}",
         "type": "spacing"
+      }
+    },
+    "Pagination": {
+      "PageButton": {
+        "Single": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
       }
     }
   },
