@@ -21,7 +21,8 @@
       "Themes/Effects": "enabled",
       "Components/DropZone/DropZone": "source",
       "Components/Loader/Loader": "source",
-      "Components/Pagination": "source"
+      "Components/Pagination": "source",
+      "Components/Link/Link": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
@@ -488,7 +489,8 @@
       "Themes/Effects": "enabled",
       "Components/Loader/Loader": "source",
       "Components/DropZone/DropZone": "source",
-      "Components/Pagination": "source"
+      "Components/Pagination": "source",
+      "Components/Link/Link": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:63872c290805e80809acbb507ef60afbc17f85dc,",

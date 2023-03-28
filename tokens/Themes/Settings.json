@@ -70,6 +70,20 @@
         "type": "sizing"
       }
     },
+    "Link": {
+      "S": {
+        "value": "{LineHeight.Body.Sm}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{LineHeight.Body.Md}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{LineHeight.Body.Lg}",
+        "type": "sizing"
+      }
+    },
     "Avatar": {
       "Xxs": {
         "value": "{DimensionTheme.General.16px}",
