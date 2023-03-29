@@ -109,13 +109,12 @@
       }
     },
     "Label": {
+      "type": "composition",
       "LoadLabelOnly": {
         "value": {
           "opacity": "{Opacity.A0}"
         },
-        "description": "Скрывает лейбл для кнопки LabelOnly в состоянии Load",
-        "type": "composition",
-        "inheritTypeLevel": 3
+        "description": "Скрывает лейбл для кнопки LabelOnly в состоянии Load"
       }
     }
   }

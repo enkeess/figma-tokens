@@ -537,5 +537,13 @@
         "type": "border"
       }
     }
+  },
+  "Spacing": {
+    "StateFocus": {
+      "Offset": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "spacing"
+      }
+    }
   }
 }

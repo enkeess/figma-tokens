@@ -4,7 +4,8 @@
       "Container": {
         "value": {
           "height": "{DimensionTheme.General.32px}",
-          "borderRadius": "{Radius.Pagination.PageButton.Single}"
+          "borderRadius": "{Radius.Pagination.PageButton.Single}",
+          "horizontalPadding": "{Space.Pagination.PageButton.Single}"
         },
         "type": "composition"
       }
