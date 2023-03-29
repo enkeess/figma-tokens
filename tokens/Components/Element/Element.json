@@ -111,15 +111,6 @@
         "description": "RadiusToken & Size — installs a public component"
       }
     },
-    "Offset": {
-      "Single": {
-        "value": {
-          "spacing": "{Spacing.StateFocus.Offset}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
-      }
-    },
     "Available": {
       "SizeS": {
         "value": {
