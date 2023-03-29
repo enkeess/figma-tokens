@@ -88,22 +88,47 @@
     "type": "spacing"
   },
   "ContainerFocused": {
-    "OutlineWidth": {
-      "S": {
+    "Primary": {
+      "SizeS": {
         "value": {
           "border": "{Border.StateFocusPrimary.S}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "RadiusToken & Size — installs a public component"
       },
-      "M": {
+      "SizeM": {
         "value": {
           "border": "{Border.StateFocusPrimary.M}"
         },
-        "type": "composition"
+        "type": "composition",
+        "description": "RadiusToken & Size — installs a public component"
       },
-      "L": {
+      "SizeL": {
         "value": {
           "border": "{Border.StateFocusPrimary.L}"
+        },
+        "type": "composition",
+        "description": "RadiusToken & Size — installs a public component"
+      }
+    },
+    "Available": {
+      "SizeS": {
+        "value": {
+          "border": "{Border.StateFocusAvailable.S}"
+        },
+        "type": "composition",
+        "description": "RadiusToken & Size — installs a public component"
+      },
+      "SizeM": {
+        "value": {
+          "border": "{Border.StateFocusAvailable.M}"
+        },
+        "type": "composition",
+        "description": "RadiusToken & Size — installs a public component"
+      },
+      "SizeL": {
+        "value": {
+          "border": "{Border.StateFocusAvailable.L}"
         },
         "type": "composition",
         "description": "RadiusToken & Size — installs a public component"
