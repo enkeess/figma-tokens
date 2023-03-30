@@ -13,7 +13,7 @@
     "PageButtonSlider": {
       "Container": {
         "value": {
-          "height": "{DimensionTheme.General.32px}"
+          "sizing": "{DimensionTheme.General.32px}"
         },
         "type": "composition"
       },
