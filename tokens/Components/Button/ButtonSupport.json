@@ -8,7 +8,8 @@
             "itemSpacing": "{Space.Button.S.Gap}",
             "paddingRight": "{Space.Button.S.FromIcon}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderWidth": "{BorderWidth.ButtonOutline.Single}"
+            "borderWidth": "{BorderWidth.ButtonOutline.Single}",
+            "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
         },
@@ -17,7 +18,8 @@
             "height": "{Size.Button.S}",
             "itemSpacing": "{Space.Button.S.Gap}",
             "paddingRight": "{Space.Button.S.FromLabel}",
-            "paddingLeft": "{Space.Button.S.FromIcon}"
+            "paddingLeft": "{Space.Button.S.FromIcon}",
+            "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
         },
@@ -25,14 +27,16 @@
           "value": {
             "height": "{Size.Button.S}",
             "paddingRight": "{Space.Button.S.FromLabel}",
-            "paddingLeft": "{Space.Button.S.FromLabel}"
+            "paddingLeft": "{Space.Button.S.FromLabel}",
+            "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
         },
         "IconOnly": {
           "value": {
             "height": "{Size.Button.S}",
-            "width": "{Size.Button.S}"
+            "width": "{Size.Button.S}",
+            "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
         }
@@ -43,7 +47,8 @@
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
             "paddingRight": "{Space.Button.M.FromIcon}",
-            "paddingLeft": "{Space.Button.M.FromLabel}"
+            "paddingLeft": "{Space.Button.M.FromLabel}",
+            "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
         },
@@ -52,7 +57,8 @@
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
             "paddingRight": "{Space.Button.M.FromLabel}",
-            "paddingLeft": "{Space.Button.M.FromIcon}"
+            "paddingLeft": "{Space.Button.M.FromIcon}",
+            "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
         },
@@ -60,14 +66,16 @@
           "value": {
             "height": "{Size.Button.M}",
             "paddingRight": "{Space.Button.M.FromLabel}",
-            "paddingLeft": "{Space.Button.M.FromLabel}"
+            "paddingLeft": "{Space.Button.M.FromLabel}",
+            "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
         },
         "IconOnly": {
           "value": {
             "height": "{Size.Button.M}",
-            "width": "{Size.Button.M}"
+            "width": "{Size.Button.M}",
+            "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
         }
@@ -78,7 +86,8 @@
             "height": "{Size.Button.L}",
             "itemSpacing": "{Space.Button.L.Gap}",
             "paddingRight": "{Space.Button.L.FromIcon}",
-            "paddingLeft": "{Space.Button.L.FromLabel}"
+            "paddingLeft": "{Space.Button.L.FromLabel}",
+            "borderRadius": "{Radius.Button.L}"
           },
           "type": "composition"
         },
@@ -87,7 +96,8 @@
             "height": "{Size.Button.L}",
             "itemSpacing": "{Space.Button.L.Gap}",
             "paddingRight": "{Space.Button.L.FromLabel}",
-            "paddingLeft": "{Space.Button.L.FromIcon}"
+            "paddingLeft": "{Space.Button.L.FromIcon}",
+            "borderRadius": "{Radius.Button.L}"
           },
           "type": "composition"
         },
@@ -95,14 +105,16 @@
           "value": {
             "height": "{Size.Button.L}",
             "paddingRight": "{Space.Button.L.FromLabel}",
-            "paddingLeft": "{Space.Button.L.FromLabel}"
+            "paddingLeft": "{Space.Button.L.FromLabel}",
+            "borderRadius": "{Radius.Button.L}"
           },
           "type": "composition"
         },
         "IconOnly": {
           "value": {
             "height": "{Size.Button.L}",
-            "width": "{Size.Button.L}"
+            "width": "{Size.Button.L}",
+            "borderRadius": "{Radius.Button.L}"
           },
           "type": "composition"
         }
