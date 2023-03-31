@@ -33,6 +33,12 @@
           "type": "composition"
         }
       }
+    },
+    "Container": {
+      "value": {
+        "itemSpacing": "{DimensionTheme.General.4px}"
+      },
+      "type": "composition"
     }
   }
 }
