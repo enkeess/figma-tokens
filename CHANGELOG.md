@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.16...npm0.9.0) (2023-04-03)
+
+
+### Bug Fixes
+
+* Renamed ContainerFocused.Primary.Size in ContainerFocused.OutlineWidth, removed set tokens ContainerFocused.Available ([758ff2f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/758ff2f92555a5e682b7cbc6c4c954cd3b9384f1))
+
+
+### Features
+
+* added border radius for ButtonLight & ButtonSupport ([c805b4d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c805b4d9a5d1b9e983e60512209ffcc12f20d204))
+* added ContainerFocused.Offset.Single ([3c4dafc](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3c4dafcf60f797b56629aae23e18b4680c40aab8))
+* added padding for Pagination.PageButton.Container, added Spacing.StateFocus.Offset ([8b3b0bf](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8b3b0bf9aac7f2904d2d23d716c079acbfcd28b9))
+* added pagination tokens ([595b7fe](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/595b7fe5e2a27a2f3ee44c2a09a0038f84118e71))
+* added Pagination.Container ([afd2501](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/afd2501712633402f7127416609696603af78c7b))
+* changed key for Pagination.PageButtonSlider.Container ([d0912c1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d0912c19f6444ab87bb2ff85c2eafe2ecc0d11fb))
+* connected package Pagination in all mode ([79f1276](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/79f127665a9573acd64b63bb6724df7d5218a2d1))
+
 ## [0.8.16](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.15...npm0.8.16) (2023-03-24)
 
 
