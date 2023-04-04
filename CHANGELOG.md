@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.9.0...npm0.10.0) (2023-04-04)
+
+
+### Bug Fixes
+
+* **[FF-1992](https://jira.sbercloud.tech/browse/FF-1992):** support spacing property in composite tokens ([1f48384](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1f483842ed74c63aa8172a83557cf5db50efb55a))
+* spacing replaced by itemSpacing ([fd61096](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/fd61096d08968bf141f5accb2f4e1ea0b57f1522))
+
+
+### Features
+
+* link tokens added ([67acd05](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/67acd057221bbc75170064ee0fb37b518d51e3f7))
+
 # [0.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.8.16...npm0.9.0) (2023-04-03)
 
 
