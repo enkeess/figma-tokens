@@ -11,6 +11,7 @@ export function figmaTokenToCssProps(key: string): string[] {
       'vertical-padding': ['padding-top', 'padding-bottom'],
       'horizontal-padding': ['padding-left', 'padding-right'],
       'item-spacing': 'gap',
+      spacing: 'gap',
       'text-case': 'text-transform',
     }[key] ?? key,
   );
