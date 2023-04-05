@@ -14,7 +14,8 @@
   "files": [
     "build/scss",
     "build/css",
-    "build/ts"
+    "build/ts",
+    "CHANGELOG.md"
   ],
   "main": "./build/ts/styles-theme-variables.js",
   "types": "./build/ts/styles-theme-variables.d.ts",
