@@ -15,6 +15,7 @@
     "build/scss",
     "build/css",
     "build/ts",
+    "assets",
     "CHANGELOG.md"
   ],
   "main": "./build/ts/styles-theme-variables.js",

@@ -1,6 +1,6 @@
 # Figma tokens
 
-Репозиторий для хранения и обработки фигма-токенов дизайн-системы компании [Cloud](https://sbercloud.ru)
+[Репозиторий](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens) для хранения и обработки фигма-токенов дизайн-системы компании [Cloud](https://sbercloud.ru/) и сообщетсва [TeamSnack](https://t.me/+tN0DDzHaDVc3M2Iy)
 
 * [Макеты Figma](https://www.figma.com/files/1101513230643708615/team/1194627249980298820/DS-(FF))
 * Инструмент для пресборки токенов: [Token Transformer](https://github.com/tokens-studio/figma-plugin/tree/main/token-transformer)
@@ -24,7 +24,7 @@
 * Тематические токены - ссылаются на базовые токены; сущетсвуют в двух модификациях для цветов - Light и Dark
 * Токены компонентов - ссылаются на тематические токены (либо напрямую на базовые, если не требуется темизация каких-либо св-в); поделены покомпонентно
 
-<img src="./assets/tokens-structure.jpg" width="800">
+![Tokens Structure](assets/tokens-structure.jpg)
 
 ## Использование токенов в проекте
 
@@ -60,27 +60,27 @@
 1. Подключите пакет `@sbercloud/figma-tokens` актуальной версии
 3. Подключите файл с токенами, а затем поместите их в нужное место, используя вспомогательные функции `var`, `simple-var` или `composite-var`
   * scss
-    ```scss
-    @import '@sbercloud/figma-tokens/build/scss/styles-theme-variables';
-    
-    .wrapper {
-      color: var($sys-primary-text-main-enabled);
-      opacity: simple-var($theme-variables, 'opacity', 'a032');
-   
-      @include composite-var($sans-label-l);
-    }
-    ```
+  ```scss
+  @import '@sbercloud/figma-tokens/build/scss/styles-theme-variables';
+
+  .wrapper {
+    color: var($sys-primary-text-main-enabled);
+    opacity: simple-var($theme-variables, 'opacity', 'a032');
+
+    @include composite-var($sans-label-l);
+  }
+  ```
   * ts
-    ```typescript
-    import { styled } from '@linaria/react';
-    import { compositeVar, simpleVar, themeVars } from '@sbercloud/figma-tokens';
-    
-    export const Wrapper = styled.div`
-      color: ${simpleVar(themeVars.sys.primary.textMainEnabled)};
-    
-      ${compositeVar(themeVars.sans.label.s)};
-    `;
-    ```
+  ```typescript
+  import { styled } from '@linaria/react';
+  import { compositeVar, simpleVar, themeVars } from '@sbercloud/figma-tokens';
+
+  export const Wrapper = styled.div`
+    color: ${simpleVar(themeVars.sys.primary.textMainEnabled)};
+  
+    ${compositeVar(themeVars.sans.label.s)};
+  `;
+  ```
 
 ### Как использовать токены в компонентах uikit-a
 1. Проверьте, что в uikit подключен пакет `@sbercloud/figma-tokens` актуальной версии
