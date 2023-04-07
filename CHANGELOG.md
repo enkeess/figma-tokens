@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.1...npm0.10.2) (2023-04-07)
+
+
+### Bug Fixes
+
+* **[FF-2033](https://jira.sbercloud.tech/browse/FF-2033):** add assets to package ([8f5d589](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8f5d5894b84805e395456ec5d21ccd2d53268f62))
+
 ## [0.10.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.0...npm0.10.1) (2023-04-05)
 
 
