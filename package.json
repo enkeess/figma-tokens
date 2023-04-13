@@ -21,12 +21,12 @@
   "main": "./build/ts/styles-theme-variables.js",
   "types": "./build/ts/styles-theme-variables.d.ts",
   "devDependencies": {
-    "@sbercloud/ft-all-linters-pack": "2.2.1",
+    "@sbercloud/ft-all-linters-pack": "2.2.5",
     "@sbercloud/ft-config-semantic-release": "2.2.0",
-    "@sbercloud/ft-config-tsconfig": "1.2.0",
-    "@types/shelljs": "0.8.11",
+    "@sbercloud/ft-config-tsconfig": "1.2.1",
+    "@types/shelljs": "0.8.12",
     "shelljs": "0.8.5",
     "style-dictionary": "3.7.2",
-    "token-transformer": "0.0.30"
+    "token-transformer": "0.0.32"
   }
 }
