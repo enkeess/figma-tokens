@@ -1,0 +1,43 @@
+{
+  "PopoverPrivate": {
+    "Container": {
+      "S": {
+        "value": {
+          "verticalPadding": "{Radius.PopoverPprivate.S}",
+          "borderRadius": "{Radius.PopoverPprivate.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "spacing": "{DimensionTheme.General.16px}",
+          "borderRadius": "{Radius.PopoverPprivate.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "spacing": "{DimensionTheme.General.24px}",
+          "borderRadius": "{Radius.PopoverPprivate.L}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "PopoverPointer": {
+    "Container": {
+      "value": {
+        "verticalPadding": "{Radius.PopoverPprivate.L}",
+        "paddingLeft": "{Space.PopoverPointer.Offset}"
+      },
+      "type": "composition"
+    },
+    "Arrow": {
+      "value": {
+        "height": "{DimensionTheme.General.8px}",
+        "width": "{DimensionTheme.General.4px}"
+      },
+      "type": "composition"
+    }
+  }
+}

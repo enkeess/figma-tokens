@@ -355,6 +355,20 @@
         "value": "{DimensionTheme.General.0px}",
         "type": "borderRadius"
       }
+    },
+    "PopoverPprivate": {
+      "L": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      }
     }
   },
   "Space": {
@@ -446,6 +460,12 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
+      }
+    },
+    "PopoverPointer": {
+      "Offset": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
       }
     }
   },

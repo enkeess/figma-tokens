@@ -20,6 +20,7 @@
     "Components/Loader/Loader",
     "Components/DropZone/DropZone",
     "Components/Pagination",
-    "Components/Link/Link"
+    "Components/Link/Link",
+    "Components/Popover/PopoverPrivate"
   ]
 }
