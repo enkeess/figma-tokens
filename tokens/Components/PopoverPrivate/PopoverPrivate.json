@@ -1,0 +1,11 @@
+{
+  "PopoverPointer": {
+    "Arrow": {
+      "value": {
+        "height": "{DimensionTheme.General.8px}",
+        "width": "{DimensionTheme.General.4px}"
+      },
+      "type": "composition"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Dropdown": {
+    "Container": {
+      "value": {
+        "verticalPadding": "{Radius.PopoverPrivate.S}",
+        "borderRadius": "{Radius.PopoverPrivate.S}"
+      },
+      "type": "composition"
+    }
+  }
+}

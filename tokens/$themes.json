@@ -23,7 +23,10 @@
       "Components/Loader/Loader": "source",
       "Components/Pagination": "source",
       "Components/Link/Link": "source",
-      "Components/Popover/PopoverPrivate": "source"
+      "Components/PopoverPrivate/PopoverPrivate": "source",
+      "Components/Popover/Popover": "source",
+      "Components/Tooltip/Tooltip": "source",
+      "Components/Dropdown/Dropdown": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:6a22ebfd10e07d73e77eebf260cf53c587da5f3a,",
@@ -492,7 +495,10 @@
       "Components/DropZone/DropZone": "source",
       "Components/Pagination": "source",
       "Components/Link/Link": "source",
-      "Components/Popover/PopoverPrivate": "source"
+      "Components/PopoverPrivate/PopoverPrivate": "source",
+      "Components/Popover/Popover": "source",
+      "Components/Tooltip/Tooltip": "source",
+      "Components/Dropdown/Dropdown": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:63872c290805e80809acbb507ef60afbc17f85dc,",

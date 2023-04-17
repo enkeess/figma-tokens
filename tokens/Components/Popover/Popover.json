@@ -1,0 +1,11 @@
+{
+  "Popover": {
+    "Container": {
+      "value": {
+        "spacing": "{DimensionTheme.General.24px}",
+        "borderRadius": "{Radius.PopoverPrivate.L}"
+      },
+      "type": "composition"
+    }
+  }
+}

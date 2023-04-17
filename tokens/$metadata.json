@@ -21,6 +21,9 @@
     "Components/DropZone/DropZone",
     "Components/Pagination",
     "Components/Link/Link",
-    "Components/Popover/PopoverPrivate"
+    "Components/PopoverPrivate/PopoverPrivate",
+    "Components/Popover/Popover",
+    "Components/Tooltip/Tooltip",
+    "Components/Dropdown/Dropdown"
   ]
 }

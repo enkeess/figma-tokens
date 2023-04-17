@@ -1,0 +1,11 @@
+{
+  "Tooltip": {
+    "Container": {
+      "value": {
+        "spacing": "{DimensionTheme.General.16px}",
+        "borderRadius": "{Radius.PopoverPrivate.M}"
+      },
+      "type": "composition"
+    }
+  }
+}
