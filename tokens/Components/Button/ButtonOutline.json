@@ -1,7 +1,7 @@
 {
   "ButtonOutline": {
     "Container": {
-      "SizeS": {
+      "S": {
         "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.S}",
@@ -33,7 +33,7 @@
           "type": "composition"
         }
       },
-      "SizeM": {
+      "M": {
         "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.M}",
@@ -65,7 +65,7 @@
           "type": "composition"
         }
       },
-      "SizeL": {
+      "L": {
         "IconAfter": {
           "value": {
             "borderRadius": "{Radius.Button.L}",

@@ -1,7 +1,7 @@
 {
   "ButtonSupport": {
     "Container": {
-      "SizeS": {
+      "S": {
         "IconAfter": {
           "value": {
             "height": "{Size.Button.S}",
@@ -41,7 +41,7 @@
           "type": "composition"
         }
       },
-      "SizeM": {
+      "M": {
         "IconAfter": {
           "value": {
             "height": "{Size.Button.M}",
@@ -80,7 +80,7 @@
           "type": "composition"
         }
       },
-      "SizeL": {
+      "L": {
         "IconAfter": {
           "value": {
             "height": "{Size.Button.L}",
