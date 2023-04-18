@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.3...npm0.10.4) (2023-04-18)
+
+
+### Bug Fixes
+
+* renamed SizS with S for all sizes tokens button ([e4ac37f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e4ac37fa289330ad285b0391219a4ecd91d3dae0))
+
 ## [0.10.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.2...npm0.10.3) (2023-04-13)
 
 
