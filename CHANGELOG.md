@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.4...npm0.11.0) (2023-04-21)
+
+
+### Features
+
+* **[FF-2107](https://jira.sbercloud.tech/browse/FF-2107):** support additional figma props for composite tokens ([f78c937](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f78c93763799ef68421c775947068f7ed716ce99))
+* added Popover, Tooltip & Dropdown tokens ([26e8ec6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/26e8ec6974ca29fdb126841982be9028a21cd9d9))
+* added PopoverPrivate tokens ([df45ed7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/df45ed75503a6d90019a6b50aa785c3aad83bde9))
+
 ## [0.10.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.3...npm0.10.4) (2023-04-18)
 
 
