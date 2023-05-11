@@ -1,25 +1,25 @@
 {
   "Loader": {
     "Sun": {
-      "SizeXs": {
+      "Xs": {
         "value": {
           "sizing": "{DimensionTheme.General.16px}"
         },
         "type": "composition"
       },
-      "SizeS": {
+      "S": {
         "value": {
           "sizing": "{DimensionTheme.General.24px}"
         },
         "type": "composition"
       },
-      "SizeM": {
+      "M": {
         "value": {
           "sizing": "{DimensionTheme.General.48px}"
         },
         "type": "composition"
       },
-      "SizeL": {
+      "L": {
         "value": {
           "sizing": "{DimensionTheme.General.72px}"
         },
@@ -27,25 +27,25 @@
       }
     },
     "Spiner": {
-      "SizeXs": {
+      "Xs": {
         "value": {
           "sizing": "{DimensionTheme.General.16px}"
         },
         "type": "composition"
       },
-      "SizeS": {
+      "S": {
         "value": {
           "sizing": "{DimensionTheme.General.24px}"
         },
         "type": "composition"
       },
-      "SizeM": {
+      "M": {
         "value": {
           "sizing": "{DimensionTheme.General.48px}"
         },
         "type": "composition"
       },
-      "SizeL": {
+      "L": {
         "value": {
           "sizing": "{DimensionTheme.General.72px}"
         },
@@ -66,14 +66,14 @@
   },
   "ProgressBar": {
     "Container": {
-      "SizeXs": {
+      "Xs": {
         "value": {
           "height": "{DimensionTheme.General.2px}",
           "borderRadius": "{Radius.ProgressBar.SizeXs}"
         },
         "type": "composition"
       },
-      "SizeS": {
+      "S": {
         "value": {
           "height": "{DimensionTheme.General.4px}",
           "borderRadius": "{Radius.ProgressBar.SizeXs}"

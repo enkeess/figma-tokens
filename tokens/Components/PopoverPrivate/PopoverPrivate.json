@@ -2,8 +2,8 @@
   "PopoverPointer": {
     "Arrow": {
       "value": {
-        "height": "{DimensionTheme.General.8px}",
-        "width": "{DimensionTheme.General.4px}"
+        "height": "{Size.PopoverPointer.Arrow.Height}",
+        "width": "{Size.PopoverPointer.Arrow.Width}"
       },
       "type": "composition"
     }

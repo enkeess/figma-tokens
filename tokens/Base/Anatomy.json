@@ -85,6 +85,30 @@
     "A048": {
       "value": "{OpacityMultiplier} * 0.12",
       "type": "opacity"
+    },
+    "A056": {
+      "value": "{OpacityMultiplier} * 0.14",
+      "type": "opacity"
+    },
+    "A064": {
+      "value": "{OpacityMultiplier} * 0.16",
+      "type": "opacity"
+    },
+    "A072": {
+      "value": "{OpacityMultiplier} * 0.18",
+      "type": "opacity"
+    },
+    "A080": {
+      "value": "{OpacityMultiplier} * 0.2",
+      "type": "opacity"
+    },
+    "A088": {
+      "value": "{OpacityMultiplier} * 0.22",
+      "type": "opacity"
+    },
+    "A096": {
+      "value": "{OpacityMultiplier} * 0.24",
+      "type": "opacity"
     }
   },
   "BorderWidth": {

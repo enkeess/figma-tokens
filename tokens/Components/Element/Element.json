@@ -74,11 +74,11 @@
         "type": "composition"
       }
     },
-    "SizeXs": {
+    "Xs": {
       "value": "{Dimension.2m}",
       "type": "sizing"
     },
-    "SizeS": {
+    "S": {
       "value": "{Dimension.3m}",
       "type": "sizing"
     }
@@ -88,51 +88,26 @@
     "type": "spacing"
   },
   "ContainerFocused": {
-    "Primary": {
-      "SizeS": {
-        "value": {
-          "border": "{Border.StateFocusPrimary.S}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
+    "S": {
+      "value": {
+        "border": "{Border.StateFocus.S}"
       },
-      "SizeM": {
-        "value": {
-          "border": "{Border.StateFocusPrimary.M}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
-      },
-      "SizeL": {
-        "value": {
-          "border": "{Border.StateFocusPrimary.L}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
-      }
+      "type": "composition",
+      "description": "RadiusToken & Size — installs a public component"
     },
-    "Available": {
-      "SizeS": {
-        "value": {
-          "border": "{Border.StateFocusAvailable.S}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
+    "M": {
+      "value": {
+        "border": "{Border.StateFocus.M}"
       },
-      "SizeM": {
-        "value": {
-          "border": "{Border.StateFocusAvailable.M}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
+      "type": "composition",
+      "description": "RadiusToken & Size — installs a public component"
+    },
+    "L": {
+      "value": {
+        "border": "{Border.StateFocus.L}"
       },
-      "SizeL": {
-        "value": {
-          "border": "{Border.StateFocusAvailable.L}"
-        },
-        "type": "composition",
-        "description": "RadiusToken & Size — installs a public component"
-      }
+      "type": "composition",
+      "description": "RadiusToken & Size — installs a public component"
     }
   }
 }

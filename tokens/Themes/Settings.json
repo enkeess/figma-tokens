@@ -139,7 +139,7 @@
     "Counter": {
       "S": {
         "MinimalWidth": {
-          "value": "{BorderWidth.Counter.Single} + {Space.Counter.S} + {Size.Counter.S.LimiterFigma} + {Space.Counter.S} + {BorderWidth.Counter.Single}",
+          "value": "{BorderWidth.StateFocus.S} + {Space.Counter.S} + {Size.Counter.S.LimiterFigma} + {Space.Counter.S} + {BorderWidth.StateFocus.S}",
           "type": "sizing"
         },
         "LimiterFigma": {
@@ -149,7 +149,7 @@
       },
       "M": {
         "MinimalWidth": {
-          "value": "{BorderWidth.Counter.Single} + {Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M} + {BorderWidth.Counter.Single}",
+          "value": "{BorderWidth.StateFocus.S} + {Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M} + {BorderWidth.StateFocus.S}",
           "type": "sizing"
         },
         "LimiterFigma": {
@@ -185,6 +185,18 @@
           }
         }
       }
+    },
+    "PopoverPointer": {
+      "Arrow": {
+        "Width": {
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+          "type": "sizing"
+        },
+        "Height": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -198,15 +210,15 @@
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
@@ -358,15 +370,15 @@
     },
     "PopoverPrivate": {
       "L": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.32px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.24px}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     }
@@ -502,62 +514,44 @@
         "type": "borderWidth"
       }
     },
-    "Counter": {
-      "Single": {
-        "value": "{BorderWidth.018m}",
+    "StateFocus": {
+      "S": {
+        "value": "{BorderWidth.025m}",
+        "type": "borderWidth"
+      },
+      "M": {
+        "value": "{BorderWidth.038m}",
+        "type": "borderWidth"
+      },
+      "L": {
+        "value": "{BorderWidth.050m}",
         "type": "borderWidth"
       }
     }
   },
   "Border": {
-    "StateFocusPrimary": {
+    "StateFocus": {
       "S": {
         "value": {
-          "width": "{BorderWidth.General.M}",
+          "width": "{BorderWidth.StateFocus.S}",
           "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Primary.LineActivated}"
+          "color": ""
         },
         "type": "border"
       },
       "M": {
         "value": {
-          "width": "{BorderWidth.General.L}",
+          "width": "{BorderWidth.StateFocus.M}",
           "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Primary.LineActivated}"
+          "color": ""
         },
         "type": "border"
       },
       "L": {
         "value": {
-          "width": "{BorderWidth.General.Xl}",
+          "width": "{BorderWidth.StateFocus.L}",
           "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Primary.LineActivated}"
-        },
-        "type": "border"
-      }
-    },
-    "StateFocusAvailable": {
-      "S": {
-        "value": {
-          "width": "{BorderWidth.General.M}",
-          "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Available.Complementary}"
-        },
-        "type": "border"
-      },
-      "M": {
-        "value": {
-          "width": "{BorderWidth.General.L}",
-          "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Available.Complementary}"
-        },
-        "type": "border"
-      },
-      "L": {
-        "value": {
-          "width": "{BorderWidth.General.Xl}",
-          "style": "{BorderStyles.Solid}",
-          "color": "{Sys.Available.Complementary}"
+          "color": ""
         },
         "type": "border"
       }

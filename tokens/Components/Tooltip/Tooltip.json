@@ -6,6 +6,14 @@
         "borderRadius": "{Radius.PopoverPrivate.M}"
       },
       "type": "composition"
+    },
+    "TooltipPointer": {
+      "value": {
+        "paddingLeft": "{Space.PopoverPointer.Offset}",
+        "paddingTop": "{Radius.PopoverPrivate.M}",
+        "paddingBottom": "{Radius.PopoverPrivate.M}"
+      },
+      "type": "composition"
     }
   }
 }
