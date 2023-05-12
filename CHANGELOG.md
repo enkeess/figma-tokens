@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.11.0...npm1.0.0) (2023-05-12)
+
+
+### BREAKING CHANGES
+
+
+* **[FF-2255](https://jira.sbercloud.tech/browse/FF-2255):** palette refactoring, base palette has been extended, system palette has been significantly refactored ([150f713](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/150f71371e8f07dea33dd99f99d4231b044cb292))
+
 # [0.11.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.10.4...npm0.11.0) (2023-04-21)
 
 
