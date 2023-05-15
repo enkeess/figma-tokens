@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.0.0...npm1.1.0) (2023-05-15)
+
+
+### Features
+
+* **[FF-2385](https://jira.sbercloud.tech/browse/FF-2385):** wrap token names in quotation marks ([0a7615b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0a7615b0f4d8b7adb4226b2cba3dd2270d997b36))
+
 # [1.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm0.11.0...npm1.0.0) (2023-05-12)
 
 
