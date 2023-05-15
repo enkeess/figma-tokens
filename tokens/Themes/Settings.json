@@ -224,7 +224,7 @@
     },
     "DropZone": {
       "Single": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
@@ -276,11 +276,11 @@
     },
     "Status": {
       "Xs": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
@@ -349,7 +349,7 @@
     "Pagination": {
       "PageButton": {
         "Single": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       },
