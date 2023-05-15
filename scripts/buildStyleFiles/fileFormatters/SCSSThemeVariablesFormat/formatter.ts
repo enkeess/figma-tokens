@@ -37,7 +37,7 @@ $theme-variables: (
   ${Object.entries(dictionary.tokens)
     .map(
       ([key, value]) =>
-        `${toKebabCase(key)}: ${buildScssMapValue({
+        `"${toKebabCase(key)}": ${buildScssMapValue({
           dictionary,
           token: value,
           depth: 1,

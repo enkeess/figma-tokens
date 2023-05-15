@@ -55,7 +55,7 @@ ${indent})`;
       tokenToString(
         token,
         (key, tokenInner) =>
-          `${toKebabCase(key)}: ${buildScssMapValue({
+          `"${toKebabCase(key)}": ${buildScssMapValue({
             dictionary,
             token: tokenInner,
             depth: depth + 1,
