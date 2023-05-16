@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.0...npm1.2.1) (2023-05-16)
+
+
+### Bug Fixes
+
+* setting theme ([69fd9d1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/69fd9d12bae96c13bff1c10ad711c377352d85d8))
+
 # [1.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.1.0...npm1.2.0) (2023-05-16)
 
 
