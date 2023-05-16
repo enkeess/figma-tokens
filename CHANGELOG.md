@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.1.0...npm1.2.0) (2023-05-16)
+
+
+### Features
+
+* **[FF-2205](https://jira.sbercloud.tech/browse/FF-2205):** add skeleton package ([ac78450](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ac7845035ad269e9cb0f0ab20b78dbc38129c458))
+
 # [1.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.0.0...npm1.1.0) (2023-05-15)
 
 
