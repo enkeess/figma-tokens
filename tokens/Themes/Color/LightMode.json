@@ -816,6 +816,10 @@
           "type": "color"
         }
       }
+    },
+    "Skeleton": {
+      "value": "linear-gradient(115deg, rgba({Ref.Gray.10}, 0.08) 40%, rgba({Ref.Gray.10}, 0) 50%, rgba({Ref.Gray.10}, 0.08) 60%)",
+      "type": "color"
     }
   }
 }
