@@ -189,7 +189,7 @@
     "Toggles": {
       "M": {
         "Container": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
         "Box": {
@@ -209,9 +209,29 @@
             "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
             "type": "sizing"
           }
+        },
+        "Circle": {
+          "Radio": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "Switch": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          }
         }
       },
       "S": {
+        "Circle": {
+          "Radio": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          },
+          "Switch": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          }
+        },
         "Container": {
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
@@ -226,11 +246,11 @@
             "type": "sizing"
           },
           "SwitchWidth": {
-            "value": "{DimensionTheme.General.32px}",
+            "value": "{DimensionTheme.General.24px}",
             "type": "sizing"
           },
           "SwitchHeight": {
-            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "sizing"
           }
         }
