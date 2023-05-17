@@ -24,7 +24,7 @@
     "Components/PopoverPrivate/PopoverPrivate",
     "Components/Popover/Popover",
     "Components/Tooltip/Tooltip",
-    "Components/Dropdown/DropList",
+    "Components/DropList/DropList",
     "Components/Skeleton/Skeleton"
   ]
 }
