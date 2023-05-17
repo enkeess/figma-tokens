@@ -26,8 +26,8 @@
       "Components/PopoverPrivate/PopoverPrivate": "source",
       "Components/Popover/Popover": "source",
       "Components/Tooltip/Tooltip": "source",
-      "Components/Dropdown/Dropdown": "source",
-      "Components/Skeleton/Skeleton": "source"
+      "Components/Skeleton/Skeleton": "source",
+      "Components/Dropdown/DropList": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:1cdcb8dda660a0fc838870951bace14a4b608df9,",
@@ -731,8 +731,8 @@
       "Components/PopoverPrivate/PopoverPrivate": "source",
       "Components/Popover/Popover": "source",
       "Components/Tooltip/Tooltip": "source",
-      "Components/Dropdown/Dropdown": "source",
-      "Components/Skeleton/Skeleton": "source"
+      "Components/Skeleton/Skeleton": "source",
+      "Components/Dropdown/DropList": "source"
     },
     "$figmaStyleReferences": {
       "Sys.Neutral.ContainerEnabled": "S:a6ecefcd04e774fa92679efb0959ed6caf974c77,",

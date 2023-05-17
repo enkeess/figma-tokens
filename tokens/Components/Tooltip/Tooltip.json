@@ -3,15 +3,15 @@
     "Container": {
       "value": {
         "spacing": "{DimensionTheme.General.16px}",
-        "borderRadius": "{Radius.PopoverPrivate.M}"
+        "borderRadius": "{Radius.PopoverPrivate.Tooltip}"
       },
       "type": "composition"
     },
     "TooltipPointer": {
       "value": {
         "paddingLeft": "{Space.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.PopoverPrivate.M}",
-        "paddingBottom": "{Radius.PopoverPrivate.M}"
+        "paddingTop": "{Radius.PopoverPrivate.Tooltip}",
+        "paddingBottom": "{Radius.PopoverPrivate.Tooltip}"
       },
       "type": "composition"
     }

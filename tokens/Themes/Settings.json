@@ -369,15 +369,15 @@
       }
     },
     "PopoverPrivate": {
-      "L": {
+      "Popover": {
         "value": "{DimensionTheme.General.32px}",
         "type": "borderRadius"
       },
-      "M": {
+      "Tooltip": {
         "value": "{DimensionTheme.General.24px}",
         "type": "borderRadius"
       },
-      "S": {
+      "DropList": {
         "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
