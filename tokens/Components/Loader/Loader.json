@@ -69,14 +69,14 @@
       "Xs": {
         "value": {
           "height": "{DimensionTheme.General.2px}",
-          "borderRadius": "{Radius.ProgressBar.SizeXs}"
+          "borderRadius": "{Radius.ProgressBar.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
           "height": "{DimensionTheme.General.4px}",
-          "borderRadius": "{Radius.ProgressBar.SizeXs}"
+          "borderRadius": "{Radius.ProgressBar.Xs}"
         },
         "type": "composition"
       }

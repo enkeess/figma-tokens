@@ -243,11 +243,11 @@
       }
     },
     "ProgressBar": {
-      "SizeXs": {
+      "Xs": {
         "value": "{DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
-      "SizeS": {
+      "S": {
         "value": "{DimensionTheme.General.2px}",
         "type": "borderRadius"
       }
