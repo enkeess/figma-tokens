@@ -1,10 +1,42 @@
 {
   "Toggles": {
+    "Container": {
+      "S": {
+        "value": {
+          "height": "{Size.Toggles.S.Container}",
+          "itemSpacing": "{Space.Toggles.S.Gap}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "height": "{Size.Toggles.M.Container}",
+          "itemSpacing": "{Space.Toggles.M.Gap}"
+        },
+        "type": "composition"
+      }
+    },
     "Radio": {
       "S": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.S.Container}",
+            "borderRadius": "{Radius.Toggles.S.Box.Radio}"
+          },
+          "type": "composition"
+        },
         "Box": {
           "value": {
-            "sizing": "{Size.Toggles.M.Container}"
+            "sizing": "{Size.Toggles.S.Box.Radio}",
+            "borderWidth": "{BorderWidth.Toggles.Single}",
+            "borderRadius": "{Radius.Toggles.S.Box.Radio}"
+          },
+          "type": "composition"
+        },
+        "Flag": {
+          "value": {
+            "borderRadius": "{Radius.Toggles.S.Box.Radio}",
+            "sizing": "{Size.Toggles.S.Flag.Radio}"
           },
           "type": "composition"
         }
@@ -12,9 +44,18 @@
     },
     "Checkbox": {
       "S": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.S.Container}",
+            "borderRadius": "{Radius.Toggles.S.Box.Checkbox}"
+          },
+          "type": "composition"
+        },
         "Box": {
           "value": {
-            "sizing": "{Size.Toggles.M.Container}"
+            "sizing": "{Size.Toggles.M.Container}",
+            "borderWidth": "{BorderWidth.Toggles.Single}",
+            "borderRadius": "{Radius.Toggles.S.Box.Radio}"
           },
           "type": "composition"
         }
@@ -22,9 +63,26 @@
     },
     "Switch": {
       "S": {
+        "Container": {
+          "value": {
+            "width": "{Size.Toggles.S.Box.SwitchWidth}",
+            "height": "{Size.Toggles.S.Container}",
+            "borderRadius": "{Radius.Toggles.S.Box.Switch}"
+          },
+          "type": "composition"
+        },
         "Box": {
           "value": {
-            "sizing": "{Size.Toggles.M.Container}"
+            "width": "{Size.Toggles.S.Box.SwitchWidth}",
+            "height": "{Size.Toggles.S.Box.SwitchHeight}",
+            "borderRadius": "{Radius.Toggles.S.Box.Switch}"
+          },
+          "type": "composition"
+        },
+        "Flag": {
+          "value": {
+            "borderRadius": "{Radius.Toggles.S.Box.Switch}",
+            "sizing": "{Size.Toggles.S.Flag.Switch}"
           },
           "type": "composition"
         }

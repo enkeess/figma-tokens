@@ -187,6 +187,40 @@
       }
     },
     "Toggles": {
+      "S": {
+        "Container": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Box": {
+          "Checkbox": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "Radio": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "SwitchWidth": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          },
+          "SwitchHeight": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          }
+        },
+        "Flag": {
+          "Radio": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          },
+          "Switch": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      },
       "M": {
         "Container": {
           "value": "{DimensionTheme.General.24px}",
@@ -210,46 +244,12 @@
             "type": "sizing"
           }
         },
-        "Circle": {
+        "Flag": {
           "Radio": {
             "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
             "type": "sizing"
           },
           "Switch": {
-            "value": "{DimensionTheme.General.16px}",
-            "type": "sizing"
-          }
-        }
-      },
-      "S": {
-        "Circle": {
-          "Radio": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "sizing"
-          },
-          "Switch": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "sizing"
-          }
-        },
-        "Container": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "Box": {
-          "Checkbox": {
-            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
-            "type": "sizing"
-          },
-          "Radio": {
-            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
-            "type": "sizing"
-          },
-          "SwitchWidth": {
-            "value": "{DimensionTheme.General.24px}",
-            "type": "sizing"
-          },
-          "SwitchHeight": {
             "value": "{DimensionTheme.General.16px}",
             "type": "sizing"
           }
@@ -635,6 +635,12 @@
       }
     },
     "ButtonOutline": {
+      "Single": {
+        "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      }
+    },
+    "Toggles": {
       "Single": {
         "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
