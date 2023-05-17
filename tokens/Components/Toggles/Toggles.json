@@ -1,1 +1,34 @@
-{}
+{
+  "Toggles": {
+    "Radio": {
+      "S": {
+        "Box": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Checkbox": {
+      "S": {
+        "Box": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Switch": {
+      "S": {
+        "Box": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

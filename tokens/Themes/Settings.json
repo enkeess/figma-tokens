@@ -186,6 +186,56 @@
         }
       }
     },
+    "Toggles": {
+      "M": {
+        "Container": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Box": {
+          "Checkbox": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "Radio": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "SwitchWidth": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          },
+          "SwitchHeight": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      },
+      "S": {
+        "Container": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Box": {
+          "Checkbox": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "Radio": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          },
+          "SwitchWidth": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          },
+          "SwitchHeight": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
     "PopoverPointer": {
       "Arrow": {
         "Width": {
@@ -220,6 +270,48 @@
       "L": {
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
+      }
+    },
+    "Toggles": {
+      "S": {
+        "Container": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "Box": {
+          "Checkbox": {
+            "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+            "type": "borderRadius"
+          },
+          "Radio": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "borderRadius"
+          },
+          "Switch": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "M": {
+        "Container": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "Box": {
+          "Checkbox": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "borderRadius"
+          },
+          "Radio": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "borderRadius"
+          },
+          "Switch": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "borderRadius"
+          }
+        }
       }
     },
     "DropZone": {
@@ -452,6 +544,20 @@
         },
         "FromLabel": {
           "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Toggles": {
+      "S": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "M": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       }
