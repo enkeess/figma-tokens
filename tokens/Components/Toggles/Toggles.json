@@ -21,7 +21,8 @@
         "Container": {
           "value": {
             "sizing": "{Size.Toggles.S.Container}",
-            "borderRadius": "{Radius.Toggles.S.Box.Radio}"
+            "borderRadius": "{Radius.Toggles.S.Box.Radio}",
+            "borderWidth": "{BorderWidth.Toggles.Single}"
           },
           "type": "composition"
         },
@@ -47,7 +48,8 @@
         "Container": {
           "value": {
             "sizing": "{Size.Toggles.S.Container}",
-            "borderRadius": "{Radius.Toggles.S.Box.Checkbox}"
+            "borderRadius": "{Radius.Toggles.S.Box.Checkbox}",
+            "borderWidth": "{BorderWidth.Toggles.Single}"
           },
           "type": "composition"
         },
