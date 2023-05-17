@@ -25,6 +25,7 @@
     "Components/Popover/Popover",
     "Components/Tooltip/Tooltip",
     "Components/DropList/DropList",
-    "Components/Skeleton/Skeleton"
+    "Components/Skeleton/Skeleton",
+    "Components/Toggles/Toggles"
   ]
 }
