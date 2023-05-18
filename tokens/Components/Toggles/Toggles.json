@@ -123,7 +123,7 @@
         },
         "Box": {
           "value": {
-            "sizing": "{Size.Toggles.M.Container}",
+            "sizing": "{Size.Toggles.M.Box.Checkbox}",
             "borderWidth": "{BorderWidth.Toggles.Single}",
             "borderRadius": "{Radius.Toggles.M.Box.Checkbox}"
           },
