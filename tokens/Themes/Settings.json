@@ -198,7 +198,7 @@
             "type": "sizing"
           },
           "Radio": {
-            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "sizing"
           },
           "SwitchWidth": {

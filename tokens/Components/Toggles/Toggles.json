@@ -16,8 +16,8 @@
         "type": "composition"
       }
     },
-    "Radio": {
-      "S": {
+    "S": {
+      "Radio": {
         "Container": {
           "value": {
             "sizing": "{Size.Toggles.S.Container}",
@@ -41,10 +41,8 @@
           },
           "type": "composition"
         }
-      }
-    },
-    "Checkbox": {
-      "S": {
+      },
+      "Checkbox": {
         "Container": {
           "value": {
             "sizing": "{Size.Toggles.S.Container}",
@@ -61,10 +59,8 @@
           },
           "type": "composition"
         }
-      }
-    },
-    "Switch": {
-      "S": {
+      },
+      "Switch": {
         "Container": {
           "value": {
             "width": "{Size.Toggles.S.Box.SwitchWidth}",
@@ -85,6 +81,76 @@
           "value": {
             "borderRadius": "{Radius.Toggles.S.Box.Switch}",
             "sizing": "{Size.Toggles.S.Flag.Switch}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "M": {
+      "Radio": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}",
+            "borderRadius": "{Radius.Toggles.M.Box.Radio}",
+            "borderWidth": "{BorderWidth.Toggles.Single}"
+          },
+          "type": "composition"
+        },
+        "Box": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Box.Radio}",
+            "borderWidth": "{BorderWidth.Toggles.Single}",
+            "borderRadius": "{Radius.Toggles.M.Box.Radio}"
+          },
+          "type": "composition"
+        },
+        "Flag": {
+          "value": {
+            "borderRadius": "{Radius.Toggles.M.Box.Radio}",
+            "sizing": "{Size.Toggles.M.Flag.Radio}"
+          },
+          "type": "composition"
+        }
+      },
+      "Checkbox": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}",
+            "borderRadius": "{Radius.Toggles.M.Box.Checkbox}",
+            "borderWidth": "{BorderWidth.Toggles.Single}"
+          },
+          "type": "composition"
+        },
+        "Box": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}",
+            "borderWidth": "{BorderWidth.Toggles.Single}",
+            "borderRadius": "{Radius.Toggles.M.Box.Radio}"
+          },
+          "type": "composition"
+        }
+      },
+      "Switch": {
+        "Container": {
+          "value": {
+            "width": "{Size.Toggles.M.Box.SwitchWidth}",
+            "height": "{Size.Toggles.M.Container}",
+            "borderRadius": "{Radius.Toggles.M.Box.Switch}"
+          },
+          "type": "composition"
+        },
+        "Box": {
+          "value": {
+            "width": "{Size.Toggles.M.Box.SwitchWidth}",
+            "height": "{Size.Toggles.M.Box.SwitchHeight}",
+            "borderRadius": "{Radius.Toggles.M.Box.Switch}"
+          },
+          "type": "composition"
+        },
+        "Flag": {
+          "value": {
+            "borderRadius": "{Radius.Toggles.M.Box.Switch}",
+            "sizing": "{Size.Toggles.M.Flag.Switch}"
           },
           "type": "composition"
         }
