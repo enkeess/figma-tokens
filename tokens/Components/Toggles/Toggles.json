@@ -53,9 +53,9 @@
         },
         "Box": {
           "value": {
-            "sizing": "{Size.Toggles.M.Container}",
+            "sizing": "{Size.Toggles.S.Container}",
             "borderWidth": "{BorderWidth.Toggles.Single}",
-            "borderRadius": "{Radius.Toggles.S.Box.Radio}"
+            "borderRadius": "{Radius.Toggles.S.Box.Checkbox}"
           },
           "type": "composition"
         }
@@ -125,7 +125,7 @@
           "value": {
             "sizing": "{Size.Toggles.M.Container}",
             "borderWidth": "{BorderWidth.Toggles.Single}",
-            "borderRadius": "{Radius.Toggles.M.Box.Radio}"
+            "borderRadius": "{Radius.Toggles.M.Box.Checkbox}"
           },
           "type": "composition"
         }
