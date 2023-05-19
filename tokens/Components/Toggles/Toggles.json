@@ -63,7 +63,7 @@
       "Switch": {
         "Container": {
           "value": {
-            "width": "{Size.Toggles.S.Box.SwitchWidth}",
+            "width": "{Size.Toggles.S.ContainerSwitchWidth}",
             "height": "{Size.Toggles.S.Container}",
             "borderRadius": "{Radius.Toggles.S.Box.Switch}"
           },
@@ -133,7 +133,7 @@
       "Switch": {
         "Container": {
           "value": {
-            "width": "{Size.Toggles.M.Box.SwitchWidth}",
+            "width": "{Size.Toggles.M.ContainerSwitchWidth}",
             "height": "{Size.Toggles.M.Container}",
             "borderRadius": "{Radius.Toggles.M.Box.Switch}"
           },

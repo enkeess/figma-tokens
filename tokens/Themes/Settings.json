@@ -192,9 +192,13 @@
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         },
+        "ContainerSwitchWidth": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
         "Box": {
           "Checkbox": {
-            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "sizing"
           },
           "Radio": {
@@ -224,6 +228,10 @@
       "M": {
         "Container": {
           "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "ContainerSwitchWidth": {
+          "value": "{DimensionTheme.General.32px} + {DimensionTheme.General.4px}",
           "type": "sizing"
         },
         "Box": {
