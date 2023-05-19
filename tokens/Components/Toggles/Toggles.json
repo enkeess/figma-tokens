@@ -60,6 +60,15 @@
           "type": "composition"
         }
       },
+      "Favourite": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.S.Container}",
+            "borderRadius": "{Radius.Toggles.S.Box.Checkbox}"
+          },
+          "type": "composition"
+        }
+      },
       "Switch": {
         "Container": {
           "value": {
@@ -125,6 +134,15 @@
           "value": {
             "sizing": "{Size.Toggles.M.Box.Checkbox}",
             "borderWidth": "{BorderWidth.Toggles.Single}",
+            "borderRadius": "{Radius.Toggles.M.Box.Checkbox}"
+          },
+          "type": "composition"
+        }
+      },
+      "Favourite": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}",
             "borderRadius": "{Radius.Toggles.M.Box.Checkbox}"
           },
           "type": "composition"
