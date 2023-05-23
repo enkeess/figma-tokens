@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.1...npm1.2.2) (2023-05-23)
+
+
+### Bug Fixes
+
+* ButtonOutline sizes ([1160797](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/11607975d8e43fc0e20740c107a0a2561d3bddf6))
+* renamed package & tokens Dropdown in DropList ([cb683c6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cb683c63e94ced6c39bb80cb8296fb1d2f48ef7a))
+* renamed radius PopoverPrivate tokens in settings ([7ca0373](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7ca037329b5b68b6c85703419ca0c9373a447d57))
+* renamed sizes Radius.ProgressBar ([02063b3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/02063b301e690e0d7d79192ec9deab572f84604a))
+* size counter ([fa9e92e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/fa9e92e7274cdc100c2074c5360e01481b8c612c))
+
 ## [1.2.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.0...npm1.2.1) (2023-05-16)
 
 
