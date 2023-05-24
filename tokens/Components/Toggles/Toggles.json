@@ -78,6 +78,12 @@
           },
           "type": "composition"
         },
+        "ContainerFlag": {
+          "value": {
+            "sizing": "{Size.Toggles.S.Container}"
+          },
+          "type": "composition"
+        },
         "Box": {
           "value": {
             "width": "{Size.Toggles.S.Box.SwitchWidth}",
@@ -154,6 +160,12 @@
             "width": "{Size.Toggles.M.ContainerSwitchWidth}",
             "height": "{Size.Toggles.M.Container}",
             "borderRadius": "{Radius.Toggles.M.Box.Switch}"
+          },
+          "type": "composition"
+        },
+        "ContainerFlag": {
+          "value": {
+            "sizing": "{Size.Toggles.M.Container}"
           },
           "type": "composition"
         },
