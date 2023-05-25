@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.2...npm1.3.0) (2023-05-25)
+
+
+### Bug Fixes
+
+* button outline ([d7fe2a2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d7fe2a2f2d68c8667adf523a66bc7aaf020cce73))
+* composition token values changed ([07ff0ef](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/07ff0efa61c3f12abf86cb9bfd5593fb1066e46b))
+* composition token values changed ([f7f01a8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f7f01a83dbf09d6db4a78fde8ea273e98e11cf3a))
+
+
+### Features
+
+* added border width in composition tokens ([8e3fb95](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8e3fb951c0c05fa983e7f069a00bc5ab9019541b))
+* added composite tokens for Toggles package ([532558a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/532558a9e66d25c9687f31c6501520e02ea04e15))
+* added ContainerSwitchWidth tokens ([4a3ffc7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/4a3ffc7bb43d2728b6482099a7237dfb9134dbfe))
+* added Favourite.Container tokens ([f7001fe](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f7001fe71be8d60bbe634cfae474d4739ae42867))
+* added Toggles composition tokens size M ([836580e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/836580e7efc15b8831fbfa37a3201776adacbac0))
+* added Toggles package & connected all modifications ([b49ce8b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b49ce8b630bf33a55413e40a8c60d59dc34ab949))
+* added tokens theme layer ([00b1e68](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/00b1e68eef812ab0a824eacfcef5e904e8a6358b))
+* added tokens toggles ([7488171](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7488171add9f25b65b7c24422b81efb6586eb91d))
+* added tokens Toggles.S.Switch.ContainerFlag ([d768b85](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d768b85a00cf11b15d0666bdc280274b33e7f8ce))
+
 ## [1.2.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.1...npm1.2.2) (2023-05-23)
 
 
