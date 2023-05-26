@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.3.0...npm1.3.1) (2023-05-26)
+
+
+### Bug Fixes
+
+* **[FF-2376](https://jira.sbercloud.tech/browse/FF-2376):** add license ([5f981fd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5f981fdaa05f14d38f14464ff0dfb00bffa0bb07))
+
 # [1.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.2.2...npm1.3.0) (2023-05-25)
 
 
