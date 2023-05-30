@@ -1,0 +1,72 @@
+{
+  "Tag": {
+    "Container": {
+      "Xs": {
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Tag.Xs.FromLabel}",
+            "paddingRight": "{Space.Tag.Xs.FromLabel}",
+            "height": "{Size.Tag.Xs}",
+            "borderRadius": "{Radius.Tag.Xs}"
+          },
+          "type": "composition"
+        },
+        "ButtonAfter": {
+          "value": {
+            "paddingLeft": "{Space.Tag.Xs.FromLabel}",
+            "paddingRight": "{Space.Tag.Xs.FromButton}",
+            "height": "{Size.Tag.Xs}",
+            "borderRadius": "{Radius.Tag.Xs}",
+            "itemSpacing": "{Space.Tag.Xs.Gap}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Chip.S.FromLabel}",
+            "paddingRight": "{Space.Chip.S.FromLabel}",
+            "height": "{Size.Chip.S}",
+            "borderRadius": "{Radius.Tag.S}"
+          },
+          "type": "composition"
+        },
+        "ButtonAfter": {
+          "value": {
+            "paddingLeft": "{Space.Chip.S.FromLabel}",
+            "paddingRight": "{Space.Chip.S.FromButton}",
+            "height": "{Size.Chip.S}",
+            "borderRadius": "{Radius.Tag.S}",
+            "itemSpacing": "{Space.Chip.S.Gap}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "TagButton": {
+    "Container": {
+      "Xs": {
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Tag.Xs}",
+            "height": "{Size.Button.Xs}",
+            "width": "{Size.Button.Xs}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Tag.S}",
+            "height": "{Size.Button.S}",
+            "width": "{Size.Button.S}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

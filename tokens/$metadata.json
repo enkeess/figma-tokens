@@ -30,6 +30,10 @@
     "Components/Toggles/Toggles",
     "Components/Scroll/Scroll",
     "Components/Tabs/Tabs",
-    "Components/Breadcrumbs/Breadcrumbs"
+    "Components/Breadcrumbs/Breadcrumbs",
+    "Components/Chips/AssistChip",
+    "Components/Chips/FilterChip",
+    "Components/Chips/ToggleChip",
+    "Components/Tag/Tag"
   ]
 }

@@ -340,6 +340,24 @@
         }
       }
     },
+    "Chip": {
+      "Xs": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.40px}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.48px}",
+        "type": "sizing"
+      }
+    },
     "Breadcrumbs": {
       "Xs": {
         "value": "{DimensionTheme.General.24px}",
@@ -347,6 +365,16 @@
       },
       "S": {
         "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
+    },
+    "Tag": {
+      "Xs": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       }
     }
@@ -598,6 +626,34 @@
         "type": "borderRadius"
       }
     },
+    "Chip": {
+      "Xs": {
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "borderRadius"
+      }
+    },
+    "Tag": {
+      "Xs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      }
+    },
     "Scroll": {
       "Slider": {
         "S": {
@@ -639,6 +695,10 @@
         "FromLabel": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
         }
       },
       "S": {
@@ -652,6 +712,10 @@
         },
         "FromLabel": {
           "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
           "type": "spacing"
         }
       },
@@ -801,6 +865,118 @@
         "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
+    },
+    "Chip": {
+      "Xs": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.8px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.8px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.8px}  - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.16px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      },
+      "M": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.16px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.24px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      },
+      "L": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.24px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.32px} - {BorderWidth.Chip.Assist}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Tag": {
+      "Xs": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "FromButton": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -859,6 +1035,20 @@
     "Counter": {
       "Single": {
         "value": "{BorderWidth.018m}",
+        "type": "borderWidth"
+      }
+    },
+    "Chip": {
+      "Assist": {
+        "value": "{BorderWidth.025m}",
+        "type": "borderWidth"
+      },
+      "Filter": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      },
+      "Toggle": {
+        "value": "{BorderWidth.025m}",
         "type": "borderWidth"
       }
     }

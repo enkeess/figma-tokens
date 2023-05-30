@@ -33,6 +33,14 @@ function printVariableMap(dictionary: Dictionary) {
   outline-color: simple-var($inner-map, 'border-color');
 }
 
+@mixin outline-inside-var($map: (), $keys...) {
+  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+
+  @include outline-var($inner-map, $keys...);
+
+  outline-offset: calc(simple-var($inner-map, 'border-width') * -1);
+}
+
 $theme-variables: (
   ${Object.entries(dictionary.tokens)
     .map(
