@@ -26,6 +26,7 @@
     "Components/Tooltip/Tooltip",
     "Components/DropList/DropList",
     "Components/Skeleton/Skeleton",
-    "Components/Toggles/Toggles"
+    "Components/Toggles/Toggles",
+    "Components/Scroll/Scroll"
   ]
 }
