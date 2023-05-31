@@ -1,1 +1,78 @@
-{}
+{
+  "Scroll": {
+    "Container": {
+      "Vertical": {
+        "S": {
+          "value": {
+            "width": "{Size.Scroll.Track.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "width": "{Size.Scroll.Track.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "Horizontal": {
+        "S": {
+          "value": {
+            "height": "{Size.Scroll.Track.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.Scroll.Track.M}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Slider": {
+      "Vertical": {
+        "S": {
+          "value": {
+            "width": "{Size.Scroll.Slider.S}",
+            "borderRadius": "{Radius.Scroll.Slider.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "width": "{Size.Scroll.Slider.M}",
+            "borderRadius": "{Radius.Scroll.Slider.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "Horizontal": {
+        "S": {
+          "value": {
+            "height": "{Size.Scroll.Slider.S}",
+            "borderRadius": "{Radius.Scroll.Slider.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.Scroll.Slider.M}",
+            "borderRadius": "{Radius.Scroll.Slider.M}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "ButtonResize": {
+      "Container": {
+        "Single": {
+          "value": {
+            "sizing": "{Size.Scroll.ButtonResize}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

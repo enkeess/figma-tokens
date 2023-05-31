@@ -275,6 +275,32 @@
           "type": "sizing"
         }
       }
+    },
+    "Scroll": {
+      "ButtonResize": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "Track": {
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        }
+      },
+      "Slider": {
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -500,6 +526,18 @@
       "DropList": {
         "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
+      }
+    },
+    "Scroll": {
+      "Slider": {
+        "S": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        }
       }
     }
   },
