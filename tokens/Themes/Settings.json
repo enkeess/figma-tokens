@@ -338,6 +338,16 @@
           "type": "sizing"
         }
       }
+    },
+    "Breadcrumbs": {
+      "Xs": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -736,6 +746,34 @@
           },
           "Gap": {
             "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "Breadcrumbs": {
+      "Xs": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "Crumb": {
+        "Xs": {
+          "Gap": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "S": {
+          "Gap": {
+            "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
           }
         }

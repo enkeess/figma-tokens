@@ -1,1 +1,34 @@
-{}
+{
+  "Breadcrumbs": {
+    "Xs": {
+      "value": {
+        "height": "{Size.Breadcrumbs.Xs}",
+        "itemSpacing": "{Space.Breadcrumbs.Xs.Gap}"
+      },
+      "type": "composition"
+    },
+    "S": {
+      "value": {
+        "height": "{Size.Breadcrumbs.S}",
+        "itemSpacing": "{Space.Breadcrumbs.S.Gap}"
+      },
+      "type": "composition"
+    },
+    "Crumb": {
+      "Xs": {
+        "value": {
+          "height": "{Size.Breadcrumbs.Xs}",
+          "itemSpacing": "{Space.Breadcrumbs.Crumb.Xs.Gap}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{Size.Breadcrumbs.S}",
+          "itemSpacing": "{Space.Breadcrumbs.Crumb.S.Gap}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
