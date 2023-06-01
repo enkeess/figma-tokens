@@ -29,6 +29,7 @@
     "Components/Skeleton/Skeleton",
     "Components/Toggles/Toggles",
     "Components/Scroll/Scroll",
-    "Components/Tabs/Tabs"
+    "Components/Tabs/Tabs",
+    "Components/Breadcrumbs/Breadcrumbs"
   ]
 }

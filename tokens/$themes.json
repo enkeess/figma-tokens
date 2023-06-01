@@ -705,7 +705,8 @@
       "Components/Toggles/Toggles": "source",
       "Components/Scroll/Scroll": "source",
       "Components/Tabs/Tabs": "source",
-      "Components/Button/ButtonElevated": "source"
+      "Components/Button/ButtonElevated": "source",
+      "Components/Breadcrumbs/Breadcrumbs": "source"
     }
   },
   {
@@ -1509,7 +1510,8 @@
       "Components/Toggles/Toggles": "source",
       "Components/Scroll/Scroll": "source",
       "Components/Tabs/Tabs": "source",
-      "Components/Button/ButtonElevated": "source"
+      "Components/Button/ButtonElevated": "source",
+      "Components/Breadcrumbs/Breadcrumbs": "source"
     }
   }
 ]
