@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.3.1...npm1.4.0) (2023-06-06)
+
+
+### Features
+
+* added Scroll file & connected file all mode ([48ffc86](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/48ffc861b6c316ab4dd90b50dd9e040c35da488b))
+* added Scroll tokens ([e02f9a6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e02f9a6264e27d7a9350d96ef1cb2bc00e605a87))
+
 ## [1.3.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.3.0...npm1.3.1) (2023-05-26)
 
 
