@@ -1,0 +1,68 @@
+{
+  "Tabs": {
+    "Primary": {
+      "value": {
+        "height": "{Size.Tabs.Primary.Height}",
+        "itemSpacing": "{Space.Tabs.Primary.Gap}"
+      },
+      "type": "composition"
+    },
+    "Secondary": {
+      "value": {
+        "height": "{Size.Tabs.Secondary.Height}",
+        "itemSpacing": "{Space.Tabs.Secondary.Gap}"
+      },
+      "type": "composition"
+    },
+    "TabButtonPrimary": {
+      "Height": {
+        "value": {
+          "height": "{Size.Tabs.Primary.Height}",
+          "horizontalPadding": "{Space.Tabs.TabButtonPrimary.Padding}"
+        },
+        "type": "composition"
+      },
+      "Container": {
+        "value": {
+          "height": "{Size.Tabs.TabButtonPrimary.Container}",
+          "borderRadius": "{Radius.Tabs.TabButtonPrimary.Container}",
+          "horizontalPadding": "{Space.Tabs.TabButtonPrimary.PrimaryContainer.Padding}",
+          "itemSpacing": "{Space.Tabs.TabButtonPrimary.PrimaryContainer.Gap}"
+        },
+        "type": "composition"
+      },
+      "Marker": {
+        "value": {
+          "height": "{Size.Tabs.TabButtonPrimary.Marker}",
+          "borderRadius": "{Radius.Tabs.TabButtonPrimary.Marker}"
+        },
+        "type": "composition"
+      }
+    },
+    "TabButtonSecondary": {
+      "Height": {
+        "value": {
+          "height": "{Size.Tabs.Secondary.Height}",
+          "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Padding}"
+        },
+        "type": "composition"
+      },
+      "Container": {
+        "value": {
+          "height": "{Size.Tabs.TabButtonSecondary.Container}",
+          "borderRadius": "{Radius.Tabs.TabButtonSecondary.Container}",
+          "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Container.Padding}",
+          "itemSpacing": "{Space.Tabs.TabButtonSecondary.Container.Gap}"
+        },
+        "type": "composition"
+      },
+      "Marker": {
+        "value": {
+          "height": "{Size.Tabs.TabButtonSecondary.Marker}",
+          "borderRadius": "{Radius.Tabs.TabButtonSecondary.Marker}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

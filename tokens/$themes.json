@@ -703,7 +703,9 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/DropList/DropList": "source",
       "Components/Toggles/Toggles": "source",
-      "Components/Scroll/Scroll": "source"
+      "Components/Scroll/Scroll": "source",
+      "Components/Tabs/Tabs": "source",
+      "Components/Button/ButtonElevated": "source"
     }
   },
   {
@@ -1505,7 +1507,9 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/DropList/DropList": "source",
       "Components/Toggles/Toggles": "source",
-      "Components/Scroll/Scroll": "source"
+      "Components/Scroll/Scroll": "source",
+      "Components/Tabs/Tabs": "source",
+      "Components/Button/ButtonElevated": "source"
     }
   }
 ]

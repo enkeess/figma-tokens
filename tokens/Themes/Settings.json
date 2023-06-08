@@ -57,6 +57,10 @@
   },
   "Size": {
     "Button": {
+      "Xs": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      },
       "S": {
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
@@ -297,7 +301,40 @@
           "type": "sizing"
         },
         "M": {
-          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}"
+        }
+      }
+    },
+    "Tabs": {
+      "Primary": {
+        "Height": {
+          "value": "{DimensionTheme.General.56px}",
+          "type": "sizing"
+        }
+      },
+      "TabButtonPrimary": {
+        "Container": {
+          "value": "{DimensionTheme.General.48px} - {DimensionTheme.General.4px}",
+          "type": "sizing"
+        },
+        "Marker": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "sizing"
+        }
+      },
+      "Secondary": {
+        "Height": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
+      },
+      "TabButtonSecondary": {
+        "Container": {
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
+          "type": "sizing"
+        },
+        "Marker": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "sizing"
         }
       }
@@ -306,11 +343,11 @@
   "Radius": {
     "Button": {
       "Xxs": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "Xs": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "S": {
@@ -324,6 +361,28 @@
       "L": {
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
+      }
+    },
+    "Tabs": {
+      "TabButtonPrimary": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+          "type": "borderRadius"
+        },
+        "Marker": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "borderRadius"
+        }
+      },
+      "TabButtonSecondary": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+          "type": "borderRadius"
+        },
+        "Marker": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "borderRadius"
+        }
       }
     },
     "Toggles": {
@@ -625,6 +684,60 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Tabs": {
+      "Primary": {
+        "Gap": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        },
+        "ScrollButtonLayout": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "TabButtonPrimary": {
+        "Padding": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "PrimaryContainer": {
+          "Padding": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Secondary": {
+        "Gap": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "ScrollButtonLayout": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      },
+      "TabButtonSecondary": {
+        "Padding": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "Container": {
+          "Padding": {
+            "value": "{DimensionTheme.General.0px}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
         }
       }
     },

@@ -17,6 +17,7 @@
     "Components/Button/ButtonOutline",
     "Components/Button/ButtonSupport",
     "Components/Button/ButtonTonal",
+    "Components/Button/ButtonElevated",
     "Components/Loader/Loader",
     "Components/DropZone/DropZone",
     "Components/Pagination",
@@ -27,6 +28,7 @@
     "Components/DropList/DropList",
     "Components/Skeleton/Skeleton",
     "Components/Toggles/Toggles",
-    "Components/Scroll/Scroll"
+    "Components/Scroll/Scroll",
+    "Components/Tabs/Tabs"
   ]
 }

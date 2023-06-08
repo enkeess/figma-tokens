@@ -1,0 +1,131 @@
+{
+  "ButtonElevated": {
+    "Container": {
+      "Xs": {
+        "IconAfter": {
+          "value": {
+            "borderRadius": "{Radius.Button.Xs}",
+            "height": "{Size.Button.Xs}",
+            "itemSpacing": "{Space.Button.Xs.Gap}",
+            "paddingRight": "{Space.Button.Xs.FromIcon}",
+            "paddingLeft": "{Space.Button.Xs.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.Xs}",
+            "height": "{Size.Button.Xs}",
+            "paddingRight": "{Space.Button.Xs.FromLabel}",
+            "paddingLeft": "{Space.Button.Xs.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.Xs}",
+            "height": "{Size.Button.Xs}",
+            "width": "{Size.Button.Xs}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "IconAfter": {
+          "value": {
+            "borderRadius": "{Radius.Button.S}",
+            "height": "{Size.Button.S}",
+            "itemSpacing": "{Space.Button.S.Gap}",
+            "paddingRight": "{Space.Button.S.FromIcon}",
+            "paddingLeft": "{Space.Button.S.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.S}",
+            "height": "{Size.Button.S}",
+            "paddingRight": "{Space.Button.S.FromLabel}",
+            "paddingLeft": "{Space.Button.S.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.S}",
+            "height": "{Size.Button.S}",
+            "width": "{Size.Button.S}"
+          },
+          "type": "composition"
+        }
+      },
+      "M": {
+        "IconAfter": {
+          "value": {
+            "borderRadius": "{Radius.Button.M}",
+            "height": "{Size.Button.M}",
+            "itemSpacing": "{Space.Button.M.Gap}",
+            "paddingRight": "{Space.Button.M.FromIcon}",
+            "paddingLeft": "{Space.Button.M.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.M}",
+            "height": "{Size.Button.M}",
+            "paddingRight": "{Space.Button.M.FromLabel}",
+            "paddingLeft": "{Space.Button.M.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.M}",
+            "height": "{Size.Button.M}",
+            "width": "{Size.Button.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "L": {
+        "IconAfter": {
+          "value": {
+            "borderRadius": "{Radius.Button.L}",
+            "height": "{Size.Button.L}",
+            "itemSpacing": "{Space.Button.L.Gap}",
+            "paddingRight": "{Space.Button.L.FromIcon}",
+            "paddingLeft": "{Space.Button.L.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.L}",
+            "height": "{Size.Button.L}",
+            "paddingRight": "{Space.Button.L.FromLabel}",
+            "paddingLeft": "{Space.Button.L.FromLabel}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.Button.L}",
+            "height": "{Size.Button.L}",
+            "width": "{Size.Button.L}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Label": {
+      "type": "composition",
+      "LoadLabelOnly": {
+        "value": {
+          "opacity": "{Opacity.A0}"
+        },
+        "description": "Скрывает лейбл для кнопки LabelOnly в состоянии загрузки"
+      }
+    }
+  }
+}
