@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.4.0...npm1.5.0) (2023-06-08)
+
+
+### Features
+
+* **[FF-2259](https://jira.sbercloud.tech/browse/FF-2259):** add button elevated and tabs ([920b08c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/920b08cbef01a0c45b65b7fccf2f14837ce74536))
+
 # [1.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.3.1...npm1.4.0) (2023-06-06)
 
 
