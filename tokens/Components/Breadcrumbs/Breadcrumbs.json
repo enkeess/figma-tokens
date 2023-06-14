@@ -1,18 +1,20 @@
 {
   "Breadcrumbs": {
-    "Xs": {
-      "value": {
-        "height": "{Size.Breadcrumbs.Xs}",
-        "itemSpacing": "{Space.Breadcrumbs.Xs.Gap}"
+    "Separator": {
+      "Xs": {
+        "value": {
+          "height": "{Size.Breadcrumbs.Xs}",
+          "horizontalPadding": "{Space.Breadcrumbs.SeparatorPadding.Xs}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "S": {
-      "value": {
-        "height": "{Size.Breadcrumbs.S}",
-        "itemSpacing": "{Space.Breadcrumbs.S.Gap}"
-      },
-      "type": "composition"
+      "S": {
+        "value": {
+          "height": "{Size.Breadcrumbs.S}",
+          "horizontalPadding": "{Space.Breadcrumbs.SeparatorPadding.S}"
+        },
+        "type": "composition"
+      }
     },
     "Crumb": {
       "Xs": {

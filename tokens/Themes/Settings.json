@@ -301,7 +301,8 @@
           "type": "sizing"
         },
         "M": {
-          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}"
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+          "type": "other"
         }
       }
     },
@@ -752,14 +753,12 @@
       }
     },
     "Breadcrumbs": {
-      "Xs": {
-        "Gap": {
+      "SeparatorPadding": {
+        "Xs": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
-        }
-      },
-      "S": {
-        "Gap": {
+        },
+        "S": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
