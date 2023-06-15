@@ -1,0 +1,199 @@
+{
+  "Fields": {
+    "Container": {
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Fields.S}",
+          "borderWidth": "{BorderWidth.Fields.Single}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Fields.M}",
+          "borderWidth": "{BorderWidth.Fields.Single}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderRadius": "{Radius.Fields.L}",
+          "borderWidth": "{BorderWidth.Fields.Single}"
+        },
+        "type": "composition"
+      }
+    },
+    "SingleLineContainer": {
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Fields.S}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.S.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.S.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.S.Right}",
+          "height": "{Size.Fields.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Fields.M}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.M.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.M.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.M.Right}",
+          "height": "{Size.Fields.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderRadius": "{Radius.Fields.L}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.L.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.L.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.L.Right}",
+          "height": "{Size.Fields.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "MultiLineContainer": {
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Fields.S}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingTop": "{Space.Fields.MultiLineContainer.S.Top}",
+          "paddingBottom": "{Space.Fields.MultiLineContainer.S.Bottom}",
+          "paddingLeft": "{Space.Fields.MultiLineContainer.S.Left}",
+          "paddingRight": "{Space.Fields.MultiLineContainer.S.Right}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Fields.M}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingTop": "{Space.Fields.MultiLineContainer.M.Top}",
+          "paddingBottom": "{Space.Fields.MultiLineContainer.M.Bottom}",
+          "paddingLeft": "{Space.Fields.MultiLineContainer.M.Left}",
+          "paddingRight": "{Space.Fields.MultiLineContainer.M.Right}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderRadius": "{Radius.Fields.L}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingTop": "{Space.Fields.MultiLineContainer.L.Top}",
+          "paddingBottom": "{Space.Fields.MultiLineContainer.L.Bottom}",
+          "paddingLeft": "{Space.Fields.MultiLineContainer.L.Left}",
+          "paddingRight": "{Space.Fields.MultiLineContainer.L.Right}"
+        },
+        "type": "composition"
+      }
+    },
+    "Label": {
+      "S": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Label.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Label.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Label.L}"
+        },
+        "type": "composition"
+      },
+      "LabelLayout": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      }
+    },
+    "Hint": {
+      "S": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Hint.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Hint.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.4px}",
+          "height": "{Size.Fields.Hint.L}"
+        },
+        "type": "composition"
+      },
+      "HintLayout": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      }
+    },
+    "Buttons": {
+      "S": {
+        "value": {
+          "sizing": "{Size.Fields.Buttons.S}",
+          "borderRadius": "{Radius.Fields.Buttons.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "sizing": "{Size.Fields.Buttons.M}",
+          "borderRadius": "{Radius.Fields.Buttons.M}"
+        },
+        "type": "composition"
+      }
+    },
+    "Decorator": {
+      "S": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Decorator.SingleGap}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Decorator.SingleGap}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Decorator.SingleGap}"
+        },
+        "type": "composition"
+      }
+    },
+    "ScrollBar": {
+      "Width": {
+        "value": {
+          "width": "{Size.Fields.ScrollBar.Width}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

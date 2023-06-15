@@ -393,6 +393,96 @@
           "type": "sizing"
         }
       }
+    },
+    "Fields": {
+      "S": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.40px}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.48px}",
+        "type": "sizing"
+      },
+      "ScrollBar": {
+        "Width": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "sizing"
+        }
+      },
+      "Buttons": {
+        "S": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        }
+      },
+      "Label": {
+        "S": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "ScrollBar": {
+          "Width": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          }
+        },
+        "Buttons": {
+          "S": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          }
+        }
+      },
+      "Hint": {
+        "S": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "ScrollBar": {
+          "Width": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          }
+        },
+        "Buttons": {
+          "S": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -697,6 +787,30 @@
           "type": "borderRadius"
         }
       }
+    },
+    "Fields": {
+      "S": {
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      },
+      "Buttons": {
+        "S": {
+          "value": "{Size.Fields.Buttons.S} / 2",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Size.Fields.Buttons.M} / 2",
+          "type": "borderRadius"
+        }
+      }
     }
   },
   "Space": {
@@ -791,6 +905,124 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Fields": {
+      "DropOffset": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
+      },
+      "Postfix": {
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Decorator": {
+        "SingleGap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "SingleLineContainer": {
+        "S": {
+          "Left": {
+            "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "Left": {
+            "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          }
+        },
+        "L": {
+          "Left": {
+            "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          }
+        }
+      },
+      "MultiLineContainer": {
+        "S": {
+          "Left": {
+            "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          },
+          "Top": {
+            "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Bottom": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "Left": {
+            "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          },
+          "Top": {
+            "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Bottom": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "L": {
+          "Left": {
+            "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Right": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          },
+          "Top": {
+            "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Bottom": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
         }
       }
     },
@@ -1039,6 +1271,12 @@
       }
     },
     "ButtonOutline": {
+      "Single": {
+        "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      }
+    },
+    "Fields": {
       "Single": {
         "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
