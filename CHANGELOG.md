@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.5.0...npm1.6.0) (2023-06-16)
+
+
+### Bug Fixes
+
+* cheinge Breadcrumbs tokens names ([c7234b8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c7234b858eaede211cd7abfb85ad1cfed8a287c3))
+
+
+### Features
+
+* added Breadcrumbs file & connected all mode ([c23bf2c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c23bf2cd2f1f565c5b7380d0d14d23380475e510))
+* added Breadcrumbs tokens ([bd3ac74](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bd3ac74d75af119e0abd1b07d71b3577348b4575))
+
 # [1.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.4.0...npm1.5.0) (2023-06-08)
 
 
