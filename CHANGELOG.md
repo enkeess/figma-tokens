@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.6.0...npm1.7.0) (2023-06-21)
+
+
+### Features
+
+* **[FF-2256](https://jira.sbercloud.tech/browse/FF-2256):** added Tag tokens ([5217467](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/52174670fd16c678ad3a9db85010b3e4de2d90d3))
+
 # [1.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.5.0...npm1.6.0) (2023-06-16)
 
 
