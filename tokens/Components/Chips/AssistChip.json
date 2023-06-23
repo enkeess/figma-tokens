@@ -1,95 +1,95 @@
 {
   "AssistChip": {
-  "Container": {
-    "Xs": {
-      "LabelOnly": {
-        "value": {
-          "paddingLeft": "{Space.Chip.Xs.FromLabel}",
+    "Container": {
+      "Xs": {
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Chip.Xs.FromLabel}",
             "paddingRight": "{Space.Chip.Xs.FromLabel}",
             "borderRadius": "{Radius.Chip.Xs}",
             "height": "{Size.Chip.Xs}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
-        },
-        "type": "composition"
-      }
-    },
-    "S": {
-      "IconBefore": {
-        "value": {
-          "paddingRight": "{Space.Chip.S.FromLabel}",
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "IconBefore": {
+          "value": {
+            "paddingRight": "{Space.Chip.S.FromLabel}",
             "itemSpacing": "{Space.Chip.S.Gap}",
             "borderRadius": "{Radius.Chip.S}",
             "paddingLeft": "{Space.Chip.S.FromIcon}",
             "height": "{Size.Chip.S}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      },
-      "LabelOnly": {
-        "value": {
-          "paddingLeft": "{Space.Chip.S.FromLabel}",
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Chip.S.FromLabel}",
             "paddingRight": "{Space.Chip.S.FromLabel}",
             "borderRadius": "{Radius.Chip.S}",
             "height": "{Size.Chip.S}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
-        },
-        "type": "composition"
-      }
-    },
-    "M": {
-      "IconBefore": {
-        "value": {
-          "paddingLeft": "{Space.Chip.M.FromIcon}",
+          },
+          "type": "composition"
+        }
+      },
+      "M": {
+        "IconBefore": {
+          "value": {
+            "paddingLeft": "{Space.Chip.M.FromIcon}",
             "paddingRight": "{Space.Chip.M.FromLabel}",
             "itemSpacing": "{Space.Chip.M.Gap}",
             "borderRadius": "{Radius.Chip.M}",
             "height": "{Size.Chip.M}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      },
-      "LabelOnly": {
-        "value": {
-          "paddingLeft": "{Space.Chip.M.FromLabel}",
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Chip.M.FromLabel}",
             "paddingRight": "{Space.Chip.M.FromLabel}",
             "borderRadius": "{Radius.Chip.M}",
             "height": "{Size.Chip.M}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
-        },
-        "type": "composition"
-      }
-    },
-    "L": {
-      "IconBefore": {
-        "value": {
-          "paddingLeft": "{Space.Chip.L.FromIcon}",
+          },
+          "type": "composition"
+        }
+      },
+      "L": {
+        "IconBefore": {
+          "value": {
+            "paddingLeft": "{Space.Chip.L.FromIcon}",
             "paddingRight": "{Space.Chip.L.FromLabel}",
             "itemSpacing": "{Space.Chip.L.Gap}",
             "borderRadius": "{Radius.Chip.L}",
             "height": "{Size.Chip.L}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      },
-      "LabelOnly": {
-        "value": {
-          "paddingLeft": "{Space.Chip.L.FromLabel}",
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.Chip.L.FromLabel}",
             "paddingRight": "{Space.Chip.L.FromLabel}",
             "borderRadius": "{Radius.Chip.L}",
             "height": "{Size.Chip.L}",
             "borderWidth": "{BorderWidth.Chip.Assist}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Label": {
+      "LoadLabelOnly": {
+        "value": {
+          "opacity": "{Opacity.A0}"
         },
         "type": "composition"
       }
     }
-  },
-  "Label": {
-    "LoadLabelOnly": {
-      "value": {
-        "opacity": "{Opacity.A0}"
-      },
-      "type": "composition"
-    }
   }
-}
 }

@@ -81,6 +81,10 @@
     "S": {
       "value": "{Dimension.3m}",
       "type": "sizing"
+    },
+    "ScaleX2": {
+      "value": "{Icon.S} * 2",
+      "type": "sizing"
     }
   },
   "LabelBadge": {

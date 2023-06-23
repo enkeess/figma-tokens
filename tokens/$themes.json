@@ -707,7 +707,11 @@
       "Components/Tabs/Tabs": "source",
       "Components/Button/ButtonElevated": "source",
       "Components/Breadcrumbs/Breadcrumbs": "source",
-      "Components/Chips/AssistChip": "source"
+      "Components/Chips/AssistChip": "source",
+      "Components/IconPredefined/IconPredefined": "source",
+      "Components/Chips/FilterChip": "source",
+      "Components/Chips/ToggleChip": "source",
+      "Components/Tag/Tag": "source"
     }
   },
   {
@@ -1516,7 +1520,8 @@
       "Components/Chips/AssistChip": "source",
       "Components/Chips/ToggleChip": "source",
       "Components/Chips/FilterChip": "source",
-      "Components/Tag/Tag": "source"
+      "Components/Tag/Tag": "source",
+      "Components/IconPredefined/IconPredefined": "source"
     }
   }
 ]
