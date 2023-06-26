@@ -34,7 +34,6 @@
     "Components/Chips/AssistChip",
     "Components/Chips/FilterChip",
     "Components/Chips/ToggleChip",
-    "Components/Tag/Tag",
-    "Components/IconPredefined/IconPredefined"
+    "Components/Tag/Tag"
   ]
 }
