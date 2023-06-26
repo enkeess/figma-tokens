@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.8.0...npm1.8.1) (2023-06-26)
+
+
+### Bug Fixes
+
+* Revert "feat: added IconPredefned tokens" ([0e9e2c9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0e9e2c906b222b39a3413ab0dbe04570f3d072ba))
+
 # [1.8.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.7.0...npm1.8.0) (2023-06-23)
 
 
