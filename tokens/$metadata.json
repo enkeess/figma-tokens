@@ -36,6 +36,7 @@
     "Components/Chips/ToggleChip",
     "Components/Tag/Tag",
     "Components/IconPredefined/IconPredefined",
-    "Components/Fields/Fields"
+    "Components/Fields/Fields",
+    "Calendar / Calendar"
   ]
 }

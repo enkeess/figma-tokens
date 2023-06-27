@@ -712,7 +712,8 @@
       "Components/Chips/FilterChip": "source",
       "Components/Chips/ToggleChip": "source",
       "Components/Tag/Tag": "source",
-      "Components/Fields/Fields": "source"
+      "Components/Fields/Fields": "source",
+      "Calendar / Calendar": "disabled"
     }
   },
   {
@@ -1523,7 +1524,8 @@
       "Components/Chips/FilterChip": "source",
       "Components/Tag/Tag": "source",
       "Components/IconPredefined/IconPredefined": "source",
-      "Components/Fields/Fields": "source"
+      "Components/Fields/Fields": "source",
+      "Calendar / Calendar": "source"
     }
   }
 ]

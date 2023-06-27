@@ -483,6 +483,32 @@
           }
         }
       }
+    },
+    "Calendar": {
+      "Item": {
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
+      },
+      "Button": {
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
+      },
+      "Current": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -810,6 +836,32 @@
           "value": "{Size.Fields.Buttons.M} / 2",
           "type": "borderRadius"
         }
+      }
+    },
+    "Calendar": {
+      "Item": {
+        "M": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        }
+      },
+      "Button": {
+        "M": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        }
+      },
+      "Current": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
       }
     }
   },
@@ -1239,6 +1291,30 @@
         "FromButton": {
           "value": "{DimensionTheme.General.0px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Calendar": {
+      "Button": {
+        "M": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        },
+        "S": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         }
       }
     }
