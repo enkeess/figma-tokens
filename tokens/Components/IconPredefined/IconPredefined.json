@@ -1,0 +1,47 @@
+{
+  "IconPredefined": {
+    "Container": {
+      "S": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "Decor": {
+      "S": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.S}",
+          "borderRadius": "{Radius.IconPredefined.Decor.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.M}",
+          "borderRadius": "{Radius.IconPredefined.Decor.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.L}",
+          "borderRadius": "{Radius.IconPredefined.Decor.L}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

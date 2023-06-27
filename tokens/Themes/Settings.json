@@ -377,6 +377,22 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       }
+    },
+    "IconPredefined": {
+      "Container": {
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.80px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -400,6 +416,22 @@
       "L": {
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
+      }
+    },
+    "IconPredefined": {
+      "Decor": {
+        "S": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "borderRadius"
+        }
       }
     },
     "Tabs": {
