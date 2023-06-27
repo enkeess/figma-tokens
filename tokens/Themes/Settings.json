@@ -485,16 +485,6 @@
       }
     },
     "Calendar": {
-      "Item": {
-        "M": {
-          "value": "{DimensionTheme.General.40px}",
-          "type": "sizing"
-        },
-        "S": {
-          "value": "{DimensionTheme.General.32px}",
-          "type": "sizing"
-        }
-      },
       "Button": {
         "M": {
           "value": "{DimensionTheme.General.40px}",
@@ -505,7 +495,7 @@
           "type": "sizing"
         }
       },
-      "Current": {
+      "Marker": {
         "value": "{DimensionTheme.General.2px}",
         "type": "sizing"
       }
@@ -859,7 +849,7 @@
           "type": "borderRadius"
         }
       },
-      "Current": {
+      "Marker": {
         "value": "{DimensionTheme.General.2px}",
         "type": "borderRadius"
       }
@@ -1313,6 +1303,20 @@
           },
           "HorizontalPadding": {
             "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Content": {
+        "M": {
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "S": {
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
           }
         }

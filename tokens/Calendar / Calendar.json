@@ -1,1 +1,102 @@
-{}
+{
+  "Calendar": {
+    "Item": {
+      "Range": {
+        "Start": {
+          "M": {
+            "value": {
+              "borderRadiusTopLeft": "{Radius.Calendar.Item.M}",
+              "borderRadiusBottomLeft": "{Radius.Calendar.Item.M}"
+            },
+            "type": "composition"
+          },
+          "S": {
+            "value": {
+              "borderRadiusTopLeft": "{Radius.Calendar.Item.S}",
+              "borderRadiusBottomLeft": "{Radius.Calendar.Item.S}"
+            },
+            "type": "composition"
+          }
+        },
+        "End": {
+          "M": {
+            "value": {
+              "borderRadiusTopRight": "{Radius.Calendar.Item.M}",
+              "borderRadiusBottomRight": "{Radius.Calendar.Item.M}"
+            },
+            "type": "composition"
+          },
+          "S": {
+            "value": {
+              "borderRadiusTopRight": "{Radius.Calendar.Item.S}",
+              "borderRadiusBottomRight": "{Radius.Calendar.Item.S}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Box": {
+        "M": {
+          "value": {
+            "borderRadius": "{Radius.Calendar.Item.M}"
+          },
+          "type": "composition"
+        },
+        "S": {
+          "value": {
+            "borderRadius": "{Radius.Calendar.Item.S}"
+          },
+          "type": "composition"
+        },
+        "Content": {
+          "M": {
+            "value": {
+              "horizontalPadding": "{Space.Calendar.Content.M.HorizontalPadding}"
+            },
+            "type": "composition"
+          },
+          "S": {
+            "value": {
+              "horizontalPadding": "{Space.Calendar.Content.S.HorizontalPadding}"
+            },
+            "type": "composition"
+          },
+          "Marker": {
+            "M": {
+              "value": {
+                "height": "{Size.Calendar.Marker}",
+                "borderRadius": "{Radius.Calendar.Marker}"
+              },
+              "type": "composition"
+            },
+            "S": {
+              "value": {
+                "height": "{Size.Calendar.Marker}",
+                "borderRadius": "{Radius.Calendar.Marker}"
+              },
+              "type": "composition"
+            }
+          }
+        }
+      }
+    },
+    "Button": {
+      "M": {
+        "value": {
+          "height": "{Size.Calendar.Button.M}",
+          "horizontalPadding": "{Space.Calendar.Button.M.HorizontalPadding}",
+          "itemSpacing": "{Space.Calendar.Button.M.Gap}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{Size.Calendar.Button.S}",
+          "horizontalPadding": "{Space.Calendar.Button.S.HorizontalPadding}",
+          "itemSpacing": "{Space.Calendar.Button.S.Gap}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
