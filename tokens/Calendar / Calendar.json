@@ -97,6 +97,20 @@
         },
         "type": "composition"
       }
+    },
+    "Container": {
+      "M": {
+        "value": {
+          "horizontalPadding": "{Space.Calendar.Container.M}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "horizontalPadding": "{Space.Calendar.Container.S}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

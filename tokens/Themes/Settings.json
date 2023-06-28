@@ -1320,6 +1320,16 @@
             "type": "spacing"
           }
         }
+      },
+      "Container": {
+        "M": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
       }
     }
   },
