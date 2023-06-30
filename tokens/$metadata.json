@@ -37,6 +37,6 @@
     "Components/Tag/Tag",
     "Components/IconPredefined/IconPredefined",
     "Components/Fields/Fields",
-    "Calendar / Calendar"
+    "Components/Calendar/Calendar"
   ]
 }
