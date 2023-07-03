@@ -85,7 +85,8 @@
         "value": {
           "height": "{Size.Calendar.Button.M}",
           "horizontalPadding": "{Space.Calendar.Button.M.HorizontalPadding}",
-          "itemSpacing": "{Space.Calendar.Button.M.Gap}"
+          "itemSpacing": "{Space.Calendar.Button.M.Gap}",
+          "borderRadius": "{Radius.Calendar.Button.M}"
         },
         "type": "composition"
       },
@@ -93,7 +94,8 @@
         "value": {
           "height": "{Size.Calendar.Button.S}",
           "horizontalPadding": "{Space.Calendar.Button.S.HorizontalPadding}",
-          "itemSpacing": "{Space.Calendar.Button.S.Gap}"
+          "itemSpacing": "{Space.Calendar.Button.S.Gap}",
+          "borderRadius": "{Radius.Calendar.Button.S}"
         },
         "type": "composition"
       }
