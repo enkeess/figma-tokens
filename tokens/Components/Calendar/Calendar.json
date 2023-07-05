@@ -101,17 +101,33 @@
       }
     },
     "Container": {
-      "M": {
-        "value": {
-          "horizontalPadding": "{Space.Calendar.Container.M}"
+      "Header": {
+        "M": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.M}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "S": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.S}"
+          },
+          "type": "composition"
+        }
       },
-      "S": {
-        "value": {
-          "horizontalPadding": "{Space.Calendar.Container.S}"
+      "Rows": {
+        "M": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.M}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "S": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.S}"
+          },
+          "type": "composition"
+        }
       }
     }
   }
