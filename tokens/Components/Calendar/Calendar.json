@@ -113,6 +113,20 @@
             "horizontalPadding": "{Space.Calendar.Container.S}"
           },
           "type": "composition"
+        },
+        "Weeks": {
+          "M": {
+            "value": {
+              "height": "{Size.Calendar.Container.Header.Weeks.M}"
+            },
+            "type": "composition"
+          },
+          "S": {
+            "value": {
+              "height": "{Size.Calendar.Container.Header.Weeks.S}"
+            },
+            "type": "composition"
+          }
         }
       },
       "Rows": {

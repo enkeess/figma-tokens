@@ -498,6 +498,20 @@
       "Marker": {
         "value": "{DimensionTheme.General.2px}",
         "type": "sizing"
+      },
+      "Container": {
+        "Header": {
+          "Weeks": {
+            "M": {
+              "value": "{DimensionTheme.General.40px}",
+              "type": "sizing"
+            },
+            "S": {
+              "value": "{DimensionTheme.General.32px}",
+              "type": "sizing"
+            }
+          }
+        }
       }
     }
   },
