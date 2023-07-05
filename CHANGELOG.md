@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.8.2...npm1.9.0) (2023-07-05)
+
+
+### Features
+
+* **[FF-2264](https://jira.sbercloud.tech/browse/FF-2264):** added Fields tokens ([c344604](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c3446048eea4579892ac94f60e1b34a8449fb048))
+
 ## [1.8.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.8.1...npm1.8.2) (2023-06-27)
 
 
