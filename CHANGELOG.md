@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.10.0...npm1.11.0) (2023-07-06)
+
+
+### Features
+
+* **[FF-2470](https://jira.sbercloud.tech/browse/FF-2470):** added DropList item and noData tokens ([cde80cd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cde80cddafa2847ac8eb7d30b24f0d03613aadc9))
+
 # [1.10.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.9.0...npm1.10.0) (2023-07-06)
 
 
