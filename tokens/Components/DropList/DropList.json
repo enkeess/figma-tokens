@@ -6,6 +6,93 @@
         "borderRadius": "{Radius.PopoverPrivate.DropList}"
       },
       "type": "composition"
+    },
+    "Item": {
+      "L": {
+        "Container": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.L.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}"
+          },
+          "type": "composition"
+        },
+        "Headline": {
+          "value": {
+            "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
+            "height": "{Size.DropList.Item.Headline}"
+          },
+          "type": "composition"
+        }
+      },
+      "M": {
+        "Container": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.M.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.M.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.M.Container.Gap}"
+          },
+          "type": "composition"
+        },
+        "Headline": {
+          "value": {
+            "itemSpacing": "{Space.DropList.Item.M.Container.Headline.Gap}",
+            "height": "{Size.DropList.Item.Headline}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "Container": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.S.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}"
+          },
+          "type": "composition"
+        },
+        "Headline": {
+          "value": {
+            "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
+            "height": "{Size.DropList.Item.Headline}"
+          },
+          "type": "composition"
+        }
+      },
+      "MarkerContainer": {
+        "value": {
+          "verticalPadding": "{Space.DropList.Item.MarkerContainer.VerticalPadding}"
+        },
+        "type": "composition"
+      },
+      "Marker": {
+        "value": {
+          "width": "{Size.DropList.Item.Marker}",
+          "borderRadiusBottomRight": "{Radius.DropList.Marker}",
+          "borderRadiusTopRight": "{Radius.DropList.Marker}"
+        },
+        "type": "composition"
+      }
+    },
+    "NoData": {
+      "L": {
+        "value": {
+          "verticalPadding": "{Space.DropList.NoData.L.Container.VerticalPadding}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "verticalPadding": "{Space.DropList.NoData.M.Container.VerticalPadding}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "verticalPadding": "{Space.DropList.NoData.S.Container.VerticalPadding}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
