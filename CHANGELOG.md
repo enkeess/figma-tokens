@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.9.0...npm1.10.0) (2023-07-06)
+
+
+### Bug Fixes
+
+* added component folder Components/Calendar ([2159e47](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2159e47e9fb4c7a942a6a010ca8bf5985c0b4841))
+* calendar tokens ([20e08e5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/20e08e51ed6a0cdf70c1098a5367543b1ab3dba8))
+* Calendar tokens ([a32578f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a32578fb52b95de0d7dbfd10e933e784f1fc8c03))
+* Calendar tokens ([a163759](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a163759c1f4b39abb575facc3257e6fa2077ecfa))
+* Calendar tokens ([5512a3c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5512a3c644b59d115738b038497d8537c4329c29))
+* CalendarButton borderRadius ([3d0b90b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3d0b90ba82829bdccbecb9dd86a258cadd15ed86))
+
+
+### Features
+
+* added Calendar tokens ([93e6dd0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/93e6dd0481d32d4953d8cde04b933ef6e17632b7))
+
 # [1.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.8.2...npm1.9.0) (2023-07-05)
 
 
