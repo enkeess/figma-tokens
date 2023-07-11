@@ -910,11 +910,7 @@
     },
     "AlertTop": {
       "Button": {
-        "value": "{DimensionTheme.General.8px}",
-        "type": "borderRadius"
-      },
-      "Container": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     }

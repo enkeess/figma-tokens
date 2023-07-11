@@ -5,9 +5,7 @@
         "value": {
           "verticalPadding": "{Space.AlertTop.Container.VerticalPadding}",
           "horizontalPadding": "{Space.AlertTop.Container.HorizontalPadding}",
-          "itemSpacing": "{Space.AlertTop.Container.Gap}",
-          "borderRadius": "{Radius.AlertTop.Container}",
-          "borderWidth": "{BorderWidth.General.Xs}"
+          "itemSpacing": "{Space.AlertTop.Container.Gap}"
         },
         "type": "composition"
       },
