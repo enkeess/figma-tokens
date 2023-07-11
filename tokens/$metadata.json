@@ -37,6 +37,7 @@
     "Components/Tag/Tag",
     "Components/IconPredefined/IconPredefined",
     "Components/Fields/Fields",
-    "Components/Calendar/Calendar"
+    "Components/Calendar/Calendar",
+    "Components/Alert/Alert"
   ]
 }
