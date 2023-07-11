@@ -1464,6 +1464,10 @@
             }
           }
         }
+      },
+      "DropOffset": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
       }
     }
   },
