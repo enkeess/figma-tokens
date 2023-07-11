@@ -1,1 +1,22 @@
-{}
+{
+  "Alert": {
+    "Container": {
+      "Container": {
+        "value": {
+          "verticalPadding": "{Space.Alert.Container.VerticalPadding}",
+          "horizontalPadding": "{Space.Alert.Container.HorizontalPadding}",
+          "itemSpacing": "{Space.Alert.Container.Gap}",
+          "borderRadius": "{Radius.Alert.Container}",
+          "borderWidth": "{BorderWidth.General.Xs}"
+        },
+        "type": "composition"
+      },
+      "ContentContainer": {
+        "value": {
+          "itemSpacing": "{Space.Alert.Container.ContentContainer.Gap}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
