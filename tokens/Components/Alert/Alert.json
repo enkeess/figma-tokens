@@ -17,6 +17,16 @@
         },
         "type": "composition"
       }
+    },
+    "Button": {
+      "ButtonClose": {
+        "value": {
+          "height": "{Size.Alert.ButtonClose}",
+          "width": "{Size.Alert.ButtonClose}",
+          "borderRadius": "{Radius.Alert.ButtonClose}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

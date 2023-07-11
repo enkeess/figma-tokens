@@ -1,0 +1,47 @@
+{
+  "AlertTop": {
+    "Container": {
+      "Container": {
+        "value": {
+          "verticalPadding": "{Space.AlertTop.Container.VerticalPadding}",
+          "horizontalPadding": "{Space.AlertTop.Container.HorizontalPadding}",
+          "itemSpacing": "{Space.AlertTop.Container.Gap}",
+          "borderRadius": "{Radius.AlertTop.Container}",
+          "borderWidth": "{BorderWidth.General.Xs}"
+        },
+        "type": "composition"
+      },
+      "ContentContainer": {
+        "value": {
+          "itemSpacing": "{Space.AlertTop.Container.ContentLayout.ContentContainer.Gap}"
+        },
+        "type": "composition"
+      },
+      "ContainerLayout": {
+        "value": {
+          "itemSpacing": "{Space.AlertTop.Container.ContentLayout.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "Button": {
+      "Button": {
+        "value": {
+          "height": "{Size.AlertTop.Button}",
+          "itemSpacing": "{Space.AlertTop.Button.Gap}",
+          "borderRadius": "{Radius.AlertTop.Button}",
+          "horizontalPadding": "{Space.AlertTop.Button.HorizontalPadding}"
+        },
+        "type": "composition"
+      },
+      "ButtonClose": {
+        "value": {
+          "borderRadius": "{Radius.AlertTop.Button}",
+          "height": "{Size.AlertTop.Button}",
+          "width": "{Size.AlertTop.Button}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

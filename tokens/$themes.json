@@ -713,7 +713,8 @@
       "Components/Chips/ToggleChip": "source",
       "Components/Tag/Tag": "source",
       "Components/Fields/Fields": "source",
-      "Components/Calendar/Calendar": "source"
+      "Components/Calendar/Calendar": "source",
+      "Components/Alert/AlertTop": "disabled"
     }
   },
   {
@@ -1526,7 +1527,8 @@
       "Components/IconPredefined/IconPredefined": "source",
       "Components/Fields/Fields": "source",
       "Components/Calendar/Calendar": "source",
-      "Components/Alert/Alert": "source"
+      "Components/Alert/Alert": "source",
+      "Components/Alert/AlertTop": "source"
     }
   }
 ]
