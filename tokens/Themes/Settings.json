@@ -1466,7 +1466,7 @@
         }
       },
       "DropOffset": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.2px}",
         "type": "spacing"
       }
     }
