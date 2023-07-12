@@ -1537,19 +1537,13 @@
           "type": "spacing"
         },
         "Gap": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         },
         "ContentLayout": {
           "Gap": {
-            "value": "{DimensionTheme.General.16px}",
+            "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
-          },
-          "TextLayout": {
-            "Gap": {
-              "value": "{DimensionTheme.General.2px}",
-              "type": "spacing"
-            }
           }
         }
       },

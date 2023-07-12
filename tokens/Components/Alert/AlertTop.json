@@ -9,13 +9,7 @@
         },
         "type": "composition"
       },
-      "ContentContainer": {
-        "value": {
-          "itemSpacing": "{Space.AlertTop.Container.ContentLayout.TextLayout.Gap}"
-        },
-        "type": "composition"
-      },
-      "ContainerLayout": {
+      "ContentLayout": {
         "value": {
           "itemSpacing": "{Space.AlertTop.Container.ContentLayout.Gap}"
         },
