@@ -11,9 +11,15 @@
         },
         "type": "composition"
       },
-      "ContentContainer": {
+      "ContentLayout": {
         "value": {
-          "itemSpacing": "{Space.Alert.Container.ContentContainer.Gap}"
+          "itemSpacing": "{Space.Alert.Container.ContentLayout.Gap}"
+        },
+        "type": "composition"
+      },
+      "TextLayout": {
+        "value": {
+          "paddingTop": "{Space.Alert.Container.ContentLayout.TextLayout.PaddingTop}"
         },
         "type": "composition"
       }

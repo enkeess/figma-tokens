@@ -11,7 +11,7 @@
       },
       "ContentContainer": {
         "value": {
-          "itemSpacing": "{Space.AlertTop.Container.ContentLayout.ContentContainer.Gap}"
+          "itemSpacing": "{Space.AlertTop.Container.ContentLayout.TextLayout.Gap}"
         },
         "type": "composition"
       },

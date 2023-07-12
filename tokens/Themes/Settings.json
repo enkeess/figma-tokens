@@ -1512,10 +1512,16 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
-        "ContentContainer": {
+        "ContentLayout": {
           "Gap": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
+          },
+          "TextLayout": {
+            "PaddingTop": {
+              "value": "{DimensionTheme.General.2px}",
+              "type": "spacing"
+            }
           }
         }
       }
@@ -1539,7 +1545,7 @@
             "value": "{DimensionTheme.General.16px}",
             "type": "spacing"
           },
-          "ContentContainer": {
+          "TextLayout": {
             "Gap": {
               "value": "{DimensionTheme.General.2px}",
               "type": "spacing"
