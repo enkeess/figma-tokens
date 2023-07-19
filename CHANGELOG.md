@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.11.0...npm1.11.1) (2023-07-19)
+
+
+### Bug Fixes
+
+* added token DropOffset for DropList ([cb098a0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cb098a0d3ff3873be66810277fd14898b94a54bd))
+* FilterChip DropOffset token ([3ea055f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3ea055f3b3c6b754a0df7c4379e0fc4c1390b49b))
+
 # [1.11.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.10.0...npm1.11.0) (2023-07-06)
 
 
