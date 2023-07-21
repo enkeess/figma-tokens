@@ -17,7 +17,7 @@
       }
     },
     "Button": {
-      "Button": {
+      "ButtonAction": {
         "value": {
           "height": "{Size.AlertTop.Button}",
           "itemSpacing": "{Space.AlertTop.Button.Gap}",
