@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.11.1...npm1.12.0) (2023-07-26)
+
+
+### Bug Fixes
+
+* added AlertTop tokens ([2b4f30c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2b4f30c81c51be7637a00a91128bbee351190eef))
+* Alert tokens ([cdccfde](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cdccfdee39ba279934e9e6c12e87e87e125eea6f))
+* AlerTop tokens ([6e72d74](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6e72d7477276ffaeb96cdb59d08cea0e4a6a9ba1))
+* AlertTop Button tokens ([58b70d0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/58b70d0ba87c7e208b4f66598f39e7e82aba6825))
+* AlertTop tokens ([df4049e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/df4049e312ec197201ff6a90be0f082190c7efb7))
+
+
+### Features
+
+* added Alert tokens ([1a20385](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1a20385c8e261193ee7b5512fe489c82a4e31ae0))
+
 ## [1.11.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.11.0...npm1.11.1) (2023-07-19)
 
 
