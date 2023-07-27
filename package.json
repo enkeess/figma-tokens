@@ -16,6 +16,7 @@
     "build/scss",
     "build/css",
     "build/ts",
+    "build/tokens/themes",
     "assets",
     "CHANGELOG.md"
   ],
