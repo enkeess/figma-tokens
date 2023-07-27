@@ -713,7 +713,11 @@
       "Components/Chips/ToggleChip": "source",
       "Components/Tag/Tag": "source",
       "Components/Fields/Fields": "source",
-      "Components/Calendar/Calendar": "source"
+      "Components/Calendar/Calendar": "source",
+      "Components/Alert/Alert": "source",
+      "Components/Alert/AlertTop": "source",
+      "Components/Toaster/ToasterSystemEvent": "source",
+      "Components/Toaster/ToasterUserAction": "source"
     }
   },
   {
@@ -1527,7 +1531,9 @@
       "Components/Fields/Fields": "source",
       "Components/Calendar/Calendar": "source",
       "Components/Alert/Alert": "source",
-      "Components/Alert/AlertTop": "source"
+      "Components/Alert/AlertTop": "source",
+      "Components/Toaster/ToasterSystemEvent": "source",
+      "Components/Toaster/ToasterUserAction": "source"
     }
   }
 ]

@@ -39,6 +39,8 @@
     "Components/Fields/Fields",
     "Components/Calendar/Calendar",
     "Components/Alert/Alert",
-    "Components/Alert/AlertTop"
+    "Components/Alert/AlertTop",
+    "Components/Toaster/ToasterSystemEvent",
+    "Components/Toaster/ToasterUserAction"
   ]
 }
