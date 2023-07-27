@@ -41,6 +41,7 @@
     "Components/Alert/Alert",
     "Components/Alert/AlertTop",
     "Components/Toaster/ToasterSystemEvent",
-    "Components/Toaster/ToasterUserAction"
+    "Components/Toaster/ToasterUserAction",
+    "Components/Modal/Modal"
   ]
 }
