@@ -718,7 +718,8 @@
       "Components/Alert/AlertTop": "source",
       "Components/Toaster/ToasterSystemEvent": "source",
       "Components/Toaster/ToasterUserAction": "source",
-      "Components/Modal/Modal": "source"
+      "Components/Modal/Modal": "source",
+      "Components/Stepper/Stepper": "source"
     }
   },
   {
@@ -1535,7 +1536,8 @@
       "Components/Alert/AlertTop": "source",
       "Components/Toaster/ToasterSystemEvent": "source",
       "Components/Toaster/ToasterUserAction": "source",
-      "Components/Modal/Modal": "source"
+      "Components/Modal/Modal": "source",
+      "Components/Stepper/Stepper": "source"
     }
   }
 ]

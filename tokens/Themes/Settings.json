@@ -583,6 +583,18 @@
           }
         }
       }
+    },
+    "Stepper": {
+      "Step": {
+        "Tail": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "sizing"
+        },
+        "Icon": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -995,6 +1007,14 @@
       },
       "SystemEvent": {
         "ButtonCloseColumn": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Stepper": {
+      "Step": {
+        "Icon": {
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
@@ -1773,6 +1793,24 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Stepper": {
+      "Step": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "PaddingRight": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Content": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         }
       }
     }

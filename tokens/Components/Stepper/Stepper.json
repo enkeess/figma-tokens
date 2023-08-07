@@ -1,0 +1,38 @@
+{
+  "Stepper": {
+    "Step": {
+      "Container": {
+        "Container": {
+          "value": {
+            "itemSpacing": "{Space.Stepper.Step.Gap}",
+            "paddingRight": "{Space.Stepper.Step.PaddingRight}"
+          },
+          "type": "composition"
+        },
+        "Content": {
+          "value": {
+            "itemSpacing": "{Space.Stepper.Step.Content.Gap}"
+          },
+          "type": "composition"
+        }
+      },
+      "Icon": {
+        "Container": {
+          "value": {
+            "sizing": "{Size.Stepper.Step.Icon}",
+            "borderRadius": "{Radius.Stepper.Step.Icon}"
+          },
+          "type": "composition"
+        }
+      },
+      "Tail": {
+        "Container": {
+          "value": {
+            "height": "{Size.Stepper.Step.Tail}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
