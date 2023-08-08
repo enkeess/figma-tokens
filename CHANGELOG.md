@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.13.0...npm1.14.0) (2023-08-08)
+
+
+### Features
+
+* **[FF-2654](https://jira.sbercloud.tech/browse/FF-2654):** added Toaster tokens ([ceb9562](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ceb9562a2b4f51456de7492ecd95a00583528831))
+
 # [1.13.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.12.0...npm1.13.0) (2023-07-27)
 
 
