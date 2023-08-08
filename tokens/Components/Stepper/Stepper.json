@@ -2,13 +2,6 @@
   "Stepper": {
     "Step": {
       "Container": {
-        "Container": {
-          "value": {
-            "itemSpacing": "{Space.Stepper.Step.Gap}",
-            "paddingRight": "{Space.Stepper.Step.PaddingRight}"
-          },
-          "type": "composition"
-        },
         "Content": {
           "value": {
             "itemSpacing": "{Space.Stepper.Step.Content.Gap}"
@@ -28,7 +21,14 @@
       "Tail": {
         "Container": {
           "value": {
-            "height": "{Size.Stepper.Step.Tail}"
+            "height": "{Size.Stepper.Step.Tail.Container}",
+            "horizontalPadding": "{Space.Stepper.Step.Tail}"
+          },
+          "type": "composition"
+        },
+        "Line": {
+          "value": {
+            "height": "{Size.Stepper.Step.Tail.Line}"
           },
           "type": "composition"
         }
