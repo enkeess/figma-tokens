@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.14.0...npm1.15.0) (2023-08-11)
+
+
+### Features
+
+* added Modal tokens ([80530e3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/80530e3d8fe9e36489281081fcade34ba407f9bc))
+
 # [1.14.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.13.0...npm1.14.0) (2023-08-08)
 
 
