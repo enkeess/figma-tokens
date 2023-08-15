@@ -1,0 +1,12 @@
+{
+  "PromoTag": {
+    "Container": {
+      "value": {
+        "horizontalPadding": "{Space.PromoTag.HorizontalPadding}",
+        "borderRadius": "{Radius.PromoTag.Container}",
+        "height": "{Size.PromoTag.Container}"
+      },
+      "type": "composition"
+    }
+  }
+}

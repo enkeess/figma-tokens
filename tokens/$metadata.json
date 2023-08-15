@@ -44,6 +44,7 @@
     "Components/Toaster/ToasterUserAction",
     "Components/Modal/Modal",
     "Components/Stepper/Stepper",
-    "Components/Drawer/Drawer"
+    "Components/Drawer/Drawer",
+    "Components/PromoTag/PromoTag"
   ]
 }

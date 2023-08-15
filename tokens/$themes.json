@@ -720,7 +720,8 @@
       "Components/Toaster/ToasterUserAction": "source",
       "Components/Modal/Modal": "source",
       "Components/Stepper/Stepper": "source",
-      "Components/Drawer/Drawer": "source"
+      "Components/Drawer/Drawer": "source",
+      "Components/PromoTag/PromoTag": "source"
     }
   },
   {
@@ -1539,7 +1540,8 @@
       "Components/Toaster/ToasterUserAction": "source",
       "Components/Modal/Modal": "source",
       "Components/Stepper/Stepper": "source",
-      "Components/Drawer/Drawer": "source"
+      "Components/Drawer/Drawer": "source",
+      "Components/PromoTag/PromoTag": "source"
     }
   }
 ]

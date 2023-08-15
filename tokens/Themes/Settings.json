@@ -615,6 +615,12 @@
         "value": "{DimensionTheme.General.80px} * 2 + {DimensionTheme.General.24px}",
         "type": "sizing"
       }
+    },
+    "PromoTag": {
+      "Container": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1043,6 +1049,12 @@
     "Drawer": {
       "ButtonClose": {
         "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      }
+    },
+    "PromoTag": {
+      "Container": {
+        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     }
@@ -1896,6 +1908,12 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
+      }
+    },
+    "PromoTag": {
+      "HorizontalPadding": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
       }
     }
   },
