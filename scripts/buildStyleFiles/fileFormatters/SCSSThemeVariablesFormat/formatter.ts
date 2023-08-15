@@ -12,21 +12,48 @@ function printVariableMap(dictionary: Dictionary) {
   return `@use 'sass:map';
 @use 'sass:list';
 
+@function could-not-find-token-message($keys) {
+  @return 'Couldn\\'t find token by given keys: #{$keys}';
+}
+
+@function getValidKeys($map: (), $keys...) {
+  $no-keys-passed: list.length($keys) == 0;
+
+  @if ($no-keys-passed != true and map.has-key($map, $keys...) != true) {
+    @return false;
+  }
+
+  @return if($no-keys-passed, $map, map.get($map, $keys...));
+}
+
 @function simple-var($map: (), $keys...) {
-  $value: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+  $value: getValidKeys($map, $keys...);
+
+  @if ($value == false) {
+    @error could-not-find-token-message($keys);
+  }
+
   @return var($value);
 }
 
 @mixin composite-var($map: (), $keys...) {
-  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+  $inner-map: getValidKeys($map, $keys...);
+
+  @if ($inner-map == false) {
+    @error could-not-find-token-message($keys);
+  }
 
   @each $key, $value in $inner-map {
-    #{$key}: var($value);
+    #{$key}: simple-var($inner-map, $key);
   }
 }
 
 @mixin outline-var($map: (), $keys...) {
-  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+  $inner-map: getValidKeys($map, $keys...);
+
+  @if ($inner-map == false) {
+    @error could-not-find-token-message($keys);
+  }
 
   outline-width: simple-var($inner-map, 'border-width');
   outline-style: simple-var($inner-map, 'border-style');
@@ -34,7 +61,11 @@ function printVariableMap(dictionary: Dictionary) {
 }
 
 @mixin outline-inside-var($map: (), $keys...) {
-  $inner-map: if(list.length($keys) == 0, $map, map.get($map, $keys...));
+  $inner-map: getValidKeys($map, $keys...);
+
+  @if ($inner-map == false) {
+    @error could-not-find-token-message($keys);
+  }
 
   @include outline-var($inner-map, $keys...);
 
