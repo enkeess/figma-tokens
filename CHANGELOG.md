@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.15.0...npm1.16.0) (2023-08-15)
+
+
+### Features
+
+* **[FF-2574](https://jira.sbercloud.tech/browse/FF-2574):** add error messages to mixins ([79538d9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/79538d9e33a9d18bb8e38d8b0b9e319f74090362))
+
 # [1.15.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.14.0...npm1.15.0) (2023-08-11)
 
 
