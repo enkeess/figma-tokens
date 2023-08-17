@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.16.0...npm1.17.0) (2023-08-17)
+
+
+### Bug Fixes
+
+* Stepper tokens ([07c37d0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/07c37d06def41d471faab7e1b33d968022f581ce))
+* Stepper tokens ([6effb38](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6effb38270b5c67f7953414f337bdb5c06b25e40))
+
+
+### Features
+
+* added Stepper tokens ([8a484d6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8a484d640cba6fea06e20a6c5532904ab788d756))
+
 # [1.16.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.15.0...npm1.16.0) (2023-08-15)
 
 
