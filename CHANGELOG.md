@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.17.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.17.0...npm1.17.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* Drawer tokens ([2bf40b1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2bf40b1560dfdd7620b7d4892adaceb912c627c9))
+
 # [1.17.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.16.0...npm1.17.0) (2023-08-17)
 
 
