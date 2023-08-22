@@ -601,6 +601,20 @@
           "type": "sizing"
         }
       }
+    },
+    "Drawer": {
+      "ButtonClose": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
+      "HeaderElements": {
+        "value": "{DimensionTheme.General.64px}",
+        "type": "sizing"
+      },
+      "Image": {
+        "value": "{DimensionTheme.General.80px} * 2 + {DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1024,6 +1038,12 @@
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
+      }
+    },
+    "Drawer": {
+      "ButtonClose": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
       }
     }
   },
@@ -1811,6 +1831,68 @@
           }
         },
         "Tail": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Drawer": {
+      "Headline": {
+        "Top": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "Bottom": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "SideS": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "SideM": {
+          "value": "{DimensionTheme.General.64px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "HeaderElements": {
+        "Top": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "Side": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        }
+      },
+      "Body": {
+        "Side": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        }
+      },
+      "Footer": {
+        "Top": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "Bottom": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "Side": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "ActionRowGap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }

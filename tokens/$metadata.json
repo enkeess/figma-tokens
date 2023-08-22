@@ -43,6 +43,7 @@
     "Components/Toaster/ToasterSystemEvent",
     "Components/Toaster/ToasterUserAction",
     "Components/Modal/Modal",
-    "Components/Stepper/Stepper"
+    "Components/Stepper/Stepper",
+    "Components/Drawer/Drawer"
   ]
 }

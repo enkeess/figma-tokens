@@ -719,7 +719,8 @@
       "Components/Toaster/ToasterSystemEvent": "source",
       "Components/Toaster/ToasterUserAction": "source",
       "Components/Modal/Modal": "source",
-      "Components/Stepper/Stepper": "source"
+      "Components/Stepper/Stepper": "source",
+      "Components/Drawer/Drawer": "source"
     }
   },
   {
@@ -1537,7 +1538,8 @@
       "Components/Toaster/ToasterSystemEvent": "source",
       "Components/Toaster/ToasterUserAction": "source",
       "Components/Modal/Modal": "source",
-      "Components/Stepper/Stepper": "source"
+      "Components/Stepper/Stepper": "source",
+      "Components/Drawer/Drawer": "source"
     }
   }
 ]

@@ -1,0 +1,73 @@
+{
+  "Drawer": {
+    "ButtonClose": {
+      "value": {
+        "sizing": "{Size.Drawer.ButtonClose}",
+        "borderRadius": "{Radius.Drawer.ButtonClose}"
+      },
+      "type": "composition"
+    },
+    "HeaderElements": {
+      "Container": {
+        "value": {
+          "paddingTop": "{Space.Drawer.HeaderElements.Top}",
+          "paddingRight": "{Space.Drawer.HeaderElements.Side}"
+        },
+        "type": "composition"
+      },
+      "ElementsLayout": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.16px}"
+        },
+        "type": "composition"
+      }
+    },
+    "Image": {
+      "value": {
+        "height": "{Size.Drawer.Image}"
+      },
+      "type": "composition"
+    },
+    "Body": {
+      "value": {
+        "paddingLeft": "{Space.Drawer.Body.Side}",
+        "paddingRight": "{Space.Drawer.Body.Side}"
+      },
+      "type": "composition"
+    },
+    "ScrollLayout": {
+      "value": {
+        "width": "{Space.Drawer.Body.Side}"
+      },
+      "type": "composition"
+    },
+    "Headline": {
+      "Default": {
+        "value": {
+          "paddingTop": "{Space.Drawer.Headline.Top}",
+          "paddingLeft": "{Space.Drawer.Headline.SideS}",
+          "paddingRight": "{Space.Drawer.Headline.SideM}",
+          "paddingBottom": "{Space.Drawer.Headline.Bottom}",
+          "itemSpacing": "{Space.Drawer.Headline.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "Footer": {
+      "value": {
+        "paddingTop": "{Space.Drawer.Footer.Top}",
+        "paddingLeft": "{Space.Drawer.Footer.Side}",
+        "paddingRight": "{Space.Drawer.Footer.Side}",
+        "paddingBottom": "{Space.Drawer.Footer.Bottom}",
+        "itemSpacing": "{Space.Drawer.Footer.Gap}"
+      },
+      "type": "composition"
+    },
+    "ActionRow": {
+      "value": {
+        "itemSpacing": "{Space.Drawer.Footer.ActionRowGap}"
+      },
+      "type": "composition"
+    }
+  }
+}
