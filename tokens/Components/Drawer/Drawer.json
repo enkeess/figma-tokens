@@ -68,6 +68,18 @@
         "itemSpacing": "{Space.Drawer.Footer.ActionRowGap}"
       },
       "type": "composition"
+    },
+    "PositionLeft": {
+      "value": {
+        "paddingRight": "{Space.Drawer.ContainerPadding}"
+      },
+      "type": "composition"
+    },
+    "PositionRight": {
+      "value": {
+        "paddingLeft": "{Space.Drawer.ContainerPadding}"
+      },
+      "type": "composition"
     }
   }
 }

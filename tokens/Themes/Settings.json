@@ -1912,6 +1912,10 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
+      },
+      "ContainerPadding": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "spacing"
       }
     },
     "PromoTag": {
