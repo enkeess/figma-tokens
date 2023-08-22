@@ -1849,6 +1849,10 @@
       }
     },
     "Drawer": {
+      "IconDecor": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "spacing"
+      },
       "Headline": {
         "Top": {
           "value": "{DimensionTheme.General.32px}",
