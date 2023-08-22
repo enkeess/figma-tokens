@@ -3,7 +3,7 @@
     "ButtonClose": {
       "value": {
         "sizing": "{Size.Drawer.ButtonClose}",
-        "borderRadius": "{Radius.Drawer.ModalWindow}"
+        "borderRadius": "{Radius.Drawer.ButtonClose}"
       },
       "type": "composition"
     },
