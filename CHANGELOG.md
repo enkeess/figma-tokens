@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.17.1...npm1.18.0) (2023-08-22)
+
+
+### Features
+
+* added PromoTag tokens ([5b7917e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5b7917e8c4a25bf184bd8184cc4cca958875cd37))
+
 ## [1.17.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.17.0...npm1.17.1) (2023-08-22)
 
 
