@@ -42,16 +42,14 @@
       "type": "composition"
     },
     "Headline": {
-      "Default": {
-        "value": {
-          "paddingTop": "{Space.Drawer.Headline.Top}",
-          "paddingLeft": "{Space.Drawer.Headline.SideS}",
-          "paddingRight": "{Space.Drawer.Headline.SideM}",
-          "paddingBottom": "{Space.Drawer.Headline.Bottom}",
-          "itemSpacing": "{Space.Drawer.Headline.Gap}"
-        },
-        "type": "composition"
-      }
+      "value": {
+        "paddingTop": "{Space.Drawer.Headline.Top}",
+        "paddingLeft": "{Space.Drawer.Headline.SideS}",
+        "paddingRight": "{Space.Drawer.Headline.SideM}",
+        "paddingBottom": "{Space.Drawer.Headline.Bottom}",
+        "itemSpacing": "{Space.Drawer.Headline.Gap}"
+      },
+      "type": "composition"
     },
     "Footer": {
       "value": {
