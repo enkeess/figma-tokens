@@ -86,12 +86,38 @@
         "itemSpacing": "{Space.Modal.Footer.ActionRowGap}"
       },
       "type": "composition"
-    }
-  },
-  "ModalWindow": {
-    "value": {
-      "borderRadius": "{Radius.Modal.ModalWindow}"
     },
-    "type": "composition"
+    "Window": {
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Modal.ModalWindow}",
+          "minWidth": "{Size.Modal.MinWidth.S}",
+          "maxWidth": "{Size.Modal.MaxWidth.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Modal.ModalWindow}",
+          "minWidth": "{Size.Modal.MinWidth.M}",
+          "maxWidth": "{Size.Modal.MaxWidth.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderRadius": "{Radius.Modal.ModalWindow}",
+          "minWidth": "{Size.Modal.MinWidth.L}",
+          "maxWidth": "{Size.Modal.MaxWidth.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "PositionArea": {
+      "value": {
+        "spacing": "{Space.Modal.EdgeMargin}"
+      },
+      "type": "composition"
+    }
   }
 }

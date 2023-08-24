@@ -79,6 +79,34 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
+      "MinWidth": {
+        "S": {
+          "value": "{DimensionTheme.General.8px} * 38",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} * 78",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.8px} * 150",
+          "type": "sizing"
+        }
+      },
+      "MaxWidth": {
+        "S": {
+          "value": "{DimensionTheme.General.8px} * 58",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} * 108",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.8px} * 234",
+          "type": "sizing"
+        }
+      },
       "HeaderElements": {
         "value": "{DimensionTheme.General.64px}",
         "type": "sizing"
@@ -614,6 +642,34 @@
       "Image": {
         "value": "{DimensionTheme.General.80px} * 2 + {DimensionTheme.General.24px}",
         "type": "sizing"
+      },
+      "MinWidth": {
+        "S": {
+          "value": "{DimensionTheme.General.8px} * 38",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} * 78",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.8px} * 150",
+          "type": "sizing"
+        }
+      },
+      "MaxWidth": {
+        "S": {
+          "value": "{DimensionTheme.General.8px} * 58",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} * 108",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.8px} * 234",
+          "type": "sizing"
+        }
       }
     },
     "PromoTag": {
@@ -1336,6 +1392,10 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
+      },
+      "EdgeMargin": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "spacing"
       }
     },
     "Tabs": {
