@@ -78,6 +78,29 @@
         "paddingLeft": "{Space.Drawer.EdgeMargin}"
       },
       "type": "composition"
+    },
+    "Window": {
+      "S": {
+        "value": {
+          "minWidth": "{Size.Drawer.MinWidth.S}",
+          "maxWidth": "{Size.Drawer.MaxWidth.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "minWidth": "{Size.Drawer.MinWidth.M}",
+          "maxWidth": "{Size.Drawer.MaxWidth.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "minWidth": "{Size.Drawer.MinWidth.L}",
+          "maxWidth": "{Size.Drawer.MaxWidth.L}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
