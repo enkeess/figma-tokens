@@ -1913,7 +1913,7 @@
           "type": "spacing"
         }
       },
-      "ContainerPadding": {
+      "EdgeMargin": {
         "value": "{DimensionTheme.General.24px}",
         "type": "spacing"
       }

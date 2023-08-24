@@ -69,13 +69,13 @@
     },
     "PositionLeft": {
       "value": {
-        "paddingRight": "{Space.Drawer.ContainerPadding}"
+        "paddingRight": "{Space.Drawer.EdgeMargin}"
       },
       "type": "composition"
     },
     "PositionRight": {
       "value": {
-        "paddingLeft": "{Space.Drawer.ContainerPadding}"
+        "paddingLeft": "{Space.Drawer.EdgeMargin}"
       },
       "type": "composition"
     }
