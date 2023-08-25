@@ -41,19 +41,19 @@
       },
       "type": "composition"
     },
-    "Headline": {
+    "HeadlineLayout": {
       "value": {
-        "paddingTop": "{Space.Drawer.Headline.Top}",
-        "paddingLeft": "{Space.Drawer.Headline.SideS}",
-        "paddingRight": "{Space.Drawer.Headline.SideM}",
-        "paddingBottom": "{Space.Drawer.Headline.Bottom}",
-        "itemSpacing": "{Space.Drawer.Headline.Gap}"
+        "paddingTop": "{Space.Drawer.HeadlineLayout.Top}",
+        "paddingLeft": "{Space.Drawer.HeadlineLayout.SideS}",
+        "paddingRight": "{Space.Drawer.HeadlineLayout.SideM}",
+        "paddingBottom": "{Space.Drawer.HeadlineLayout.Bottom}",
+        "itemSpacing": "{Space.Drawer.HeadlineLayout.Gap}"
       },
       "type": "composition"
     },
-    "HeadlineLayout": {
+    "Headline": {
       "value": {
-        "itemSpacing": "{Space.Drawer.HeaderElements.HeadlineLayout}"
+        "itemSpacing": "{Space.Drawer.HeadlineLayout.Headline}"
       },
       "type": "composition"
     },

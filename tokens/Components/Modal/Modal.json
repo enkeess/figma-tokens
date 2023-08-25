@@ -52,21 +52,21 @@
     "HeadlineLayout": {
       "Default": {
         "value": {
-          "paddingTop": "{Space.Modal.Headline.Top}",
-          "paddingLeft": "{Space.Modal.Headline.SideS}",
-          "paddingRight": "{Space.Modal.Headline.SideM}",
-          "paddingBottom": "{Space.Modal.Headline.Bottom}",
-          "itemSpacing": "{Space.Modal.Headline.Gap}"
+          "paddingTop": "{Space.Modal.HeadlineLayout.Top}",
+          "paddingLeft": "{Space.Modal.HeadlineLayout.SideS}",
+          "paddingRight": "{Space.Modal.HeadlineLayout.SideM}",
+          "paddingBottom": "{Space.Modal.HeadlineLayout.Bottom}",
+          "itemSpacing": "{Space.Modal.HeadlineLayout.Gap}"
         },
         "type": "composition"
       },
       "Center": {
         "value": {
-          "paddingTop": "{Space.Modal.Headline.Top}",
-          "paddingLeft": "{Space.Modal.Headline.SideM}",
-          "paddingRight": "{Space.Modal.Headline.SideM}",
-          "paddingBottom": "{Space.Modal.Headline.Bottom}",
-          "itemSpacing": "{Space.Modal.Headline.Gap}"
+          "paddingTop": "{Space.Modal.HeadlineLayout.Top}",
+          "paddingLeft": "{Space.Modal.HeadlineLayout.SideM}",
+          "paddingRight": "{Space.Modal.HeadlineLayout.SideM}",
+          "paddingBottom": "{Space.Modal.HeadlineLayout.Bottom}",
+          "itemSpacing": "{Space.Modal.HeadlineLayout.Gap}"
         },
         "type": "composition"
       }
@@ -89,7 +89,7 @@
     },
     "Headline": {
       "value": {
-        "itemSpacing": "{Space.Modal.HeaderElements.HeadlineLayout}"
+        "itemSpacing": "{Space.Modal.HeadlineLayout.Headline}"
       },
       "type": "composition"
     },

@@ -1333,7 +1333,7 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "spacing"
       },
-      "Headline": {
+      "HeadlineLayout": {
         "Top": {
           "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
@@ -1353,6 +1353,10 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "Headline": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       },
       "HeaderElements": {
@@ -1362,10 +1366,6 @@
         },
         "Side": {
           "value": "{DimensionTheme.General.32px}",
-          "type": "spacing"
-        },
-        "HeadlineLayout": {
-          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
       },
@@ -1917,7 +1917,7 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "spacing"
       },
-      "Headline": {
+      "HeadlineLayout": {
         "Top": {
           "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
@@ -1937,6 +1937,10 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "Headline": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       },
       "HeaderElements": {
@@ -1946,10 +1950,6 @@
         },
         "Side": {
           "value": "{DimensionTheme.General.32px}",
-          "type": "spacing"
-        },
-        "HeadlineLayout": {
-          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
       },
