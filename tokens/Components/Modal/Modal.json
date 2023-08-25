@@ -87,6 +87,12 @@
       },
       "type": "composition"
     },
+    "HeadlineLayout": {
+      "value": {
+        "itemSpacing": "{Space.Modal.HeaderElements.HeadlineLayout}"
+      },
+      "type": "composition"
+    },
     "Window": {
       "S": {
         "value": {

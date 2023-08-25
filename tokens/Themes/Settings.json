@@ -1363,6 +1363,10 @@
         "Side": {
           "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
+        },
+        "HeadlineLayout": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       },
       "Body": {
@@ -1942,6 +1946,10 @@
         },
         "Side": {
           "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "HeadlineLayout": {
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
       },
