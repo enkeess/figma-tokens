@@ -51,6 +51,12 @@
       },
       "type": "composition"
     },
+    "HeadlineLayout": {
+      "value": {
+        "itemSpacing": "{Space.Drawer.HeaderElements.HeadlineLayout}"
+      },
+      "type": "composition"
+    },
     "Footer": {
       "value": {
         "paddingTop": "{Space.Drawer.Footer.Top}",
