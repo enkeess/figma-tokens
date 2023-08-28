@@ -1397,7 +1397,7 @@
           "type": "spacing"
         }
       },
-      "EdgeMargin": {
+      "OutsideGap": {
         "value": "{DimensionTheme.General.24px}",
         "type": "spacing"
       }
@@ -1981,7 +1981,7 @@
           "type": "spacing"
         }
       },
-      "EdgeMargin": {
+      "OutsideGap": {
         "value": "{DimensionTheme.General.24px}",
         "type": "spacing"
       }

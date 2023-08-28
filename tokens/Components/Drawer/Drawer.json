@@ -35,12 +35,6 @@
       },
       "type": "composition"
     },
-    "ScrollLayout": {
-      "value": {
-        "width": "{Space.Drawer.Body.Side}"
-      },
-      "type": "composition"
-    },
     "HeadlineLayout": {
       "value": {
         "paddingTop": "{Space.Drawer.HeadlineLayout.Top}",
@@ -75,13 +69,13 @@
     },
     "PositionLeft": {
       "value": {
-        "paddingRight": "{Space.Drawer.EdgeMargin}"
+        "paddingRight": "{Space.Drawer.OutsideGap}"
       },
       "type": "composition"
     },
     "PositionRight": {
       "value": {
-        "paddingLeft": "{Space.Drawer.EdgeMargin}"
+        "paddingLeft": "{Space.Drawer.OutsideGap}"
       },
       "type": "composition"
     },
