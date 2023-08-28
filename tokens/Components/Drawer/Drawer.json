@@ -67,18 +67,6 @@
       },
       "type": "composition"
     },
-    "PositionLeft": {
-      "value": {
-        "paddingRight": "{Space.Drawer.OutsideGap}"
-      },
-      "type": "composition"
-    },
-    "PositionRight": {
-      "value": {
-        "paddingLeft": "{Space.Drawer.OutsideGap}"
-      },
-      "type": "composition"
-    },
     "Window": {
       "S": {
         "value": {
