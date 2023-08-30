@@ -92,7 +92,7 @@
         "value": {
           "borderRadius": "{Radius.Modal.ModalWindow}",
           "minWidth": "{Size.Modal.MinWidth.S}",
-          "maxWidth": "{Size.Modal.MaxWidth.S}"
+          "width": "{Size.Modal.Width.S}"
         },
         "type": "composition"
       },
@@ -100,7 +100,7 @@
         "value": {
           "borderRadius": "{Radius.Modal.ModalWindow}",
           "minWidth": "{Size.Modal.MinWidth.M}",
-          "maxWidth": "{Size.Modal.MaxWidth.M}"
+          "width": "{Size.Modal.Width.M}"
         },
         "type": "composition"
       },
@@ -108,7 +108,7 @@
         "value": {
           "borderRadius": "{Radius.Modal.ModalWindow}",
           "minWidth": "{Size.Modal.MinWidth.L}",
-          "maxWidth": "{Size.Modal.MaxWidth.L}"
+          "width": "{Size.Modal.Width.L}"
         },
         "type": "composition"
       }

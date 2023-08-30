@@ -85,15 +85,15 @@
           "type": "sizing"
         },
         "M": {
-          "value": "{DimensionTheme.General.8px} * 78",
+          "value": "{DimensionTheme.General.8px} * 38",
           "type": "sizing"
         },
         "L": {
-          "value": "{DimensionTheme.General.8px} * 150",
+          "value": "{DimensionTheme.General.8px} * 38",
           "type": "sizing"
         }
       },
-      "MaxWidth": {
+      "Width": {
         "S": {
           "value": "{DimensionTheme.General.8px} * 58",
           "type": "sizing"
@@ -649,15 +649,15 @@
           "type": "sizing"
         },
         "M": {
-          "value": "{DimensionTheme.General.8px} * 78",
+          "value": "{DimensionTheme.General.8px} * 38",
           "type": "sizing"
         },
         "L": {
-          "value": "{DimensionTheme.General.8px} * 150",
+          "value": "{DimensionTheme.General.8px} * 38",
           "type": "sizing"
         }
       },
-      "MaxWidth": {
+      "Width": {
         "S": {
           "value": "{DimensionTheme.General.8px} * 58",
           "type": "sizing"

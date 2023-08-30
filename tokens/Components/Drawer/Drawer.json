@@ -71,21 +71,21 @@
       "S": {
         "value": {
           "minWidth": "{Size.Drawer.MinWidth.S}",
-          "maxWidth": "{Size.Drawer.MaxWidth.S}"
+          "width": "{Size.Drawer.Width.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
           "minWidth": "{Size.Drawer.MinWidth.M}",
-          "maxWidth": "{Size.Drawer.MaxWidth.M}"
+          "width": "{Size.Drawer.Width.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
           "minWidth": "{Size.Drawer.MinWidth.L}",
-          "maxWidth": "{Size.Drawer.MaxWidth.L}"
+          "width": "{Size.Drawer.Width.L}"
         },
         "type": "composition"
       }
