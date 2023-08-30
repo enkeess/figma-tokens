@@ -1,0 +1,20 @@
+{
+  "InputPrivate": {
+    "ButtonClearValue": {
+      "S": {
+        "value": {
+          "sizing": "{Size.InputPrivate.ButtonClearValue.S}",
+          "borderRadius": "{Radius.InputPrivate.ButtonClearValue.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "sizing": "{Size.InputPrivate.ButtonClearValue.M}",
+          "borderRadius": "{Radius.InputPrivate.ButtonClearValue.M}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

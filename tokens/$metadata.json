@@ -45,6 +45,7 @@
     "Components/Modal/Modal",
     "Components/Stepper/Stepper",
     "Components/Drawer/Drawer",
-    "Components/PromoTag/PromoTag"
+    "Components/PromoTag/PromoTag",
+    "Components/InputPrivate/InputPrivate"
   ]
 }
