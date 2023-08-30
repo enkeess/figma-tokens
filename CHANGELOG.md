@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.18.0...npm1.19.0) (2023-08-30)
+
+
+### Bug Fixes
+
+* Drawer buttonClose token ([278cb8f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/278cb8f01fba261178062b6c2017a14dc32b8994))
+* drawer tokens ([dd1565c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dd1565ce266cd705f7a26cd8d8f0d2ed2d6e4639))
+* Drawer tokens ([9881924](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/98819241963f58c6b8cf93ea0b73095f2ae823b4))
+* Drawer tokens ([7f4e0a1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7f4e0a10549268c0e1fba59bdfbfd96de4fff9b8))
+* removed Drawer.PositionRight & Drawer.PositionLeft tokens ([8c531e0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8c531e0911e2d111b24d6a8ea7f888c421a68aa4))
+* renamed Headline tokens for Drawer & renamed settings tokens for Modal and Drawer ([efde89a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/efde89a82e7f01d3629f83b0816e7c39c77e7179))
+* renamed Headline tokens for Modal ([c2bb189](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c2bb189ca69889382da3dcab8a04cad4e19ca86d))
+* some tokens have been renamed and deleted ([353cf99](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/353cf992cf01c041b7a549f74cb8056e58d1d7ba))
+* values of min width tokens changed, max width changed to width for Modal & Drawer ([b0114dc](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b0114dcbeaac8a90bfd35c1a750e140f10b3d262))
+
+
+### Features
+
+* added Drawer tokens ([c54e12e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c54e12e4935047ff4f132b308380574180137f32))
+* added HeadlineLayout token for Drawer ([2369206](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2369206d936989b5960325861882301ccfdb9fa0))
+* added HeadlineLayout tokens for Modal ([8aa346c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8aa346cee91400935874d9518611ed0e1d038c67))
+* added min and max width Drawer tokens ([cbd89e4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cbd89e4bd37271fbf0d24ee27b3417dfe3405972))
+* added min and max width tokens, added margin tokens for Modal & Drower. Renamed some tokens ([53a4499](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/53a449914d224aa86f28a97d71f0ec603ad00c89))
+
 # [1.18.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.17.1...npm1.18.0) (2023-08-22)
 
 
