@@ -46,6 +46,7 @@
     "Components/Stepper/Stepper",
     "Components/Drawer/Drawer",
     "Components/PromoTag/PromoTag",
-    "Components/InputPrivate/InputPrivate"
+    "Components/InputPrivate/InputPrivate",
+    "Components/Search/Search"
   ]
 }

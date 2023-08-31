@@ -1,0 +1,51 @@
+{
+  "Search": {
+    "S": {
+      "value": {
+        "height": "{Size.Search.S}",
+        "borderRadius": "{Radius.Search.S}",
+        "borderWidth": "{BorderWidth.Search.Single}",
+        "horizontalPadding": "{Space.Search.Container.S}"
+      },
+      "type": "composition"
+    },
+    "M": {
+      "value": {
+        "height": "{Size.Search.M}",
+        "borderRadius": "{Radius.Search.M}",
+        "borderWidth": "{BorderWidth.Search.Single}",
+        "horizontalPadding": "{Space.Search.Container.M}"
+      },
+      "type": "composition"
+    },
+    "L": {
+      "value": {
+        "height": "{Size.Search.L}",
+        "borderRadius": "{Radius.Search.L}",
+        "borderWidth": "{BorderWidth.Search.Single}",
+        "horizontalPadding": "{Space.Search.Container.L}"
+      },
+      "type": "composition"
+    }
+  },
+  "SearchPrivate": {
+    "S": {
+      "value": {
+        "itemSpacing": "{Space.Search.SearchPrivate.S}"
+      },
+      "type": "composition"
+    },
+    "M": {
+      "value": {
+        "itemSpacing": "{Space.Search.SearchPrivate.M}"
+      },
+      "type": "composition"
+    },
+    "L": {
+      "value": {
+        "itemSpacing": "{Space.Search.SearchPrivate.L}"
+      },
+      "type": "composition"
+    }
+  }
+}

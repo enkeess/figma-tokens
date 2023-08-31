@@ -657,6 +657,20 @@
           "type": "sizing"
         }
       }
+    },
+    "Search": {
+      "L": {
+        "value": "{DimensionTheme.General.48px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.40px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1104,6 +1118,20 @@
           "value": "{Size.Fields.Buttons.M} / 2",
           "type": "borderRadius"
         }
+      }
+    },
+    "Search": {
+      "S": {
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
       }
     }
   },
@@ -1983,6 +2011,40 @@
         "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
+    },
+    "Search": {
+      "SearchPrivate": {
+        "L": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "DropOffset": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
+      },
+      "Container": {
+        "S": {
+          "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
+          "type": "spacing"
+        },
+        "L": {
+          "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -2061,6 +2123,12 @@
       },
       "Toggle": {
         "value": "{BorderWidth.025m}",
+        "type": "borderWidth"
+      }
+    },
+    "Search": {
+      "Single": {
+        "value": "{DimensionTheme.General.2px}",
         "type": "borderWidth"
       }
     }

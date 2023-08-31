@@ -722,7 +722,8 @@
       "Components/Stepper/Stepper": "source",
       "Components/Drawer/Drawer": "source",
       "Components/PromoTag/PromoTag": "source",
-      "Components/InputPrivate/InputPrivate": "source"
+      "Components/InputPrivate/InputPrivate": "source",
+      "Components/Search/Search": "source"
     }
   },
   {
@@ -1543,7 +1544,8 @@
       "Components/Stepper/Stepper": "source",
       "Components/Drawer/Drawer": "source",
       "Components/PromoTag/PromoTag": "source",
-      "Components/InputPrivate/InputPrivate": "source"
+      "Components/InputPrivate/InputPrivate": "source",
+      "Components/Search/Search": "source"
     }
   }
 ]
