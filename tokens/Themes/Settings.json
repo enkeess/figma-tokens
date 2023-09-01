@@ -659,16 +659,16 @@
       }
     },
     "Search": {
-      "L": {
-        "value": "{DimensionTheme.General.48px}",
+      "S": {
+        "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
       "M": {
         "value": "{DimensionTheme.General.40px}",
         "type": "sizing"
       },
-      "S": {
-        "value": "{DimensionTheme.General.32px}",
+      "L": {
+        "value": "{DimensionTheme.General.48px}",
         "type": "sizing"
       }
     }
@@ -2014,16 +2014,16 @@
     },
     "Search": {
       "SearchPrivate": {
-        "L": {
-          "value": "{DimensionTheme.General.8px}",
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "M": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
-        "S": {
-          "value": "{DimensionTheme.General.4px}",
+        "L": {
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       },
