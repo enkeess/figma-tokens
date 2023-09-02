@@ -705,6 +705,40 @@
         "value": "{DimensionTheme.General.48px}",
         "type": "sizing"
       }
+    },
+    "Table": {
+      "Head": {
+        "Column": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        },
+        "NameLayout": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        }
+      },
+      "LineHeight": {
+        "value": "{DimensionTheme.General.40px}",
+        "type": "sizing"
+      },
+      "RowFunctionHeight": {
+        "value": "{Size.Table.LineHeight} - {BorderWidth.Table} * 2",
+        "type": "sizing"
+      },
+      "CellButton": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
+      "CellStatusIndicator": {
+        "Horizontal": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Vertical": {
+          "value": "{Size.Table.LineHeight}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -1185,6 +1219,10 @@
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
+    },
+    "Table": {
+      "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+      "type": "borderRadius"
     }
   },
   "Space": {
@@ -2137,6 +2175,26 @@
           "type": "spacing"
         }
       }
+    },
+    "Table": {
+      "Cell": {
+        "Padding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "PaddingDivider": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "RowFunction": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "spacing"
+      }
     }
   },
   "BorderWidth": {
@@ -2233,6 +2291,10 @@
         "value": "{DimensionTheme.General.2px}",
         "type": "borderWidth"
       }
+    },
+    "Table": {
+      "value": "{BorderWidth.012m}",
+      "type": "borderWidth"
     }
   },
   "Border": {

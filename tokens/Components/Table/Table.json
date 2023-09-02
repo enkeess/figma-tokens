@@ -1,1 +1,78 @@
-{}
+{
+  "Table": {
+    "Head": {
+      "Column": {
+        "value": {
+          "spacing": "{Space.Table.Cell.Padding}"
+        },
+        "type": "composition"
+      },
+      "NameLayout": {
+        "value": {
+          "height": "{Size.Table.Head.NameLayout}"
+        },
+        "type": "composition"
+      },
+      "DividerLayout": {
+        "value": {
+          "paddingLeft": "{Space.Table.Cell.PaddingDivider}",
+          "paddingRight": "{Space.Table.Cell.PaddingDivider}"
+        },
+        "type": "composition"
+      }
+    },
+    "Line": {
+      "Container": {
+        "value": {
+          "height": "{Size.Table.LineHeight}",
+          "borderTop": "{BorderWidth.Table}",
+          "borderBottom": "{BorderWidth.Table}"
+        },
+        "type": "composition"
+      }
+    },
+    "Cells": {
+      "value": {
+        "height": "{Size.Table.LineHeight}",
+        "itemSpacing": "{Space.Table.Cell.Gap}"
+      },
+      "type": "composition"
+    },
+    "CellCheck": {
+      "value": {
+        "sizing": "{Size.Table.LineHeight}"
+      },
+      "type": "composition"
+    },
+    "StatusIndicator": {
+      "value": {
+        "height": "{Size.Table.CellStatusIndicator.Vertical}",
+        "width": "{Size.Table.CellStatusIndicator.Horizontal}"
+      },
+      "type": "composition"
+    },
+    "RowFunction": {
+      "value": {
+        "height": "{Size.Table.RowFunctionHeight}",
+        "borderLeft": "{BorderWidth.Table}",
+        "paddingRight": "{Space.Table.RowFunction}",
+        "paddingLeft": "{Space.Table.RowFunction}"
+      },
+      "type": "composition"
+    },
+    "TableContainer": {
+      "value": {
+        "borderWidth": "{BorderWidth.Table}",
+        "borderRadius": "{Radius.Table}"
+      },
+      "type": "composition"
+    },
+    "CellButton": {
+      "value": {
+        "sizing": "{Size.Table.CellButton}",
+        "borderRadius": "{Radius.Table}"
+      },
+      "type": "composition"
+    }
+  }
+}
