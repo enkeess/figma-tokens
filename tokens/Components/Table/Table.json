@@ -40,8 +40,7 @@
     },
     "BodyCells": {
       "value": {
-        "borderWidthLeft": "{BorderWidth.Table}",
-        "borderWidthRight": "{BorderWidth.Table}"
+        "borderWidthLeft": "{BorderWidth.Table}"
       },
       "type": "composition"
     },
