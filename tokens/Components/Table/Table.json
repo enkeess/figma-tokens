@@ -51,6 +51,14 @@
       },
       "type": "composition"
     },
+    "CellStatusMain": {
+      "value": {
+        "height": "{Size.Table.CellStatusIndicator.Vertical}",
+        "paddingRight": "{Space.Table.Cell.Padding}",
+        "itemSpacing": "{Space.Table.Cell.Padding}"
+      },
+      "type": "composition"
+    },
     "RowFunction": {
       "value": {
         "height": "{Size.Table.RowFunctionHeight}",
