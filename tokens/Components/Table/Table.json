@@ -38,6 +38,13 @@
       },
       "type": "composition"
     },
+    "BodyCells": {
+      "value": {
+        "borderWidthLeft": "{BorderWidth.Table}",
+        "borderWidthRight": "{BorderWidth.Table}"
+      },
+      "type": "composition"
+    },
     "CellCheck": {
       "value": {
         "sizing": "{Size.Table.LineHeight}"
