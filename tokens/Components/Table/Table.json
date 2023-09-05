@@ -34,7 +34,9 @@
     "Cells": {
       "value": {
         "height": "{Size.Table.LineHeight}",
-        "itemSpacing": "{Space.Table.Cell.Gap}"
+        "itemSpacing": "{Space.Table.Cell.Gap}",
+        "paddingLeft": "{Space.Table.Cell.Padding}",
+        "paddingRight": "{Space.Table.Cell.Padding}"
       },
       "type": "composition"
     },
