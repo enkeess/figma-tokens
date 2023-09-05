@@ -12,13 +12,6 @@
           "height": "{Size.Table.Head.NameLayout}"
         },
         "type": "composition"
-      },
-      "DividerLayout": {
-        "value": {
-          "paddingLeft": "{Space.Table.Cell.PaddingDivider}",
-          "paddingRight": "{Space.Table.Cell.PaddingDivider}"
-        },
-        "type": "composition"
       }
     },
     "Line": {

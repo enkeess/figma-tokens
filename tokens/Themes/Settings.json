@@ -2191,6 +2191,12 @@
           "type": "spacing"
         }
       },
+      "Head": {
+        "SeparatorPadding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
       "RowFunction": {
         "value": "{DimensionTheme.General.16px}",
         "type": "spacing"
