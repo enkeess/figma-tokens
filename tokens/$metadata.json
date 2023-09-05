@@ -47,6 +47,7 @@
     "Components/Drawer/Drawer",
     "Components/PromoTag/PromoTag",
     "Components/InputPrivate/InputPrivate",
-    "Components/Search/Search"
+    "Components/Search/Search",
+    "Components/Card/Card"
   ]
 }

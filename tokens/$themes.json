@@ -723,7 +723,8 @@
       "Components/Drawer/Drawer": "source",
       "Components/PromoTag/PromoTag": "source",
       "Components/InputPrivate/InputPrivate": "source",
-      "Components/Search/Search": "source"
+      "Components/Search/Search": "source",
+      "Components/Card/Card": "source"
     }
   },
   {
@@ -1545,7 +1546,8 @@
       "Components/Drawer/Drawer": "source",
       "Components/PromoTag/PromoTag": "source",
       "Components/InputPrivate/InputPrivate": "source",
-      "Components/Search/Search": "source"
+      "Components/Search/Search": "source",
+      "Components/Card/Card": "source"
     }
   }
 ]
