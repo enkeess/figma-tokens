@@ -74,6 +74,28 @@
         "type": "sizing"
       }
     },
+    "Card": {
+      "Image": {
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.80px}",
+          "type": "sizing"
+        }
+      },
+      "FunctionBadge": {
+        "FunctionRow": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
+      },
+      "Check": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
+    },
     "Modal": {
       "ButtonClose": {
         "value": "{DimensionTheme.General.32px}",
@@ -696,6 +718,20 @@
         "type": "borderRadius"
       }
     },
+    "Card": {
+      "Image": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "Container": {
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "BackgroundCheck": {
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      }
+    },
     "Modal": {
       "ButtonClose": {
         "value": "{DimensionTheme.General.16px}",
@@ -1212,6 +1248,36 @@
         },
         "FromLabel": {
           "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Card": {
+      "Padding": {
+        "Container": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "PromoBadge": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "FunctionBadge": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "Gap": {
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
       }
@@ -2109,6 +2175,12 @@
     "Counter": {
       "Single": {
         "value": "{BorderWidth.018m}",
+        "type": "borderWidth"
+      }
+    },
+    "Card": {
+      "Image": {
+        "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
     },
