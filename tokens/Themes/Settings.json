@@ -75,7 +75,7 @@
       }
     },
     "Card": {
-      "Image": {
+      "Picture": {
         "M": {
           "value": "{DimensionTheme.General.40px}",
           "type": "sizing"
@@ -719,7 +719,7 @@
       }
     },
     "Card": {
-      "Image": {
+      "Picture": {
         "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
@@ -2179,7 +2179,7 @@
       }
     },
     "Card": {
-      "Image": {
+      "Picture": {
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
