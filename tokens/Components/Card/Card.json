@@ -79,20 +79,6 @@
       },
       "type": "composition"
     },
-    "PromoBadge": {
-      "value": {
-        "paddingTop": "{Space.Card.Gap.M}",
-        "paddingRight": "{Space.Card.Gap.M}"
-      },
-      "type": "composition"
-    },
-    "FunctionBadge": {
-      "value": {
-        "paddingTop": "{Space.Card.Gap.M}",
-        "paddingRight": "{Space.Card.Gap.M}"
-      },
-      "type": "composition"
-    },
     "Dimension": {
       "value": {
         "itemSpacing": "{Space.Card.Gap.S}"
@@ -110,6 +96,44 @@
         "itemSpacing": "{Space.Card.Gap.S}"
       },
       "type": "composition"
+    },
+    "PromoBadge": {
+      "value": {
+        "paddingTop": "{Space.Card.Gap.M}",
+        "paddingRight": "{Space.Card.Gap.M}"
+      },
+      "type": "composition"
+    },
+    "FunctionBadge": {
+      "value": {
+        "paddingTop": "{Space.Card.Gap.M}",
+        "paddingRight": "{Space.Card.Gap.M}"
+      },
+      "type": "composition"
+    },
+    "Button": {
+      "value": {
+        "sizing": "{Size.Card.Button}",
+        "borderRadius": "{Radius.Card.Button}"
+      },
+      "type": "composition"
+    },
+    "FunctionRow": {
+      "Container": {
+        "value": {
+          "height": "{Size.Card.FunctionBadge.FunctionRow}",
+          "minWidth": "{Size.Card.FunctionBadge.FunctionRow}"
+        },
+        "type": "composition"
+      },
+      "TransparentBackground": {
+        "value": {
+          "sizing": "{Size.Card.FunctionBadge.FunctionRow}",
+          "borderRadius": "{Radius.Card.Button}",
+          "opacity": "{Opacity.Card.TransparentBackground}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

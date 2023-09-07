@@ -94,6 +94,10 @@
       "Check": {
         "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
+      },
+      "Button": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
       }
     },
     "Modal": {
@@ -719,15 +723,19 @@
       }
     },
     "Card": {
-      "Picture": {
-        "value": "{DimensionTheme.General.8px}",
-        "type": "borderRadius"
-      },
       "Container": {
         "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
+      "Picture": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
       "Check": {
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "Button": {
         "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
@@ -2251,6 +2259,14 @@
       "Offset": {
         "value": "{DimensionTheme.General.2px}",
         "type": "spacing"
+      }
+    }
+  },
+  "Opacity": {
+    "Card": {
+      "TransparentBackground": {
+        "value": "{Opacity.A080}",
+        "type": "opacity"
       }
     }
   }
