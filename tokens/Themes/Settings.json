@@ -724,10 +724,10 @@
         "type": "borderRadius"
       },
       "Container": {
-        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
-      "BackgroundCheck": {
+      "Check": {
         "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
@@ -2179,8 +2179,12 @@
       }
     },
     "Card": {
+      "Container": {
+        "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      },
       "Picture": {
-        "value": "{BorderWidth.012m}",
+        "value": "{BorderWidth.General.Xs}",
         "type": "borderWidth"
       }
     },

@@ -1,1 +1,115 @@
-{}
+{
+  "Card": {
+    "Container": {
+      "value": {
+        "borderRadius": "{Radius.Card.Container}",
+        "borderWidth": "{BorderWidth.Card.Container}"
+      },
+      "type": "composition"
+    },
+    "Composition": {
+      "Container": {
+        "value": {
+          "borderRadius": "{Radius.Card.Container}"
+        },
+        "type": "composition"
+      }
+    },
+    "Content": {
+      "M": {
+        "Container": {
+          "value": {
+            "spacing": "{Space.Card.Padding.Container}",
+            "itemSpacing": "{Space.Card.Gap.M}"
+          },
+          "type": "composition"
+        },
+        "TitleLayout": {
+          "value": {
+            "itemSpacing": "{Space.Card.Gap.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "L": {
+        "Container": {
+          "value": {
+            "spacing": "{Space.Card.Padding.Container}",
+            "itemSpacing": "{Space.Card.Gap.L}"
+          },
+          "type": "composition"
+        },
+        "TitleLayout": {
+          "value": {
+            "itemSpacing": "{Space.Card.Gap.L}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Picture": {
+      "M": {
+        "value": {
+          "sizing": "{Size.Card.Picture.M}",
+          "borderWidth": "{BorderWidth.Card.Picture}",
+          "borderRadius": "{Radius.Card.Picture}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "sizing": "{Size.Card.Picture.L}",
+          "borderWidth": "{BorderWidth.Card.Picture}",
+          "borderRadius": "{Radius.Card.Picture}"
+        },
+        "type": "composition"
+      }
+    },
+    "Footer": {
+      "value": {
+        "spacing": "{Space.Card.Padding.Container}"
+      },
+      "type": "composition"
+    },
+    "Check": {
+      "value": {
+        "sizing": "{Size.Card.Check}",
+        "borderRadiusTopLeft": "{Radius.Card.Container}",
+        "borderRadiusBottomRight": "{Radius.Card.Check}"
+      },
+      "type": "composition"
+    },
+    "PromoBadge": {
+      "value": {
+        "paddingTop": "{Space.Card.Gap.M}",
+        "paddingRight": "{Space.Card.Gap.M}"
+      },
+      "type": "composition"
+    },
+    "FunctionBadge": {
+      "value": {
+        "paddingTop": "{Space.Card.Gap.M}",
+        "paddingRight": "{Space.Card.Gap.M}"
+      },
+      "type": "composition"
+    },
+    "Dimension": {
+      "value": {
+        "itemSpacing": "{Space.Card.Gap.S}"
+      },
+      "type": "composition"
+    },
+    "Action": {
+      "value": {
+        "itemSpacing": "{Space.Card.Gap.L}"
+      },
+      "type": "composition"
+    },
+    "CallToAction": {
+      "value": {
+        "itemSpacing": "{Space.Card.Gap.S}"
+      },
+      "type": "composition"
+    }
+  }
+}
