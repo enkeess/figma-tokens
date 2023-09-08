@@ -76,7 +76,7 @@
     }
   },
   "Status": {
-    "Container": {
+    "BackgroundContainer": {
       "Xs": {
         "value": {
           "height": "{DimensionTheme.General.16px}",
@@ -94,6 +94,20 @@
           "paddingLeft": "{DimensionTheme.General.4px}",
           "itemSpacing": "{DimensionTheme.General.2px}",
           "borderRadius": "{Radius.Status.S}"
+        },
+        "type": "composition"
+      }
+    },
+    "Container": {
+      "Xs": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.2px}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "itemSpacing": "{DimensionTheme.General.2px}"
         },
         "type": "composition"
       }
