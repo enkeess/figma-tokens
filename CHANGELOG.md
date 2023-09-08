@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.19.0...npm1.20.0) (2023-09-08)
+
+
+### Bug Fixes
+
+* Search tokens ([613e810](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/613e8103ca09592ada1d04039435c576d212b983))
+
+
+### Features
+
+* added InputPrivate tokens for ButtonClearValue ([aff009f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/aff009f5d4da07469d74c7bd2eefc50f324d747b))
+* added Search tokens ([c04d1e6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c04d1e69283afe7cd14ccbe1cc0381164b86cc45))
+
 # [1.19.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.18.0...npm1.19.0) (2023-08-30)
 
 
