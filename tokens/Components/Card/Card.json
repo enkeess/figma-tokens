@@ -74,8 +74,7 @@
     "Check": {
       "value": {
         "sizing": "{Size.Card.Check}",
-        "borderRadiusTopLeft": "{Radius.Card.Container}",
-        "borderRadiusBottomRight": "{Radius.Card.Check}"
+        "borderRadius": "{Radius.Card.Check}"
       },
       "type": "composition"
     },
@@ -94,6 +93,13 @@
     "CallToAction": {
       "value": {
         "itemSpacing": "{Space.Card.Gap.S}"
+      },
+      "type": "composition"
+    },
+    "CheckBadge": {
+      "value": {
+        "paddingTop": "{Space.Card.Gap.M}",
+        "paddingLeft": "{Space.Card.Gap.M}"
       },
       "type": "composition"
     },
