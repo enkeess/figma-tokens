@@ -65,6 +65,20 @@
         "type": "composition"
       }
     },
+    "Image": {
+      "Little": {
+        "value": {
+          "height": "{Size.Card.ImageLitte}"
+        },
+        "type": "composition"
+      },
+      "Middle": {
+        "value": {
+          "height": "{Size.Card.ImageMiddle}"
+        },
+        "type": "composition"
+      }
+    },
     "Footer": {
       "value": {
         "spacing": "{Space.Card.Padding.Container}"
