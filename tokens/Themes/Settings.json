@@ -725,10 +725,6 @@
         "value": "{Size.Table.LineHeight} - {BorderWidth.Table} * 2",
         "type": "sizing"
       },
-      "CellButton": {
-        "value": "{DimensionTheme.General.32px}",
-        "type": "sizing"
-      },
       "CellStatusIndicator": {
         "Horizontal": {
           "value": "{DimensionTheme.General.16px}",
@@ -2198,7 +2194,7 @@
         }
       },
       "RowFunction": {
-        "value": "{DimensionTheme.General.16px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
       }
     }

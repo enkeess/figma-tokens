@@ -53,7 +53,6 @@
     },
     "RowFunction": {
       "value": {
-        "height": "{Size.Table.RowFunctionHeight}",
         "paddingRight": "{Space.Table.RowFunction}",
         "paddingLeft": "{Space.Table.RowFunction}"
       },
@@ -62,13 +61,6 @@
     "TableContainer": {
       "value": {
         "borderWidth": "{BorderWidth.Table}",
-        "borderRadius": "{Radius.Table}"
-      },
-      "type": "composition"
-    },
-    "CellButton": {
-      "value": {
-        "sizing": "{Size.Table.CellButton}",
         "borderRadius": "{Radius.Table}"
       },
       "type": "composition"
