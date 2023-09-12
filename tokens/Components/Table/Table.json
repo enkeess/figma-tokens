@@ -26,35 +26,26 @@
     },
     "Cells": {
       "value": {
-        "height": "{Size.Table.LineHeight}",
         "itemSpacing": "{Space.Table.Cell.Gap}",
         "paddingLeft": "{Space.Table.Cell.Padding}",
         "paddingRight": "{Space.Table.Cell.Padding}"
       },
       "type": "composition"
     },
-    "BodyCells": {
-      "value": {
-        "borderWidthLeft": "{BorderWidth.Table}"
-      },
-      "type": "composition"
-    },
     "CellCheck": {
       "value": {
-        "sizing": "{Size.Table.LineHeight}"
+        "width": "{Size.Table.LineHeight}"
       },
       "type": "composition"
     },
     "StatusIndicator": {
       "value": {
-        "height": "{Size.Table.CellStatusIndicator.Vertical}",
         "width": "{Size.Table.CellStatusIndicator.Horizontal}"
       },
       "type": "composition"
     },
     "CellStatusMain": {
       "value": {
-        "height": "{Size.Table.CellStatusIndicator.Vertical}",
         "paddingRight": "{Space.Table.Cell.Padding}",
         "itemSpacing": "{Space.Table.Cell.Padding}"
       },
@@ -63,7 +54,6 @@
     "RowFunction": {
       "value": {
         "height": "{Size.Table.RowFunctionHeight}",
-        "borderLeft": "{BorderWidth.Table}",
         "paddingRight": "{Space.Table.RowFunction}",
         "paddingLeft": "{Space.Table.RowFunction}"
       },
