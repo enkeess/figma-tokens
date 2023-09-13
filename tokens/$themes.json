@@ -1497,7 +1497,8 @@
       "Sys.Green.TextDisabled": "S:7667f6cbc41666d79764c7b4b50c0bb25d4e5d0e,",
       "Sys.Blue.TextDisabled": "S:ab3647cc63c561f09d7b1f2a132efee2241c2330,",
       "Sys.Violet.TextDisabled": "S:756a243bebdc0445948780073dec36f1ee70818a,",
-      "Sys.Pink.TextDisabled": "S:a0776e8dbc5ab7b0b7c882a144ecbdc5f395cd7a,"
+      "Sys.Pink.TextDisabled": "S:a0776e8dbc5ab7b0b7c882a144ecbdc5f395cd7a,",
+      "Gradient.Skeleton": "S:40b28d2f7fdb4bcbd8a07c994dfb11c3446f9b9f,"
     },
     "selectedTokenSets": {
       "Base/Colors": "source",
