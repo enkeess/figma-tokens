@@ -1300,6 +1300,12 @@
           "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
+      },
+      "Button": {
+        "DropOffset": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "Toggles": {
