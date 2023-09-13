@@ -798,21 +798,21 @@
   },
   "Gradient": {
     "Linear": {
-      "Neutral": {
-        "ContainerDown": {
-          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background2Level}, 1) 0%, rgba({Sys.Neutral.Background2Level}, 0.08) 72%, rgba({Sys.Neutral.Background2Level}, 0) 100%)",
+      "Mask": {
+        "0deg": {
+          "value": "linear-gradient(0deg, rgba({Sys.Available.OnComplementary}, 0) 0%, rgba({Sys.Available.OnComplementary}, 0.08) 33%, rgba({Sys.Available.OnComplementary}, 1) 100%)",
           "type": "color"
         },
-        "ContainerUp": {
-          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background2Level}, 0) 0%, rgba({Sys.Neutral.Background2Level}, 0.08) 24%, rgba({Sys.Neutral.Background2Level}, 1) 100%)",
+        "90deg": {
+          "value": "linear-gradient(90deg, rgba({Sys.Available.OnComplementary}, 0) 0%, rgba({Sys.Available.OnComplementary}, 0.08) 33%, rgba({Sys.Available.OnComplementary}, 1) 100%)",
           "type": "color"
         },
-        "BackgroundDown": {
-          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 1) 0%, rgba({Sys.Neutral.Background}, 0.08) 72%, rgba({Sys.Neutral.Background}, 0) 100%)",
+        "180deg": {
+          "value": "linear-gradient(180deg, rgba({Sys.Available.OnComplementary}, 0) 0%, rgba({Sys.Available.OnComplementary}, 0.08) 33%, rgba({Sys.Available.OnComplementary}, 1) 100%)",
           "type": "color"
         },
-        "BackgroundUp": {
-          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 0) 0%, rgba({Sys.Neutral.Background}, 0.08) 24%, rgba({Sys.Neutral.Background}, 1) 100%)",
+        "270deg": {
+          "value": "linear-gradient(270deg, rgba({Sys.Available.OnComplementary}, 0) 0%, rgba({Sys.Available.OnComplementary}, 0.08) 33%, rgba({Sys.Available.OnComplementary}, 1) 100%)",
           "type": "color"
         }
       }

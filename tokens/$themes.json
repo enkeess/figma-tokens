@@ -409,7 +409,6 @@
       "Mono.Body.M": "S:fb849c4263c7f4299147eaa2da521c15d7c5a22a,",
       "Mono.Body.S": "S:292362e3c25d7447f07bbdf748b042ceff59fc32,",
       "Gradient.Linear.Neutral.ContainerDown": "S:d89c99bf412a22c0f31c633441f035201b2bbccb,",
-      "Gradient.Linear.Neutral.ContainerUp": "S:54db4f3c24f7708e99ca08a8c7c870cd1ef8b89d,",
       "Gradient.Linear.Neutral.BackgroundDown": "S:11af751f4a73e56b4e227816a22b7204da381db9,",
       "Gradient.Linear.Neutral.BackgroundUp": "S:85ec109469a3088134820646e0a259539726da9b,",
       "Shadow.Elevation.Level1": "S:31571de52b3922a98831b303c13f7852abaf90a4,",
@@ -675,7 +674,8 @@
       "Sys.Blue.TextDisabled": "S:fc8a4fd8d1ae269cb92775c12e9259dcf8ca58fb,",
       "Sys.Violet.TextDisabled": "S:597b54eda5fd97b3561a8d2666102564e6ad7207,",
       "Sys.Pink.TextDisabled": "S:eba0c51968bec5e704ff69dab97d83086b00637e,",
-      "Gradient.Skeleton": "S:4bfe74648993413827ae264a73f446442dd52422,"
+      "Gradient.Skeleton": "S:4bfe74648993413827ae264a73f446442dd52422,",
+      "Gradient.Linear.Mask.0deg": "S:54db4f3c24f7708e99ca08a8c7c870cd1ef8b89d,"
     },
     "selectedTokenSets": {
       "Base/Anatomy": "source",
@@ -1059,7 +1059,6 @@
       "Index.Gray.AccentDisabled": "S:f0c82831677d7cc253ad409b46727d116b739bfd,",
       "Index.Gray.OnAccent": "S:b2d645f2cde12c7fc4d5988dcb259591d66c1024,",
       "Gradient.Linear.Neutral.ContainerDown": "S:db703e649c9a577b5d67dbd64b6a06242f5d17af,",
-      "Gradient.Linear.Neutral.ContainerUp": "S:8bd53db3a686d520bd97975c247260c2b1ae27bd,",
       "Gradient.Linear.Neutral.BackgroundDown": "S:3700cfe39b0b7c970e5d6f8113c2615bea7f8df3,",
       "Gradient.Linear.Neutral.BackgroundUp": "S:204ca8029fb428e608bedd3e2d0e15be638cb0f4,",
       "Sans.Display.L": "S:7697dc23231b18f4984b1b9b43f5889f9d27038a,",
@@ -1499,7 +1498,11 @@
       "Sys.Blue.TextDisabled": "S:ab3647cc63c561f09d7b1f2a132efee2241c2330,",
       "Sys.Violet.TextDisabled": "S:756a243bebdc0445948780073dec36f1ee70818a,",
       "Sys.Pink.TextDisabled": "S:a0776e8dbc5ab7b0b7c882a144ecbdc5f395cd7a,",
-      "Gradient.Skeleton": "S:40b28d2f7fdb4bcbd8a07c994dfb11c3446f9b9f,"
+      "Gradient.Skeleton": "S:40b28d2f7fdb4bcbd8a07c994dfb11c3446f9b9f,",
+      "Gradient.Linear.Mask.0deg": "S:124cf387f43cd056096ea08f2c69fe2c59c57ba2,",
+      "Gradient.Linear.Mask.90deg": "S:127f79b8e6b9a0b1c5b0e3f0a0ff01ce911a8f29,",
+      "Gradient.Linear.Mask.180deg": "S:bbd21f2bc99d13a3fd131e9691065a66195be04d,",
+      "Gradient.Linear.Mask.270deg": "S:64833acb6538e92e4049cfbdc5ab4253106ceb89,"
     },
     "selectedTokenSets": {
       "Base/Colors": "source",

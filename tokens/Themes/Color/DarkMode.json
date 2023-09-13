@@ -803,16 +803,18 @@
           "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background1Level}, 1) 0%, rgba({Sys.Neutral.Background1Level}, 0.08) 72%, rgba({Sys.Neutral.Background1Level}, 0) 100%)",
           "type": "color"
         },
-        "ContainerUp": {
-          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background1Level}, 0) 0%, rgba({Sys.Neutral.Background1Level}, 0.08) 24%, rgba({Sys.Neutral.Background1Level}, 1) 100%)",
-          "type": "color"
-        },
         "BackgroundDown": {
           "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 1) 0%, rgba({Sys.Neutral.Background}, 0.08) 72%, rgba({Sys.Neutral.Background}, 0) 100%)",
           "type": "color"
         },
         "BackgroundUp": {
           "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background}, 0) 0%, rgba({Sys.Neutral.Background}, 0.08) 24%, rgba({Sys.Neutral.Background}, 1) 100%)",
+          "type": "color"
+        }
+      },
+      "Mask": {
+        "ColorUp": {
+          "value": "linear-gradient(0deg, rgba({Sys.Neutral.Background1Level}, 0) 0%, rgba({Sys.Neutral.Background1Level}, 0.08) 24%, rgba({Sys.Neutral.Background1Level}, 1) 100%)",
           "type": "color"
         }
       }
