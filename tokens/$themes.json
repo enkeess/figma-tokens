@@ -674,7 +674,8 @@
       "Sys.Green.TextDisabled": "S:d9c0b0bf4ef367b7cbcaf414687bbb0f1bc2c862,",
       "Sys.Blue.TextDisabled": "S:fc8a4fd8d1ae269cb92775c12e9259dcf8ca58fb,",
       "Sys.Violet.TextDisabled": "S:597b54eda5fd97b3561a8d2666102564e6ad7207,",
-      "Sys.Pink.TextDisabled": "S:eba0c51968bec5e704ff69dab97d83086b00637e,"
+      "Sys.Pink.TextDisabled": "S:eba0c51968bec5e704ff69dab97d83086b00637e,",
+      "Gradient.Skeleton": "S:4bfe74648993413827ae264a73f446442dd52422,"
     },
     "selectedTokenSets": {
       "Base/Anatomy": "source",
