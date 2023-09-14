@@ -729,7 +729,8 @@
       "Components/InputPrivate/InputPrivate": "source",
       "Components/Search/Search": "source",
       "Components/Card/Card": "source",
-      "Components/Table/Table": "source"
+      "Components/Table/Table": "source",
+      "Components/NotificationPanel/NotificationPanel": "source"
     }
   },
   {
@@ -1557,7 +1558,8 @@
       "Components/InputPrivate/InputPrivate": "source",
       "Components/Search/Search": "source",
       "Components/Card/Card": "source",
-      "Components/Table/Table": "source"
+      "Components/Table/Table": "source",
+      "Components/NotificationPanel/NotificationPanel": "source"
     }
   }
 ]

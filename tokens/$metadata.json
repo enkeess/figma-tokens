@@ -49,6 +49,7 @@
     "Components/InputPrivate/InputPrivate",
     "Components/Search/Search",
     "Components/Card/Card",
-    "Components/Table/Table"
+    "Components/Table/Table",
+    "Components/NotificationPanel/NotificationPanel"
   ]
 }

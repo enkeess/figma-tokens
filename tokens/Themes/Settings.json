@@ -727,6 +727,18 @@
           "type": "sizing"
         }
       }
+    },
+    "NotificationPanel": {
+      "Card": {
+        "IconType": {
+          "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      },
+      "Button": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1211,6 +1223,18 @@
     "Table": {
       "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
       "type": "borderRadius"
+    },
+    "NotificationPanel": {
+      "Footer": {
+        "RadiusBottom": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "borderRadius"
+        }
+      },
+      "Container": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      }
     }
   },
   "Space": {
@@ -2164,6 +2188,80 @@
         }
       }
     },
+    "NotificationPanel": {
+      "Card": {
+        "FunctionBadge": {
+          "PaddingTop": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "PaddingRight": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "spacing"
+          }
+        },
+        "PaddingVertical": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "PaddingHorizontal": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Label": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Header": {
+        "PaddingTop": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "PaddingBottom": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "Chips": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        },
+        "Headline": {
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Info": {
+        "Gap": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "Text": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
     "Table": {
       "Cell": {
         "Padding": {
@@ -2283,6 +2381,16 @@
     "Search": {
       "Single": {
         "value": "{DimensionTheme.General.2px}",
+        "type": "borderWidth"
+      }
+    },
+    "NotificationPanel": {
+      "Container": {
+        "value": "{BorderWidth.General.Xs}",
+        "type": "borderWidth"
+      },
+      "Card": {
+        "value": "{BorderWidth.General.Xs}",
         "type": "borderWidth"
       }
     },

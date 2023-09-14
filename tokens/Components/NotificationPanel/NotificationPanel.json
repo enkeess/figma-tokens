@@ -1,0 +1,75 @@
+{
+  "NotificationPanel": {
+    "Container": {
+      "value": {
+        "borderRadius": "{Radius.NotificationPanel.Container}"
+      },
+      "type": "composition"
+    },
+    "Card": {
+      "IconType": {
+        "value": {
+          "sizing": "{Size.NotificationPanel.Card.IconType}"
+        },
+        "type": "composition"
+      },
+      "FunctionBadge": {
+        "value": {
+          "paddingTop": "{Space.NotificationPanel.Card.FunctionBadge.PaddingTop}",
+          "paddingRight": "{Space.NotificationPanel.Card.FunctionBadge.PaddingRight}"
+        },
+        "type": "composition"
+      },
+      "Container": {
+        "value": {
+          "horizontalPadding": "{Space.NotificationPanel.Card.PaddingHorizontal}",
+          "verticalPadding": "{Space.NotificationPanel.Card.PaddingVertical}",
+          "itemSpacing": "{Space.NotificationPanel.Card.Gap}",
+          "borderWidthBottom": "{BorderWidth.NotificationPanel.Card}"
+        },
+        "type": "composition"
+      },
+      "Label": {
+        "value": {
+          "itemSpacing": "{Space.NotificationPanel.Card.Label.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "Header": {
+      "Container": {
+        "value": {
+          "horizontalPadding": "{Space.NotificationPanel.Header.HorizontalPadding}",
+          "paddingTop": "{Space.NotificationPanel.Header.PaddingTop}",
+          "paddingBottom": "{Space.NotificationPanel.Header.PaddingBottom}",
+          "itemSpacing": "{Space.NotificationPanel.Header.Gap}",
+          "borderWidthBottom": "{BorderWidth.NotificationPanel.Container}"
+        },
+        "type": "composition"
+      },
+      "Headline": {
+        "value": {
+          "itemSpacing": "{Space.NotificationPanel.Header.Headline.Gap}"
+        },
+        "type": "composition"
+      },
+      "Chips": {
+        "value": {
+          "itemSpacing": "{Space.NotificationPanel.Header.Chips.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "Button": {
+      "Container": {
+        "value": {
+          "borderWidthTop": "{BorderWidth.NotificationPanel.Container}",
+          "borderRadiusBottomRight": "{Radius.NotificationPanel.Footer.RadiusBottom}",
+          "borderRadiusBottomLeft": "{Radius.NotificationPanel.Footer.RadiusBottom}",
+          "height": "{Size.NotificationPanel.Button}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
