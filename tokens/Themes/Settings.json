@@ -2192,11 +2192,11 @@
       "Card": {
         "FunctionBadge": {
           "PaddingTop": {
-            "value": "{DimensionTheme.General.16px}",
+            "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
             "type": "spacing"
           },
           "PaddingRight": {
-            "value": "{DimensionTheme.General.24px}",
+            "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
             "type": "spacing"
           }
         },
