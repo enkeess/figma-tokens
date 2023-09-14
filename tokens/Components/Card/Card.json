@@ -24,7 +24,7 @@
           },
           "type": "composition"
         },
-        "TitleLayout": {
+        "Header": {
           "value": {
             "itemSpacing": "{Space.Card.Gap.M}"
           },
@@ -39,7 +39,7 @@
           },
           "type": "composition"
         },
-        "TitleLayout": {
+        "Header": {
           "value": {
             "itemSpacing": "{Space.Card.Gap.L}"
           },
@@ -112,8 +112,8 @@
     },
     "CheckBadge": {
       "value": {
-        "paddingTop": "{Space.Card.Gap.M}",
-        "paddingLeft": "{Space.Card.Gap.M}"
+        "paddingTop": "{Space.Card.Padding.CheckBadge}",
+        "paddingLeft": "{Space.Card.Padding.CheckBadge}"
       },
       "type": "composition"
     },

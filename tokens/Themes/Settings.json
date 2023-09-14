@@ -100,7 +100,7 @@
         "type": "sizing"
       },
       "Check": {
-        "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       },
       "Button": {
@@ -1275,7 +1275,7 @@
           "type": "spacing"
         },
         "CheckBadge": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
           "type": "spacing"
         },
         "PromoBadge": {
