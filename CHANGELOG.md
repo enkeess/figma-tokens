@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.20.0...npm1.21.0) (2023-09-14)
+
+
+### Bug Fixes
+
+* gradient tokens & connectet styles Dark mode file for Figma ([d55594a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d55594aee14fb1d77b52fb9d9619f800db75c80a))
+* gradient tokens & connectet styles Light mode file for Figma ([0cf8160](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0cf8160e6c9da544e4fc0779d20c54daff7f6e39))
+* renamed Image to Picture tokens ([44d7f14](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/44d7f149c1a8c72cfb2edfd82355e1fae6be3c63))
+* renamed TitleLayout in Header tokens. fix Size.Card.Check & Space.Card.Padding.CheckBadge tokens value ([851f48c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/851f48c489cf7fdcadff99c8616827c77ba177e4))
+
+
+### Features
+
+* added Card composite tokens ([9c0be06](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9c0be06780ce6d50c349eba5c5e1a0f4e167de3f))
+* added card settings tokens ([7edfcf2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7edfcf23659fa1afb972344ad7109999f2dec864))
+* added card tokens ([6b64cfd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6b64cfd9c6fc78b49415296ae4856cdce78c9847))
+* added CheckBadge tokens ([34e2356](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/34e235630e76b428aa3d2ec646415a16f9dd0c2c))
+* added Gradient.Linear.Mask tokens & removed Gradient.Linear.Neutral Connecten stails Light mode for Figma ([9107e31](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9107e316f8536656ae6bb9ec93d7dbf9618f1771))
+* added Gradient.Linear.Mask tokens & removed Gradient.Linear.Neutral. Connecten stails Darck mode for Figma ([9a922d7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9a922d7b3f08985ef9a5a9c7beaa94292501c570))
+* added Size.Card.Image tokens ([3687955](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3687955f0c011e65710f59fa9f78c8e0c36e87ee))
+* added Space.Card.Button.DropOffset tokens ([f26e33d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f26e33dda0164f60f1bb6fbaa1c482e454ede697))
+* added the Card component package and connected to all modifications ([a2ec1dc](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a2ec1dc89114f29ca82c7d9d2e43599be769186b))
+* renamed Status.Container in Status.BackgroundContainer & added Status.Container tokens ([9ac8c65](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9ac8c651b5da5b5d374567ca24e5e6e54c2dee55))
+
 # [1.20.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.19.0...npm1.20.0) (2023-09-08)
 
 
