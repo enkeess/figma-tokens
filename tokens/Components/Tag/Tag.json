@@ -25,20 +25,20 @@
       "S": {
         "LabelOnly": {
           "value": {
-            "paddingLeft": "{Space.Chip.S.FromLabel}",
-            "paddingRight": "{Space.Chip.S.FromLabel}",
-            "height": "{Size.Chip.S}",
+            "paddingLeft": "{Space.Tag.S.FromLabel}",
+            "paddingRight": "{Space.Tag.S.FromLabel}",
+            "height": "{Size.Tag.S}",
             "borderRadius": "{Radius.Tag.S}"
           },
           "type": "composition"
         },
         "ButtonAfter": {
           "value": {
-            "paddingLeft": "{Space.Chip.S.FromLabel}",
-            "paddingRight": "{Space.Chip.S.FromButton}",
-            "height": "{Size.Chip.S}",
+            "paddingLeft": "{Space.Tag.S.FromLabel}",
+            "paddingRight": "{Space.Tag.S.FromButton}",
+            "height": "{Size.Tag.S}",
             "borderRadius": "{Radius.Tag.S}",
-            "itemSpacing": "{Space.Chip.S.Gap}"
+            "itemSpacing": "{Space.Tag.S.Gap}"
           },
           "type": "composition"
         }
@@ -51,8 +51,8 @@
         "IconOnly": {
           "value": {
             "borderRadius": "{Radius.Tag.Xs}",
-            "height": "{Size.Button.Xs}",
-            "width": "{Size.Button.Xs}"
+            "height": "{Size.Tag.Xs}",
+            "width": "{Size.Tag.Xs}"
           },
           "type": "composition"
         }
@@ -61,12 +61,78 @@
         "IconOnly": {
           "value": {
             "borderRadius": "{Radius.Tag.S}",
-            "height": "{Size.Button.S}",
-            "width": "{Size.Button.S}"
+            "height": "{Size.Tag.S}",
+            "width": "{Size.Tag.S}"
           },
           "type": "composition"
         }
       }
+    }
+  },
+  "TagMore": {
+    "Container": {
+      "Xs": {
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.TagMore.Xs.FromLabel}",
+            "paddingRight": "{Space.TagMore.Xs.FromLabel}",
+            "height": "{Size.Tag.Xs}",
+            "borderRadius": "{Radius.Tag.Xs}",
+            "borderWidth": "{BorderWidth.TagMore.Single}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "LabelOnly": {
+          "value": {
+            "paddingLeft": "{Space.TagMore.S.FromLabel}",
+            "paddingRight": "{Space.TagMore.S.FromLabel}",
+            "height": "{Size.Tag.S}",
+            "borderRadius": "{Radius.Tag.S}",
+            "borderWidth": "{BorderWidth.TagMore.Single}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "TagRow": {
+    "Xs": {
+      "value": {
+        "itemSpacing": "{Space.TagRow.Xs.Gap}"
+      },
+      "type": "composition"
+    },
+    "S": {
+      "value": {
+        "itemSpacing": "{Space.TagRow.S.Gap}"
+      },
+      "type": "composition"
+    }
+  },
+  "TagList": {
+    "Xs": {
+      "value": {
+        "paddingRight": "{Radius.PopoverPrivate.DropList}",
+        "paddingLeft": "{Radius.PopoverPrivate.DropList}",
+        "paddingTop": "{Radius.PopoverPrivate.DropList}",
+        "paddingBottom": "{Radius.PopoverPrivate.DropList}",
+        "borderRadius": "{Radius.PopoverPrivate.DropList}",
+        "maxWidth": "{Size.TagList.MaxWidth.Xs}"
+      },
+      "type": "composition"
+    },
+    "S": {
+      "value": {
+        "paddingRight": "{Radius.PopoverPrivate.DropList}",
+        "paddingLeft": "{Radius.PopoverPrivate.DropList}",
+        "paddingTop": "{Radius.PopoverPrivate.DropList}",
+        "paddingBottom": "{Radius.PopoverPrivate.DropList}",
+        "borderRadius": "{Radius.PopoverPrivate.DropList}",
+        "maxWidth": "{Size.TagList.MaxWidth.S}"
+      },
+      "type": "composition"
     }
   }
 }

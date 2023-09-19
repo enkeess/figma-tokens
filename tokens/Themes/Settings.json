@@ -462,6 +462,18 @@
         "type": "sizing"
       }
     },
+    "TagList": {
+      "MaxWidth": {
+        "Xs": {
+          "value": "{DimensionTheme.General.8px} * 32",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px} * 35",
+          "type": "sizing"
+        }
+      }
+    },
     "Tag": {
       "Xs": {
         "value": "{DimensionTheme.General.24px}",
@@ -1516,6 +1528,24 @@
         }
       }
     },
+    "TagMore": {
+      "DropOffset": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
+      },
+      "Xs": {
+        "FromLabel": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "FromLabel": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      }
+    },
     "Modal": {
       "IconDecor": {
         "value": "{DimensionTheme.General.32px}",
@@ -1802,6 +1832,20 @@
         },
         "FromButton": {
           "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "TagRow": {
+      "Xs": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      },
+      "S": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       }
@@ -2375,6 +2419,12 @@
       }
     },
     "Toggles": {
+      "Single": {
+        "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      }
+    },
+    "TagMore": {
       "Single": {
         "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
