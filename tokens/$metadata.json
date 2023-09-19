@@ -50,6 +50,7 @@
     "Components/Search/Search",
     "Components/Card/Card",
     "Components/Table/Table",
-    "Components/NotificationPanel/NotificationPanel"
+    "Components/Notification/NotificationPanel",
+    "Components/Notification/NotificationCard"
   ]
 }

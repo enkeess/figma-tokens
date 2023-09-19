@@ -6,36 +6,6 @@
       },
       "type": "composition"
     },
-    "Card": {
-      "IconType": {
-        "value": {
-          "sizing": "{Size.NotificationPanel.Card.IconType}"
-        },
-        "type": "composition"
-      },
-      "FunctionBadge": {
-        "value": {
-          "paddingTop": "{Space.NotificationPanel.Card.FunctionBadge.PaddingTop}",
-          "paddingRight": "{Space.NotificationPanel.Card.FunctionBadge.PaddingRight}"
-        },
-        "type": "composition"
-      },
-      "Container": {
-        "value": {
-          "horizontalPadding": "{Space.NotificationPanel.Card.PaddingHorizontal}",
-          "verticalPadding": "{Space.NotificationPanel.Card.PaddingVertical}",
-          "itemSpacing": "{Space.NotificationPanel.Card.Gap}",
-          "borderWidthBottom": "{BorderWidth.NotificationPanel.Card}"
-        },
-        "type": "composition"
-      },
-      "Label": {
-        "value": {
-          "itemSpacing": "{Space.NotificationPanel.Card.Label.Gap}"
-        },
-        "type": "composition"
-      }
-    },
     "Header": {
       "Container": {
         "value": {
