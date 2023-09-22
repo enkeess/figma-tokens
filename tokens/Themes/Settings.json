@@ -777,6 +777,12 @@
         "value": "({DimensionTheme.General.64px}  * 6) + {DimensionTheme.General.8px} - {DimensionTheme.General.4px}",
         "type": "sizing"
       }
+    },
+    "Toolbar": {
+      "Checkbox": {
+        "value": "{DimensionTheme.General.40px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1271,6 +1277,20 @@
       },
       "Panel": {
         "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      }
+    },
+    "Toolbar": {
+      "Checkbox": {
+        "value": "{Radius.Button.M}",
+        "type": "borderRadius"
+      },
+      "Container": {
+        "value": "{Radius.Button.M}",
+        "type": "borderRadius"
+      },
+      "Search": {
+        "value": "{Radius.Button.M}",
         "type": "borderRadius"
       }
     }
@@ -2377,6 +2397,20 @@
         "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
       }
+    },
+    "Toolbar": {
+      "Search": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "Container": {
+        "PaddingRight": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -2493,6 +2527,12 @@
     "Table": {
       "value": "{BorderWidth.012m}",
       "type": "borderWidth"
+    },
+    "Toolbar": {
+      "Separator": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      }
     }
   },
   "Border": {

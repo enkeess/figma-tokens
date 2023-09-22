@@ -1,0 +1,25 @@
+{
+  "Toolbar": {
+    "Container": {
+      "value": {
+        "borderRadius": "{Radius.Toolbar.Container}"
+      },
+      "type": "composition"
+    },
+    "Checkbox": {
+      "value": {
+        "borderRadius": "{Radius.Toolbar.Checkbox}",
+        "sizing": "{Size.Toolbar.Checkbox}"
+      },
+      "type": "composition"
+    },
+    "Search": {
+      "value": {
+        "height": "{Size.Toolbar.Checkbox}",
+        "horizontalPadding": "{Space.Toolbar.Search.HorizontalPadding}",
+        "borderRadius": "{Radius.Toolbar.Search}"
+      },
+      "type": "composition"
+    }
+  }
+}

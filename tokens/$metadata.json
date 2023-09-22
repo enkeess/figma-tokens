@@ -53,6 +53,7 @@
     "Components/Card/Card",
     "Components/Table/Table",
     "Components/Notification/NotificationPanel",
-    "Components/Notification/NotificationCard"
+    "Components/Notification/NotificationCard",
+    "Components/Toolbar/Toolbar"
   ]
 }
