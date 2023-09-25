@@ -708,10 +708,6 @@
     },
     "Table": {
       "Head": {
-        "Column": {
-          "value": "{DimensionTheme.General.40px}",
-          "type": "sizing"
-        },
         "NameLayout": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
@@ -719,10 +715,6 @@
       },
       "LineHeight": {
         "value": "{DimensionTheme.General.40px}",
-        "type": "sizing"
-      },
-      "RowFunctionHeight": {
-        "value": "{Size.Table.LineHeight} - {BorderWidth.Table} * 2",
         "type": "sizing"
       },
       "CellStatusIndicator": {
@@ -2193,7 +2185,7 @@
           "type": "spacing"
         }
       },
-      "RowFunction": {
+      "ActionLayout": {
         "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
       }

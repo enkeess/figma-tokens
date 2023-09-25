@@ -51,10 +51,10 @@
       },
       "type": "composition"
     },
-    "RowFunction": {
+    "ActionLayout": {
       "value": {
-        "paddingRight": "{Space.Table.RowFunction}",
-        "paddingLeft": "{Space.Table.RowFunction}"
+        "paddingRight": "{Space.Table.ActionLayout}",
+        "paddingLeft": "{Space.Table.ActionLayout}"
       },
       "type": "composition"
     },
