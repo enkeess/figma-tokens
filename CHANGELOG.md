@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.21.0...npm1.22.0) (2023-09-25)
+
+
+### Bug Fixes
+
+* added paddings for Table.Cells tokens ([850f05f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/850f05feecf0122728971258fab06fbc8943f482))
+* Cells tokens & removed BodyCells token ([0d690f1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0d690f1d35401de2a48d51cda2f6d453d1e6f77f))
+* remove Table.Head.DividerLayout token, added Space.Table.Head.SeparatorPadding token ([02c133a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/02c133a3d56e0a740d8d830a6a77325f37a7bedf))
+* removed not used tokens, added ActionLayout token ([c104d65](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c104d656c5e8b90508f9fce810de888e3c051cc4))
+* RowFunction @ CellButtob removed ([8be4fce](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8be4fcec6306b3eb05120632c2ef277c7af0d720))
+* Table.BodyCells token ([771d03a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/771d03a38ce590d10ba3237fe8823139a9cf714e))
+
+
+### Features
+
+* added BodyCells token ([78fecc9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/78fecc9d2666d32d46ed2e2d1f2e7ce006e861e8))
+* added Table package & connected all mode ([9733752](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9733752de1b28328126f03c919c3ed8f4bfbf623))
+* added table tokens ([5f71d64](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5f71d643a9aab96ad17a616ad77e84340c0b90ca))
+* added Table.CellStatusMain token ([195c743](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/195c743a624930a4402222a18b36dc5acdaa9f5c))
+
 # [1.21.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.20.0...npm1.21.0) (2023-09-14)
 
 
