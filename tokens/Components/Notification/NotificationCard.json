@@ -22,9 +22,9 @@
       },
       "type": "composition"
     },
-    "Label": {
+    "TitleLayout": {
       "value": {
-        "itemSpacing": "{Space.NotificationPanel.Card.Label.Gap}"
+        "itemSpacing": "{Space.NotificationPanel.Card.TitleLayout.Gap}"
       },
       "type": "composition"
     }

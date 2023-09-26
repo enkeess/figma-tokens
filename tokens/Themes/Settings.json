@@ -738,6 +738,20 @@
       "Button": {
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
+      },
+      "Container": {
+        "value": "({DimensionTheme.General.80px} * 6) - {DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "Body": {
+        "MinHeight": {
+          "value": "({DimensionTheme.General.64px} * 3) + {DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "MaxHeight": {
+          "value": "( {DimensionTheme.General.80px} * 6) + {DimensionTheme.General.8px}",
+          "type": "sizing"
+        }
       }
     }
   },
@@ -2212,7 +2226,7 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
-        "Label": {
+        "TitleLayout": {
           "Gap": {
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"

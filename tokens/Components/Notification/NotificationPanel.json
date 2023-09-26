@@ -1,8 +1,16 @@
 {
   "NotificationPanel": {
+    "Body": {
+      "value": {
+        "minHeight": "{Size.NotificationPanel.Body.MinHeight}",
+        "maxHeight": "{Size.NotificationPanel.Body.MaxHeight}"
+      },
+      "type": "composition"
+    },
     "Container": {
       "value": {
-        "borderRadius": "{Radius.NotificationPanel.Container}"
+        "borderRadius": "{Radius.NotificationPanel.Container}",
+        "width": "{Size.NotificationPanel.Container}"
       },
       "type": "composition"
     },
