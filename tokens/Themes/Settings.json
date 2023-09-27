@@ -2269,7 +2269,7 @@
           }
         }
       },
-      "Info": {
+      "Blank": {
         "Gap": {
           "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
