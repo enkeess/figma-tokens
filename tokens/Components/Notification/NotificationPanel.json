@@ -1,16 +1,17 @@
 {
   "NotificationPanel": {
-    "Body": {
+    "Container": {
       "value": {
-        "minHeight": "{Size.NotificationPanel.Body.MinHeight}",
-        "maxHeight": "{Size.NotificationPanel.Body.MaxHeight}"
+        "paddingTop": "{Space.NotificationPanel.Container.PaddingTop}",
+        "paddingBottom": "{Space.NotificationPanel.Container.PaddingBottom}",
+        "minHeight": "{Size.NotificationPanel.Container}"
       },
       "type": "composition"
     },
-    "Container": {
+    "Panel": {
       "value": {
-        "borderRadius": "{Radius.NotificationPanel.Container}",
-        "width": "{Size.NotificationPanel.Container}"
+        "borderRadius": "{Radius.NotificationPanel.Panel}",
+        "width": "{Size.NotificationPanel.Panel}"
       },
       "type": "composition"
     },
@@ -52,7 +53,8 @@
     "Blank": {
       "Container": {
         "value": {
-          "itemSpacing": "{Space.NotificationPanel.Blank.Gap}"
+          "itemSpacing": "{Space.NotificationPanel.Blank.Gap}",
+          "verticalPadding": "{Space.NotificationPanel.Blank.VerticalPadding}"
         },
         "type": "composition"
       },

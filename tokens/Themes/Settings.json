@@ -739,19 +739,13 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
-      "Container": {
+      "Panel": {
         "value": "({DimensionTheme.General.80px} * 6) - {DimensionTheme.General.16px}",
         "type": "sizing"
       },
-      "Body": {
-        "MinHeight": {
-          "value": "({DimensionTheme.General.64px} * 3) + {DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "MaxHeight": {
-          "value": "( {DimensionTheme.General.80px} * 6) + {DimensionTheme.General.8px}",
-          "type": "sizing"
-        }
+      "Container": {
+        "value": "({DimensionTheme.General.64px}  * 6) + {DimensionTheme.General.8px} - {DimensionTheme.General.4px}",
+        "type": "sizing"
       }
     }
   },
@@ -1245,7 +1239,7 @@
           "type": "borderRadius"
         }
       },
-      "Container": {
+      "Panel": {
         "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
@@ -2270,6 +2264,10 @@
         }
       },
       "Blank": {
+        "VerticalPadding": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
         "Gap": {
           "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
@@ -2279,6 +2277,16 @@
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
+        }
+      },
+      "Container": {
+        "PaddingTop": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "PaddingBottom": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
         }
       }
     },
