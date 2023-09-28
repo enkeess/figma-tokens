@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.23.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.22.0...npm1.23.0) (2023-09-28)
+
+
+### Bug Fixes
+
+* Notification Panel ([dd47539](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dd4753924e04eae69befda8a10e0506b5e165f78))
+* Notification Panel tokens ([12f04b5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/12f04b54c24202657f5e4008574acd0604b94511))
+* Notification Panel tokens ([79d96f1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/79d96f137355fedcac2238af2474df2a066ae1cd))
+* Notification tokens ([d39af4b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d39af4b7f4c46e32da67bfe960b2196a5f0da18f))
+* NotificationPanel edited DropOffset token ([ebfc7ef](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ebfc7efe729398b389f8ab11bccfb8cbe55ae287))
+* NotificationPanel FunctionBadge tokens edited ([1447eca](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1447ecaf6bc48c8d17e3ef32c5a6d2582b879eca))
+
+
+### Features
+
+* added NotificationPanel tokens ([70180c4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/70180c48f663abb95cefb812c9cf3e5120978d9c))
+
 # [1.22.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.21.0...npm1.22.0) (2023-09-25)
 
 
