@@ -1,0 +1,77 @@
+{
+  "BoxShadow": {
+    "Elevation": {
+      "Level1": {
+        "value": [
+          {
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.0m}",
+            "spread": "{Dimension.025m} / 2",
+            "color": "{Sys.Neutral.DecorDefault}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "Level2": {
+        "value": [
+          {
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.0m}",
+            "spread": "{Dimension.025m} / 2",
+            "color": "{Sys.Neutral.DecorDefault}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "Level3": {
+        "value": [
+          {
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.0m}",
+            "spread": "{Dimension.025m} / 2",
+            "color": "{Sys.Neutral.DecorDefault}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "Level4": {
+        "value": [
+          {
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.0m}",
+            "spread": "{Dimension.025m} / 2",
+            "color": "{Sys.Neutral.DecorDefault}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "Level5": {
+        "value": [
+          {
+            "x": "{Dimension.0m}",
+            "y": "{Dimension.0m}",
+            "blur": "{Dimension.0m}",
+            "spread": "{Dimension.025m} / 2",
+            "color": "{Sys.Neutral.DecorDefault}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  },
+  "BackgroundBlur": {
+    "value": {
+      "backgroundBlur": "{Dimension.050m}"
+    },
+    "type": "composition"
+  }
+}
