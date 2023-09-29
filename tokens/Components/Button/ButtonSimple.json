@@ -1,5 +1,5 @@
 {
-  "ButtonSupport": {
+  "ButtonSimple": {
     "Container": {
       "S": {
         "IconAfter": {
@@ -9,7 +9,8 @@
             "paddingRight": "{Space.Button.S.FromIcon}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
             "borderWidth": "{BorderWidth.ButtonOutline.Single}",
-            "borderRadius": "{Radius.Button.S}"
+            "borderRadius": "{Radius.Button.S}",
+            "minWidth": "{Size.Button.MininalWidth.S}"
           },
           "type": "composition"
         },
@@ -19,7 +20,8 @@
             "itemSpacing": "{Space.Button.S.Gap}",
             "paddingRight": "{Space.Button.S.FromLabel}",
             "paddingLeft": "{Space.Button.S.FromIcon}",
-            "borderRadius": "{Radius.Button.S}"
+            "borderRadius": "{Radius.Button.S}",
+            "minWidth": "{Size.Button.MininalWidth.S}"
           },
           "type": "composition"
         },
@@ -28,7 +30,8 @@
             "height": "{Size.Button.S}",
             "paddingRight": "{Space.Button.S.FromLabel}",
             "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderRadius": "{Radius.Button.S}"
+            "borderRadius": "{Radius.Button.S}",
+            "minWidth": "{Size.Button.MininalWidth.S}"
           },
           "type": "composition"
         },
@@ -48,7 +51,8 @@
             "itemSpacing": "{Space.Button.M.Gap}",
             "paddingRight": "{Space.Button.M.FromIcon}",
             "paddingLeft": "{Space.Button.M.FromLabel}",
-            "borderRadius": "{Radius.Button.M}"
+            "borderRadius": "{Radius.Button.M}",
+            "minWidth": "{Size.Button.MininalWidth.M}"
           },
           "type": "composition"
         },
@@ -58,7 +62,8 @@
             "itemSpacing": "{Space.Button.M.Gap}",
             "paddingRight": "{Space.Button.M.FromLabel}",
             "paddingLeft": "{Space.Button.M.FromIcon}",
-            "borderRadius": "{Radius.Button.M}"
+            "borderRadius": "{Radius.Button.M}",
+            "minWidth": "{Size.Button.MininalWidth.M}"
           },
           "type": "composition"
         },
@@ -67,7 +72,8 @@
             "height": "{Size.Button.M}",
             "paddingRight": "{Space.Button.M.FromLabel}",
             "paddingLeft": "{Space.Button.M.FromLabel}",
-            "borderRadius": "{Radius.Button.M}"
+            "borderRadius": "{Radius.Button.M}",
+            "minWidth": "{Size.Button.MininalWidth.M}"
           },
           "type": "composition"
         },
@@ -87,7 +93,8 @@
             "itemSpacing": "{Space.Button.L.Gap}",
             "paddingRight": "{Space.Button.L.FromIcon}",
             "paddingLeft": "{Space.Button.L.FromLabel}",
-            "borderRadius": "{Radius.Button.L}"
+            "borderRadius": "{Radius.Button.L}",
+            "minWidth": "{Size.Button.MininalWidth.L}"
           },
           "type": "composition"
         },
@@ -97,7 +104,8 @@
             "itemSpacing": "{Space.Button.L.Gap}",
             "paddingRight": "{Space.Button.L.FromLabel}",
             "paddingLeft": "{Space.Button.L.FromIcon}",
-            "borderRadius": "{Radius.Button.L}"
+            "borderRadius": "{Radius.Button.L}",
+            "minWidth": "{Size.Button.MininalWidth.L}"
           },
           "type": "composition"
         },
@@ -106,7 +114,8 @@
             "height": "{Size.Button.L}",
             "paddingRight": "{Space.Button.L.FromLabel}",
             "paddingLeft": "{Space.Button.L.FromLabel}",
-            "borderRadius": "{Radius.Button.L}"
+            "borderRadius": "{Radius.Button.L}",
+            "minWidth": "{Size.Button.MininalWidth.L}"
           },
           "type": "composition"
         },

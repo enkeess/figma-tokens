@@ -689,9 +689,7 @@
       "Components/Avatar/Avatar": "source",
       "Components/Element/Element": "source",
       "Components/Button/ButtonFilled": "source",
-      "Components/Button/ButtonLight": "source",
       "Components/Button/ButtonOutline": "source",
-      "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/DarkMode": "enabled",
       "Themes/Settings": "source",
@@ -730,7 +728,9 @@
       "Components/Table/Table": "source",
       "Components/Notification/NotificationPanel": "source",
       "Themes/Effects/DarkMode": "enabled",
-      "Themes/Typography/DarkMode": "enabled"
+      "Themes/Typography/DarkMode": "enabled",
+      "Components/Button/ButtonFunction": "source",
+      "Components/Button/ButtonSimple": "source"
     },
     "group": "Mode"
   },
@@ -1519,9 +1519,7 @@
       "Components/Status/Status": "source",
       "Components/Avatar/Avatar": "source",
       "Components/Button/ButtonFilled": "source",
-      "Components/Button/ButtonLight": "source",
       "Components/Button/ButtonOutline": "source",
-      "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/LightMode": "enabled",
       "Themes/Settings": "source",
@@ -1561,7 +1559,9 @@
       "Components/Notification/NotificationPanel": "source",
       "Components/Notification/NotificationCard": "source",
       "Themes/Effects/LightMode": "enabled",
-      "Themes/Typography/LightMode": "enabled"
+      "Themes/Typography/LightMode": "enabled",
+      "Components/Button/ButtonFunction": "source",
+      "Components/Button/ButtonSimple": "source"
     },
     "group": "Mode"
   }

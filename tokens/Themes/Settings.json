@@ -72,6 +72,24 @@
       "L": {
         "value": "{DimensionTheme.General.48px}",
         "type": "sizing"
+      },
+      "MininalWidth": {
+        "Xs": {
+          "value": "{Size.Button.Xs} * 3",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{Size.Button.S} * 3",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{Size.Button.M} * 3",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{Size.Button.L} * 3",
+          "type": "sizing"
+        }
       }
     },
     "Card": {

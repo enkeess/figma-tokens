@@ -1,13 +1,45 @@
 {
-  "ButtonLight": {
+  "ButtonFunction": {
     "Container": {
+      "Xs": {
+        "IconAfter": {
+          "value": {
+            "height": "{Size.Button.Xs}",
+            "itemSpacing": "{Space.Button.Xs.Gap}",
+            "borderRadius": "{Radius.Button.Xs}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "height": "{Size.Button.Xs}",
+            "itemSpacing": "{Space.Button.Xs.Gap}",
+            "borderRadius": "{Radius.Button.Xs}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "height": "{Size.Button.Xs}",
+            "itemSpacing": "{Space.Button.Xs.Gap}",
+            "borderRadius": "{Radius.Button.Xs}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "height": "{Size.Button.Xs}",
+            "width": "{Size.Button.Xs}",
+            "borderRadius": "{Radius.Button.Xs}"
+          },
+          "type": "composition"
+        }
+      },
       "S": {
         "IconAfter": {
           "value": {
             "height": "{Size.Button.S}",
             "itemSpacing": "{Space.Button.S.Gap}",
-            "paddingRight": "{Space.Button.S.FromIcon}",
-            "paddingLeft": "{Space.Button.S.FromLabel}",
             "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
@@ -16,8 +48,6 @@
           "value": {
             "height": "{Size.Button.S}",
             "itemSpacing": "{Space.Button.S.Gap}",
-            "paddingRight": "{Space.Button.S.FromLabel}",
-            "paddingLeft": "{Space.Button.S.FromIcon}",
             "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
@@ -25,9 +55,7 @@
         "LabelOnly": {
           "value": {
             "height": "{Size.Button.S}",
-            "paddingRight": "{Space.Button.S.FromLabel}",
-            "paddingLeft": "{Space.Button.S.FromLabel}",
-            "borderWidth": "{BorderWidth.ButtonOutline.Single}",
+            "itemSpacing": "{Space.Button.S.Gap}",
             "borderRadius": "{Radius.Button.S}"
           },
           "type": "composition"
@@ -46,8 +74,6 @@
           "value": {
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
-            "paddingRight": "{Space.Button.M.FromIcon}",
-            "paddingLeft": "{Space.Button.M.FromLabel}",
             "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
@@ -56,8 +82,6 @@
           "value": {
             "height": "{Size.Button.M}",
             "itemSpacing": "{Space.Button.M.Gap}",
-            "paddingRight": "{Space.Button.M.FromLabel}",
-            "paddingLeft": "{Space.Button.M.FromIcon}",
             "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
@@ -65,8 +89,7 @@
         "LabelOnly": {
           "value": {
             "height": "{Size.Button.M}",
-            "paddingRight": "{Space.Button.M.FromLabel}",
-            "paddingLeft": "{Space.Button.M.FromLabel}",
+            "itemSpacing": "{Space.Button.M.Gap}",
             "borderRadius": "{Radius.Button.M}"
           },
           "type": "composition"
@@ -76,45 +99,6 @@
             "height": "{Size.Button.M}",
             "width": "{Size.Button.M}",
             "borderRadius": "{Radius.Button.M}"
-          },
-          "type": "composition"
-        }
-      },
-      "L": {
-        "IconAfter": {
-          "value": {
-            "height": "{Size.Button.L}",
-            "itemSpacing": "{Space.Button.L.Gap}",
-            "paddingRight": "{Space.Button.L.FromIcon}",
-            "paddingLeft": "{Space.Button.L.FromLabel}",
-            "borderRadius": "{Radius.Button.L}"
-          },
-          "type": "composition"
-        },
-        "IconBefore": {
-          "value": {
-            "height": "{Size.Button.L}",
-            "itemSpacing": "{Space.Button.L.Gap}",
-            "paddingRight": "{Space.Button.L.FromLabel}",
-            "paddingLeft": "{Space.Button.L.FromIcon}",
-            "borderRadius": "{Radius.Button.L}"
-          },
-          "type": "composition"
-        },
-        "LabelOnly": {
-          "value": {
-            "height": "{Size.Button.L}",
-            "paddingRight": "{Space.Button.L.FromLabel}",
-            "paddingLeft": "{Space.Button.L.FromLabel}",
-            "borderRadius": "{Radius.Button.L}"
-          },
-          "type": "composition"
-        },
-        "IconOnly": {
-          "value": {
-            "height": "{Size.Button.L}",
-            "width": "{Size.Button.L}",
-            "borderRadius": "{Radius.Button.L}"
           },
           "type": "composition"
         }
