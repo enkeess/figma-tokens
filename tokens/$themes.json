@@ -1325,8 +1325,7 @@
       "Components/Table/Table": "source",
       "Components/Notification/NotificationPanel": "source",
       "Components/Notification/NotificationCard": "source",
-      "Themes/Effects/LightMode": "enabled",
-      "Themes/Effects/DarkMode": "disabled"
+      "Themes/Effects/LightMode": "enabled"
     }
   }
 ]
