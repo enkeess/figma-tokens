@@ -5,8 +5,8 @@ import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
 import { createTokenFile, generateTokens } from './utils';
 
 export const THEME_MAP = {
-  BrandLightMode: Themes.BrandLight,
-  BrandDarkMode: Themes.BrandDark,
+  LightMode: Themes.BrandLight,
+  DarkMode: Themes.BrandDark,
 };
 
 export const buildTokens = async () => {
