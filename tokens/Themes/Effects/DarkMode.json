@@ -8,7 +8,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "rgba({Sys.Available.Complementary},{Opacity.A004})",
+            "color": "{Sys.Neutral.DecorDefault}",
             "type": "dropShadow"
           }
         ],
@@ -21,7 +21,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "rgba({Sys.Available.Complementary},{Opacity.A004})",
+            "color": "{Sys.Neutral.DecorDefault}",
             "type": "dropShadow"
           }
         ],
@@ -34,7 +34,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "rgba({Sys.Available.Complementary},{Opacity.A004})",
+            "color": "{Sys.Neutral.DecorDefault}",
             "type": "dropShadow"
           }
         ],
@@ -47,7 +47,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "rgba({Sys.Available.Complementary},{Opacity.A004})",
+            "color": "{Sys.Neutral.DecorDefault}",
             "type": "dropShadow"
           }
         ],
@@ -60,7 +60,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "rgba({Sys.Available.Complementary},{Opacity.A004})",
+            "color": "{Sys.Neutral.DecorDefault}",
             "type": "dropShadow"
           }
         ],
