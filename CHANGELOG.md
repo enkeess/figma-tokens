@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.24.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.23.0...npm1.24.0) (2023-10-03)
+
+
+### Bug Fixes
+
+* Blackout ([a0085c6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a0085c6e638a8f813ffc13d171addc9a84dc5293))
+* BoxShadow.Elevation dark mode ([88ad4a7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/88ad4a7ff61e8d0fb77cc9516ec29a036b89ed08))
+
+
+### Features
+
+* added Dark & Light modes for Effect ([3d8d5fd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3d8d5fddd8d7cefa81cf195ea6a9630126051dc3))
+* added Typography modes ([7a3fafa](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7a3fafa0eb3fbcb527df1e8ce65e488422c7c270))
+* attached styles dark mode Figma ([c4461f7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c4461f7920108911b829ad7e576d1b7c45d1309a))
+
 # [1.23.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.22.0...npm1.23.0) (2023-09-28)
 
 
