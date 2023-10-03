@@ -694,7 +694,6 @@
       "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/DarkMode": "enabled",
-      "Themes/Typography": "enabled",
       "Themes/Settings": "source",
       "Components/DropZone/DropZone": "source",
       "Components/Loader/Loader": "source",
@@ -730,7 +729,8 @@
       "Components/Card/Card": "source",
       "Components/Table/Table": "source",
       "Components/Notification/NotificationPanel": "source",
-      "Themes/Effects/DarkMode": "enabled"
+      "Themes/Effects/DarkMode": "enabled",
+      "Themes/Typography/DarkMode": "enabled"
     },
     "group": "Mode"
   },
@@ -1524,7 +1524,6 @@
       "Components/Button/ButtonSupport": "source",
       "Components/Button/ButtonTonal": "source",
       "Themes/Color/LightMode": "enabled",
-      "Themes/Typography": "enabled",
       "Themes/Settings": "source",
       "Components/Loader/Loader": "source",
       "Components/DropZone/DropZone": "source",
@@ -1561,7 +1560,8 @@
       "Components/Table/Table": "source",
       "Components/Notification/NotificationPanel": "source",
       "Components/Notification/NotificationCard": "source",
-      "Themes/Effects/LightMode": "enabled"
+      "Themes/Effects/LightMode": "enabled",
+      "Themes/Typography/LightMode": "enabled"
     },
     "group": "Mode"
   }
