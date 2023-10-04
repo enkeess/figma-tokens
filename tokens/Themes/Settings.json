@@ -1408,12 +1408,6 @@
           "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
-      },
-      "Button": {
-        "DropOffset": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        }
       }
     },
     "Toggles": {
@@ -1431,10 +1425,6 @@
       }
     },
     "Fields": {
-      "DropOffset": {
-        "value": "{DimensionTheme.General.4px}",
-        "type": "spacing"
-      },
       "Postfix": {
         "Gap": {
           "value": "{DimensionTheme.General.4px}",
@@ -2259,10 +2249,6 @@
           "type": "spacing"
         }
       },
-      "DropOffset": {
-        "value": "{DimensionTheme.General.4px}",
-        "type": "spacing"
-      },
       "Container": {
         "S": {
           "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
@@ -2304,12 +2290,6 @@
         },
         "TitleLayout": {
           "Gap": {
-            "value": "{DimensionTheme.General.4px}",
-            "type": "spacing"
-          }
-        },
-        "Button": {
-          "DropOffset": {
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
