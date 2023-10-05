@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.0.0...npm2.1.0) (2023-10-05)
+
+
+### Features
+
+* added TagRow tokens ([715f13d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/715f13d28e25f3456eac98dd097d0cc23b2ed259))
+
 # [2.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.24.0...npm2.0.0) (2023-10-05)
 
 
