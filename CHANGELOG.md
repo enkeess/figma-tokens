@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.24.0...npm2.0.0) (2023-10-05)
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3409](https://jira.sbercloud.tech/browse/FF-3409):** removed padding ButtonLight; renamed ButtonLight in ButtonFunction, renamed ButtonSupport in ButtonSimple; added MininalWidth Button; ([b33c63f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b33c63f4212fa6c6fdfa7f0c46c051ae3c3b1a6f))
+
 # [1.24.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm1.23.0...npm1.24.0) (2023-10-03)
 
 
