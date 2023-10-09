@@ -18,8 +18,8 @@
       "Container": {
         "value": {
           "height": "{Size.Table.LineHeight}",
-          "borderTop": "{BorderWidth.Table}",
-          "borderBottom": "{BorderWidth.Table}"
+          "borderTop": "{BorderWidth.Table.Container}",
+          "borderBottom": "{BorderWidth.Table.Container}"
         },
         "type": "composition"
       }
@@ -60,8 +60,8 @@
     },
     "TableContainer": {
       "value": {
-        "borderWidth": "{BorderWidth.Table}",
-        "borderRadius": "{Radius.Table}"
+        "borderWidth": "{BorderWidth.Table.Container}",
+        "borderRadius": "{Radius.Table.Container}"
       },
       "type": "composition"
     }

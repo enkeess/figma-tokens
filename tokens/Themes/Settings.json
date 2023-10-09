@@ -1265,8 +1265,10 @@
       }
     },
     "Table": {
-      "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
-      "type": "borderRadius"
+      "Container": {
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      }
     },
     "NotificationPanel": {
       "Footer": {
@@ -2505,8 +2507,10 @@
       }
     },
     "Table": {
-      "value": "{BorderWidth.012m}",
-      "type": "borderWidth"
+      "Container": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      }
     },
     "Toolbar": {
       "Separator": {
