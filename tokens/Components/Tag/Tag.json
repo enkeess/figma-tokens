@@ -116,9 +116,6 @@
       "value": {
         "paddingRight": "{Radius.PopoverPrivate.DropList}",
         "paddingLeft": "{Radius.PopoverPrivate.DropList}",
-        "paddingTop": "{Radius.PopoverPrivate.DropList}",
-        "paddingBottom": "{Radius.PopoverPrivate.DropList}",
-        "borderRadius": "{Radius.PopoverPrivate.DropList}",
         "maxWidth": "{Size.TagList.MaxWidth.Xs}"
       },
       "type": "composition"
@@ -127,9 +124,6 @@
       "value": {
         "paddingRight": "{Radius.PopoverPrivate.DropList}",
         "paddingLeft": "{Radius.PopoverPrivate.DropList}",
-        "paddingTop": "{Radius.PopoverPrivate.DropList}",
-        "paddingBottom": "{Radius.PopoverPrivate.DropList}",
-        "borderRadius": "{Radius.PopoverPrivate.DropList}",
         "maxWidth": "{Size.TagList.MaxWidth.S}"
       },
       "type": "composition"
