@@ -2371,11 +2371,9 @@
           "type": "spacing"
         }
       },
-      "Container": {
-        "PaddingRight": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
-          "type": "spacing"
-        }
+      "SeparatorPadding": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
       }
     }
   },

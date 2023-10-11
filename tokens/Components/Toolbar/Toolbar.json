@@ -20,6 +20,13 @@
         "borderRadius": "{Radius.Toolbar.Search}"
       },
       "type": "composition"
+    },
+    "SeparatorWrap": {
+      "value": {
+        "paddingTop": "{Space.Toolbar.SeparatorPadding}",
+        "paddingBottom": "{Space.Toolbar.SeparatorPadding}"
+      },
+      "type": "composition"
     }
   }
 }
