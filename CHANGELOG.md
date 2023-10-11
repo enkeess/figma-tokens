@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.1.0...npm2.2.0) (2023-10-11)
+
+
+### Features
+
+* **[FF-2872](https://jira.sbercloud.tech/browse/FF-2872):** added Toolbar tokens ([76f7ba6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/76f7ba62e8fee7a088b93e2b6e3311247c4dc284))
+
 # [2.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.0.0...npm2.1.0) (2023-10-05)
 
 
