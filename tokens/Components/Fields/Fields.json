@@ -94,27 +94,6 @@
       }
     },
     "Label": {
-      "S": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Label.S}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Label.M}"
-        },
-        "type": "composition"
-      },
-      "L": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Label.L}"
-        },
-        "type": "composition"
-      },
       "LabelLayout": {
         "value": {
           "itemSpacing": "{DimensionTheme.General.2px}"
@@ -123,32 +102,25 @@
       }
     },
     "Hint": {
-      "S": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Hint.S}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Hint.M}"
-        },
-        "type": "composition"
-      },
-      "L": {
-        "value": {
-          "itemSpacing": "{DimensionTheme.General.4px}",
-          "height": "{Size.Fields.Hint.L}"
-        },
-        "type": "composition"
-      },
       "HintLayout": {
         "value": {
           "itemSpacing": "{DimensionTheme.General.2px}"
         },
         "type": "composition"
+      },
+      "IconContainer": {
+        "S": {
+          "value": {
+            "sizing": "{Size.Fields.Hint.IconContainer.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "sizing": "{Size.Fields.Hint.IconContainer.M}"
+          },
+          "type": "composition"
+        }
       }
     },
     "Buttons": {

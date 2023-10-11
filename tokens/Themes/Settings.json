@@ -529,32 +529,16 @@
           "type": "sizing"
         }
       },
-      "Label": {
-        "S": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "M": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "L": {
-          "value": "{DimensionTheme.General.24px}",
-          "type": "sizing"
-        }
-      },
       "Hint": {
-        "S": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "M": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
-        },
-        "L": {
-          "value": "{DimensionTheme.General.24px}",
-          "type": "sizing"
+        "IconContainer": {
+          "S": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
         }
       }
     },
