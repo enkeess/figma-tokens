@@ -2,9 +2,13 @@ import { Dictionary } from 'style-dictionary';
 import { FormatterArguments } from 'style-dictionary/types/Format';
 
 import { COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../../constants';
-import { buildScssMapValue, toKebabCase } from '../../utils';
+import { buildScssMapValue, objectTokenTransform, toKebabCase } from '../../utils';
 
-function getVariableEntry(name: string) {
+function getVariableEntry(name: string, value?: string) {
+  if (value !== undefined) {
+    return `$${name}: var(--${name}, ${value});`;
+  }
+
   return `$${name}: --${name};`;
 }
 
@@ -33,7 +37,7 @@ function printVariableMap(dictionary: Dictionary) {
     @error could-not-find-token-message($keys);
   }
 
-  @return var($value);
+  @return $value;
 }
 
 @mixin composite-var($map: (), $keys...) {
@@ -92,11 +96,10 @@ function printVariableList(dictionary: Dictionary) {
     .map(token => {
       if (COMPOSITE_TOKENS.includes(token.type)) {
         if (token.type === CompositeToken.BoxShadow) {
-          return getVariableEntry(token.name);
+          return getVariableEntry(token.name, objectTokenTransform(token));
         }
-
         const flatVars = Object.entries(token.value)
-          .map(([key]) => getVariableEntry(`${token.name}-${toKebabCase(key)}`))
+          .map(([key]) => getVariableEntry(`${token.name}-${toKebabCase(key)}`, token.value[key]))
           .join('\n');
 
         const mapVars = `$${toKebabCase(token.name)}: ${buildScssMapValue({
@@ -109,7 +112,7 @@ function printVariableList(dictionary: Dictionary) {
 ${flatVars}`;
       }
 
-      return getVariableEntry(token.name);
+      return getVariableEntry(token.name, token.value);
     })
     .join('\n');
 }

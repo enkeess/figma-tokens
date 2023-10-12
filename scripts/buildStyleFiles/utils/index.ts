@@ -9,3 +9,4 @@ export * from './getSCSSThemeVariablesConfig';
 export * from './getTSThemeVariablesConfig';
 export * from './toCamelCase';
 export * from './toKebabCase';
+export * from './objectTokenTransform';

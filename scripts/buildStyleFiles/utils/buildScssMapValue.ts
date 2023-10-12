@@ -1,7 +1,7 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
 import { BASE_INDENT, BOX_SHADOW_CSS_PROP, COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../constants';
-import { figmaTokenToCssProps, toKebabCase } from '../utils';
+import { figmaTokenToCssProps, objectTokenTransform, toKebabCase } from '../utils';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
 
@@ -67,7 +67,7 @@ ${indent})`;
   const simpleTokenTemplate = (token: TransformedToken) =>
     valueFormat === ValueFormat.Original
       ? replaceRefs({ dictionary, value: token.value, valueWithRefs: token.original.value })
-      : `--${token.name}`;
+      : `var(--${token.name}, ${typeof token.value === 'object' ? objectTokenTransform(token) : token.value})`;
 
   const compositeTokenTemplate = (token: TransformedToken) => {
     if (token.type === CompositeToken.BoxShadow) {
@@ -77,7 +77,12 @@ ${indent})`;
     const cssEntryToString = (key: string, value: string) =>
       figmaTokenToCssProps(toKebabCase(key))
         .map(
-          prop => `"${prop}": ${valueFormat === ValueFormat.Original ? value : `--${token.name}-${toKebabCase(key)}`}`,
+          prop =>
+            `"${prop}": ${
+              valueFormat === ValueFormat.Original
+                ? value
+                : `var(--${token.name}-${toKebabCase(key)}, ${token.value[key]})`
+            }`,
         )
         .join(`,\n${indentPlus1}`);
 

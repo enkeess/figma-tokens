@@ -34,7 +34,7 @@
 .buttonLabel {
   color: simple-var($theme-variables, "sys", "primary", "on-accent");
   // или
-  color: var($sys-primary-on-accent);
+  color: $sys-primary-on-accent;
 }
 ```
 * Композитные (composite, typography, border) - токен внутри содержит несколько св-в css - их нужно применять внутри класса с помощью миксина `composite-var`
