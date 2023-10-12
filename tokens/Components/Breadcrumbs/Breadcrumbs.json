@@ -31,6 +31,12 @@
         },
         "type": "composition"
       }
+    },
+    "Container": {
+      "value": {
+        "spacing": "{Space.Breadcrumbs.Container}"
+      },
+      "type": "composition"
     }
   }
 }
