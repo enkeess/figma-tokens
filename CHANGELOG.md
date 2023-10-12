@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.2.0...npm3.0.0) (2023-10-12)
+
+
+### Bug Fixes
+
+* **[FF-3327](https://jira.sbercloud.tech/browse/FF-3327):** change DropOffset value ([ac25c14](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ac25c143efd55b15ecd4990a792576abf1fc4a05))
+* **[FF-3487](https://jira.sbercloud.tech/browse/FF-3487):** change Size.IconPredefined.Container.S ([608ebd7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/608ebd7157bda6596aea20b952a5f49f8750b82b))
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3419](https://jira.sbercloud.tech/browse/FF-3419):** added separator tokens & removed Space.Toolbar.Container.PaddingRight token ([1424429](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1424429fee5f17965ba07f64028d615d1f09f1e5))
+* **[FF-3487](https://jira.sbercloud.tech/browse/FF-3487):** remove Label & Hint size tokens ([2854ab8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2854ab8e4c9fd2d0698cdf0a216df8aa82dea61f))
+* **[FF-3327](https://jira.sbercloud.tech/browse/FF-3327):** rename BorderWidth.Table into BorderWidth.Table.Container ([3528948](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3528948e0ff39f36d3d6cc01d8625865be0ee054))
+* **[FF-3327](https://jira.sbercloud.tech/browse/FF-3327):** remove useless padding tokens in Tag/TagList ([cb0e5d2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cb0e5d2b4137953e4f4fb89185b18fb29bebbafd))
+* **[FF-3327](https://jira.sbercloud.tech/browse/FF-3327):** remove local DropOffset tokens ([ea29797](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ea29797cc65251b7ab4ae52c23d7556c23012175))
+
 # [2.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.1.0...npm2.2.0) (2023-10-11)
 
 
