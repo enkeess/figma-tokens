@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm3.0.0...npm4.0.0) (2023-10-12)
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3463](https://jira.sbercloud.tech/browse/FF-3463):** add fallback value; add var() wrapper into scss vars ([fcbe88a](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/fcbe88aa506a544c3e30403dfbce584407bd322c))
+
 # [3.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm2.2.0...npm3.0.0) (2023-10-12)
 
 
