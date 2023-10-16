@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm4.0.1...npm4.1.0) (2023-10-16)
+
+
+### Features
+
+* added Breadcrumbs.Container token ([a24d886](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a24d88668a1ccdb9fb01657d05641cb4fcf308fc))
+
 ## [4.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm4.0.0...npm4.0.1) (2023-10-13)
 
 
