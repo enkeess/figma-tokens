@@ -1285,6 +1285,14 @@
         "value": "{Radius.Button.M}",
         "type": "borderRadius"
       }
+    },
+    "Accordion": {
+      "CollapseBlock": {
+        "Primary": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        }
+      }
     }
   },
   "Space": {
@@ -2421,6 +2429,66 @@
         "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
       }
+    },
+    "Accordion": {
+      "CollapseBlock": {
+        "Title": {
+          "Headline": {
+            "Gap": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            }
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "FunctionLayout": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        },
+        "Primary": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "spacing"
+          }
+        },
+        "Secondary": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "AccordionPrimary": {
+      "Gap": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
+      }
+    },
+    "AccordionSecondary": {
+      "Gap": {
+        "value": "{DimensionTheme.General.0px}",
+        "type": "spacing"
+      }
     }
   },
   "BorderWidth": {
@@ -2552,6 +2620,14 @@
       "Step": {
         "Status": {
           "value": "{BorderWidth.025m}",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "Accordion": {
+      "CollapseBlock": {
+        "Secondary": {
+          "value": "{BorderWidth.012m}",
           "type": "borderWidth"
         }
       }

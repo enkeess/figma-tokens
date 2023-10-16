@@ -731,7 +731,8 @@
       "Themes/Typography/DarkMode": "enabled",
       "Components/Button/ButtonFunction": "source",
       "Components/Button/ButtonSimple": "source",
-      "Components/Pagination/Pagination": "source"
+      "Components/Pagination/Pagination": "source",
+      "Components/Accordion/Accordion": "source"
     },
     "group": "Mode"
   },
@@ -1563,7 +1564,8 @@
       "Themes/Typography/LightMode": "enabled",
       "Components/Button/ButtonFunction": "source",
       "Components/Button/ButtonSimple": "source",
-      "Components/Pagination/Pagination": "source"
+      "Components/Pagination/Pagination": "source",
+      "Components/Accordion/Accordion": "source"
     },
     "group": "Mode"
   }

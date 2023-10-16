@@ -1,0 +1,58 @@
+{
+  "CollapseBlock": {
+    "Container": {
+      "Primary": {
+        "value": {
+          "verticalPadding": "{Space.Accordion.CollapseBlock.Primary.VerticalPadding}",
+          "horizontalPadding": "{Space.Accordion.CollapseBlock.Primary.HorizontalPadding}",
+          "itemSpacing": "{Space.Accordion.CollapseBlock.Primary.Gap}",
+          "borderRadius": "{Radius.Accordion.CollapseBlock.Primary}"
+        },
+        "type": "composition"
+      },
+      "Secondary": {
+        "value": {
+          "verticalPadding": "{Space.Accordion.CollapseBlock.Secondary.VerticalPadding}",
+          "horizontalPadding": "{Space.Accordion.CollapseBlock.Secondary.HorizontalPadding}",
+          "itemSpacing": "{Space.Accordion.CollapseBlock.Secondary.Gap}",
+          "borderWidthBottom": "{BorderWidth.General.Xs}"
+        },
+        "type": "composition"
+      },
+      "Header": {
+        "Container": {
+          "value": {
+            "itemSpacing": "{Space.Accordion.CollapseBlock.Title.Gap}"
+          },
+          "type": "composition"
+        },
+        "FunctionLayout": {
+          "value": {
+            "itemSpacing": "{Space.Accordion.CollapseBlock.Title.FunctionLayout}"
+          },
+          "type": "composition"
+        },
+        "Headline": {
+          "value": {
+            "itemSpacing": "{Space.Accordion.CollapseBlock.Title.Headline.Gap}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  },
+  "Accordion": {
+    "Primary": {
+      "value": {
+        "itemSpacing": "{Space.AccordionPrimary.Gap}"
+      },
+      "type": "composition"
+    },
+    "Secondary": {
+      "value": {
+        "itemSpacing": "{Space.AccordionSecondary.Gap}"
+      },
+      "type": "composition"
+    }
+  }
+}
