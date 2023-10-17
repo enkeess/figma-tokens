@@ -15,6 +15,12 @@
           "borderRadius": "{Radius.Tree.Item.ContentLayout}"
         },
         "type": "composition"
+      },
+      "CheckboxLayout": {
+        "value": {
+          "sizing": "{Size.Tree.Item.CheckboxLayout}"
+        },
+        "type": "composition"
       }
     }
   }
