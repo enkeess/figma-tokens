@@ -1,0 +1,21 @@
+{
+  "Tree": {
+    "Item": {
+      "Container": {
+        "value": {
+          "height": "{Size.Tree.Item.Height}",
+          "horizontalPadding": "{Space.Tree.Item.HorizontalPadding}"
+        },
+        "type": "composition"
+      },
+      "ContentLayout": {
+        "value": {
+          "itemSpacing": "{Space.Tree.Item.ContentLayout.Gap}",
+          "paddingRight": "{Space.Tree.Item.ContentLayout.PaddingRight}",
+          "borderRadius": "{Radius.Tree.Item.ContentLayout}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

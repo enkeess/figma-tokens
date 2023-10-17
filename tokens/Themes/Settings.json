@@ -773,6 +773,28 @@
         "value": "{DimensionTheme.General.40px}",
         "type": "sizing"
       }
+    },
+    "Tree": {
+      "Item": {
+        "Height": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        },
+        "CheckboxLayout": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "Line": {
+          "Height": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          },
+          "Width": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -1290,6 +1312,14 @@
       "CollapseBlock": {
         "Primary": {
           "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Tree": {
+      "Item": {
+        "ContentLayout": {
+          "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         }
       }
@@ -2489,6 +2519,28 @@
         "value": "{DimensionTheme.General.0px}",
         "type": "spacing"
       }
+    },
+    "Tree": {
+      "Item": {
+        "ChildLinePadding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "ContentLayout": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "PaddingRight": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        },
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -2630,6 +2682,12 @@
           "value": "{BorderWidth.012m}",
           "type": "borderWidth"
         }
+      }
+    },
+    "Tree": {
+      "Line": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
       }
     }
   },

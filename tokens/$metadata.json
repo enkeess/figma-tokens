@@ -55,6 +55,7 @@
     "Components/Toggles/Toggles",
     "Components/Toolbar/Toolbar",
     "Components/Tooltip/Tooltip",
-    "Components/Element/Element"
+    "Components/Element/Element",
+    "Components/Tree/Tree"
   ]
 }
