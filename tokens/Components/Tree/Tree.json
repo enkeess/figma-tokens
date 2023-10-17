@@ -21,6 +21,13 @@
           "sizing": "{Size.Tree.Item.CheckboxLayout}"
         },
         "type": "composition"
+      },
+      "Line": {
+        "value": {
+          "height": "{Size.Tree.Item.Line.Height}",
+          "width": "{Size.Tree.Item.Line.Width}"
+        },
+        "type": "composition"
       }
     }
   }
