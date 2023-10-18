@@ -780,7 +780,7 @@
           "value": "{DimensionTheme.General.32px}",
           "type": "sizing"
         },
-        "CheckboxLayout": {
+        "CheckboxWrap": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
@@ -2536,6 +2536,18 @@
             "type": "spacing"
           }
         },
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "SlotFunctions": {
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "FunctionSlot": {
         "HorizontalPadding": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"

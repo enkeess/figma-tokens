@@ -16,19 +16,37 @@
         },
         "type": "composition"
       },
-      "CheckboxLayout": {
+      "CheckboxWrap": {
         "value": {
-          "sizing": "{Size.Tree.Item.CheckboxLayout}"
+          "sizing": "{Size.Tree.Item.CheckboxWrap}"
         },
         "type": "composition"
       },
       "Line": {
         "value": {
-          "height": "{Size.Tree.Item.Line.Height}",
           "width": "{Size.Tree.Item.Line.Width}"
         },
         "type": "composition"
+      },
+      "ChildLine": {
+        "value": {
+          "width": "{Size.Tree.Item.Line.Width}",
+          "paddingRight": "{Space.Tree.Item.ChildLinePadding}"
+        },
+        "type": "composition"
       }
+    },
+    "FunctionLayout": {
+      "value": {
+        "horizontalPadding": "{Space.Tree.FunctionSlot.HorizontalPadding}"
+      },
+      "type": "composition"
+    },
+    "FunctionSlot": {
+      "value": {
+        "itemSpacing": "{Space.Tree.SlotFunctions.Gap}"
+      },
+      "type": "composition"
     }
   }
 }
