@@ -2540,12 +2540,6 @@
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
-      },
-      "FunctionsSlot": {
-        "Gap": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        }
       }
     }
   },

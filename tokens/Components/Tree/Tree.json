@@ -35,12 +35,6 @@
         },
         "type": "composition"
       }
-    },
-    "FunctionsSlot": {
-      "value": {
-        "itemSpacing": "{Space.Tree.FunctionsSlot.Gap}"
-      },
-      "type": "composition"
     }
   }
 }
