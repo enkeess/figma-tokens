@@ -36,15 +36,9 @@
         "type": "composition"
       }
     },
-    "FunctionLayout": {
+    "FunctionsSlot": {
       "value": {
-        "horizontalPadding": "{Space.Tree.FunctionSlot.HorizontalPadding}"
-      },
-      "type": "composition"
-    },
-    "FunctionSlot": {
-      "value": {
-        "itemSpacing": "{Space.Tree.SlotFunctions.Gap}"
+        "itemSpacing": "{Space.Tree.FunctionsSlot.Gap}"
       },
       "type": "composition"
     }

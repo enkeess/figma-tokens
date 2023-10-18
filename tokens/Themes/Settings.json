@@ -2541,14 +2541,8 @@
           "type": "spacing"
         }
       },
-      "SlotFunctions": {
+      "FunctionsSlot": {
         "Gap": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        }
-      },
-      "FunctionSlot": {
-        "HorizontalPadding": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
