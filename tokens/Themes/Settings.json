@@ -630,7 +630,7 @@
     },
     "Stepper": {
       "Step": {
-        "Tail": {
+        "Track": {
           "Container": {
             "value": "{DimensionTheme.General.32px}",
             "type": "sizing"
@@ -640,7 +640,7 @@
             "type": "sizing"
           }
         },
-        "Icon": {
+        "Status": {
           "value": "{DimensionTheme.General.32px}",
           "type": "sizing"
         }
@@ -1210,7 +1210,7 @@
     },
     "Stepper": {
       "Step": {
-        "Icon": {
+        "Status": {
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
@@ -2148,7 +2148,7 @@
             "type": "spacing"
           }
         },
-        "Tail": {
+        "Track": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
@@ -2546,6 +2546,14 @@
       "Outline": {
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
+      }
+    },
+    "Stepper": {
+      "Step": {
+        "Status": {
+          "value": "{BorderWidth.025m}",
+          "type": "borderWidth"
+        }
       }
     }
   },

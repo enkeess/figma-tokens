@@ -9,26 +9,27 @@
           "type": "composition"
         }
       },
-      "Icon": {
+      "Status": {
         "Container": {
           "value": {
-            "sizing": "{Size.Stepper.Step.Icon}",
-            "borderRadius": "{Radius.Stepper.Step.Icon}"
+            "sizing": "{Size.Stepper.Step.Status}",
+            "borderRadius": "{Radius.Stepper.Step.Status}",
+            "borderWidth": "{BorderWidth.Stepper.Step.Status}"
           },
           "type": "composition"
         }
       },
-      "Tail": {
+      "Track": {
         "Container": {
           "value": {
-            "height": "{Size.Stepper.Step.Tail.Container}",
-            "horizontalPadding": "{Space.Stepper.Step.Tail}"
+            "height": "{Size.Stepper.Step.Track.Container}",
+            "horizontalPadding": "{Space.Stepper.Step.Track}"
           },
           "type": "composition"
         },
         "Line": {
           "value": {
-            "height": "{Size.Stepper.Step.Tail.Line}"
+            "height": "{Size.Stepper.Step.Track.Line}"
           },
           "type": "composition"
         }
