@@ -39,7 +39,9 @@
     "Body": {
       "value": {
         "paddingLeft": "{Space.Modal.Body.Side}",
-        "paddingRight": "{Space.Modal.Body.Side}"
+        "paddingRight": "{Space.Modal.Body.Side}",
+        "paddingTop": "{Space.Modal.Body.TopBottom}",
+        "paddingBottom": "{Space.Modal.Body.TopBottom}"
       },
       "type": "composition"
     },
