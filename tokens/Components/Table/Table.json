@@ -1,5 +1,27 @@
 {
   "Table": {
+    "Header": {
+      "value": {
+        "paddingBottom": "{Space.Table.Header.Padding}",
+        "itemSpacing": "{Space.Table.Header.Gap}"
+      },
+      "type": "composition"
+    },
+    "Footer": {
+      "value": {
+        "paddingTop": "{Space.Table.Footer.Padding}",
+        "itemSpacing": "{Space.Table.Footer.Gap}"
+      },
+      "type": "composition"
+    },
+    "TableInformation": {
+      "value": {
+        "spacing": "{Space.Table.Information.Padding}",
+        "minHeight": "{Size.Table.Information.MinHight}",
+        "itemSpacing": "{Space.Table.Information.Gap}"
+      },
+      "type": "composition"
+    },
     "Head": {
       "Column": {
         "value": {
@@ -18,8 +40,8 @@
       "Container": {
         "value": {
           "height": "{Size.Table.LineHeight}",
-          "borderTop": "{BorderWidth.Table.Container}",
-          "borderBottom": "{BorderWidth.Table.Container}"
+          "borderTop": "{BorderWidth.Table}",
+          "borderBottom": "{BorderWidth.Table}"
         },
         "type": "composition"
       }
@@ -32,6 +54,13 @@
       },
       "type": "composition"
     },
+    "CellsAction": {
+      "value": {
+        "paddingLeft": "{Space.Table.CellAction.Padding}",
+        "paddingRight": "{Space.Table.CellAction.Padding}"
+      },
+      "type": "composition"
+    },
     "CellCheck": {
       "value": {
         "width": "{Size.Table.LineHeight}"
@@ -40,7 +69,8 @@
     },
     "StatusIndicator": {
       "value": {
-        "width": "{Size.Table.CellStatusIndicator.Horizontal}"
+        "height": "{Size.Table.CellStatusIndicator.Vertical}",
+        "borderWidth": "{Size.Table.CellStatusIndicator.Horizontal}"
       },
       "type": "composition"
     },
@@ -51,16 +81,9 @@
       },
       "type": "composition"
     },
-    "ActionLayout": {
-      "value": {
-        "paddingRight": "{Space.Table.ActionLayout}",
-        "paddingLeft": "{Space.Table.ActionLayout}"
-      },
-      "type": "composition"
-    },
     "TableContainer": {
       "value": {
-        "borderWidth": "{BorderWidth.Table.Container}",
+        "borderWidth": "{BorderWidth.Table}",
         "borderRadius": "{Radius.Table.Container}"
       },
       "type": "composition"

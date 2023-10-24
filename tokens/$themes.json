@@ -695,7 +695,6 @@
       "Themes/Settings": "source",
       "Components/DropZone/DropZone": "source",
       "Components/Loader/Loader": "source",
-      "Components/Pagination": "source",
       "Components/Link/Link": "source",
       "Components/PopoverPrivate/PopoverPrivate": "source",
       "Components/Popover/Popover": "source",
@@ -731,7 +730,8 @@
       "Themes/Effects/DarkMode": "enabled",
       "Themes/Typography/DarkMode": "enabled",
       "Components/Button/ButtonFunction": "source",
-      "Components/Button/ButtonSimple": "source"
+      "Components/Button/ButtonSimple": "source",
+      "Components/Pagination/Pagination": "source"
     },
     "group": "Mode"
   },
@@ -1526,7 +1526,6 @@
       "Themes/Settings": "source",
       "Components/Loader/Loader": "source",
       "Components/DropZone/DropZone": "source",
-      "Components/Pagination": "source",
       "Components/Link/Link": "source",
       "Components/PopoverPrivate/PopoverPrivate": "source",
       "Components/Popover/Popover": "source",
@@ -1563,7 +1562,8 @@
       "Themes/Effects/LightMode": "enabled",
       "Themes/Typography/LightMode": "enabled",
       "Components/Button/ButtonFunction": "source",
-      "Components/Button/ButtonSimple": "source"
+      "Components/Button/ButtonSimple": "source",
+      "Components/Pagination/Pagination": "source"
     },
     "group": "Mode"
   }

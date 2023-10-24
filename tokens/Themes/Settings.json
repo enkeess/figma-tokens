@@ -727,6 +727,12 @@
           "type": "sizing"
         }
       },
+      "Information": {
+        "MinHight": {
+          "value": "{DimensionTheme.General.8px} * 38",
+          "type": "sizing"
+        }
+      },
       "LineHeight": {
         "value": "{DimensionTheme.General.40px}",
         "type": "sizing"
@@ -1250,7 +1256,7 @@
     },
     "Table": {
       "Container": {
-        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       }
     },
@@ -1586,6 +1592,10 @@
       "Body": {
         "Side": {
           "value": "{DimensionTheme.General.32px}",
+          "type": "spacing"
+        },
+        "TopBottom": {
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
       },
@@ -2357,15 +2367,47 @@
           "type": "spacing"
         }
       },
+      "Information": {
+        "Gap": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "Padding": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        }
+      },
       "Head": {
         "SeparatorPadding": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       },
-      "ActionLayout": {
-        "value": "{DimensionTheme.General.8px}",
-        "type": "spacing"
+      "Header": {
+        "Padding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "Footer": {
+        "Padding": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "CellAction": {
+        "Padding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "Toolbar": {
@@ -2493,13 +2535,15 @@
       }
     },
     "Table": {
-      "Container": {
-        "value": "{BorderWidth.012m}",
-        "type": "borderWidth"
-      }
+      "value": "{BorderWidth.012m}",
+      "type": "borderWidth"
     },
     "Toolbar": {
       "Separator": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      },
+      "Outline": {
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
