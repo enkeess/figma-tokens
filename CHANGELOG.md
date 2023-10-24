@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm4.1.0...npm5.0.0) (2023-10-24)
+
+
+### Features
+
+* **[FF-3309](https://jira.sbercloud.tech/browse/FF-3309):** add outline container ([3155037](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/31550372ea8beb879347cd74873c6b5000b13951))
+* **[FF-3309](https://jira.sbercloud.tech/browse/FF-3309):** add padding top/bottom into Body ([dfb6420](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dfb642018b7a6c994ca114ab81e15113e4bdfe1a))
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3309](https://jira.sbercloud.tech/browse/FF-3309):** rename Table ActionLayout into CellAction, Table.Contianer into Table; add header/footer/information tokens ([db14562](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/db14562f6c88c4e51a9e3d12755a395806ad97dc))
+
 # [4.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm4.0.1...npm4.1.0) (2023-10-16)
 
 
