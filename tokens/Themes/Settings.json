@@ -2531,14 +2531,10 @@
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           },
-          "PaddingRight": {
+          "Padding": {
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
-        },
-        "HorizontalPadding": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
         }
       }
     }
