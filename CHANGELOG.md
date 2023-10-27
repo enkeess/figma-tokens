@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm5.0.0...npm6.0.0) (2023-10-27)
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3460](https://jira.sbercloud.tech/browse/FF-3460):** renamed Tail in Track, Icon in Status, added border for Status ([6eb51e1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6eb51e117ea3c20c623ae9366f36fb8b76a69384))
+
 # [5.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm4.1.0...npm5.0.0) (2023-10-24)
 
 
