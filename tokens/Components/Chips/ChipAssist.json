@@ -1,0 +1,76 @@
+{
+  "ChipAssist": {
+    "Container": {
+      "Xs": {
+        "value": {
+          "height": "{Size.Chip.Xs}",
+          "horizontalPadding": "{Space.Chip.Xs.Container}",
+          "borderRadius": "{Radius.Chip.Xs}",
+          "borderWidth": "{BorderWidth.Chip.Single}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{Size.Chip.S}",
+          "horizontalPadding": "{Space.Chip.S.Container}",
+          "borderRadius": "{Radius.Chip.S}",
+          "borderWidth": "{BorderWidth.Chip.Single}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "height": "{Size.Chip.M}",
+          "horizontalPadding": "{Space.Chip.M.Container}",
+          "borderRadius": "{Radius.Chip.M}",
+          "borderWidth": "{BorderWidth.Chip.Single}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "height": "{Size.Chip.L}",
+          "horizontalPadding": "{Space.Chip.L.Container}",
+          "borderRadius": "{Radius.Chip.L}",
+          "borderWidth": "{BorderWidth.Chip.Single}"
+        },
+        "type": "composition"
+      }
+    },
+    "LabelLayout": {
+      "Xs": {
+        "value": {
+          "horizontalPadding": "{Space.Chip.Xs.LabelLayout}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "horizontalPadding": "{Space.Chip.S.LabelLayout}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "horizontalPadding": "{Space.Chip.M.LabelLayout}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "horizontalPadding": "{Space.Chip.L.LabelLayout}"
+        },
+        "type": "composition"
+      },
+      "Label": {
+        "LoadLabelOnly": {
+          "value": {
+            "opacity": "{Opacity.A0}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

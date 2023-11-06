@@ -706,10 +706,7 @@
       "Components/Tabs/Tabs": "source",
       "Components/Button/ButtonElevated": "source",
       "Components/Breadcrumbs/Breadcrumbs": "source",
-      "Components/Chips/AssistChip": "source",
       "Components/IconPredefined/IconPredefined": "source",
-      "Components/Chips/FilterChip": "source",
-      "Components/Chips/ToggleChip": "source",
       "Components/Tag/Tag": "source",
       "Components/Fields/Fields": "source",
       "Components/Calendar/Calendar": "source",
@@ -733,7 +730,10 @@
       "Components/Button/ButtonSimple": "source",
       "Components/Pagination/Pagination": "source",
       "Components/Accordion/Accordion": "source",
-      "Components/Tree/Tree": "source"
+      "Components/Tree/Tree": "source",
+      "Components/Chips/ChipAssist": "source",
+      "Components/Chips/ChipChoice": "source",
+      "Components/Chips/ChipToggle": "source"
     },
     "group": "Mode"
   },
@@ -1539,9 +1539,6 @@
       "Components/Tabs/Tabs": "source",
       "Components/Button/ButtonElevated": "source",
       "Components/Breadcrumbs/Breadcrumbs": "source",
-      "Components/Chips/AssistChip": "source",
-      "Components/Chips/ToggleChip": "source",
-      "Components/Chips/FilterChip": "source",
       "Components/Tag/Tag": "source",
       "Components/IconPredefined/IconPredefined": "source",
       "Components/Fields/Fields": "source",
@@ -1567,7 +1564,10 @@
       "Components/Button/ButtonSimple": "source",
       "Components/Pagination/Pagination": "source",
       "Components/Accordion/Accordion": "source",
-      "Components/Tree/Tree": "source"
+      "Components/Tree/Tree": "source",
+      "Components/Chips/ChipAssist": "source",
+      "Components/Chips/ChipChoice": "source",
+      "Components/Chips/ChipToggle": "source"
     },
     "group": "Mode"
   }
