@@ -3,37 +3,37 @@
     "Container": {
       "Xs": {
         "value": {
-          "height": "{Size.Chip.Xs}",
-          "horizontalPadding": "{Space.Chip.Xs.Container}",
-          "borderRadius": "{Radius.Chip.Xs}",
-          "borderWidth": "{BorderWidth.Chip.Single}"
+          "height": "{Size.Chips.Xs}",
+          "horizontalPadding": "{Space.Chips.Container.Xs}",
+          "borderRadius": "{Radius.Chips.Xs}",
+          "borderWidth": "{BorderWidth.Chips.Single}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "height": "{Size.Chip.S}",
-          "horizontalPadding": "{Space.Chip.S.Container}",
-          "borderRadius": "{Radius.Chip.S}",
-          "borderWidth": "{BorderWidth.Chip.Single}"
+          "height": "{Size.Chips.S}",
+          "horizontalPadding": "{Space.Chips.Container.S}",
+          "borderRadius": "{Radius.Chips.S}",
+          "borderWidth": "{BorderWidth.Chips.Single}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "height": "{Size.Chip.M}",
-          "horizontalPadding": "{Space.Chip.M.Container}",
-          "borderRadius": "{Radius.Chip.M}",
-          "borderWidth": "{BorderWidth.Chip.Single}"
+          "height": "{Size.Chips.M}",
+          "horizontalPadding": "{Space.Chips.Container.M}",
+          "borderRadius": "{Radius.Chips.M}",
+          "borderWidth": "{BorderWidth.Chips.Single}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "height": "{Size.Chip.L}",
-          "horizontalPadding": "{Space.Chip.L.Container}",
-          "borderRadius": "{Radius.Chip.L}",
-          "borderWidth": "{BorderWidth.Chip.Single}"
+          "height": "{Size.Chips.L}",
+          "horizontalPadding": "{Space.Chips.Container.L}",
+          "borderRadius": "{Radius.Chips.L}",
+          "borderWidth": "{BorderWidth.Chips.Single}"
         },
         "type": "composition"
       }
@@ -41,25 +41,25 @@
     "LabelLayout": {
       "Xs": {
         "value": {
-          "horizontalPadding": "{Space.Chip.Xs.LabelLayout}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "horizontalPadding": "{Space.Chip.S.LabelLayout}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "horizontalPadding": "{Space.Chip.M.LabelLayout}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "horizontalPadding": "{Space.Chip.L.LabelLayout}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.L}"
         },
         "type": "composition"
       },

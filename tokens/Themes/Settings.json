@@ -434,7 +434,7 @@
         }
       }
     },
-    "Chip": {
+    "Chips": {
       "Xs": {
         "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
@@ -701,6 +701,18 @@
           "type": "sizing"
         },
         "M": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "ChipChoice": {
+      "ButtonClearValue": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         }
@@ -1088,21 +1100,21 @@
         "type": "borderRadius"
       }
     },
-    "Chip": {
+    "Chips": {
       "Xs": {
-        "value": "{Size.Chip.Xs} / 2",
+        "value": "{Size.Chips.Xs} / 2",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{Size.Chip.S} / 2",
+        "value": "{Size.Chips.S} / 2",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{Size.Chip.M} / 2",
+        "value": "{Size.Chips.M} / 2",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{Size.Chip.L} / 2",
+        "value": "{Size.Chips.L} / 2",
         "type": "borderRadius"
       }
     },
@@ -1258,6 +1270,18 @@
         },
         "M": {
           "value": "{Size.Fields.Buttons.M} / 2",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "ChipChoice": {
+      "ButtonClearValue": {
+        "Xs": {
+          "value": "{Size.ChipChoice.ButtonClearValue.Xs}",
+          "type": "borderRadius"
+        },
+        "S": {
+          "value": "{Size.ChipChoice.ButtonClearValue.S}",
           "type": "borderRadius"
         }
       }
@@ -1772,76 +1796,40 @@
         "type": "spacing"
       }
     },
-    "Chip": {
-      "Xs": {
-        "Container": {
-          "value": "({Size.Chip.Xs} / 4) - {BorderWidth.Chip.Single}",
+    "Chips": {
+      "Container": {
+        "Xs": {
+          "value": "(({Size.Chips.Xs} - {Icon.Xs}) / 2) - {BorderWidth.Chips.Single}",
           "type": "spacing"
         },
-        "Gap": {
-          "value": "({Size.Chip.Xs} / 4)",
+        "S": {
+          "value": "(({Size.Chips.S} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
           "type": "spacing"
         },
-        "LabelLayout": {
-          "value": "({Size.Chip.Xs} / 4)",
+        "M": {
+          "value": "(({Size.Chips.M} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
           "type": "spacing"
         },
-        "FromLabel": {
-          "value": "({Size.Chip.Xs} / 2) - {BorderWidth.Chip.Single}",
+        "L": {
+          "value": "(({Size.Chips.L} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
           "type": "spacing"
         }
       },
-      "S": {
-        "Container": {
-          "value": "({Size.Chip.S} / 4) - {BorderWidth.Chip.Single}",
+      "LabelLayout": {
+        "Xs": {
+          "value": "({Size.Chips.Xs} - {Icon.Xs}) / 2",
           "type": "spacing"
         },
-        "Gap": {
-          "value": "({Size.Chip.S} / 4)",
+        "S": {
+          "value": "({Size.Chips.S} - {Icon.S}) / 2",
           "type": "spacing"
         },
-        "LabelLayout": {
-          "value": "({Size.Chip.S} / 4)",
+        "M": {
+          "value": "({Size.Chips.M} - {Icon.S}) / 2",
           "type": "spacing"
         },
-        "FromLabel": {
-          "value": "({Size.Chip.S} / 2) - {BorderWidth.Chip.Single}",
-          "type": "spacing"
-        }
-      },
-      "M": {
-        "Container": {
-          "value": "({Size.Chip.M} / 4) - {BorderWidth.Chip.Single}",
-          "type": "spacing"
-        },
-        "Gap": {
-          "value": "({Size.Chip.M} / 4)",
-          "type": "spacing"
-        },
-        "LabelLayout": {
-          "value": "({Size.Chip.M} / 4)",
-          "type": "spacing"
-        },
-        "FromLabel": {
-          "value": "({Size.Chip.M} / 2) - {BorderWidth.Chip.Single}",
-          "type": "spacing"
-        }
-      },
-      "L": {
-        "Container": {
-          "value": "({Size.Chip.L} / 4) - {BorderWidth.Chip.Single}",
-          "type": "spacing"
-        },
-        "Gap": {
-          "value": "({Size.Chip.L} / 4)",
-          "type": "spacing"
-        },
-        "LabelLayout": {
-          "value": "({Size.Chip.L} / 4)",
-          "type": "spacing"
-        },
-        "FromLabel": {
-          "value": "({Size.Chip.L} / 2) - {BorderWidth.Chip.Single}",
+        "L": {
+          "value": "({Size.Chips.L} - {Icon.S}) / 2",
           "type": "spacing"
         }
       }
@@ -2620,7 +2608,7 @@
         "type": "borderWidth"
       }
     },
-    "Chip": {
+    "Chips": {
       "Single": {
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
