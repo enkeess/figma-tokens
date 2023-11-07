@@ -9,9 +9,18 @@
     },
     "PopoverPointer": {
       "value": {
-        "paddingLeft": "{Space.PopoverPointer.Offset}",
+        "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
         "paddingTop": "{Radius.PopoverPrivate.Popover}",
         "paddingBottom": "{Radius.PopoverPrivate.Popover}"
+      },
+      "type": "composition"
+    }
+  },
+  "PopoverPointer": {
+    "Arrow": {
+      "value": {
+        "height": "{Size.Popover.PopoverPointer.Arrow.Height}",
+        "width": "{Size.Popover.PopoverPointer.Arrow.Width}"
       },
       "type": "composition"
     }

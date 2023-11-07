@@ -39,7 +39,6 @@
     "Components/Notification/NotificationPanel",
     "Components/Notification/NotificationCard",
     "Components/Pagination/Pagination",
-    "Components/PopoverPrivate/PopoverPrivate",
     "Components/Popover/Popover",
     "Components/PromoTag/PromoTag",
     "Components/Scroll/Scroll",

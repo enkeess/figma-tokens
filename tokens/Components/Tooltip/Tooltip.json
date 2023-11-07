@@ -9,7 +9,7 @@
     },
     "TooltipPointer": {
       "value": {
-        "paddingLeft": "{Space.PopoverPointer.Offset}",
+        "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
         "paddingTop": "{Radius.PopoverPrivate.Tooltip}",
         "paddingBottom": "{Radius.PopoverPrivate.Tooltip}"
       },

@@ -354,15 +354,17 @@
         }
       }
     },
-    "PopoverPointer": {
-      "Arrow": {
-        "Width": {
-          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
-          "type": "sizing"
-        },
-        "Height": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
-          "type": "sizing"
+    "Popover": {
+      "PopoverPointer": {
+        "Arrow": {
+          "Width": {
+            "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "Height": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
         }
       }
     },
@@ -1826,10 +1828,12 @@
         }
       }
     },
-    "PopoverPointer": {
-      "Offset": {
-        "value": "{DimensionTheme.General.4px}",
-        "type": "spacing"
+    "Popover": {
+      "PopoverPointer": {
+        "Offset": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "Chips": {
