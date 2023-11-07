@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.0.0...npm6.1.0) (2023-11-07)
+
+
+### Features
+
+* **[FF-3551](https://jira.sbercloud.tech/browse/FF-3551):** add Accordion component tokens ([9c5c0e5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9c5c0e5045ee970fae7d2017647375f07cfb35d5))
+
 # [6.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm5.0.0...npm6.0.0) (2023-10-27)
 
 
