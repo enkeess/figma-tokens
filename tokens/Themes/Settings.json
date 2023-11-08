@@ -2612,7 +2612,7 @@
     },
     "Card": {
       "Container": {
-        "value": "{BorderWidth.General.M}",
+        "value": "{BorderWidth.General.Xs}",
         "type": "borderWidth"
       },
       "Picture": {

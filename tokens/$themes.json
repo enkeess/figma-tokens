@@ -732,8 +732,7 @@
       "Components/Button/ButtonFunction": "source",
       "Components/Button/ButtonSimple": "source",
       "Components/Pagination/Pagination": "source",
-      "Components/Accordion/Accordion": "source",
-      "Components/Tree/Tree": "disabled"
+      "Components/Accordion/Accordion": "source"
     },
     "group": "Mode"
   },
