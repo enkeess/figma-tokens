@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.1.0...npm6.2.0) (2023-11-08)
+
+
+### Bug Fixes
+
+* **[FF-3511](https://jira.sbercloud.tech/browse/FF-3511):** Tree tokens ([88f8c4d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/88f8c4dbfe2f3fe68ad2e9e290b7fec56b95fdf0))
+* Tree tokens ([f0cd169](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f0cd1693fe143fc2be14ac7e6a9e6a9e12760edc))
+* Tree tokens ([40a37a1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/40a37a15659dac0a043cc27b380f3ee2fd6af044))
+* Tree tokens ([c31ba37](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c31ba370ce6cd06d9759fedc5c4673af4ac37c4b))
+* Tree tokens ([5c77f24](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5c77f242a07a3eb5d868e15b82ac9e83f97e19a5))
+* Tree tokens ([3d643f4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3d643f4537feab44496e6842be64bfd84026f0de))
+
+
+### Features
+
+* added Tree tokens ([60d0e21](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/60d0e21e5a30dc95bb0f5651879e23525a3f0614))
+
 # [6.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.0.0...npm6.1.0) (2023-11-07)
 
 
