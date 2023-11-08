@@ -3,15 +3,15 @@
     "Container": {
       "value": {
         "spacing": "{DimensionTheme.General.24px}",
-        "borderRadius": "{Radius.PopoverPrivate.Popover}"
+        "borderRadius": "{Radius.Popover.Container}"
       },
       "type": "composition"
     },
     "PopoverPointer": {
       "value": {
         "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.PopoverPrivate.Popover}",
-        "paddingBottom": "{Radius.PopoverPrivate.Popover}"
+        "paddingTop": "{Radius.Popover.Container}",
+        "paddingBottom": "{Radius.Popover.Container}"
       },
       "type": "composition"
     }

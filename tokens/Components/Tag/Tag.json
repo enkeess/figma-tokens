@@ -114,16 +114,16 @@
   "TagList": {
     "Xs": {
       "value": {
-        "paddingRight": "{Radius.PopoverPrivate.DropList}",
-        "paddingLeft": "{Radius.PopoverPrivate.DropList}",
+        "paddingRight": "{Radius.DropList.Container}",
+        "paddingLeft": "{Radius.DropList.Container}",
         "maxWidth": "{Size.TagList.MaxWidth.Xs}"
       },
       "type": "composition"
     },
     "S": {
       "value": {
-        "paddingRight": "{Radius.PopoverPrivate.DropList}",
-        "paddingLeft": "{Radius.PopoverPrivate.DropList}",
+        "paddingRight": "{Radius.DropList.Container}",
+        "paddingLeft": "{Radius.DropList.Container}",
         "maxWidth": "{Size.TagList.MaxWidth.S}"
       },
       "type": "composition"

@@ -1116,17 +1116,25 @@
         "type": "borderRadius"
       }
     },
-    "PopoverPrivate": {
-      "Popover": {
+    "Popover": {
+      "Container": {
         "value": "{DimensionTheme.General.32px}",
         "type": "borderRadius"
-      },
-      "Tooltip": {
+      }
+    },
+    "Tooltip": {
+      "Container": {
         "value": "{DimensionTheme.General.24px}",
         "type": "borderRadius"
-      },
-      "DropList": {
+      }
+    },
+    "DropList": {
+      "Container": {
         "value": "{DimensionTheme.General.8px}",
+        "type": "borderRadius"
+      },
+      "Marker": {
+        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     },
@@ -1225,12 +1233,6 @@
       },
       "Marker": {
         "value": "{DimensionTheme.General.2px}",
-        "type": "borderRadius"
-      }
-    },
-    "DropList": {
-      "Marker": {
-        "value": "{DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     },
