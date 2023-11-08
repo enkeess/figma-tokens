@@ -103,15 +103,22 @@
     "Container": {
       "S": {
         "value": {
-          "minWidth": "Size.Calendar.Container.MinWidth.S",
-          "minHeight": "Size.Calendar.Container.MinHeight.S"
+          "minWidth": "{Size.Calendar.Container.MinWidth.S}",
+          "minHeight": "{Size.Calendar.Container.MinHeight.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "minWidth": "Size.Calendar.Container.MinWidth.M",
-          "minHeight": "Size.Calendar.Container.MinHeight.M"
+          "minWidth": "{Size.Calendar.Container.MinWidth.M}",
+          "minHeight": "{Size.Calendar.Container.MinHeight.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "minWidth": "{Size.Calendar.Container.MinWidth.L}",
+          "minHeight": "{Size.Calendar.Container.MinHeight.L}"
         },
         "type": "composition"
       },

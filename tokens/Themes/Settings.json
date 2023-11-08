@@ -578,6 +578,10 @@
           "M": {
             "value": "{DimensionTheme.General.8px} * 35",
             "type": "sizing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.8px} * 38",
+            "type": "sizing"
           }
         },
         "MinHeight": {
@@ -587,6 +591,10 @@
           },
           "M": {
             "value": "{DimensionTheme.General.8px} * 38.5",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.8px} * 41",
             "type": "sizing"
           }
         }
@@ -1186,22 +1194,22 @@
     },
     "Calendar": {
       "Item": {
-        "M": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
-          "type": "borderRadius"
-        },
         "S": {
           "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       },
       "Button": {
-        "M": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
-          "type": "borderRadius"
-        },
         "S": {
           "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       },
@@ -1944,11 +1952,11 @@
         }
       },
       "Container": {
-        "M": {
+        "S": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
-        "S": {
+        "M": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
