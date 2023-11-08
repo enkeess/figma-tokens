@@ -837,6 +837,20 @@
           }
         }
       }
+    },
+    "Tooltip": {
+      "TooltipPointer": {
+        "Arrow": {
+          "Width": {
+            "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "Height": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -2593,6 +2607,14 @@
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
+        }
+      }
+    },
+    "Tooltip": {
+      "TooltipPointer": {
+        "Offset": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       }
     }

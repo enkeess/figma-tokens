@@ -15,5 +15,14 @@
       },
       "type": "composition"
     }
+  },
+  "TooltipPointer": {
+    "Arrow": {
+      "value": {
+        "height": "{Size.Popover.PopoverPointer.Arrow.Height}",
+        "width": "{Size.Popover.PopoverPointer.Arrow.Width}"
+      },
+      "type": "composition"
+    }
   }
 }
