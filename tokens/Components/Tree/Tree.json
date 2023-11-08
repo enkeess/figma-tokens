@@ -16,19 +16,6 @@
           "sizing": "{Size.Tree.Item.CheckboxWrap}"
         },
         "type": "composition"
-      },
-      "Line": {
-        "value": {
-          "width": "{Size.Tree.Item.Line.Width}"
-        },
-        "type": "composition"
-      },
-      "ChildLine": {
-        "value": {
-          "width": "{Size.Tree.Item.Line.Width}",
-          "paddingRight": "{Space.Tree.Item.ChildLinePadding}"
-        },
-        "type": "composition"
       }
     }
   }
