@@ -73,14 +73,14 @@
       }
     },
     "ButtonClearValue": {
-      "Xs": {
+      "Xxs": {
         "value": {
           "sizing": "{Size.ChipChoice.ButtonClearValue.Xxs}",
           "borderRadius": "{Radius.ChipChoice.ButtonClearValue.Xxs}"
         },
         "type": "composition"
       },
-      "S": {
+      "Xs": {
         "value": {
           "sizing": "{Size.ChipChoice.ButtonClearValue.Xs}",
           "borderRadius": "{Radius.ChipChoice.ButtonClearValue.Xs}"
