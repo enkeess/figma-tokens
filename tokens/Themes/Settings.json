@@ -237,21 +237,13 @@
     "Counter": {
       "S": {
         "MinimalWidth": {
-          "value": "{BorderWidth.Counter.Single} + {Space.Counter.S} + {Size.Counter.S.LimiterFigma} + {Space.Counter.S} + {BorderWidth.Counter.Single}",
-          "type": "sizing"
-        },
-        "LimiterFigma": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         }
       },
       "M": {
         "MinimalWidth": {
-          "value": "{BorderWidth.Counter.Single} + {Space.Counter.M} + {Size.Counter.M.LimiterFigma} + {Space.Counter.M} + {BorderWidth.Counter.Single}",
-          "type": "sizing"
-        },
-        "LimiterFigma": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         }
       }

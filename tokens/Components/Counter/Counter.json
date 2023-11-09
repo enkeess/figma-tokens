@@ -1,70 +1,26 @@
 {
   "Counter": {
-    "Container": {
-      "S": {
-        "Count": {
-          "value": {
-            "borderRadius": "{Radius.Counter.S}",
-            "height": "{DimensionTheme.General.16px}",
-            "paddingRight": "{Space.Counter.S}",
-            "paddingLeft": "{Space.Counter.S}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        },
-        "CountPlus": {
-          "value": {
-            "borderRadius": "{Radius.Counter.S}",
-            "height": "{DimensionTheme.General.16px}",
-            "paddingRight": "{Space.Counter.S}",
-            "paddingLeft": "{Space.Counter.S}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        },
-        "CountK": {
-          "value": {
-            "borderRadius": "{Radius.Counter.S}",
-            "height": "{DimensionTheme.General.16px}",
-            "paddingRight": "{Space.Counter.S}",
-            "paddingLeft": "{Space.Counter.S}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        }
+    "S": {
+      "value": {
+        "borderRadius": "{Radius.Counter.S}",
+        "height": "{DimensionTheme.General.16px}",
+        "minWidth": "{Size.Counter.S.MinimalWidth}",
+        "paddingRight": "{Space.Counter.S}",
+        "paddingLeft": "{Space.Counter.S}",
+        "borderWidth": "{BorderWidth.Counter.Single}"
       },
-      "M": {
-        "Count": {
-          "value": {
-            "borderRadius": "{Radius.Counter.M}",
-            "height": "{DimensionTheme.General.24px}",
-            "paddingRight": "{Space.Counter.M}",
-            "paddingLeft": "{Space.Counter.M}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        },
-        "CountPlus": {
-          "value": {
-            "borderRadius": "{Radius.Counter.M}",
-            "height": "{DimensionTheme.General.24px}",
-            "paddingRight": "{Space.Counter.M}",
-            "paddingLeft": "{Space.Counter.M}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        },
-        "CountK": {
-          "value": {
-            "borderRadius": "{Radius.Counter.M}",
-            "height": "{DimensionTheme.General.24px}",
-            "paddingRight": "{Space.Counter.M}",
-            "paddingLeft": "{Space.Counter.M}",
-            "borderWidth": "{BorderWidth.Counter.Single}"
-          },
-          "type": "composition"
-        }
-      }
+      "type": "composition"
+    },
+    "M": {
+      "value": {
+        "borderRadius": "{Radius.Counter.M}",
+        "height": "{DimensionTheme.General.24px}",
+        "minWidth": "{Size.Counter.M.MinimalWidth}",
+        "paddingRight": "{Space.Counter.M}",
+        "paddingLeft": "{Space.Counter.M}",
+        "borderWidth": "{BorderWidth.Counter.Single}"
+      },
+      "type": "composition"
     }
   }
 }
