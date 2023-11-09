@@ -75,15 +75,15 @@
     "ButtonClearValue": {
       "Xs": {
         "value": {
-          "sizing": "{Size.ChipChoice.ButtonClearValue.Xs}",
-          "borderRadius": "{Radius.ChipChoice.ButtonClearValue.Xs}"
+          "sizing": "{Size.ChipChoice.ButtonClearValue.Xxs}",
+          "borderRadius": "{Radius.ChipChoice.ButtonClearValue.Xxs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "sizing": "{Size.ChipChoice.ButtonClearValue.S}",
-          "borderRadius": "{Radius.ChipChoice.ButtonClearValue.S}"
+          "sizing": "{Size.ChipChoice.ButtonClearValue.Xs}",
+          "borderRadius": "{Radius.ChipChoice.ButtonClearValue.Xs}"
         },
         "type": "composition"
       }

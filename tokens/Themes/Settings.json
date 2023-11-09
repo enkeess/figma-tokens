@@ -736,11 +736,11 @@
     },
     "ChipChoice": {
       "ButtonClearValue": {
-        "Xs": {
+        "Xxs": {
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         },
-        "S": {
+        "Xs": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         }
@@ -1304,12 +1304,12 @@
     },
     "ChipChoice": {
       "ButtonClearValue": {
-        "Xs": {
-          "value": "{Size.ChipChoice.ButtonClearValue.Xs}",
+        "Xxs": {
+          "value": "{Size.ChipChoice.ButtonClearValue.Xxs}",
           "type": "borderRadius"
         },
-        "S": {
-          "value": "{Size.ChipChoice.ButtonClearValue.S}",
+        "Xs": {
+          "value": "{Size.ChipChoice.ButtonClearValue.Xs}",
           "type": "borderRadius"
         }
       }
