@@ -4,7 +4,7 @@
       "Xs": {
         "value": {
           "height": "{Size.Chips.Xs}",
-          "horizontalPadding": "{Space.Chips.Container.Xs}",
+          "horizontalPadding": "{Space.Chips.Container.Padding.Xs}",
           "borderRadius": "{Radius.Chips.Xs}",
           "borderWidth": "{BorderWidth.Chips.Single}"
         },
@@ -13,7 +13,7 @@
       "S": {
         "value": {
           "height": "{Size.Chips.S}",
-          "horizontalPadding": "{Space.Chips.Container.S}",
+          "horizontalPadding": "{Space.Chips.Container.Padding.S}",
           "borderRadius": "{Radius.Chips.S}",
           "borderWidth": "{BorderWidth.Chips.Single}"
         },
@@ -22,7 +22,7 @@
       "M": {
         "value": {
           "height": "{Size.Chips.M}",
-          "horizontalPadding": "{Space.Chips.Container.M}",
+          "horizontalPadding": "{Space.Chips.Container.Padding.M}",
           "borderRadius": "{Radius.Chips.M}",
           "borderWidth": "{BorderWidth.Chips.Single}"
         },
@@ -31,7 +31,7 @@
       "L": {
         "value": {
           "height": "{Size.Chips.L}",
-          "horizontalPadding": "{Space.Chips.Container.L}",
+          "horizontalPadding": "{Space.Chips.Container.Padding.L}",
           "borderRadius": "{Radius.Chips.L}",
           "borderWidth": "{BorderWidth.Chips.Single}"
         },
@@ -41,25 +41,29 @@
     "LabelLayout": {
       "Xs": {
         "value": {
-          "horizontalPadding": "{Space.Chips.LabelLayout.Xs}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.Padding.Xs}",
+          "itemSpacing": "{Space.Chips.LabelLayout.Gap}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "horizontalPadding": "{Space.Chips.LabelLayout.S}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.Padding.S}",
+          "itemSpacing": "{Space.Chips.LabelLayout.Gap}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "horizontalPadding": "{Space.Chips.LabelLayout.M}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.Padding.M}",
+          "itemSpacing": "{Space.Chips.LabelLayout.Gap}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "horizontalPadding": "{Space.Chips.LabelLayout.L}"
+          "horizontalPadding": "{Space.Chips.LabelLayout.Padding.L}",
+          "itemSpacing": "{Space.Chips.LabelLayout.Gap}"
         },
         "type": "composition"
       },

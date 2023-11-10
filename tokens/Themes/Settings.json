@@ -1818,38 +1818,46 @@
     },
     "Chips": {
       "Container": {
-        "Xs": {
-          "value": "(({Size.Chips.Xs} - {Icon.Xs}) / 2) - {BorderWidth.Chips.Single}",
-          "type": "spacing"
-        },
-        "S": {
-          "value": "(({Size.Chips.S} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
-          "type": "spacing"
-        },
-        "M": {
-          "value": "(({Size.Chips.M} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
-          "type": "spacing"
-        },
-        "L": {
-          "value": "(({Size.Chips.L} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
-          "type": "spacing"
+        "Padding": {
+          "Xs": {
+            "value": "(({Size.Chips.Xs} - {Icon.Xs}) / 2) - {BorderWidth.Chips.Single}",
+            "type": "spacing"
+          },
+          "S": {
+            "value": "(({Size.Chips.S} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
+            "type": "spacing"
+          },
+          "M": {
+            "value": "(({Size.Chips.M} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
+            "type": "spacing"
+          },
+          "L": {
+            "value": "(({Size.Chips.L} - {Icon.S}) / 2) - {BorderWidth.Chips.Single}",
+            "type": "spacing"
+          }
         }
       },
       "LabelLayout": {
-        "Xs": {
-          "value": "({Size.Chips.Xs} - {Icon.Xs}) / 2",
-          "type": "spacing"
+        "Padding": {
+          "Xs": {
+            "value": "({Size.Chips.Xs} - {Icon.Xs}) / 2",
+            "type": "spacing"
+          },
+          "S": {
+            "value": "({Size.Chips.S} - {Icon.S}) / 2",
+            "type": "spacing"
+          },
+          "M": {
+            "value": "({Size.Chips.M} - {Icon.S}) / 2",
+            "type": "spacing"
+          },
+          "L": {
+            "value": "({Size.Chips.L} - {Icon.S}) / 2",
+            "type": "spacing"
+          }
         },
-        "S": {
-          "value": "({Size.Chips.S} - {Icon.S}) / 2",
-          "type": "spacing"
-        },
-        "M": {
-          "value": "({Size.Chips.M} - {Icon.S}) / 2",
-          "type": "spacing"
-        },
-        "L": {
-          "value": "({Size.Chips.L} - {Icon.S}) / 2",
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       }
