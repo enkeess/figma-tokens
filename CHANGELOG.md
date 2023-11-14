@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.2.0...npm6.2.1) (2023-11-14)
+
+
+### Bug Fixes
+
+* BorderWidth.Card.Container ([82ba1b2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/82ba1b2b137b63978d1fdf30c1314c29feb6bc78))
+* connected tokens component Tree fore DarckMode, and tree moved in alphabetical order ([c801f7d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c801f7dc31b2fc2ecc13f721869c47842422b2e3))
+
 # [6.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.1.0...npm6.2.0) (2023-11-08)
 
 
