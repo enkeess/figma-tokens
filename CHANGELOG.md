@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.2.1...npm7.0.0) (2023-11-15)
+
+
+### Bug Fixes
+
+* ButtonClearValue renamed sizes composition tokens ([be8fac7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/be8fac7a1e27588fb9b23f78ef11790ec368d1a0))
+* min size calendar & item round ([60c0d63](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/60c0d63bf2e7c92e65c4d84f14bd0a2b24afc205))
+* Size.Calendar.Container.MinHeight.L ([feea6d3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/feea6d3efe0c7cd4ba7f2b272198b357a2191e4b))
+
+
+### Features
+
+* added ButtonClearValue tokens, renamed settings Chips tokens ([0adea69](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0adea6908c64b095857dc0a2e5722d64ce324be4))
+* added CalendarItem size L ([c350b81](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c350b8123180c14686bbc1fc1a9aa9c79d712631))
+* added gap for LabelLayout ([c91c0d8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c91c0d8330488fbde16e667aa201f7a67f456711))
+* Added min size L & fix composition tokens ([e051f8d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e051f8da8ab4e3fc3feb744c653cefb42a56af84))
+* added MinHeight, MinWidth tokens for Calendar component ([54ac2ae](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/54ac2aef59b87b58b21483aa5a7192e94837beee))
+
+
+### BREAKING CHANGES
+
+
+* added the min width Counter in composite token. Removed undue tokens ([db94c28](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/db94c2850bc3924e000c9c1ee9210107d72fff74))
+* renamed ButtonClear size tokens ([f7b09cc](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f7b09cc8da67e1b46c7fad43c9d28fa04d29d8a5))
+* added new layer and tokens - LabelLayout, renamed tokens all Chips component, renamed component FilterChip in ChipChoice ([e7fbc2e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e7fbc2eadf02df61354c64426fc79124a074ee6d))
+
 ## [6.2.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.2.0...npm6.2.1) (2023-11-14)
 
 
