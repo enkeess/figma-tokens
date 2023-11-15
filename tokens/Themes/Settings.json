@@ -594,7 +594,7 @@
             "type": "sizing"
           },
           "L": {
-            "value": "{DimensionTheme.General.8px} * 41",
+            "value": "{DimensionTheme.General.8px} * 43",
             "type": "sizing"
           }
         }
