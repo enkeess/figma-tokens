@@ -730,6 +730,7 @@
       "Components/Pagination/Pagination": "source",
       "Components/Accordion/Accordion": "source",
       "Components/Tree/Tree": "source",
+      "Components/FilterRow/FilterRow": "source",
       "Components/Chips/ChipAssist": "source",
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source"
@@ -1563,6 +1564,7 @@
       "Components/Pagination/Pagination": "source",
       "Components/Accordion/Accordion": "source",
       "Components/Tree/Tree": "source",
+      "Components/FilterRow/FilterRow": "source",
       "Components/Chips/ChipAssist": "source",
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source"

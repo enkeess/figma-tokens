@@ -1,0 +1,11 @@
+{
+  "FilterRow": {
+    "Container": {
+      "value": {
+        "counterAxisSpacing": "{Space.FilterRow.Gap}",
+        "itemSpacing": "{Space.FilterRow.Gap}"
+      },
+      "type": "composition"
+    }
+  }
+}
