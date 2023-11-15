@@ -2637,6 +2637,12 @@
           "type": "spacing"
         }
       }
+    },
+    "FilterRow": {
+      "Gap": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
+      }
     }
   },
   "BorderWidth": {
