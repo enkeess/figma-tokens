@@ -543,6 +543,10 @@
         "M": {
           "value": "{DimensionTheme.General.40px}",
           "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.48px}",
+          "type": "sizing"
         }
       },
       "Marker": {
@@ -558,6 +562,10 @@
             },
             "M": {
               "value": "{DimensionTheme.General.40px}",
+              "type": "sizing"
+            },
+            "L": {
+              "value": "{DimensionTheme.General.48px}",
               "type": "sizing"
             }
           }
@@ -1193,6 +1201,10 @@
         "M": {
           "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
           "type": "borderRadius"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "borderRadius"
         }
       },
       "Button": {
@@ -1202,6 +1214,10 @@
         },
         "M": {
           "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
       },
@@ -1935,6 +1951,16 @@
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
           }
+        },
+        "L": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
         }
       },
       "Content": {
@@ -1949,6 +1975,12 @@
             "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
           }
+        },
+        "L": {
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
         }
       },
       "Container": {
@@ -1957,6 +1989,10 @@
           "type": "spacing"
         },
         "M": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "L": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
