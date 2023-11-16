@@ -366,6 +366,16 @@
             "type": "sizing"
           }
         }
+      },
+      "Container": {
+        "MinWidth": {
+          "value": "{Radius.Popover.Container} * 2 + {Size.Popover.PopoverPointer.Arrow.Height}",
+          "type": "sizing"
+        },
+        "MaxWidth": {
+          "value": "{DimensionTheme.General.8px} * 150",
+          "type": "sizing"
+        }
       }
     },
     "Scroll": {

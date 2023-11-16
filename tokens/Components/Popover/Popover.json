@@ -3,7 +3,9 @@
     "Container": {
       "value": {
         "spacing": "{DimensionTheme.General.24px}",
-        "borderRadius": "{Radius.Popover.Container}"
+        "borderRadius": "{Radius.Popover.Container}",
+        "minWidth": "{Size.Popover.Container.MinWidth}",
+        "maxWidth": "{Size.Popover.Container.MaxWidth}"
       },
       "type": "composition"
     },
