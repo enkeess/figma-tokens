@@ -1538,20 +1538,6 @@
         }
       }
     },
-    "Toggles": {
-      "S": {
-        "Gap": {
-          "value": "{DimensionTheme.General.8px}",
-          "type": "spacing"
-        }
-      },
-      "M": {
-        "Gap": {
-          "value": "{DimensionTheme.General.8px}",
-          "type": "spacing"
-        }
-      }
-    },
     "Fields": {
       "Postfix": {
         "Gap": {

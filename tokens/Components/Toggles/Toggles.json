@@ -1,21 +1,5 @@
 {
   "Toggles": {
-    "Container": {
-      "S": {
-        "value": {
-          "height": "{Size.Toggles.S.Container}",
-          "itemSpacing": "{Space.Toggles.S.Gap}"
-        },
-        "type": "composition"
-      },
-      "M": {
-        "value": {
-          "height": "{Size.Toggles.M.Container}",
-          "itemSpacing": "{Space.Toggles.M.Gap}"
-        },
-        "type": "composition"
-      }
-    },
     "S": {
       "Radio": {
         "Container": {
