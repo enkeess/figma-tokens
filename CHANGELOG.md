@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm7.0.0...npm8.0.0) (2023-11-16)
+
+
+### Bug Fixes
+
+* Popover tokens ([27bac02](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/27bac026f60a4b4e3adbf3a6bd441c7c161f9473))
+* Tooltip tokens ([946eff5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/946eff5c0af2d82b9d1bde9c6f6b438f45c4bbe5))
+
+
+### Features
+
+* added min & max sizes Popover ([634b0d7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/634b0d71eaa394477f6912bb77b66d342f240653))
+* added Min & Max Width for Tolltip ([dec7607](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dec7607f477952dfd3ef511cc1226155c1ccbcb6))
+
+
+### BREAKING CHANGES
+
+
+* **[FF-3701](https://jira.sbercloud.tech/browse/FF-3701):** PopoverPrivate deleted and fixed Popover tokens ([e661e17](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e661e17cbb9659dfe4215f70c1307588c068a9be))
+
 # [7.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm6.2.1...npm7.0.0) (2023-11-15)
 
 
