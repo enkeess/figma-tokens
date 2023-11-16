@@ -3,7 +3,9 @@
     "Container": {
       "value": {
         "spacing": "{DimensionTheme.General.16px}",
-        "borderRadius": "{Radius.Tooltip.Container}"
+        "borderRadius": "{Radius.Tooltip.Container}",
+        "minWidth": "{Size.Tooltip.Container.MinWidth}",
+        "maxWidth": "{Size.Tooltip.Container.MaxWidth}"
       },
       "type": "composition"
     },
@@ -19,8 +21,8 @@
   "TooltipPointer": {
     "Arrow": {
       "value": {
-        "height": "{Size.Popover.PopoverPointer.Arrow.Height}",
-        "width": "{Size.Popover.PopoverPointer.Arrow.Width}"
+        "height": "{Size.Tooltip.TooltipPointer.Arrow.Height}",
+        "width": "{Size.Tooltip.TooltipPointer.Arrow.Width}"
       },
       "type": "composition"
     }

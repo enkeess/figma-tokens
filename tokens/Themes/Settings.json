@@ -850,6 +850,16 @@
             "type": "sizing"
           }
         }
+      },
+      "Container": {
+        "MinWidth": {
+          "value": "{Radius.Tooltip.Container} * 2 + {Size.Tooltip.TooltipPointer.Arrow.Height}",
+          "type": "sizing"
+        },
+        "MaxWidth": {
+          "value": "{DimensionTheme.General.8px} * 52",
+          "type": "sizing"
+        }
       }
     }
   },
