@@ -871,6 +871,30 @@
           "type": "sizing"
         }
       }
+    },
+    "Timeline": {
+      "Track": {
+        "Line": {
+          "Width": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "BeforeHeight": {
+            "value": "{Space.Timeline.Track.Padding}",
+            "type": "sizing"
+          }
+        },
+        "Dot": {
+          "Container": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "sizing"
+          },
+          "SubEvent": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -1417,6 +1441,18 @@
     "Tree": {
       "Item": {
         "ContentLayout": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Timeline": {
+      "Dot": {
+        "Event": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "borderRadius"
+        },
+        "SubEvent": {
           "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         }
@@ -2635,6 +2671,26 @@
         "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
+    },
+    "Timeline": {
+      "Track": {
+        "Padding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Container": {
+        "Gap": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "ContentLayout": {
+          "Padding": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -2775,6 +2831,14 @@
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
+    },
+    "Timeline": {
+      "Track": {
+        "Single": {
+          "value": "{BorderWidth.025m}",
+          "type": "borderWidth"
+        }
+      }
     }
   },
   "Border": {
@@ -2811,6 +2875,24 @@
           "style": "{BorderStyles.Dashed}"
         },
         "type": "border"
+      }
+    },
+    "Timeline": {
+      "TrackLine": {
+        "Dashed": {
+          "value": {
+            "width": "{BorderWidth.Timeline.Track.Single}",
+            "style": "{BorderStyles.Dashed}"
+          },
+          "type": "border"
+        },
+        "Solid": {
+          "value": {
+            "width": "{BorderWidth.Timeline.Track.Single}",
+            "style": "{BorderStyles.Solid}"
+          },
+          "type": "border"
+        }
       }
     }
   },

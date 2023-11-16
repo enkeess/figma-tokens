@@ -1,0 +1,67 @@
+{
+  "Timeline": {
+    "TrackLine": {
+      "Dashed": {
+        "value": {
+          "border": "{Border.Timeline.TrackLine.Dashed}"
+        },
+        "type": "composition"
+      },
+      "Solid": {
+        "value": {
+          "border": "{Border.Timeline.TrackLine.Solid}"
+        },
+        "type": "composition"
+      },
+      "BeforeHeight": {
+        "value": {
+          "height": "{Size.Timeline.Track.Line.BeforeHeight}"
+        },
+        "type": "composition"
+      }
+    },
+    "TrackDot": {
+      "Event": {
+        "value": {
+          "borderRadius": "{Radius.Timeline.Dot.Event}",
+          "borderWidth": "{BorderWidth.Timeline.Track.Single}"
+        },
+        "type": "composition"
+      },
+      "SubEvent": {
+        "value": {
+          "sizing": "{Size.Timeline.Track.Dot.SubEvent}",
+          "borderRadius": "{Radius.Timeline.Dot.SubEvent}"
+        },
+        "type": "composition"
+      },
+      "Container": {
+        "value": {
+          "sizing": "{Size.Timeline.Track.Dot.Container}"
+        },
+        "type": "composition"
+      }
+    },
+    "Track": {
+      "Container": {
+        "value": {
+          "horizontalPadding": "{Space.Timeline.Track.Padding}",
+          "paddingTop": "{Space.Timeline.Track.Padding}"
+        },
+        "type": "composition"
+      }
+    },
+    "ContentLayout": {
+      "value": {
+        "paddingBottom": "{Space.Timeline.Container.ContentLayout.Padding}"
+      },
+      "type": "composition"
+    },
+    "Container": {
+      "value": {
+        "itemSpacing": "{Space.Timeline.Container.Gap}"
+      },
+      "type": "composition"
+    }
+  }
+}
