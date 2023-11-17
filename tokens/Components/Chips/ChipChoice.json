@@ -92,5 +92,14 @@
         "type": "composition"
       }
     }
+  },
+  "ChipChoiceRow": {
+    "Container": {
+      "value": {
+        "counterAxisSpacing": "{Space.Chips.FilterRow.Gap}",
+        "itemSpacing": "{Space.Chips.FilterRow.Gap}"
+      },
+      "type": "composition"
+    }
   }
 }

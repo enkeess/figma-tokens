@@ -1916,6 +1916,12 @@
           "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
+      },
+      "FilterRow": {
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "Tag": {
