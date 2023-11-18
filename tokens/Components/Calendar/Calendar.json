@@ -67,50 +67,15 @@
             "borderRadius": "{Radius.Calendar.Item.L}"
           },
           "type": "composition"
-        },
-        "Content": {
-          "S": {
-            "value": {
-              "horizontalPadding": "{Space.Calendar.Content.S.HorizontalPadding}"
-            },
-            "type": "composition"
-          },
-          "M": {
-            "value": {
-              "horizontalPadding": "{Space.Calendar.Content.M.HorizontalPadding}"
-            },
-            "type": "composition"
-          },
-          "L": {
-            "value": {
-              "horizontalPadding": "{Space.Calendar.Content.M.HorizontalPadding}"
-            },
-            "type": "composition"
-          },
-          "Marker": {
-            "S": {
-              "value": {
-                "height": "{Size.Calendar.Marker}",
-                "borderRadius": "{Radius.Calendar.Marker}"
-              },
-              "type": "composition"
-            },
-            "M": {
-              "value": {
-                "height": "{Size.Calendar.Marker}",
-                "borderRadius": "{Radius.Calendar.Marker}"
-              },
-              "type": "composition"
-            },
-            "L": {
-              "value": {
-                "height": "{Size.Calendar.Marker}",
-                "borderRadius": "{Radius.Calendar.Marker}"
-              },
-              "type": "composition"
-            }
-          }
         }
+      },
+      "Marker": {
+        "value": {
+          "height": "{Size.Calendar.MarkerHeight}",
+          "minWidth": "{Size.Calendar.MarkerMinWidth}",
+          "borderRadius": "{Radius.Calendar.Marker}"
+        },
+        "type": "composition"
       }
     },
     "Button": {

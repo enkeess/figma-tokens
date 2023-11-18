@@ -561,8 +561,12 @@
           "type": "sizing"
         }
       },
-      "Marker": {
+      "MarkerHeight": {
         "value": "{DimensionTheme.General.2px}",
+        "type": "sizing"
+      },
+      "MarkerMinWidth": {
+        "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       },
       "Container": {
@@ -2027,26 +2031,6 @@
           },
           "HorizontalPadding": {
             "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
-            "type": "spacing"
-          }
-        }
-      },
-      "Content": {
-        "M": {
-          "HorizontalPadding": {
-            "value": "{DimensionTheme.General.2px}",
-            "type": "spacing"
-          }
-        },
-        "S": {
-          "HorizontalPadding": {
-            "value": "{DimensionTheme.General.2px}",
-            "type": "spacing"
-          }
-        },
-        "L": {
-          "HorizontalPadding": {
-            "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
           }
         }
