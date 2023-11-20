@@ -72,8 +72,13 @@
       "Marker": {
         "value": {
           "height": "{Size.Calendar.MarkerHeight}",
-          "minWidth": "{Size.Calendar.MarkerMinWidth}",
           "borderRadius": "{Radius.Calendar.Marker}"
+        },
+        "type": "composition"
+      },
+      "LabelDecoratot": {
+        "value": {
+          "horizontalPadding": "{Space.Calendar.LabelDecorator}"
         },
         "type": "composition"
       }

@@ -565,10 +565,6 @@
         "value": "{DimensionTheme.General.2px}",
         "type": "sizing"
       },
-      "MarkerMinWidth": {
-        "value": "{DimensionTheme.General.16px}",
-        "type": "sizing"
-      },
       "Container": {
         "Header": {
           "Weeks": {
@@ -2048,6 +2044,10 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
+      },
+      "LabelDecorator": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "spacing"
       }
     },
     "DropList": {
