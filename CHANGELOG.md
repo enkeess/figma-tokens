@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm8.0.0...npm8.1.0) (2023-11-21)
+
+
+### Bug Fixes
+
+* added composition token for FilterRow ([73eea68](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/73eea6896769b0bfaf7781d3ce77f70e0f7639b3))
+* ChipChoiceRow tokens ([1fe1984](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1fe19842523c32f8bf90a5b191a534a9145d8ae8))
+
+
+### Features
+
+* added FilterRow tokens ([669f4d1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/669f4d1335e4ee75278146d6acbb2b03a272d9b0))
+
 # [8.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm7.0.0...npm8.0.0) (2023-11-16)
 
 
