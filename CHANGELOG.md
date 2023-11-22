@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm8.1.0...npm9.0.0) (2023-11-22)
+
+
+### BREAKING CHANGES
+
+
+* removed undue tokens ([c99f853](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c99f853018150ce8d624326906ede905f3ce6f5c))
+
 # [8.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm8.0.0...npm8.1.0) (2023-11-21)
 
 
