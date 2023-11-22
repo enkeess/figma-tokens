@@ -8,7 +8,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "{Sys.Neutral.DecorDefault}",
+            "color": "rgba(#ffffff, {Opacity.A008})",
             "type": "dropShadow"
           }
         ],
@@ -21,7 +21,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "{Sys.Neutral.DecorDefault}",
+            "color": "rgba(#ffffff, {Opacity.A008})",
             "type": "dropShadow"
           }
         ],
@@ -34,7 +34,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "{Sys.Neutral.DecorDefault}",
+            "color": "rgba(#ffffff, {Opacity.A008})",
             "type": "dropShadow"
           }
         ],
@@ -47,7 +47,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "{Sys.Neutral.DecorDefault}",
+            "color": "rgba(#ffffff, {Opacity.A008})",
             "type": "dropShadow"
           }
         ],
@@ -60,7 +60,7 @@
             "y": "{Dimension.0m}",
             "blur": "{Dimension.0m}",
             "spread": "{Dimension.025m} / 2",
-            "color": "{Sys.Neutral.DecorDefault}",
+            "color": "rgba(#ffffff, {Opacity.A008})",
             "type": "dropShadow"
           }
         ],
