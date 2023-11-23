@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm9.0.0...npm9.1.0) (2023-11-23)
+
+
+### Features
+
+* added Timeline tokens ([7ccc944](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7ccc9444128669fbf2cba9e3e53597a0b65671f1))
+
 # [9.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm8.1.0...npm9.0.0) (2023-11-22)
 
 
