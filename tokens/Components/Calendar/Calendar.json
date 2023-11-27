@@ -76,7 +76,7 @@
         },
         "type": "composition"
       },
-      "LabelDecoratot": {
+      "LabelDecorator": {
         "value": {
           "horizontalPadding": "{Space.Calendar.LabelDecorator}"
         },

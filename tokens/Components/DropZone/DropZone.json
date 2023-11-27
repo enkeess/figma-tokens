@@ -11,7 +11,7 @@
         "type": "composition"
       }
     },
-    "LauoutContent": {
+    "ContentLayout": {
       "Single": {
         "value": {
           "itemSpacing": "{DimensionTheme.General.4px}"
