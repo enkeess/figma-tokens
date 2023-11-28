@@ -76,6 +76,10 @@ function printVariableMap(dictionary: Dictionary) {
   outline-offset: calc(simple-var($inner-map, 'border-width') * -1);
 }
 
+@function color-on-background-with-opacity($color, $background-color, $opacity) {
+  @return color-mix(in srgb, $color, $background-color calc((1 - $opacity) * 100%));
+}
+
 $theme-variables: (
   ${Object.entries(dictionary.tokens)
     .map(
