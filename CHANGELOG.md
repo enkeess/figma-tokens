@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm9.1.0...npm10.0.0) (2023-11-29)
+
+
+### Bug Fixes
+
+* BoxShadow.Elevation ([68f7989](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/68f7989614d841a8fd65d941e7e92a26d7d870bd))
+
+
+### Features
+
+* **[FF-3448](https://jira.sbercloud.tech/browse/FF-3448):** add color-with-opacity function ([6134393](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6134393bcaad1fd7a987ddf29bd60e4eca5caf3b))
+
+
+### BREAKING CHANGES
+
+
+* renamed Calendar.Item.LabelDecoratot & DropZone.LauoutContent.Single ([bbd3181](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bbd31818313bff9abcb97160a58ab809f3d1e092))
+* added tokens calendar, removed undue tokens ([5e9b2dc](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5e9b2dc1ca96cd957f09f618887002ba1a87b232))
+
 # [9.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm9.0.0...npm9.1.0) (2023-11-23)
 
 
