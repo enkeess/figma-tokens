@@ -733,7 +733,8 @@
       "Components/Chips/ChipAssist": "source",
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
-      "Components/Timeline/Timeline": "source"
+      "Components/Timeline/Timeline": "source",
+      "Components/Carousel/Carousel": "source"
     },
     "group": "Mode"
   },
@@ -1567,7 +1568,8 @@
       "Components/Chips/ChipAssist": "source",
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
-      "Components/Timeline/Timeline": "source"
+      "Components/Timeline/Timeline": "source",
+      "Components/Carousel/Carousel": "source"
     },
     "group": "Mode"
   }

@@ -895,6 +895,18 @@
           }
         }
       }
+    },
+    "Carousel": {
+      "Control": {
+        "WrapWidth": {
+          "value": "({DimensionTheme.General.24px} - {DimensionTheme.General.4px})",
+          "type": "sizing"
+        },
+        "Container": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -1454,6 +1466,14 @@
         },
         "SubEvent": {
           "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Carousel": {
+      "Control": {
+        "Container": {
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         }
       }
@@ -2673,6 +2693,20 @@
             "value": "{DimensionTheme.General.32px}",
             "type": "spacing"
           }
+        }
+      }
+    },
+    "Carousel": {
+      "SlidersWrap": {
+        "PaddingTop": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      },
+      "ContentLayout": {
+        "Padding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       }
     }

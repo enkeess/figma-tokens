@@ -1,0 +1,33 @@
+{
+  "Carousel": {
+    "Control": {
+      "Wrap": {
+        "value": {
+          "width": "{Size.Carousel.Control.WrapWidth}"
+        },
+        "type": "composition"
+      },
+      "Container": {
+        "value": {
+          "sizing": "{Size.Carousel.Control.Container}",
+          "borderRadius": "{Radius.Carousel.Control.Container}",
+          "borderWidth": "{BorderWidth.025m}"
+        },
+        "type": "composition"
+      }
+    },
+    "SlidersWrap": {
+      "value": {
+        "paddingTop": "{Space.Carousel.SlidersWrap.PaddingTop}"
+      },
+      "type": "composition"
+    },
+    "ContentLayout": {
+      "value": {
+        "verticalPadding": "{Space.Carousel.ContentLayout.Padding}",
+        "horizontalPadding": "{Space.Carousel.ContentLayout.Padding}"
+      },
+      "type": "composition"
+    }
+  }
+}
