@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm10.0.0...npm11.0.0) (2023-12-06)
+
+
+### BREAKING CHANGES
+
+
+* **FF-3816:** move from sbercloud to snack-ui scope ([849ce5b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/849ce5b149f79dee21627bf370e36567ad488751))
+
 # [10.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm9.1.0...npm10.0.0) (2023-11-29)
 
 
