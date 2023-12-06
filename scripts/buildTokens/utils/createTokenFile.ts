@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 
+import { AnyRecord } from '../../../types/any-record';
 import { TOKENS_BUILD_DIRECTORY } from '../../constants';
 
 export const createTokenFile = async ({
@@ -9,7 +10,7 @@ export const createTokenFile = async ({
 }: {
   name: string;
   subDir: string;
-  resolvedTokens: Record<string, any>;
+  resolvedTokens: AnyRecord;
 }) => {
   const tokenSetDirectory = `${TOKENS_BUILD_DIRECTORY}/${subDir}`;
   await fs.mkdir(tokenSetDirectory, { recursive: true });

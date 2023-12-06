@@ -1,10 +1,10 @@
 # Figma tokens
 
-[Репозиторий](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens) для хранения и обработки фигма-токенов дизайн-системы компании [Cloud](https://sbercloud.ru/) и сообщетсва [TeamSnack](https://t.me/+tN0DDzHaDVc3M2Iy)
+Пакет figma-токенов дизайн-системы компании [Cloud.ru](https://cloud.ru/) и сообщества [TeamSnack](https://t.me/+tN0DDzHaDVc3M2Iy)
 
 * [Макеты Figma](https://www.figma.com/files/1101513230643708615/team/1194627249980298820/DS-(FF))
 * Инструмент для пресборки токенов: [Token Transformer](https://github.com/tokens-studio/figma-plugin/tree/main/token-transformer)
-* Инструмент для сборки json-токенов в соответсвующие стилевые файлы: [Style Dictionary](https://amzn.github.io/style-dictionary/)
+* Инструмент для сборки json-токенов в соответствующие стилевые файлы: [Style Dictionary](https://amzn.github.io/style-dictionary/)
 
 
 ## Начало работы
@@ -21,9 +21,9 @@
 
 ### Семантика токенов:
 
-Есть 3 слоя токенов - базовые, тематические и компонентные (лежат в папках Base, Theme и Components соответсвенно)
+Есть 3 слоя токенов - базовые, тематические и компонентные (лежат в папках Base, Theme и Components соответственно)
 * Базовые - самые основные токены; внутри поделены на токены цветов, шрифтов и анатомии
-* Тематические токены - ссылаются на базовые токены; сущетсвуют в двух модификациях для цветов - Light и Dark
+* Тематические токены - ссылаются на базовые токены; существуют в двух модификациях для цветов - Light и Dark
 * Токены компонентов - ссылаются на тематические токены (либо напрямую на базовые, если не требуется темизация каких-либо св-в); поделены покомпонентно
 
 ![Tokens Structure](assets/tokens-structure.jpg)
@@ -46,7 +46,7 @@
 }
 ```
 * Случаи-исключения:
-    * Токен для св-ва outline - в фигме для него нет специального типа, поэтому для него используется композитный токен типа border. Соответвенно, для него понадобится свой миксин `outline-var`
+    * Токен для св-ва outline - в figma для него нет специального типа, поэтому для него используется композитный токен типа border. Соответственно, для него понадобится свой миксин `outline-var`
 ```scss
 .button {
   &:focus-visible {
@@ -58,14 +58,14 @@
 ## Связи слоёв токенов
 ![Tokens Structure](assets/TokenScheme.jpg)
 
-1. **Base/Colors (References pallete)**
+1. **Base/Colors (References palette)**
 Базовые переменные для формирования System palette
 Это наборы тонов для каждого цвета, где каждый тон имеет порядковый номер. Каждый цвет разложен на 20 тонов от самого тёмного до самого светлого.
 Для единого представления каждым человеком о цвете, они именуются простейшими цветами радуги.
 Любые изменения переменных отразятся на System palette
 
 2. **Themes/Color (System palette)**
-Набор семантических стилей, применяется на Components или его элементах напрямую как в фигма, так и коде.  Эти стили не используются в Composition токенах. Включение цвета в Composition токены приведет к порождению большого количества однообразных токенов в которых меняется только цвет, так как при изменении состояния компонента необходимо менять цвет, следовательно возникнет потребность в создании еше одного Composition токена. 
+Набор семантических стилей, применяется на Components или его элементах напрямую как в figma, так и коде.  Эти стили не используются в Composition токенах. Включение цвета в Composition токены приведет к порождению большого количества однообразных токенов в которых меняется только цвет, так как при изменении состояния компонента необходимо менять цвет, следовательно возникнет потребность в создании еше одного Composition токена. 
 System палитра, в отличии от References, обладает меньшим количеством цветов.
 System палитра имеет 2 модификации - темная и светлая. Эти модификации наследуют разные тона References палитры, наследие тонов заведомо распределено и переопределяется при переключении модификации.
 Любые изменения переменных отразятся на Components.
@@ -111,11 +111,11 @@ Effects имеет 2 модификации - темная и светлая. Э
 
 ### Как использовать токены в приложении
 
-1. Подключите пакет `@sbercloud/figma-tokens` актуальной версии
+1. Подключите пакет `@snack-uikit/figma-tokens` актуальной версии
 3. Подключите файл с токенами, а затем поместите их в нужное место, используя вспомогательные функции `var`, `simple-var` или `composite-var`
   * scss
   ```scss
-  @import '@sbercloud/figma-tokens/build/scss/styles-theme-variables';
+  @import '@snack-uikit/figma-tokens/build/scss/styles-theme-variables';
 
   .wrapper {
     color: $sys-primary-text-main-enabled;
@@ -127,7 +127,7 @@ Effects имеет 2 модификации - темная и светлая. Э
   * ts
   ```typescript
   import { styled } from '@linaria/react';
-  import { compositeVar, simpleVar, themeVars } from '@sbercloud/figma-tokens';
+  import { compositeVar, simpleVar, themeVars } from '@snack-uikit/figma-tokens';
 
   export const Wrapper = styled.div`
     color: ${simpleVar(themeVars.sys.primary.textMainEnabled)};
@@ -137,13 +137,13 @@ Effects имеет 2 модификации - темная и светлая. Э
   ```
 
 ### Как использовать токены в компонентах uikit-a
-1. Проверьте, что в uikit подключен пакет `@sbercloud/figma-tokens` актуальной версии
-2. Создайте файл для компонента (напр., `ButtonFilled.tsx`) и scss-файл для стилей (`styles.module.scss`), который импортится в файл компонента
+1. Проверьте, что в uikit подключен пакет `@snack-uikit/figma-tokens` актуальной версии
+2. Создайте файл для компонента (напр., `ButtonFilled.tsx`) и scss-файл для стилей (`styles.module.scss`), который импортируется в файл компонента
 3. Подключите файлы с токенами в `styles.module.scss` (тематические, компонентные - какие нужны):
     * файлы с токенами компонентов по умолчанию уже включают в себя тематические токены
 ```scss
-@import '@sbercloud/figma-tokens/build/scss/styles-theme-variables';
-@import '@sbercloud/figma-tokens/build/scss/components/styles-tokens-***';
+@import '@snack-uikit/figma-tokens/build/scss/styles-theme-variables';
+@import '@snack-uikit/figma-tokens/build/scss/components/styles-tokens-***';
 ```
 4. Соберите стили компонента по макетам в figma, подключая токены через `var`, `simple-var` или `composite-var`
     * в scss можно также добавлять миксины и различные функции, чтобы убирать дублирование кода, пример:
@@ -236,8 +236,8 @@ export const ButtonFilled = ({ label, size, variant, disabled, loading }: Button
             * `scripts/buildStyleFiles/utils/getTSThemeVariablesConfig.ts` - конфиг для сборки ts-файла с токенами
             * `scripts/buildStyleFiles/utils/getComponentStylesConfig.ts` - конфиг для сборки компонентных scss файлов
 
-## Как создать свою тему
+<!-- ## Как создать свою тему -->
 
-TODO: добавить доки по хьютону
+<!-- TODO: добавить доки по хьютону -->
 
-TODO: добавить доки по созданию форка
+<!-- TODO: добавить доки по созданию форка -->

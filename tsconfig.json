@@ -1,5 +1,5 @@
 {
-  "extends": "@sbercloud/ft-config-tsconfig",
+  "extends": "@cloud-ru/ft-config-tsconfig",
   "ts-node": {
     "files": true
   },

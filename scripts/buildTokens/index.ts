@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 
 import themeConfig from '../../tokens/$themes.json';
+import { AnyRecord } from '../../types/any-record';
 import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
 import { createTokenFile, generateTokens } from './utils';
 
@@ -24,7 +25,8 @@ export const buildTokens = async () => {
       paths.map(currentPath => fs.readFile(`${TOKENS_DIRECTORY}/${currentPath}.json`, { encoding: 'utf8' })),
     );
 
-    const rawTokens: Record<string, any> = result.reduce((result, currentFile, index) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const rawTokens: AnyRecord = result.reduce((result, currentFile, index) => {
       result[paths[index]] = JSON.parse(currentFile);
       return result;
     }, {});

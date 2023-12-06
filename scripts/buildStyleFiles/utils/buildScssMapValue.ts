@@ -1,5 +1,6 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
+import { AnyRecord } from '../../../types/any-record';
 import { BASE_INDENT, BOX_SHADOW_CSS_PROP, COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../constants';
 import { figmaTokenToCssProps, objectTokenTransform, toKebabCase } from '../utils';
 
@@ -41,7 +42,8 @@ export function buildScssMapValue({
   const indent = new Array(depth).fill(BASE_INDENT).join('');
   const indentPlus1 = indent + BASE_INDENT;
 
-  const tokenToString = (token: Record<string, any>, formatter: (key: string, value: any) => string) =>
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const tokenToString = (token: AnyRecord, formatter: (key: string, value: any) => string) =>
     Object.entries(token)
       .map(([key, value]) => formatter(key, value))
       .join(`,\n${indentPlus1}`);

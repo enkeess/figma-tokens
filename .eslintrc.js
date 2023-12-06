@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@sbercloud/eslint-config/base'],
+  extends: ['@cloud-ru/eslint-config/base'],
 };

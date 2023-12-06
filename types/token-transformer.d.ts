@@ -9,9 +9,9 @@ declare module 'token-transformer' {
   };
 
   function transformTokens(
-    rawTokens: Record<string, any>,
+    rawTokens: AnyRecord,
     setsToUse?: string[],
     excludes?: string[],
     transformerOptions?: TransformerOptions,
-  ): Record<string, any>;
+  ): AnyRecord;
 }

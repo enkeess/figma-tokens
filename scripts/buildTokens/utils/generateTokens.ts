@@ -1,5 +1,6 @@
 import { TransformerOptions, transformTokens } from 'token-transformer';
 
+import { AnyRecord } from '../../../types/any-record';
 import { enhanceTree } from './enhanceTree';
 
 const DEFAULT_TRANSFORMER_OPTIONS: TransformerOptions = {
@@ -13,7 +14,7 @@ export const generateTokens = ({
   setsToInclude,
   options,
 }: {
-  allTokens: Record<string, any>;
+  allTokens: AnyRecord;
   allSets: string[];
   setsToInclude: string[];
   options?: TransformerOptions;
@@ -30,7 +31,7 @@ export const generateTokens = ({
 
   // token-transformer doesn't keep reference to typography token, so need this hack
   if (options?.preserveRawValue) {
-    enhanceTree<Record<string, any>>({
+    enhanceTree<AnyRecord>({
       root: resolvedTokens,
       getChildren: node => (node.value ? [] : Object.values(node)),
       enhance: node => {
