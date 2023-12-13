@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm11.0.0...npm11.1.0) (2023-12-13)
+
+
+### Features
+
+* added Carousel tokens ([7f6a6ba](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7f6a6ba62e4e3df97b39c7b4ce48c83bd59ebbf9))
+
 # [11.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm10.0.0...npm11.0.0) (2023-12-06)
 
 
