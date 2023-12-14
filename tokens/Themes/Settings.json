@@ -94,6 +94,10 @@
     },
     "Card": {
       "Picture": {
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        },
         "M": {
           "value": "{DimensionTheme.General.40px}",
           "type": "sizing"
@@ -1563,8 +1567,18 @@
     "Card": {
       "Padding": {
         "Container": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "spacing"
+          "S": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          }
         },
         "CheckBadge": {
           "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",

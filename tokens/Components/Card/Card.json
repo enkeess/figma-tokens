@@ -16,10 +16,25 @@
       }
     },
     "Content": {
+      "S": {
+        "Container": {
+          "value": {
+            "spacing": "{Space.Card.Padding.Container.S}",
+            "itemSpacing": "{Space.Card.Gap.S}"
+          },
+          "type": "composition"
+        },
+        "Header": {
+          "value": {
+            "itemSpacing": "{Space.Card.Gap.S}"
+          },
+          "type": "composition"
+        }
+      },
       "M": {
         "Container": {
           "value": {
-            "spacing": "{Space.Card.Padding.Container}",
+            "spacing": "{Space.Card.Padding.Container.M}",
             "itemSpacing": "{Space.Card.Gap.M}"
           },
           "type": "composition"
@@ -34,7 +49,7 @@
       "L": {
         "Container": {
           "value": {
-            "spacing": "{Space.Card.Padding.Container}",
+            "spacing": "{Space.Card.Padding.Container.L}",
             "itemSpacing": "{Space.Card.Gap.L}"
           },
           "type": "composition"
@@ -48,6 +63,14 @@
       }
     },
     "Picture": {
+      "S": {
+        "value": {
+          "sizing": "{Size.Card.Picture.S}",
+          "borderWidth": "{BorderWidth.Card.Picture}",
+          "borderRadius": "{Radius.Card.Picture}"
+        },
+        "type": "composition"
+      },
       "M": {
         "value": {
           "sizing": "{Size.Card.Picture.M}",
@@ -78,12 +101,6 @@
         },
         "type": "composition"
       }
-    },
-    "Footer": {
-      "value": {
-        "spacing": "{Space.Card.Padding.Container}"
-      },
-      "type": "composition"
     },
     "Check": {
       "value": {
