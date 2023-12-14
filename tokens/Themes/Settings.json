@@ -254,27 +254,29 @@
     },
     "Pagination": {
       "PageButton": {
-        "MininalWidth": {
-          "value": "{Space.Pagination.PageButton.Single} + {Size.Pagination.PageButton.LimiterFigma} + {Space.Pagination.PageButton.Single}",
-          "type": "sizing"
-        },
-        "LimiterFigma": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "sizing"
+        "Size": {
+          "Xs": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          },
+          "S": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          }
         }
       },
       "PageButtonSlider": {
         "Container": {
-          "value": "{DimensionTheme.General.32px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
         "DotPage": {
           "Default": {
-            "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.8px}",
             "type": "sizing"
           },
           "Interaction": {
-            "value": "{DimensionTheme.General.16px}",
+            "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
             "type": "sizing"
           }
         }
@@ -1170,7 +1172,11 @@
     },
     "Pagination": {
       "PageButton": {
-        "Single": {
+        "Xs": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        },
+        "S": {
           "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
@@ -1914,7 +1920,11 @@
     },
     "Pagination": {
       "PageButton": {
-        "Single": {
+        "Xs": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "S": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
