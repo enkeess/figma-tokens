@@ -464,7 +464,7 @@
     },
     "Breadcrumbs": {
       "Xs": {
-        "value": "{DimensionTheme.General.24px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       },
       "S": {
@@ -1881,7 +1881,7 @@
     "Breadcrumbs": {
       "SeparatorPadding": {
         "Xs": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         },
         "S": {
