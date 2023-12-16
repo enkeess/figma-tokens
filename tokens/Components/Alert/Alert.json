@@ -11,15 +11,21 @@
         },
         "type": "composition"
       },
-      "ContentLayout": {
+      "Body": {
         "value": {
-          "itemSpacing": "{Space.Alert.Container.ContentLayout.Gap}"
+          "itemSpacing": "{Space.Alert.Container.Body.Gap}"
         },
         "type": "composition"
       },
-      "TextLayout": {
+      "Footer": {
         "value": {
-          "paddingTop": "{Space.Alert.Container.ContentLayout.TextLayout.PaddingTop}"
+          "itemSpacing": "{Space.Alert.Container.Footer.Gap}"
+        },
+        "type": "composition"
+      },
+      "ContentLayout": {
+        "value": {
+          "paddingTop": "{Space.Alert.Container.ContentLayout.PaddingTop}"
         },
         "type": "composition"
       }
@@ -27,9 +33,17 @@
     "Button": {
       "ButtonClose": {
         "value": {
-          "height": "{Size.Alert.ButtonClose}",
-          "width": "{Size.Alert.ButtonClose}",
-          "borderRadius": "{Radius.Alert.ButtonClose}"
+          "height": "{Size.Alert.Button}",
+          "width": "{Size.Alert.Button}",
+          "borderRadius": "{Radius.Alert.Button}"
+        },
+        "type": "composition"
+      },
+      "ButtonAction": {
+        "value": {
+          "height": "{Size.Alert.Button}",
+          "itemSpacing": "{Space.Alert.Button.Gap}",
+          "borderRadius": "{Radius.Alert.Button}"
         },
         "type": "composition"
       }

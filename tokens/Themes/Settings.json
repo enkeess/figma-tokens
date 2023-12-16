@@ -631,7 +631,7 @@
       }
     },
     "Alert": {
-      "ButtonClose": {
+      "Button": {
         "value": "{DimensionTheme.General.24px}",
         "type": "sizing"
       }
@@ -1317,7 +1317,7 @@
       }
     },
     "Alert": {
-      "ButtonClose": {
+      "Button": {
         "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
@@ -2211,20 +2211,32 @@
           "type": "spacing"
         },
         "Gap": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
           "type": "spacing"
         },
-        "ContentLayout": {
+        "Body": {
           "Gap": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
-          },
-          "TextLayout": {
-            "PaddingTop": {
-              "value": "{DimensionTheme.General.2px}",
-              "type": "spacing"
-            }
           }
+        },
+        "Footer": {
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          }
+        },
+        "ContentLayout": {
+          "PaddingTop": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Button": {
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       }
     },
