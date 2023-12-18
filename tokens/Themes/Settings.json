@@ -2301,20 +2301,16 @@
           }
         },
         "UserAction": {
-          "Gap": {
-            "value": "{DimensionTheme.General.16px}",
-            "type": "spacing"
-          },
-          "FromIcon": {
+          "HorizontPadding": {
             "value": "{DimensionTheme.General.8px}",
-            "type": "spacing"
-          },
-          "FromLabel": {
-            "value": "{DimensionTheme.General.16px}",
             "type": "spacing"
           },
           "ContentLayout": {
             "Gap": {
+              "value": "{DimensionTheme.General.8px}",
+              "type": "spacing"
+            },
+            "HorizontPadding": {
               "value": "{DimensionTheme.General.8px}",
               "type": "spacing"
             }

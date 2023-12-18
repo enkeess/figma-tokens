@@ -1,28 +1,18 @@
 {
   "ToasterUserAction": {
     "Toast": {
-      "ContainerLabelOnly": {
+      "Container": {
         "value": {
           "height": "{Size.Toaster.Toast.UserAction.Container}",
-          "itemSpacing": "{Space.Toaster.Toast.UserAction.Gap}",
-          "horizontalPadding": "{Space.Toaster.Toast.UserAction.FromLabel}",
+          "horizontalPadding": "{Space.Toaster.Toast.UserAction.HorizontPadding}",
           "borderRadius": "{Radius.Toaster.Toast.UserAction.Container}"
         },
         "type": "composition"
       },
-      "ContainerWithIcon": {
+      "ContentLayout": {
         "value": {
-          "height": "{Size.Toaster.Toast.UserAction.Container}",
-          "itemSpacing": "{Space.Toaster.Toast.UserAction.Gap}",
-          "paddingLeft": "{Space.Toaster.Toast.UserAction.FromIcon}",
-          "paddingRight": "{Space.Toaster.Toast.UserAction.FromLabel}",
-          "borderRadius": "{Radius.Toaster.Toast.UserAction.Container}"
-        },
-        "type": "composition"
-      },
-      "Content": {
-        "value": {
-          "itemSpacing": "{Space.Toaster.Toast.UserAction.ContentLayout.Gap}"
+          "itemSpacing": "{Space.Toaster.Toast.UserAction.ContentLayout.Gap}",
+          "horizontalPadding": "{Space.Toaster.Toast.UserAction.ContentLayout.HorizontPadding}"
         },
         "type": "composition"
       }
