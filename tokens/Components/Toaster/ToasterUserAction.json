@@ -22,7 +22,7 @@
       },
       "Content": {
         "value": {
-          "itemSpacing": "{Space.Toaster.Toast.UserAction.Content.Gap}"
+          "itemSpacing": "{Space.Toaster.Toast.UserAction.ContentLayout.Gap}"
         },
         "type": "composition"
       }

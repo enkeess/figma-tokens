@@ -649,16 +649,16 @@
       },
       "Toast": {
         "SystemEvent": {
+          "Button": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          },
           "ButtonClose": {
             "value": "{DimensionTheme.General.24px}",
             "type": "sizing"
           },
           "ProgressBar": {
             "value": "{DimensionTheme.General.4px}",
-            "type": "sizing"
-          },
-          "IconContainer": {
-            "value": "{Dimension.5m}",
             "type": "sizing"
           },
           "Container": {
@@ -1339,11 +1339,7 @@
             "value": "{DimensionTheme.General.16px}",
             "type": "borderRadius"
           },
-          "IconContainer": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "borderRadius"
-          },
-          "ButtonClose": {
+          "Button": {
             "value": "{DimensionTheme.General.8px}",
             "type": "borderRadius"
           }
@@ -2284,11 +2280,19 @@
               "value": "{DimensionTheme.General.16px}",
               "type": "spacing"
             },
-            "Content": {
+            "Body": {
+              "Gap": {
+                "value": "{DimensionTheme.General.16px}",
+                "type": "spacing"
+              }
+            },
+            "Footer": {
               "Gap": {
                 "value": "{DimensionTheme.General.8px}",
                 "type": "spacing"
-              },
+              }
+            },
+            "ContentLayout": {
               "PaddingTop": {
                 "value": "{DimensionTheme.General.2px}",
                 "type": "spacing"
@@ -2309,7 +2313,7 @@
             "value": "{DimensionTheme.General.16px}",
             "type": "spacing"
           },
-          "Content": {
+          "ContentLayout": {
             "Gap": {
               "value": "{DimensionTheme.General.8px}",
               "type": "spacing"
