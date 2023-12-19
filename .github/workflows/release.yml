@@ -1,0 +1,61 @@
+name: Release
+
+on:
+  # push:
+  #   branches: [brand]
+  # schedule:
+  #   - cron: '0 8 * * 1,4'
+  #   # scheduled at 07:00 every Monday and Thursday
+  workflow_dispatch:
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: ESLint
+        uses: "./.github/actions/eslint"
+
+  typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Typescript
+        uses: "./.github/actions/typescript"
+
+  publish:
+    needs: [eslint, typescript]
+    runs-on: ubuntu-latest
+    env:
+      HUSKY: 0
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: "brand"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+
+      - name: Publish latest
+        env:
+          NPM_TOKEN: ${{ secrets.CI_NPM_TOKEN }}
+        run: |
+          git config --global user.email "example@expample.com"
+          git config --global user.name "exapmle-user"
+          npm config --global set //registry.npmjs.org/:_authToken=${{ secrets.CI_NPM_TOKEN }}
+          npm ci
+          npm run prepack
+          npm run prepareForPublic
+          npm run build:all
+          npm publish
+
+        shell: bash
