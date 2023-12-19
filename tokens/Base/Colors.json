@@ -84,83 +84,83 @@
     },
     "Brand": {
       "5": {
-        "value": "#130f25",
+        "value": "#081805",
         "type": "color"
       },
       "10": {
-        "value": "#18132e",
+        "value": "#0a1e05",
         "type": "color"
       },
       "15": {
-        "value": "#1e1838",
+        "value": "#0d2407",
         "type": "color"
       },
       "20": {
-        "value": "#221a3e",
+        "value": "#0e2806",
         "type": "color"
       },
       "25": {
-        "value": "#281f49",
+        "value": "#103007",
         "type": "color"
       },
       "30": {
-        "value": "#382a62",
+        "value": "#174109",
         "type": "color"
       },
       "35": {
-        "value": "#473778",
+        "value": "#215112",
         "type": "color"
       },
       "40": {
-        "value": "#513f88",
+        "value": "#265d16",
         "type": "color"
       },
       "45": {
-        "value": "#5b4796",
+        "value": "#2c671b",
         "type": "color"
       },
       "50": {
-        "value": "#6851a6",
+        "value": "#337420",
         "type": "color"
       },
       "55": {
-        "value": "#794ed3",
+        "value": "#408a2a",
         "type": "color"
       },
       "60": {
-        "value": "#997adc",
+        "value": "#60a34f",
         "type": "color"
       },
       "65": {
-        "value": "#b197e5",
+        "value": "#81b973",
         "type": "color"
       },
       "70": {
-        "value": "#c5b2f1",
+        "value": "#a0cd95",
         "type": "color"
       },
       "75": {
-        "value": "#decdfb",
+        "value": "#c1e2b9",
         "type": "color"
       },
       "80": {
-        "value": "#ebdefd",
+        "value": "#d6ecd1",
         "type": "color"
       },
       "85": {
-        "value": "#f0e7fd",
+        "value": "#e1f1de",
         "type": "color"
       },
       "90": {
-        "value": "#f6effe",
+        "value": "#ebf6e9",
         "type": "color"
       },
       "95": {
-        "value": "#faf7fe",
+        "value": "#f5faf4",
         "type": "color"
       },
       "99": {
-        "value": "#fdfbff",
+        "value": "#fafdf9",
         "type": "color"
       }
     },
