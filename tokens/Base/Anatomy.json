@@ -138,7 +138,7 @@
     }
   },
   "DimensionModule": {
-    "value": "8{px}",
+    "value": "12{px}",
     "type": "other",
     "description": "The basic module of the indentation and dimension system"
   },
