@@ -1,22 +1,16 @@
 {
   "Stepper": {
     "Step": {
-      "Content": {
-        "value": {
-          "paddingRight": "{Space.Stepper.Step.Content.PaddingRight}"
-        },
-        "type": "composition"
-      },
       "Container": {
         "value": {
-          "itemSpacing": "{Space.Stepper.Step.Container}"
+          "itemSpacing": "{Space.Stepper.Step.Container.Gap}",
+          "paddingRight": "{Space.Stepper.Step.Container.PaddingRight}"
         },
         "type": "composition"
       },
       "Track": {
         "value": {
-          "itemSpacing": "{Space.Stepper.Step.Track.Gap}",
-          "paddingRight": "{Space.Stepper.Step.Track.PaddingRight}"
+          "itemSpacing": "{Space.Stepper.Step.Track.Gap}"
         },
         "type": "composition"
       },

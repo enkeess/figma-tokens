@@ -2338,21 +2338,17 @@
     },
     "Stepper": {
       "Step": {
-        "Content": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
           "PaddingRight": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
           }
         },
-        "Container": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        },
         "Track": {
-          "PaddingRight": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "spacing"
-          },
           "Gap": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
