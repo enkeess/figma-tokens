@@ -236,8 +236,24 @@ export const ButtonFilled = ({ label, size, variant, disabled, loading }: Button
             * `scripts/buildStyleFiles/utils/getTSThemeVariablesConfig.ts` - конфиг для сборки ts-файла с токенами
             * `scripts/buildStyleFiles/utils/getComponentStylesConfig.ts` - конфиг для сборки компонентных scss файлов
 
-<!-- ## Как создать свою тему -->
+## Создание собственной темы
+
+Видео инструкция представлена по [ссылке](https://youtu.be/5XBO013F3NI)
+
+### Настройка форка figma-tokens
+
+1. Переходим на репозиторий с [токенами](https://github.com/cloud-ru-tech/figma-tokens) и создаем форк
+2. Добавляем в Repository secrets переменную `CI_NPM_TOKEN` с Access токеном из npmjs (для публикации собственного пакета)
+3. Создаем ветку `brand` и переносим в корень содержимое папки `guthub-settings-example`
+4. Подставляем собственные значения (`YOUR_PACKAGE_NAME`, `YOUR_BRAND`, `YOUR USERNAME`, `YOUR_USERNAME`)  в `patch.package.json`
+5. Пушим измения в `origin/brand`
+6. Меняем `default branch` в настройках репозитория на `brand`
+
+### Рекомендации*
+1. Ветка `brand` является корневой для хранения настроек для собственного бренда
+2. Новые коммиты в `brand` добавляются только через `Pull Request`
+3. Запретить пуши в ветку `master` и держать эту ветку синхронизированной с оригиналом
+4. Для автоматической синхронизации форка и ребейза ветки `brand` использовать воркфлоу `Auto fork sync`
+5. Для выпуска превью версии пакета использовать воркфлоу `Release Preview`
 
 <!-- TODO: добавить доки по хьютону -->
-
-<!-- TODO: добавить доки по созданию форка -->
