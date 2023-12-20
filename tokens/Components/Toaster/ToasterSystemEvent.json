@@ -44,7 +44,8 @@
         "ButtonAction": {
           "value": {
             "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Button}",
-            "height": "{Size.Toaster.Toast.SystemEvent.Button}"
+            "height": "{Size.Toaster.Toast.SystemEvent.Button}",
+            "horizontalPadding": "{Space.Toaster.SystemEvent.Padding}"
           },
           "type": "composition"
         }
