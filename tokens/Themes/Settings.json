@@ -676,15 +676,9 @@
     },
     "Stepper": {
       "Step": {
-        "Track": {
-          "Container": {
-            "value": "{DimensionTheme.General.32px}",
-            "type": "sizing"
-          },
-          "Line": {
-            "value": "{DimensionTheme.General.2px}",
-            "type": "sizing"
-          }
+        "TrackLine": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "sizing"
         },
         "Status": {
           "value": "{DimensionTheme.General.32px}",
@@ -1361,7 +1355,11 @@
     "Stepper": {
       "Step": {
         "Status": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        },
+        "TrackLine": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "borderRadius"
         }
       }
@@ -2341,14 +2339,24 @@
     "Stepper": {
       "Step": {
         "Content": {
-          "Gap": {
+          "PaddingRight": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
           }
         },
-        "Track": {
-          "value": "{DimensionTheme.General.8px}",
+        "Container": {
+          "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
+        },
+        "Track": {
+          "PaddingRight": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         }
       }
     },

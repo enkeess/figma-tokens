@@ -1,13 +1,24 @@
 {
   "Stepper": {
     "Step": {
+      "Content": {
+        "value": {
+          "paddingRight": "{Space.Stepper.Step.Content.PaddingRight}"
+        },
+        "type": "composition"
+      },
       "Container": {
-        "Content": {
-          "value": {
-            "itemSpacing": "{Space.Stepper.Step.Content.Gap}"
-          },
-          "type": "composition"
-        }
+        "value": {
+          "itemSpacing": "{Space.Stepper.Step.Container}"
+        },
+        "type": "composition"
+      },
+      "Track": {
+        "value": {
+          "itemSpacing": "{Space.Stepper.Step.Track.Gap}",
+          "paddingRight": "{Space.Stepper.Step.Track.PaddingRight}"
+        },
+        "type": "composition"
       },
       "Status": {
         "Container": {
@@ -19,20 +30,12 @@
           "type": "composition"
         }
       },
-      "Track": {
-        "Container": {
-          "value": {
-            "height": "{Size.Stepper.Step.Track.Container}",
-            "horizontalPadding": "{Space.Stepper.Step.Track}"
-          },
-          "type": "composition"
+      "TrackLine": {
+        "value": {
+          "height": "{Size.Stepper.Step.TrackLine}",
+          "borderRadius": "{Radius.Stepper.Step.TrackLine}"
         },
-        "Line": {
-          "value": {
-            "height": "{Size.Stepper.Step.Track.Line}"
-          },
-          "type": "composition"
-        }
+        "type": "composition"
       }
     }
   }
