@@ -2,10 +2,10 @@
   "name": "@snack-uikit/figma-tokens",
   "version": "11.1.0",
   "description": "Figma Tokens for Cloud Design System",
-  "homepage": "https://github.com/cloud-ru-tech/figma-tokens",
+  "homepage": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/-/tree/master/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud-ru-tech/figma-tokens.git"
+    "url": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens.git"
   },
   "license": "Apache-2.0",
   "scripts": {
