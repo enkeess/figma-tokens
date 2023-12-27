@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm11.1.0...npm12.0.0) (2023-12-27)
+
+
+### Bug Fixes
+
+* added padding tokens for ToasterSystemEvent.Toast.Button.ButtonActio ([ce661b9](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ce661b97eac2040a286963744216ccd1906539ce))
+* changed sizes ([78a3970](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/78a39703bb2298ce86f49fd808e69f06814b7833))
+* padding card ([117aafe](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/117aafe38891efcc750b876a5e7e77f94d3cd381))
+
+
+### BREAKING CHANGES
+
+
+* refactoring stepper component tokens ([6bbfcca](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6bbfcca4de2bbfbe88f7775e91054d8507180619))
+* refactoring stepper tokens ([df347b2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/df347b2e2ff7f30692a1c5e3cae2cb94670c659e))
+* refactoring component toaster tokens ([b17038d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b17038d2a4e8b377d3e1680b6e70334db8eee9a9))
+* refactoring alert, added action button tokens ([fba7a1b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/fba7a1b8a2a78a006c8f4ba9323c5ee19f1895de))
+* panination refactoring and added size Xs ([047e314](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/047e31411a120b9efed7c7ed9ea2415bb9f02a62))
+* Card tokens ([2fa72f5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2fa72f5d60bd6d3ae63383c3a97e2569bbd84244))
+
 # [11.1.0](https://github.com/cloud-ru-tech/figma-tokens/compare/npm11.0.0...npm11.1.0) (2023-12-13)
 
 
