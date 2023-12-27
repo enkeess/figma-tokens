@@ -1568,15 +1568,15 @@
       "Padding": {
         "Container": {
           "S": {
-            "value": "{DimensionTheme.General.4px}",
-            "type": "spacing"
-          },
-          "M": {
             "value": "{DimensionTheme.General.8px}",
             "type": "spacing"
           },
-          "L": {
+          "M": {
             "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.24px}",
             "type": "spacing"
           }
         },
