@@ -43,6 +43,7 @@
     "Components/Popover/Popover",
     "Components/PromoTag/PromoTag",
     "Components/Scroll/Scroll",
+    "Components/SearchPrivate/SearchPrivate",
     "Components/Search/Search",
     "Components/Skeleton/Skeleton",
     "Components/Status/Status",

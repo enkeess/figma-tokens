@@ -734,7 +734,9 @@
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
       "Components/Timeline/Timeline": "source",
-      "Components/Carousel/Carousel": "source"
+      "Components/Carousel/Carousel": "source",
+      "Components/SearchPrivate/SearchPrivate": "source",
+      "Components/Notification/NotificationCard": "source"
     },
     "group": "Mode"
   },
@@ -1569,7 +1571,8 @@
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
       "Components/Timeline/Timeline": "source",
-      "Components/Carousel/Carousel": "source"
+      "Components/Carousel/Carousel": "source",
+      "Components/SearchPrivate/SearchPrivate": "source"
     },
     "group": "Mode"
   }

@@ -27,25 +27,5 @@
       },
       "type": "composition"
     }
-  },
-  "SearchPrivate": {
-    "S": {
-      "value": {
-        "itemSpacing": "{Space.Search.SearchPrivate.S}"
-      },
-      "type": "composition"
-    },
-    "M": {
-      "value": {
-        "itemSpacing": "{Space.Search.SearchPrivate.M}"
-      },
-      "type": "composition"
-    },
-    "L": {
-      "value": {
-        "itemSpacing": "{Space.Search.SearchPrivate.L}"
-      },
-      "type": "composition"
-    }
   }
 }
