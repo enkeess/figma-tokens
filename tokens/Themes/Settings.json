@@ -624,6 +624,24 @@
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
+        "S": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          }
+        },
+        "M": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.40px}",
+            "type": "sizing"
+          }
+        },
+        "L": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.48px}",
+            "type": "sizing"
+          }
+        },
         "Marker": {
           "value": "{DimensionTheme.General.4px}",
           "type": "sizing"
@@ -2110,6 +2128,12 @@
                 "type": "spacing"
               }
             }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.L.Container.HorizontalPadding} / 2",
+              "type": "spacing"
+            }
           }
         },
         "M": {
@@ -2132,6 +2156,12 @@
                 "type": "spacing"
               }
             }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.M.Container.HorizontalPadding} / 2",
+              "type": "spacing"
+            }
           }
         },
         "S": {
@@ -2153,6 +2183,12 @@
                 "value": "{DimensionTheme.General.8px}",
                 "type": "spacing"
               }
+            }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.S.Container.HorizontalPadding} / 2",
+              "type": "spacing"
             }
           }
         },
