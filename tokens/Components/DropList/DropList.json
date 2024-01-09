@@ -7,6 +7,20 @@
       },
       "type": "composition"
     },
+    "ContentPinTop": {
+      "value": {
+        "paddingBottom": "{Radius.DropList.Container}",
+        "borderBottom": "{BorderWidth.Droplist.PinContent}"
+      },
+      "type": "composition"
+    },
+    "ContentPinBottom": {
+      "value": {
+        "paddingTop": "{Radius.DropList.Container}",
+        "borderTop": "{BorderWidth.Droplist.PinContent}"
+      },
+      "type": "composition"
+    },
     "Item": {
       "L": {
         "Container": {
