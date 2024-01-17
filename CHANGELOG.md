@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm12.0.0...npm13.0.0) (2024-01-17)
+
+
+### Features
+
+* added ContentPin tokens ([b08b93f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b08b93f7b8856f9ce86062a60a611295ad2b840a))
+
+
+### BREAKING CHANGES
+
+
+* added tokens ItemSeparator ([cc0546f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cc0546ff440e99f0ff98e04d3f489489f5634d26))
+* moved SearchPrivate tokens in personal file (package) ([6b485eb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6b485eb124327e4921c33288dff8b0ea3f6444b4))
+
 # [12.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm11.1.0...npm12.0.0) (2023-12-27)
 
 
