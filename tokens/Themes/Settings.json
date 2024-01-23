@@ -2785,6 +2785,86 @@
           "type": "spacing"
         }
       }
+    },
+    "InfoBlock": {
+      "S": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.4px}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "Footer": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "M": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.24px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.8px}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "Footer": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "L": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.24px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.8px}",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "Footer": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   },
   "BorderWidth": {

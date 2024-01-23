@@ -34,6 +34,7 @@
     "Components/Fields/Fields",
     "Components/IconPredefined/IconPredefined",
     "Components/InputPrivate/InputPrivate",
+    "Components/InfoBlock/InfoBlock",
     "Components/Link/Link",
     "Components/Loader/Loader",
     "Components/Modal/Modal",

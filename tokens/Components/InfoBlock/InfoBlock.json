@@ -1,0 +1,82 @@
+{
+  "InfoBlock": {
+    "S": {
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.S.Container.Gap}"
+        },
+        "type": "composition"
+      },
+      "ContentLayout": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.S.Container.ContentLayout.Gap}"
+        },
+        "type": "composition"
+      },
+      "TextWrap": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.S.Container.ContentLayout.TextWrap.Gap}"
+        },
+        "type": "composition"
+      },
+      "Footer": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.S.Footer.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "M": {
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.M.Container.Gap}"
+        },
+        "type": "composition"
+      },
+      "ContentLayout": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.M.Container.ContentLayout.Gap}"
+        },
+        "type": "composition"
+      },
+      "TextWrap": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.M.Container.ContentLayout.TextWrap.Gap}"
+        },
+        "type": "composition"
+      },
+      "Footer": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.M.Footer.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "L": {
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.L.Container.Gap}"
+        },
+        "type": "composition"
+      },
+      "ContentLayout": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.L.Container.ContentLayout.Gap}"
+        },
+        "type": "composition"
+      },
+      "TextWrap": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.L.Container.ContentLayout.TextWrap.Gap}"
+        },
+        "type": "composition"
+      },
+      "Footer": {
+        "value": {
+          "itemSpacing": "{Space.InfoBlock.L.Footer.Gap}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
