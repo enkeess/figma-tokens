@@ -31,10 +31,11 @@
     "Components/Drawer/Drawer",
     "Components/DropZone/DropZone",
     "Components/DropList/DropList",
+    "Components/Element/Element",
     "Components/Fields/Fields",
     "Components/IconPredefined/IconPredefined",
-    "Components/InputPrivate/InputPrivate",
     "Components/InfoBlock/InfoBlock",
+    "Components/InputPrivate/InputPrivate",
     "Components/Link/Link",
     "Components/Loader/Loader",
     "Components/Modal/Modal",
@@ -52,13 +53,12 @@
     "Components/Table/Table",
     "Components/Tabs/Tabs",
     "Components/Tag/Tag",
+    "Components/Timeline/Timeline",
     "Components/Toaster/ToasterSystemEvent",
     "Components/Toaster/ToasterUserAction",
     "Components/Toggles/Toggles",
     "Components/Toolbar/Toolbar",
     "Components/Tooltip/Tooltip",
-    "Components/Tree/Tree",
-    "Components/Element/Element",
-    "Components/Timeline/Timeline"
+    "Components/Tree/Tree"
   ]
 }
