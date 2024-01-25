@@ -2805,12 +2805,6 @@
               }
             }
           }
-        },
-        "Footer": {
-          "Gap": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "spacing"
-          }
         }
       },
       "M": {
@@ -2830,12 +2824,6 @@
                 "type": "spacing"
               }
             }
-          }
-        },
-        "Footer": {
-          "Gap": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "spacing"
           }
         }
       },
@@ -2857,12 +2845,12 @@
               }
             }
           }
-        },
-        "Footer": {
-          "Gap": {
-            "value": "{DimensionTheme.General.8px}",
-            "type": "spacing"
-          }
+        }
+      },
+      "Footer": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
         }
       }
     }

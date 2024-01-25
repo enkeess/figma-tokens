@@ -18,12 +18,6 @@
           "itemSpacing": "{Space.InfoBlock.S.Container.ContentLayout.TextWrap.Gap}"
         },
         "type": "composition"
-      },
-      "Footer": {
-        "value": {
-          "itemSpacing": "{Space.InfoBlock.S.Footer.Gap}"
-        },
-        "type": "composition"
       }
     },
     "M": {
@@ -42,12 +36,6 @@
       "TextWrap": {
         "value": {
           "itemSpacing": "{Space.InfoBlock.M.Container.ContentLayout.TextWrap.Gap}"
-        },
-        "type": "composition"
-      },
-      "Footer": {
-        "value": {
-          "itemSpacing": "{Space.InfoBlock.M.Footer.Gap}"
         },
         "type": "composition"
       }
@@ -70,13 +58,13 @@
           "itemSpacing": "{Space.InfoBlock.L.Container.ContentLayout.TextWrap.Gap}"
         },
         "type": "composition"
-      },
-      "Footer": {
-        "value": {
-          "itemSpacing": "{Space.InfoBlock.L.Footer.Gap}"
-        },
-        "type": "composition"
       }
+    },
+    "Footer": {
+      "value": {
+        "itemSpacing": "{Space.InfoBlock.Footer.Gap}"
+      },
+      "type": "composition"
     }
   }
 }
