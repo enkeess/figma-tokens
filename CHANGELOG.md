@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.0.0...npm13.1.0) (2024-01-25)
+
+
+### Bug Fixes
+
+* InfoBlock tokens ([a2e1f75](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a2e1f7535ab6ee83c51317e6ed82fe42d892e3ca))
+
+
+### Features
+
+* added InfoBlock tokens ([5daa968](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5daa968a84dc4c25f81b779a84148b87c647ed39))
+
 # [13.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm12.0.0...npm13.0.0) (2024-01-17)
 
 
