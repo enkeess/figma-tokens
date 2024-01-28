@@ -737,7 +737,8 @@
       "Components/Carousel/Carousel": "source",
       "Components/SearchPrivate/SearchPrivate": "source",
       "Components/Notification/NotificationCard": "source",
-      "Components/InfoBlock/InfoBlock": "source"
+      "Components/InfoBlock/InfoBlock": "source",
+      "Components/Slider/Slider": "source"
     },
     "group": "Mode"
   },
@@ -1574,7 +1575,8 @@
       "Components/Timeline/Timeline": "source",
       "Components/Carousel/Carousel": "source",
       "Components/SearchPrivate/SearchPrivate": "source",
-      "Components/InfoBlock/InfoBlock": "source"
+      "Components/InfoBlock/InfoBlock": "source",
+      "Components/Slider/Slider": "source"
     },
     "group": "Mode"
   }

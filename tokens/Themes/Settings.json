@@ -925,6 +925,32 @@
           "type": "sizing"
         }
       }
+    },
+    "Slider": {
+      "Handle": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "TrackLine": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "sizing"
+      },
+      "Track": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "ScaleBar": {
+        "Step": {
+          "Width": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "Height": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -1498,6 +1524,24 @@
           "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         }
+      }
+    },
+    "Slider": {
+      "Handle": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      },
+      "ScaleBar": {
+        "Step": {
+          "Line": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "TrackLine": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
       }
     }
   },
@@ -2851,6 +2895,16 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Slider": {
+      "ScaleBar": {
+        "Step": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
         }
       }
     }

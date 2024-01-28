@@ -1,0 +1,34 @@
+{
+  "Slider": {
+    "TrackLine": {
+      "value": {
+        "height": "{Size.Slider.TrackLine}",
+        "borderRadius": "{DimensionTheme.General.2px}"
+      },
+      "type": "composition"
+    },
+    "Handle": {
+      "value": {
+        "sizing": "{Size.Slider.Handle}",
+        "borderRadius": "{Radius.Slider.Handle}"
+      },
+      "type": "composition"
+    },
+    "ScaleBar": {
+      "Step": {
+        "value": {
+          "width": "{Size.Slider.ScaleBar.Step.Width}",
+          "itemSpacing": "{Space.Slider.ScaleBar.Step.Gap}"
+        },
+        "type": "composition"
+      },
+      "StepLine": {
+        "value": {
+          "height": "{Size.Slider.ScaleBar.Step.Height}",
+          "borderRadius": "{Radius.Slider.ScaleBar.Step.Line}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
