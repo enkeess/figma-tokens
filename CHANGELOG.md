@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.1.0...npm13.2.0) (2024-02-01)
+
+
+### Bug Fixes
+
+* Slider tokens ([cf6084f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cf6084f6b841165c065c2bca469caec6e624a53d))
+
+
+### Features
+
+* added Slider tokens ([b7afbfa](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b7afbfaea80b8fc8b79b2510448946ed076d2768))
+
 # [13.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.0.0...npm13.1.0) (2024-01-25)
 
 
