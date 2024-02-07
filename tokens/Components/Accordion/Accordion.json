@@ -10,6 +10,16 @@
         },
         "type": "composition"
       },
+      "PrimaryOutline": {
+        "value": {
+          "verticalPadding": "{Space.Accordion.CollapseBlock.Primary.VerticalPadding}",
+          "horizontalPadding": "{Space.Accordion.CollapseBlock.Primary.HorizontalPadding}",
+          "itemSpacing": "{Space.Accordion.CollapseBlock.Primary.Gap}",
+          "borderRadius": "{Radius.Accordion.CollapseBlock.Primary}",
+          "borderWidth": "{BorderWidth.Accordion.CollapseBlock.Primary}"
+        },
+        "type": "composition"
+      },
       "Secondary": {
         "value": {
           "verticalPadding": "{Space.Accordion.CollapseBlock.Secondary.VerticalPadding}",

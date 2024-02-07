@@ -166,6 +166,52 @@
         },
         "type": "composition"
       }
+    },
+    "SliderWrap": {
+      "S": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "ScaleBarWrap": {
+      "S": {
+        "value": {
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "horizontalPadding": "{Space.Fields.SliderPadding.M}",
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.L}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

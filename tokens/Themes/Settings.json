@@ -1918,6 +1918,26 @@
             "type": "spacing"
           }
         }
+      },
+      "SliderPadding": {
+        "S": {
+          "value": "({LineHeight.Body.Sm} / 2)",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "({LineHeight.Body.Md} / 2)",
+          "type": "spacing"
+        },
+        "L": {
+          "value": "({LineHeight.Body.Lg} / 2)",
+          "type": "spacing"
+        }
+      },
+      "ScaleBar": {
+        "PaddingTop": {
+          "value": "( {DimensionTheme.General.8px} - {DimensionTheme.General.2px} / 2)",
+          "type": "spacing"
+        }
       }
     },
     "TagMore": {
@@ -3194,6 +3214,10 @@
     },
     "Accordion": {
       "CollapseBlock": {
+        "Primary": {
+          "value": "{BorderWidth.012m}",
+          "type": "borderWidth"
+        },
         "Secondary": {
           "value": "{BorderWidth.012m}",
           "type": "borderWidth"
