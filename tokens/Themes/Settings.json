@@ -927,6 +927,10 @@
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
+      "ReadedDivider": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
       "Panel": {
         "value": "({DimensionTheme.General.80px} * 6) - {DimensionTheme.General.16px}",
         "type": "sizing"

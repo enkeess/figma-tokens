@@ -8,6 +8,13 @@
       },
       "type": "composition"
     },
+    "ReadedDivider": {
+      "value": {
+        "height": "{Size.NotificationPanel.ReadedDivider}",
+        "borderWidthBottom": "{BorderWidth.NotificationPanel.Container}"
+      },
+      "type": "composition"
+    },
     "Panel": {
       "value": {
         "borderRadius": "{Radius.NotificationPanel.Panel}",
