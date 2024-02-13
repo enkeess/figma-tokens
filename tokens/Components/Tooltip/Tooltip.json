@@ -2,7 +2,7 @@
   "Tooltip": {
     "Container": {
       "value": {
-        "spacing": "{DimensionTheme.General.16px}",
+        "spacing": "{Space.Tooltip.Padding.Single}",
         "borderRadius": "{Radius.Tooltip.Container}",
         "minWidth": "{Size.Tooltip.Container.MinWidth}",
         "maxWidth": "{Size.Tooltip.Container.MaxWidth}"

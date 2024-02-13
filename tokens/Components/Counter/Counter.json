@@ -3,7 +3,7 @@
     "S": {
       "value": {
         "borderRadius": "{Radius.Counter.S}",
-        "height": "{DimensionTheme.General.16px}",
+        "height": "{Size.Counter.S.Height}",
         "minWidth": "{Size.Counter.S.MinimalWidth}",
         "paddingRight": "{Space.Counter.S}",
         "paddingLeft": "{Space.Counter.S}",
@@ -14,7 +14,7 @@
     "M": {
       "value": {
         "borderRadius": "{Radius.Counter.M}",
-        "height": "{DimensionTheme.General.24px}",
+        "height": "{Size.Counter.M.Height}",
         "minWidth": "{Size.Counter.M.MinimalWidth}",
         "paddingRight": "{Space.Counter.M}",
         "paddingLeft": "{Space.Counter.M}",

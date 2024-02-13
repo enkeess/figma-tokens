@@ -92,6 +92,46 @@
         }
       }
     },
+    "Loader": {
+      "Loader": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.48px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.72px}",
+          "type": "sizing"
+        }
+      },
+      "ProgressBarPage": {
+        "Height": {
+          "Xs": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          }
+        }
+      },
+      "ProgressBar": {
+        "Height": {
+          "Xs": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "S": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
     "Card": {
       "Picture": {
         "S": {
@@ -238,15 +278,57 @@
         "type": "sizing"
       }
     },
+    "Status": {
+      "BackgroundContainer": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "StatusIndicatorContainer": {
+      "Xxs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "sizing"
+      },
+      "Xs": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
+    },
     "Counter": {
       "S": {
         "MinimalWidth": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Height": {
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         }
       },
       "M": {
         "MinimalWidth": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "Height": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         }
@@ -506,6 +588,22 @@
         },
         "L": {
           "value": "{DimensionTheme.General.80px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "Icon": {
+      "Container": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "Sx2": {
+          "value": "{DimensionTheme.General.24px} * 2",
           "type": "sizing"
         }
       }
@@ -1626,6 +1724,32 @@
         }
       }
     },
+    "Pagination": {
+      "Gap": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "PageButton": {
+        "Xs": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Link": {
+      "Gap": {
+        "Single": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      }
+    },
     "Card": {
       "Padding": {
         "Container": {
@@ -1674,6 +1798,18 @@
       "Postfix": {
         "Gap": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Hint": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      },
+      "Label": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       },
@@ -1828,6 +1964,14 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
+        "Badge": {
+          "ElementsLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          }
+        },
         "Headline": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
@@ -1974,22 +2118,16 @@
         "type": "spacing"
       }
     },
-    "Pagination": {
-      "PageButton": {
-        "Xs": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        },
-        "S": {
-          "value": "{DimensionTheme.General.8px}",
-          "type": "spacing"
-        }
-      }
-    },
     "Popover": {
       "PopoverPointer": {
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Container": {
+        "Padding": {
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         }
       }
@@ -2462,6 +2600,14 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
+        "Badge": {
+          "ElementsLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          }
+        },
         "Headline": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
@@ -2786,6 +2932,12 @@
       "TooltipPointer": {
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Padding": {
+        "Single": {
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
       }
@@ -3122,6 +3274,54 @@
     "StateFocus": {
       "Offset": {
         "value": "{DimensionTheme.General.2px}",
+        "type": "spacing"
+      }
+    },
+    "Status": {
+      "BackgroundContainer": {
+        "Padding": {
+          "Left": {
+            "Xs": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            },
+            "S": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            }
+          },
+          "Right": {
+            "Xs": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            },
+            "S": {
+              "value": "{DimensionTheme.General.8px}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "Container": {
+        "Gap": {
+          "Single": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "DropZone": {
+      "PaddingHorizontal": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
+      },
+      "PaddingVertical": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
+      },
+      "Gap": {
+        "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
     }

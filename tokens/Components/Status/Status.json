@@ -45,31 +45,31 @@
     "Container": {
       "Xxs": {
         "value": {
-          "sizing": "{DimensionTheme.General.4px}"
+          "sizing": "{Size.StatusIndicatorContainer.Xxs}"
         },
         "type": "composition"
       },
       "Xs": {
         "value": {
-          "sizing": "{DimensionTheme.General.8px}"
+          "sizing": "{Size.StatusIndicatorContainer.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "sizing": "{DimensionTheme.General.16px}"
+          "sizing": "{Size.StatusIndicatorContainer.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "sizing": "{DimensionTheme.General.16px}"
+          "sizing": "{Size.StatusIndicatorContainer.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "sizing": "{DimensionTheme.General.24px}"
+          "sizing": "{Size.StatusIndicatorContainer.L}"
         },
         "type": "composition"
       }
@@ -79,20 +79,20 @@
     "BackgroundContainer": {
       "Xs": {
         "value": {
-          "height": "{DimensionTheme.General.16px}",
-          "paddingRight": "{DimensionTheme.General.4px}",
-          "paddingLeft": "{DimensionTheme.General.4px}",
-          "itemSpacing": "{DimensionTheme.General.2px}",
+          "height": "{Size.Status.BackgroundContainer.Xs}",
+          "paddingRight": "{Spacing.Status.BackgroundContainer.Padding.Right.Xs}",
+          "paddingLeft": "{Spacing.Status.BackgroundContainer.Padding.Left.Xs}",
+          "itemSpacing": "{Spacing.Status.Container.Gap.Single}",
           "borderRadius": "{Radius.Status.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "height": "{DimensionTheme.General.24px}",
-          "paddingRight": "{DimensionTheme.General.8px}",
-          "paddingLeft": "{DimensionTheme.General.4px}",
-          "itemSpacing": "{DimensionTheme.General.2px}",
+          "height": "{Size.Status.BackgroundContainer.S}",
+          "paddingRight": "{Spacing.Status.BackgroundContainer.Padding.Right.S}",
+          "paddingLeft": "{Spacing.Status.BackgroundContainer.Padding.Left.S}",
+          "itemSpacing": "{Spacing.Status.Container.Gap.Single}",
           "borderRadius": "{Radius.Status.S}"
         },
         "type": "composition"
@@ -101,13 +101,13 @@
     "Container": {
       "Xs": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Spacing.Status.Container.Gap.Single}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Spacing.Status.Container.Gap.Single}"
         },
         "type": "composition"
       }

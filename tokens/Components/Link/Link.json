@@ -4,21 +4,21 @@
       "S": {
         "value": {
           "height": "{Size.Link.S}",
-          "itemSpacing": "{DimensionTheme.General.0px}"
+          "itemSpacing": "{Space.Link.Gap.Single}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
           "height": "{Size.Link.M}",
-          "itemSpacing": "{DimensionTheme.General.0px}"
+          "itemSpacing": "{Space.Link.Gap.Single}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
           "height": "{Size.Link.L}",
-          "itemSpacing": "{DimensionTheme.General.0px}"
+          "itemSpacing": "{Space.Link.Gap.Single}"
         },
         "type": "composition"
       }

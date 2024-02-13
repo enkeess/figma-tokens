@@ -17,7 +17,7 @@
       },
       "ElementsLayout": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.16px}"
+          "itemSpacing": "{Space.Modal.HeadlineLayout.Badge.ElementsLayout.Gap}"
         },
         "type": "composition"
       }

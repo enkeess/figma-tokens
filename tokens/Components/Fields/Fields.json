@@ -96,7 +96,7 @@
     "Label": {
       "LabelLayout": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Space.Fields.Label.Gap}"
         },
         "type": "composition"
       }
@@ -104,7 +104,7 @@
     "Hint": {
       "HintLayout": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Space.Fields.Hint.Gap}"
         },
         "type": "composition"
       },
