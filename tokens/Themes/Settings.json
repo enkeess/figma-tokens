@@ -1049,6 +1049,26 @@
           }
         }
       }
+    },
+    "Markdown": {
+      "TableCell": {
+        "Height": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "Quote": {
+        "MinHeight": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "InlineCode": {
+        "Height": {
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -1640,6 +1660,14 @@
       "TrackLine": {
         "value": "{DimensionTheme.General.2px}",
         "type": "borderRadius"
+      }
+    },
+    "Markdown": {
+      "InlineCode": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        }
       }
     }
   },
@@ -3079,6 +3107,36 @@
           }
         }
       }
+    },
+    "Markdown": {
+      "TableCell": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        }
+      },
+      "InlineCode": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Quote": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "VerticalPadding": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      },
+      "Preview": {
+        "Padding": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -3187,6 +3245,16 @@
       },
       "Card": {
         "value": "{BorderWidth.General.Xs}",
+        "type": "borderWidth"
+      }
+    },
+    "Markdown": {
+      "TableCell": {
+        "value": "{BorderWidth.General.Xs}",
+        "type": "borderWidth"
+      },
+      "Quote": {
+        "value": "{BorderWidth.General.Xl}",
         "type": "borderWidth"
       }
     },

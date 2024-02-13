@@ -1,0 +1,46 @@
+{
+  "Markdown": {
+    "TableCell": {
+      "Container": {
+        "value": {
+          "height": "{Size.Markdown.TableCell.Height}",
+          "borderWidthBottom": "{BorderWidth.Markdown.TableCell}",
+          "horizontalPadding": "{Space.Markdown.TableCell.HorizontalPadding}"
+        },
+        "type": "composition"
+      }
+    },
+    "InlineCode": {
+      "Container": {
+        "value": {
+          "horizontalPadding": "{Space.Markdown.InlineCode.HorizontalPadding}",
+          "borderRadius": "{Radius.Markdown.InlineCode.Container}",
+          "height": "{Size.Markdown.InlineCode.Height}"
+        },
+        "type": "composition"
+      }
+    },
+    "Quote": {
+      "Container": {
+        "value": {
+          "verticalPadding": "{Space.Markdown.Quote.VerticalPadding}",
+          "horizontalPadding": "{Space.Markdown.Quote.HorizontalPadding}",
+          "borderWidthLeft": "{BorderWidth.Markdown.Quote}",
+          "minHeight": "{Size.Markdown.Quote.MinHeight}"
+        },
+        "type": "composition"
+      }
+    },
+    "Preview": {
+      "Container": {
+        "value": {
+          "verticalPadding": "{Space.Markdown.Preview.Padding}",
+          "horizontalPadding": "{Space.Markdown.Preview.Padding}",
+          "borderRadius": "{Radius.Fields.M}",
+          "borderWidth": "{BorderWidth.Fields.Single}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

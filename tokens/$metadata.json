@@ -38,6 +38,7 @@
     "Components/InputPrivate/InputPrivate",
     "Components/Link/Link",
     "Components/Loader/Loader",
+    "Components/Markdown/Markdown",
     "Components/Modal/Modal",
     "Components/Notification/NotificationPanel",
     "Components/Notification/NotificationCard",
