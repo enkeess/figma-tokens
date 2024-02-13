@@ -6,9 +6,9 @@
           {
             "x": "{Dimension.0m}",
             "y": "{Dimension.0m}",
-            "blur": "{Dimension.0m}",
-            "spread": "{Dimension.025m} / 2",
-            "color": "rgba(#ffffff, {Opacity.A008})",
+            "blur": "{Dimension.050m} / 2",
+            "spread": "{Dimension.1m} / 8",
+            "color": "rgba(#ffffff, {Opacity.A024})",
             "type": "dropShadow"
           }
         ],
@@ -19,9 +19,9 @@
           {
             "x": "{Dimension.0m}",
             "y": "{Dimension.0m}",
-            "blur": "{Dimension.0m}",
-            "spread": "{Dimension.025m} / 2",
-            "color": "rgba(#ffffff, {Opacity.A008})",
+            "blur": "{Dimension.050m} / 2",
+            "spread": "{Dimension.1m} / 8",
+            "color": "rgba(#ffffff, {Opacity.A024})",
             "type": "dropShadow"
           }
         ],
@@ -32,9 +32,9 @@
           {
             "x": "{Dimension.0m}",
             "y": "{Dimension.0m}",
-            "blur": "{Dimension.0m}",
-            "spread": "{Dimension.025m} / 2",
-            "color": "rgba(#ffffff, {Opacity.A008})",
+            "blur": "{Dimension.050m} / 2",
+            "spread": "{Dimension.1m} / 8",
+            "color": "rgba(#ffffff, {Opacity.A024})",
             "type": "dropShadow"
           }
         ],
@@ -45,9 +45,9 @@
           {
             "x": "{Dimension.0m}",
             "y": "{Dimension.0m}",
-            "blur": "{Dimension.0m}",
-            "spread": "{Dimension.025m} / 2",
-            "color": "rgba(#ffffff, {Opacity.A008})",
+            "blur": "{Dimension.050m} / 2",
+            "spread": "{Dimension.1m} / 8",
+            "color": "rgba(#ffffff, {Opacity.A024})",
             "type": "dropShadow"
           }
         ],
@@ -58,9 +58,9 @@
           {
             "x": "{Dimension.0m}",
             "y": "{Dimension.0m}",
-            "blur": "{Dimension.0m}",
-            "spread": "{Dimension.025m} / 2",
-            "color": "rgba(#ffffff, {Opacity.A008})",
+            "blur": "{Dimension.050m} / 2",
+            "spread": "{Dimension.1m} / 8",
+            "color": "rgba(#ffffff, {Opacity.A024})",
             "type": "dropShadow"
           }
         ],
