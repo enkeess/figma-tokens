@@ -273,17 +273,17 @@
         "description": "Основной текст или иконка"
       },
       "TextSupport": {
-        "value": "{Ref.Orange.40}",
+        "value": "{Ref.Orange.45}",
         "type": "color",
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Orange.50}",
+        "value": "{Ref.Orange.60}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Orange.60}",
+        "value": "{Ref.Orange.65}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -298,12 +298,12 @@
         "description": "Формы, линий, текст или иконка"
       },
       "AccentPressed": {
-        "value": "{Ref.Orange.45}",
+        "value": "{Ref.Orange.60}",
         "type": "color",
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Orange.30}",
+        "value": "{Ref.Orange.99}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -350,17 +350,17 @@
         "description": "Основной текст или иконка"
       },
       "TextSupport": {
-        "value": "{Ref.Yellow.35}",
+        "value": "{Ref.Yellow.45}",
         "type": "color",
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Yellow.45}",
+        "value": "{Ref.Yellow.60}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Yellow.50}",
+        "value": "{Ref.Yellow.65}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -375,7 +375,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "AccentPressed": {
-        "value": "{Ref.Yellow.45}",
+        "value": "{Ref.Yellow.60}",
         "type": "color",
         "description": "Формы, линий, текст или иконка"
       },
@@ -427,17 +427,17 @@
         "description": "Основной текст или иконка"
       },
       "TextSupport": {
-        "value": "{Ref.Green.35}",
+        "value": "{Ref.Green.45}",
         "type": "color",
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Green.50}",
+        "value": "{Ref.Green.60}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Green.60}",
+        "value": "{Ref.Green.65}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -457,7 +457,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Green.30}",
+        "value": "{Ref.Green.99}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -700,22 +700,22 @@
         "description": "Ближний фон по оси Z"
       },
       "DecorDefault": {
-        "value": "{Ref.Gray.30}",
+        "value": "{Ref.Gray.35}",
         "type": "color",
         "description": "Формы или линий"
       },
       "DecorHovered": {
-        "value": "{Ref.Gray.40}",
+        "value": "{Ref.Gray.45}",
         "type": "color",
         "description": "Формы или линий"
       },
       "DecorActivated": {
-        "value": "{Ref.Gray.40}",
+        "value": "{Ref.Gray.50}",
         "type": "color",
         "description": "Формы или линий"
       },
       "DecorDisabled": {
-        "value": "{Ref.Gray.25}",
+        "value": "{Ref.Gray.30}",
         "type": "color",
         "description": "Формы или линий"
       },
@@ -735,7 +735,7 @@
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Gray.50}",
+        "value": "{Ref.Gray.45}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -791,7 +791,7 @@
       }
     },
     "Blackout": {
-      "value": "rgba(#000000,{Opacity.A048})",
+      "value": "rgba(#000000,{Opacity.A032})",
       "type": "color",
       "description": "Цвет затемнения экрана для фокусировки внимания пользователя на основной операции, например при вызове модального окна."
     }

@@ -47,12 +47,12 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Gray.50}",
+        "value": "{Ref.Gray.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Gray.45}",
+        "value": "{Ref.Gray.40}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -72,7 +72,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Gray.5}",
+        "value": "{Ref.Gray.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -124,7 +124,7 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Brand.50}",
+        "value": "{Ref.Brand.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
@@ -149,7 +149,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Brand.5}",
+        "value": "{Ref.Brand.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -226,7 +226,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Red.5}",
+        "value": "{Ref.Red.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -278,12 +278,12 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Orange.40}",
+        "value": "{Ref.Orange.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Orange.35}",
+        "value": "{Ref.Orange.40}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -303,7 +303,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Orange.30}",
+        "value": "{Ref.Orange.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -355,12 +355,12 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Yellow.40}",
+        "value": "{Ref.Yellow.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Yellow.35}",
+        "value": "{Ref.Yellow.40}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -380,7 +380,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Yellow.30}",
+        "value": "{Ref.Yellow.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -432,12 +432,12 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Green.40}",
+        "value": "{Ref.Green.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
       "TextDisabled": {
-        "value": "{Ref.Green.35}",
+        "value": "{Ref.Green.40}",
         "type": "color",
         "description": "Низшая доступность текст или иконка"
       },
@@ -457,7 +457,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Green.30}",
+        "value": "{Ref.Green.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -534,7 +534,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Blue.5}",
+        "value": "{Ref.Blue.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -586,7 +586,7 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Violet.50}",
+        "value": "{Ref.Violet.45}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
@@ -611,7 +611,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Violet.5}",
+        "value": "{Ref.Violet.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
@@ -688,14 +688,14 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Pink.5}",
+        "value": "{Ref.Pink.10}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
     },
     "InvertNeutral": {
       "Background": {
-        "value": "{Ref.Gray.80}",
+        "value": "{Ref.Gray.85}",
         "type": "color",
         "description": "Ближний фон по оси Z"
       },
