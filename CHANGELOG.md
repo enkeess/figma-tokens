@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.2.0...npm13.3.0) (2024-02-14)
+
+
+### Bug Fixes
+
+* base color balance ([1e3f9e4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1e3f9e4b84e11d566e3c02cbafd1df034395fb51))
+* shadow dark mode ([a471646](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a4716468c08ecd296b8ffdaf5112aac147bfa9c5))
+
+
+### Features
+
+* added missing tokens ([042df07](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/042df07ae5d5143d6d877fd75f166b4392cd8735))
+* **FF-4269:** set color modes ([80385a5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/80385a58ce46e73c21c4602ee7da176fa20d0a25))
+* **FF-4269:** update base colors ([7f95691](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7f956914e87b4f17e1745644666f0c6680f0fe6f))
+
 # [13.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.1.0...npm13.2.0) (2024-02-01)
 
 
