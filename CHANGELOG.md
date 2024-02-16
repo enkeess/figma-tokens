@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.3.0...npm13.4.0) (2024-02-16)
+
+
+### Features
+
+* **FF-4248:** tokens for field slider, accordion ([409f3a1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/409f3a189ab637e0c2c6e6f4ec9d2225bddd3f4f))
+
 # [13.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.2.0...npm13.3.0) (2024-02-14)
 
 
