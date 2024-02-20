@@ -57,17 +57,10 @@
         "type": "composition"
       }
     },
-    "Blank": {
+    "BodyInfo": {
       "Container": {
         "value": {
-          "itemSpacing": "{Space.NotificationPanel.Blank.Gap}",
-          "verticalPadding": "{Space.NotificationPanel.Blank.VerticalPadding}"
-        },
-        "type": "composition"
-      },
-      "Text": {
-        "value": {
-          "itemSpacing": "{Space.NotificationPanel.Blank.Text.Gap}"
+          "spacing": "{Space.NotificationPanel.BodyInfo.Padding}"
         },
         "type": "composition"
       }
