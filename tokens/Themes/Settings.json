@@ -1837,6 +1837,10 @@
         "Gap": {
           "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
+        },
+        "ContainerGap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
         }
       },
       "Label": {

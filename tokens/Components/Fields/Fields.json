@@ -141,6 +141,12 @@
           },
           "type": "composition"
         }
+      },
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Hint.ContainerGap}"
+        },
+        "type": "composition"
       }
     },
     "Buttons": {
