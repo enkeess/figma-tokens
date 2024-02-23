@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.5.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.1...npm13.5.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* Field Hint tokens ([db140b6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/db140b6de68f59ca340f7e7b40ef1bf2912d2542))
+* FieldSelectMultiple and FieldTextArea tokens ([740328b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/740328b33ff903d70285932056de09a6ffbe53d2))
+
 ## [13.5.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.0...npm13.5.1) (2024-02-20)
 
 
