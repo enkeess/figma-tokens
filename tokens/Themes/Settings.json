@@ -744,6 +744,12 @@
           "value": "{DimensionTheme.General.4px}",
           "type": "sizing"
         }
+      },
+      "LoadList": {
+        "Height": {
+          "value": "{DimensionTheme.General.80px} + {DimensionTheme.General.16px}",
+          "type": "sizing"
+        }
       }
     },
     "Alert": {
@@ -1127,7 +1133,7 @@
       }
     },
     "IconPredefined": {
-      "Decor": {
+      "DecorRound": {
         "S": {
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
@@ -1138,6 +1144,20 @@
         },
         "L": {
           "value": "{DimensionTheme.General.40px}",
+          "type": "borderRadius"
+        }
+      },
+      "DecorSquare": {
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       }
@@ -2163,6 +2183,12 @@
             "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
+        }
+      },
+      "Container": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
         }
       }
     },

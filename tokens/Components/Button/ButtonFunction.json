@@ -102,6 +102,40 @@
           },
           "type": "composition"
         }
+      },
+      "L": {
+        "IconAfter": {
+          "value": {
+            "height": "{Size.Button.L}",
+            "itemSpacing": "{Space.Button.L.Gap}",
+            "borderRadius": "{Radius.Button.L}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "height": "{Size.Button.L}",
+            "itemSpacing": "{Space.Button.L.Gap}",
+            "borderRadius": "{Radius.Button.L}"
+          },
+          "type": "composition"
+        },
+        "LabelOnly": {
+          "value": {
+            "height": "{Size.Button.L}",
+            "itemSpacing": "{Space.Button.L.Gap}",
+            "borderRadius": "{Radius.Button.L}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "height": "{Size.Button.L}",
+            "width": "{Size.Button.L}",
+            "borderRadius": "{Radius.Button.L}"
+          },
+          "type": "composition"
+        }
       }
     },
     "Label": {

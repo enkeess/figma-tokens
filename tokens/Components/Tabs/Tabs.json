@@ -63,6 +63,12 @@
         },
         "type": "composition"
       }
+    },
+    "Container": {
+      "value": {
+        "itemSpacing": "{Space.Tabs.Container.Gap}"
+      },
+      "type": "composition"
     }
   }
 }

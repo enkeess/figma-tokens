@@ -155,6 +155,14 @@
         },
         "type": "composition"
       }
+    },
+    "LoadList": {
+      "Single": {
+        "value": {
+          "height": "{Size.DropList.LoadList.Height}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
