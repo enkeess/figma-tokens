@@ -2921,6 +2921,16 @@
         "SeparatorPadding": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "Column": {
+          "HorizontalPadding": {
+            "value": "{Space.Table.Cell.Padding}",
+            "type": "spacing"
+          },
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         }
       },
       "Header": {
