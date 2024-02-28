@@ -143,8 +143,8 @@
     },
     "FunctionBadge": {
       "value": {
-        "paddingTop": "{Space.Card.Gap.M}",
-        "paddingRight": "{Space.Card.Gap.M}"
+        "paddingTop": "{Space.Card.Padding.FunctionBadge}",
+        "paddingRight": "{Space.Card.Padding.FunctionBadge}"
       },
       "type": "composition"
     },
