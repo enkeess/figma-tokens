@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.2...npm14.0.0) (2024-02-28)
+
+
+### Bug Fixes
+
+* added Space.Table.Head.Column.VerticalPadding & HorizontalPadding tokens ([69d468f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/69d468f322aa79dbb8827cf4040b953d44a3f376))
+* Card.FunctionBadge ([8e86ac2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8e86ac219d8814f6938d292b7d5c7b225e162fdd))
+* Card.PromoBadge ([ea132fa](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ea132fa6ee25bc5f8ff4ca14a5f3fdf09fbca98c))
+
+
+### BREAKING CHANGES
+
+
+* added size Xs tokens for ButtonFilled, ButtonOutline, ButtonTonal, ButtonSimple. added size L tokens for ButtonFunction. Added Radius.IconPredefined.DecorSquare & DecorRound tokens, removed Radius.IconPredefined.Decor. Added DropList.LoadList.Single token. added Tabs.Container token ([f37c139](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f37c139e4439beeb4e706d4334b85cc9b9bf5fad))
+
 ## [13.5.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.1...npm13.5.2) (2024-02-23)
 
 
