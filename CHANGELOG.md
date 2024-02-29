@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.0...npm14.0.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* **FF-0001:** back correct Gray.95 color ([5d80341](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5d80341f8e08e74faabd0fd09b7b6a916fd615ef))
+
 # [14.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.2...npm14.0.0) (2024-02-28)
 
 
