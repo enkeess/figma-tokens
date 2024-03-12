@@ -739,7 +739,8 @@
       "Components/InfoBlock/InfoBlock": "source",
       "Components/Slider/Slider": "source",
       "Components/Markdown/Markdown": "source",
-      "Components/HotSpot/HotSpot": "enabled"
+      "Components/HotSpot/HotSpot": "enabled",
+      "Components/SegmentedControl/SegmentedControl": "source"
     },
     "group": "Mode"
   },
@@ -1579,7 +1580,8 @@
       "Components/Slider/Slider": "source",
       "Components/Markdown/Markdown": "source",
       "Components/Attachment/Attachment": "source",
-      "Components/HotSpot/HotSpot": "source"
+      "Components/HotSpot/HotSpot": "source",
+      "Components/SegmentedControl/SegmentedControl": "source"
     },
     "group": "Mode"
   }
