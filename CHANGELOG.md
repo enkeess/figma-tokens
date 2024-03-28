@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.0.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.1...npm14.0.2) (2024-03-28)
+
+
+### Bug Fixes
+
+* ButtonCombo tokens ([65bf751](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/65bf75100a1d271da9c50aac2483cde69df080d6))
+
 ## [14.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.0...npm14.0.1) (2024-02-29)
 
 
