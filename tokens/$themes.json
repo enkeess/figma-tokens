@@ -743,7 +743,8 @@
       "Components/SegmentedControl/SegmentedControl": "source",
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
-      "Components/ProgressBar/ProgressBar": "source"
+      "Components/ProgressBar/ProgressBar": "source",
+      "Components/Button/ButtonCombo": "source"
     },
     "group": "Mode"
   },
@@ -1587,7 +1588,8 @@
       "Components/SegmentedControl/SegmentedControl": "source",
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
-      "Components/ProgressBar/ProgressBar": "source"
+      "Components/ProgressBar/ProgressBar": "source",
+      "Components/Button/ButtonCombo": "source"
     },
     "group": "Mode"
   }

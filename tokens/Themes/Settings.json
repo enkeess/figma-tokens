@@ -4165,6 +4165,12 @@
     "TableLine": {
       "value": "{BorderWidth.006m}",
       "type": "borderWidth"
+    },
+    "ButtonCombo": {
+      "Divider": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      }
     }
   },
   "Border": {

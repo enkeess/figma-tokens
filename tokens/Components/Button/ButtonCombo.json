@@ -1,0 +1,90 @@
+{
+  "ButtonCombo": {
+    "Container": {
+      "Xs": {
+        "Option": {
+          "value": {
+            "height": "{Size.Button.Xs}",
+            "borderRadiusTopLeft": "{Radius.Button.Xs}",
+            "borderRadiusBottomLeft": "{Radius.Button.Xs}",
+            "paddingRight": "{Space.Button.Xs.FromLabel}",
+            "paddingLeft": "{Space.Button.Xs.FromLabel}",
+            "borderWidthRight": "{BorderWidth.ButtonCombo.Divider}"
+          },
+          "type": "composition"
+        },
+        "Dropdown": {
+          "value": {
+            "borderRadiusTopRight": "{Radius.Button.Xs}",
+            "borderRadiusBottomRight": "{Radius.Button.Xs}",
+            "sizing": "{Size.Button.Xs}"
+          },
+          "type": "composition"
+        }
+      },
+      "S": {
+        "Option": {
+          "value": {
+            "height": "{Size.Button.S}",
+            "borderRadiusTopLeft": "{Radius.Button.S}",
+            "borderRadiusBottomLeft": "{Radius.Button.S}",
+            "paddingRight": "{Space.Button.S.FromLabel}",
+            "paddingLeft": "{Space.Button.S.FromLabel}",
+            "borderWidthRight": "{BorderWidth.ButtonCombo.Divider}"
+          },
+          "type": "composition"
+        },
+        "Dropdown": {
+          "value": {
+            "borderRadiusTopRight": "{Radius.Button.S}",
+            "borderRadiusBottomRight": "{Radius.Button.S}",
+            "sizing": "{Size.Button.S}"
+          },
+          "type": "composition"
+        }
+      },
+      "M": {
+        "Option": {
+          "value": {
+            "height": "{Size.Button.M}",
+            "borderRadiusTopLeft": "{Radius.Button.M}",
+            "borderRadiusBottomLeft": "{Radius.Button.M}",
+            "paddingRight": "{Space.Button.M.FromLabel}",
+            "paddingLeft": "{Space.Button.M.FromLabel}",
+            "borderWidthRight": "{BorderWidth.ButtonCombo.Divider}"
+          },
+          "type": "composition"
+        },
+        "Dropdown": {
+          "value": {
+            "borderRadiusTopRight": "{Radius.Button.M}",
+            "borderRadiusBottomRight": "{Radius.Button.M}",
+            "sizing": "{Size.Button.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "L": {
+        "Option": {
+          "value": {
+            "height": "{Size.Button.L}",
+            "borderRadiusTopLeft": "{Radius.Button.L}",
+            "borderRadiusBottomLeft": "{Radius.Button.L}",
+            "paddingRight": "{Space.Button.L.FromLabel}",
+            "paddingLeft": "{Space.Button.L.FromLabel}",
+            "borderWidthRight": "{BorderWidth.ButtonCombo.Divider}"
+          },
+          "type": "composition"
+        },
+        "Dropdown": {
+          "value": {
+            "borderRadiusTopRight": "{Radius.Button.L}",
+            "borderRadiusBottomRight": "{Radius.Button.L}",
+            "sizing": "{Size.Button.L}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
