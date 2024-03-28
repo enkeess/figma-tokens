@@ -739,7 +739,8 @@
       "Components/Notification/NotificationCard": "source",
       "Components/InfoBlock/InfoBlock": "source",
       "Components/Slider/Slider": "source",
-      "Components/Markdown/Markdown": "source"
+      "Components/Markdown/Markdown": "source",
+      "Components/Button/ButtonCombo": "source"
     },
     "group": "Mode"
   },
@@ -1578,7 +1579,8 @@
       "Components/SearchPrivate/SearchPrivate": "source",
       "Components/InfoBlock/InfoBlock": "source",
       "Components/Slider/Slider": "source",
-      "Components/Markdown/Markdown": "source"
+      "Components/Markdown/Markdown": "source",
+      "Components/Button/ButtonCombo": "source"
     },
     "group": "Mode"
   }

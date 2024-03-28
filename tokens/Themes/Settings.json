@@ -3379,6 +3379,12 @@
           "type": "borderWidth"
         }
       }
+    },
+    "ButtonCombo": {
+      "Divider": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
+      }
     }
   },
   "Border": {
