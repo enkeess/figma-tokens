@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.1.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.0...npm14.1.1) (2024-03-29)
+
+
+### Bug Fixes
+
+* **FF-0000:** commit for cp theme release ([83bd701](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/83bd7017db370f982d4c4fdb044845c150afe34f))
+
 # [14.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.2...npm14.1.0) (2024-03-29)
 
 
