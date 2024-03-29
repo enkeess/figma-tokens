@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.2...npm14.1.0) (2024-03-29)
+
+
+### Bug Fixes
+
+* table tokens ([af4dc6c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/af4dc6c8e0674095f54add4973e243952b72cb50))
+
+
+### Features
+
+* added shape Accordion tokens ([bd4c528](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bd4c5282103504a783f63c37f4fd29083e5e67ee))
+
 ## [14.0.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.1...npm14.0.2) (2024-03-28)
 
 
