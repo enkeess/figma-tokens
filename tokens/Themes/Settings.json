@@ -1635,8 +1635,14 @@
     "Accordion": {
       "CollapseBlock": {
         "Primary": {
-          "value": "{DimensionTheme.General.24px}",
-          "type": "borderRadius"
+          "Round": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "borderRadius"
+          },
+          "Square": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "borderRadius"
+          }
         }
       }
     },
