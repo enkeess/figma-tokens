@@ -26,7 +26,7 @@
       "Column": {
         "value": {
           "horizontalPadding": "{Space.Table.Head.Column.HorizontalPadding}",
-          "verticalPadding": "{Space.Table.Head.SeparatorPadding}"
+          "verticalPadding": "{Space.Table.Head.Column.VerticalPadding}"
         },
         "type": "composition"
       },
