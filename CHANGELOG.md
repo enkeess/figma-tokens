@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.1...npm14.2.0) (2024-04-08)
+
+
+### Features
+
+* **FF-4689:** brand theme features ([f68d1c8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f68d1c8422d1a7388095f07c8aad3d9a09c7590b))
+
 ## [14.1.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.0...npm14.1.1) (2024-03-29)
 
 
