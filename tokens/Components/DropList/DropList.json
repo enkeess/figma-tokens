@@ -7,55 +7,69 @@
       },
       "type": "composition"
     },
-    "ContentPinTop": {
-      "value": {
-        "paddingBottom": "{Radius.DropList.Container}",
-        "borderBottom": "{BorderWidth.Droplist.PinContent}"
-      },
-      "type": "composition"
-    },
-    "ContentPinBottom": {
-      "value": {
-        "paddingTop": "{Radius.DropList.Container}",
-        "borderTop": "{BorderWidth.Droplist.PinContent}"
-      },
-      "type": "composition"
-    },
     "Item": {
-      "L": {
+      "S": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.L.Container.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}"
+            "verticalPadding": "{Space.DropList.Item.S.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}"
           },
           "type": "composition"
         },
         "Headline": {
           "value": {
-            "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
             "height": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
         },
         "ContainerSeparatorSubheader": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}",
-            "height": "{Size.DropList.Item.L.ContainerSeparatorSubheaderHeight}"
+            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}",
+            "height": "{Size.DropList.Item.S.ContainerSeparatorSubheaderHeight}"
           },
           "type": "composition"
         },
         "ContainerSeparator": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}"
+            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}"
           },
           "type": "composition"
         }
       },
       "M": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
             "verticalPadding": "{Space.DropList.Item.M.Container.VerticalPadding}",
@@ -88,35 +102,49 @@
           "type": "composition"
         }
       },
-      "S": {
+      "L": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.S.Container.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}"
+            "verticalPadding": "{Space.DropList.Item.L.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}"
           },
           "type": "composition"
         },
         "Headline": {
           "value": {
-            "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
             "height": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
         },
         "ContainerSeparatorSubheader": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}",
-            "height": "{Size.DropList.Item.S.ContainerSeparatorSubheaderHeight}"
+            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}",
+            "height": "{Size.DropList.Item.L.ContainerSeparatorSubheaderHeight}"
           },
           "type": "composition"
         },
         "ContainerSeparator": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}"
+            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}"
           },
           "type": "composition"
         }
