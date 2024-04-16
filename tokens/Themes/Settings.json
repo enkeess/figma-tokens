@@ -754,8 +754,14 @@
     },
     "Alert": {
       "Button": {
-        "value": "{DimensionTheme.General.24px}",
-        "type": "sizing"
+        "M": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        }
       }
     },
     "AlertTop": {
@@ -2643,42 +2649,84 @@
       }
     },
     "Alert": {
-      "Container": {
-        "VerticalPadding": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
-          "type": "spacing"
-        },
-        "HorizontalPadding": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
-          "type": "spacing"
-        },
-        "Gap": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
-          "type": "spacing"
-        },
-        "Body": {
-          "Gap": {
-            "value": "{DimensionTheme.General.8px}",
+      "M": {
+        "Container": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.16px} - {BorderWidth.Alert.Single}",
             "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.16px} - {BorderWidth.Alert.Single}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.16px} - {BorderWidth.Alert.Single}",
+            "type": "spacing"
+          },
+          "Body": {
+            "Gap": {
+              "value": "{DimensionTheme.General.8px}",
+              "type": "spacing"
+            }
+          },
+          "Footer": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          },
+          "ContentLayout": {
+            "PaddingTop": {
+              "value": "{DimensionTheme.General.2px}",
+              "type": "spacing"
+            }
           }
         },
-        "Footer": {
+        "Button": {
           "Gap": {
-            "value": "{DimensionTheme.General.16px}",
-            "type": "spacing"
-          }
-        },
-        "ContentLayout": {
-          "PaddingTop": {
-            "value": "{DimensionTheme.General.2px}",
+            "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
         }
       },
-      "Button": {
-        "Gap": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
+      "S": {
+        "Container": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.8px} - {BorderWidth.Alert.Single}",
+            "type": "spacing"
+          },
+          "HorizontalPadding": {
+            "value": "{DimensionTheme.General.8px} - {BorderWidth.Alert.Single}",
+            "type": "spacing"
+          },
+          "Gap": {
+            "value": "{DimensionTheme.General.8px} - {BorderWidth.Alert.Single}",
+            "type": "spacing"
+          },
+          "Body": {
+            "Gap": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            }
+          },
+          "Footer": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          },
+          "ContentLayout": {
+            "PaddingTop": {
+              "value": "{DimensionTheme.General.0px}",
+              "type": "spacing"
+            }
+          }
+        },
+        "Button": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
         }
       }
     },
@@ -3449,6 +3497,12 @@
     "ButtonOutline": {
       "Single": {
         "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      }
+    },
+    "Alert": {
+      "Single": {
+        "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
     },
