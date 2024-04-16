@@ -1107,6 +1107,16 @@
           }
         }
       }
+    },
+    "HotSpotDot": {
+      "Dot": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "sizing"
+      },
+      "Container": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      }
     }
   },
   "Radius": {
@@ -1732,6 +1742,16 @@
           "value": "{Radius.Fields.M}",
           "type": "borderRadius"
         }
+      }
+    },
+    "HotSpotDot": {
+      "Dot": {
+        "value": "{Size.HotSpotDot.Dot}",
+        "type": "borderRadius"
+      },
+      "Pulse": {
+        "value": "{Size.HotSpotDot.Container}",
+        "type": "borderRadius"
       }
     }
   },
@@ -3286,6 +3306,12 @@
             "type": "spacing"
           }
         }
+      }
+    },
+    "HotSpot": {
+      "ContainerPadding": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "spacing"
       }
     }
   },

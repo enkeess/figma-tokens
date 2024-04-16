@@ -37,6 +37,7 @@
     "Components/IconPredefined/IconPredefined",
     "Components/InfoBlock/InfoBlock",
     "Components/InputPrivate/InputPrivate",
+    "Components/HotSpot/HotSpot",
     "Components/Link/Link",
     "Components/Loader/Loader",
     "Components/Markdown/Markdown",

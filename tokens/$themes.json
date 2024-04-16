@@ -738,7 +738,8 @@
       "Components/Notification/NotificationCard": "source",
       "Components/InfoBlock/InfoBlock": "source",
       "Components/Slider/Slider": "source",
-      "Components/Markdown/Markdown": "source"
+      "Components/Markdown/Markdown": "source",
+      "Components/HotSpot/HotSpot": "enabled"
     },
     "group": "Mode"
   },
@@ -1577,7 +1578,8 @@
       "Components/InfoBlock/InfoBlock": "source",
       "Components/Slider/Slider": "source",
       "Components/Markdown/Markdown": "source",
-      "Components/Attachment/Attachment": "source"
+      "Components/Attachment/Attachment": "source",
+      "Components/HotSpot/HotSpot": "source"
     },
     "group": "Mode"
   }
