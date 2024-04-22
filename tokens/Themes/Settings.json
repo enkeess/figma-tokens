@@ -899,6 +899,10 @@
         "NameLayout": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
+        },
+        "CheckColumn": {
+          "value": "{Size.Table.LineHeight}",
+          "type": "sizing"
         }
       },
       "Information": {
@@ -2530,6 +2534,12 @@
       "DropOffset": {
         "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
+      },
+      "Container": {
+        "VerticalPadding": {
+          "value": "{Radius.DropList.Container}",
+          "type": "spacing"
+        }
       }
     },
     "Alert": {

@@ -2,7 +2,7 @@
   "DropList": {
     "Container": {
       "value": {
-        "verticalPadding": "{Radius.DropList.Container}",
+        "verticalPadding": "{Space.DropList.Container.VerticalPadding}",
         "borderRadius": "{Radius.DropList.Container}"
       },
       "type": "composition"

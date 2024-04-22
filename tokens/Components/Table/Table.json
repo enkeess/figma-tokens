@@ -35,6 +35,12 @@
           "height": "{Size.Table.Head.NameLayout}"
         },
         "type": "composition"
+      },
+      "CheckColumn": {
+        "value": {
+          "width": "{Size.Table.Head.CheckColumn}"
+        },
+        "type": "composition"
       }
     },
     "Line": {
