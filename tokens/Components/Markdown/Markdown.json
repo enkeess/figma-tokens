@@ -36,8 +36,8 @@
         "value": {
           "verticalPadding": "{Space.Markdown.Preview.Padding}",
           "horizontalPadding": "{Space.Markdown.Preview.Padding}",
-          "borderRadius": "{Radius.Fields.M}",
-          "borderWidth": "{BorderWidth.Fields.Single}"
+          "borderRadius": "{Radius.Markdown.Preview.Container}",
+          "borderWidth": "{BorderWidth.Markdown.Preview.Container}"
         },
         "type": "composition"
       }

@@ -29,7 +29,7 @@
           "verticalPadding": "{Space.Accordion.CollapseBlock.Secondary.VerticalPadding}",
           "horizontalPadding": "{Space.Accordion.CollapseBlock.Secondary.HorizontalPadding}",
           "itemSpacing": "{Space.Accordion.CollapseBlock.Secondary.Gap}",
-          "borderWidthBottom": "{BorderWidth.General.Xs}"
+          "borderWidthBottom": "{BorderWidth.Accordion.CollapseBlock.Secondary}"
         },
         "type": "composition"
       },

@@ -12,8 +12,8 @@
     "TooltipPointer": {
       "value": {
         "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.Tooltip.Container}",
-        "paddingBottom": "{Radius.Tooltip.Container}"
+        "paddingTop": "{Space.Tooltip.TooltipPointer.Padding}",
+        "paddingBottom": "{Space.Tooltip.TooltipPointer.Padding}"
       },
       "type": "composition"
     }

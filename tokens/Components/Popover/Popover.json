@@ -12,8 +12,8 @@
     "PopoverPointer": {
       "value": {
         "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.Popover.Container}",
-        "paddingBottom": "{Radius.Popover.Container}"
+        "paddingTop": "{Space.Popover.PopoverPointer.Padding}",
+        "paddingBottom": "{Space.Popover.PopoverPointer.Padding}"
       },
       "type": "composition"
     }

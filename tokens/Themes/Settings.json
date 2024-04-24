@@ -1702,6 +1702,12 @@
           "value": "{DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
+      },
+      "Preview": {
+        "Container": {
+          "value": "{Radius.Fields.M}",
+          "type": "borderRadius"
+        }
       }
     }
   },
@@ -2246,6 +2252,10 @@
       "PopoverPointer": {
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "Padding": {
+          "value": "{Radius.Popover.Container}",
           "type": "spacing"
         }
       },
@@ -3071,6 +3081,10 @@
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
+        },
+        "Padding": {
+          "value": "{Radius.Tooltip.Container}",
+          "type": "spacing"
         }
       },
       "Padding": {
@@ -3346,6 +3360,12 @@
       "Quote": {
         "value": "{BorderWidth.General.Xl}",
         "type": "borderWidth"
+      },
+      "Preview": {
+        "Container": {
+          "value": "{BorderWidth.Fields.Single}",
+          "type": "borderWidth"
+        }
       }
     },
     "Table": {
