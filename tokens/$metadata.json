@@ -48,7 +48,6 @@
     "Components/Scroll/Scroll",
     "Components/SearchPrivate/SearchPrivate",
     "Components/Search/Search",
-    "Components/Skeleton/Skeleton",
     "Components/Slider/Slider",
     "Components/Status/Status",
     "Components/Stepper/Stepper",
