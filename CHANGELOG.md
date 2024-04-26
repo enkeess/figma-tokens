@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.2.0...npm15.0.0) (2024-04-26)
+
+
+### BREAKING CHANGES
+
+
+* **PDS-61:** remove useless ts simpleVar/compositeVar fn ([c7d4dd8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c7d4dd847ab346d5bed1364f35ac360d8569d9d5))
+* **PDS-61:** added DropList Content Pin tokens for all size ([b76e5a4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b76e5a42d33f16df8d0fdb221dd68e092481b97d))
+
 # [14.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.1...npm14.2.0) (2024-04-08)
 
 
