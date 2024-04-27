@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.0...npm15.0.1) (2024-04-27)
+
+
+### Bug Fixes
+
+* deleted skeleton ([cd9a99d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cd9a99dbbace819410394849cfa3c55fd0e6a1f9))
+* edited table tokens ([68f1cce](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/68f1ccec2566e788d6570308351165feaebc499a))
+* tokens update for tooltip, popover, markdown, accordion ([23a314b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/23a314b834e4a08babd7bebae77036ca60ef3b2d))
+
 # [15.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.2.0...npm15.0.0) (2024-04-26)
 
 
