@@ -657,6 +657,20 @@
           "type": "sizing"
         }
       },
+      "ButtonField": {
+        "S": {
+          "value": "{DimensionTheme.General.24px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.32px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.40px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      },
       "Hint": {
         "IconContainer": {
           "S": {
@@ -1556,6 +1570,20 @@
           "value": "{Size.Fields.Buttons.M} / 2",
           "type": "borderRadius"
         }
+      },
+      "ButtonField": {
+        "S": {
+          "value": "{Radius.Fields.S} - {BorderWidth.Fields.Single}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.Fields.M} - {BorderWidth.Fields.Single}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.Fields.L} - {BorderWidth.Fields.Single}",
+          "type": "borderRadius"
+        }
       }
     },
     "Calendar": {
@@ -2064,6 +2092,10 @@
           "Right": {
             "value": "({LineHeight.Body.Sm} / 2) - {BorderWidth.Fields.Single}",
             "type": "spacing"
+          },
+          "Button": {
+            "value": "{DimensionTheme.General.0px}",
+            "type": "spacing"
           }
         },
         "M": {
@@ -2078,6 +2110,10 @@
           "Right": {
             "value": "({LineHeight.Body.Md} / 2) - {BorderWidth.Fields.Single}",
             "type": "spacing"
+          },
+          "Button": {
+            "value": "{DimensionTheme.General.0px}",
+            "type": "spacing"
           }
         },
         "L": {
@@ -2091,6 +2127,10 @@
           },
           "Right": {
             "value": "({LineHeight.Body.Lg} / 2) - {BorderWidth.Fields.Single}",
+            "type": "spacing"
+          },
+          "Button": {
+            "value": "{DimensionTheme.General.0px}",
             "type": "spacing"
           }
         }
