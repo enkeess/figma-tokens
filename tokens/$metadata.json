@@ -13,6 +13,7 @@
     "Components/Accordion/Accordion",
     "Components/Alert/Alert",
     "Components/Alert/AlertTop",
+    "Components/Attachment/Attachment",
     "Components/Avatar/Avatar",
     "Components/Breadcrumbs/Breadcrumbs",
     "Components/Button/ButtonFilled",

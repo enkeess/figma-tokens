@@ -1083,6 +1083,30 @@
           "type": "sizing"
         }
       }
+    },
+    "Attachment": {
+      "StartItem": {
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "Container": {
+        "Square": {
+          "S": {
+            "value": "{DimensionTheme.General.80px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.80px} + {DimensionTheme.General.24px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
     }
   },
   "Radius": {
@@ -3239,6 +3263,28 @@
         "Padding": {
           "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
           "type": "spacing"
+        }
+      }
+    },
+    "Attachment": {
+      "Composition": {
+        "S": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        },
+        "EndItem": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
         }
       }
     }
