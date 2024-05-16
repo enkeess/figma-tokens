@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.1...npm15.1.0) (2024-05-16)
+
+
+### Features
+
+* **FF-4807:** brand release ([e20806e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e20806e80af7514edf0955bfd9420316e92039a6))
+
 ## [15.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.0...npm15.0.1) (2024-04-27)
 
 
