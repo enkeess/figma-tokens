@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.1.0...npm15.2.0) (2024-05-16)
+
+
+### Features
+
+* added Attachment tokens ([5b36cda](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5b36cda5f6cec423c1243f539bebf049b50b799d))
+
 # [15.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.1...npm15.1.0) (2024-05-16)
 
 
