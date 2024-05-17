@@ -1108,12 +1108,12 @@
         }
       }
     },
-    "HotSpotDot": {
+    "HotSpot": {
       "Dot": {
         "value": "{DimensionTheme.General.8px}",
         "type": "sizing"
       },
-      "Container": {
+      "Pulse": {
         "value": "{DimensionTheme.General.16px}",
         "type": "sizing"
       }
@@ -1744,13 +1744,13 @@
         }
       }
     },
-    "HotSpotDot": {
+    "HotSpot": {
       "Dot": {
-        "value": "{Size.HotSpotDot.Dot}",
+        "value": "{Size.HotSpot.Dot}",
         "type": "borderRadius"
       },
       "Pulse": {
-        "value": "{Size.HotSpotDot.Container}",
+        "value": "{Size.HotSpot.Pulse}",
         "type": "borderRadius"
       }
     }

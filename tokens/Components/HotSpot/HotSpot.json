@@ -1,15 +1,16 @@
 {
-  "HotSpotDot": {
+  "HotSpot": {
     "Dot": {
       "value": {
-        "sizing": "{Size.HotSpotDot.Dot}",
-        "borderRadius": "{Radius.HotSpotDot.Dot}"
+        "sizing": "{Size.HotSpot.Dot}",
+        "borderRadius": "{Radius.HotSpot.Dot}"
       },
       "type": "composition"
     },
     "Pulse": {
       "value": {
-        "borderRadius": "{Radius.HotSpotDot.Pulse}"
+        "borderRadius": "{Radius.HotSpot.Pulse}",
+        "sizing": "{Size.HotSpot.Pulse}"
       },
       "type": "composition"
     }
