@@ -3307,12 +3307,6 @@
           }
         }
       }
-    },
-    "HotSpot": {
-      "ContainerPadding": {
-        "value": "{DimensionTheme.General.4px}",
-        "type": "spacing"
-      }
     }
   },
   "BorderWidth": {

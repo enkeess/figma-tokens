@@ -1,19 +1,5 @@
 {
-  "HotSpot": {
-    "Container": {
-      "value": {
-        "spacing": "{Space.HotSpot.ContainerPadding}"
-      },
-      "type": "composition"
-    }
-  },
   "HotSpotDot": {
-    "Container": {
-      "value": {
-        "sizing": "{Size.HotSpotDot.Container}"
-      },
-      "type": "composition"
-    },
     "Dot": {
       "value": {
         "sizing": "{Size.HotSpotDot.Dot}",
