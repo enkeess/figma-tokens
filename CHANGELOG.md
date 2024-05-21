@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.2.0...npm15.3.0) (2024-05-21)
+
+
+### Bug Fixes
+
+* HotSpot tokens ([f083f79](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f083f7947bf05bde620250ae25e45fcb337b4a56))
+* HotSpot tokens ([e80c8dd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e80c8ddd00676f87193eecf2579064807497143a))
+
+
+### Features
+
+* added HotSpot tokens ([e4c3641](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e4c36413606e0244baea400a50757b823a73b8df))
+
 # [15.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.1.0...npm15.2.0) (2024-05-16)
 
 
