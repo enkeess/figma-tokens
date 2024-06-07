@@ -1965,7 +1965,7 @@
           "type": "spacing"
         },
         "ContainerGap": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
       },
