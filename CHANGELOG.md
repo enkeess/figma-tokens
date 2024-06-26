@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.3.0...npm15.4.0) (2024-06-26)
+
+
+### Features
+
+* added SegmentedControl tokens ([4530ecf](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/4530ecf2c96bd29458e0a4f0cad1dc432ee8f73f))
+
 # [15.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.2.0...npm15.3.0) (2024-05-21)
 
 
