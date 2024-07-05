@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.4.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.0...npm15.4.1) (2024-07-05)
+
+
+### Bug Fixes
+
+* field hint ContainerGap ([bbd8e6c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bbd8e6c3a40916ded19e56c4fc74511b69b31159))
+
 # [15.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.3.0...npm15.4.0) (2024-06-26)
 
 
