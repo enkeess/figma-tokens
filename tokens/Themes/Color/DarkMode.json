@@ -37,7 +37,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Gray.80}",
+        "value": "{Ref.Gray.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -47,7 +47,7 @@
         "description": "Вспомогательный текст или иконка"
       },
       "TextLight": {
-        "value": "{Ref.Gray.45}",
+        "value": "{Ref.Gray.55}",
         "type": "color",
         "description": "Наименее важный текст или иконка"
       },
@@ -62,7 +62,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "AccentHovered": {
-        "value": "{Ref.Gray.55}",
+        "value": "{Ref.Gray.65}",
         "type": "color",
         "description": "Формы, линий, текст или иконка"
       },
@@ -114,7 +114,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Brand.80}",
+        "value": "{Ref.Brand.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -191,7 +191,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Red.80}",
+        "value": "{Ref.Red.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -268,7 +268,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Orange.80}",
+        "value": "{Ref.Orange.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -345,7 +345,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Yellow.80}",
+        "value": "{Ref.Yellow.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -422,7 +422,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Green.80}",
+        "value": "{Ref.Green.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -499,7 +499,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Blue.80}",
+        "value": "{Ref.Blue.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -576,7 +576,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Violet.80}",
+        "value": "{Ref.Violet.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },
@@ -653,7 +653,7 @@
         "description": "Формы или линий"
       },
       "TextMain": {
-        "value": "{Ref.Pink.80}",
+        "value": "{Ref.Pink.85}",
         "type": "color",
         "description": "Основной текст или иконка"
       },

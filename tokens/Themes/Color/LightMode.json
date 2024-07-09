@@ -42,7 +42,7 @@
         "description": "Основной текст или иконка"
       },
       "TextSupport": {
-        "value": "{Ref.Gray.45}",
+        "value": "{Ref.Gray.50}",
         "type": "color",
         "description": "Вспомогательный текст или иконка"
       },

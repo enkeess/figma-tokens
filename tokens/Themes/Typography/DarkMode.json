@@ -39,7 +39,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Lg}",
           "fontSize": "{FontSize.32}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -50,7 +50,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Md}",
           "fontSize": "{FontSize.28}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -61,7 +61,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Sm}",
           "fontSize": "{FontSize.24}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -74,7 +74,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
           "fontSize": "{FontSize.22}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -85,7 +85,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Md}",
           "fontSize": "{FontSize.16}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -96,11 +96,11 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
           "lineHeight": "{LineHeight.Title.Sm}",
           "fontSize": "{FontSize.14}",
           "letterSpacing": "{LetterSpacing.L}",
-          "paragraphSpacing": "{ParagraphSpacing.FontSize14}"
+          "paragraphSpacing": "{ParagraphSpacing.FontSize14}",
+          "fontWeight": "{FontWeight.Regular}"
         },
         "type": "typography"
       }
@@ -144,7 +144,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Body.Lg}",
           "fontSize": "{FontSize.16}",
           "letterSpacing": "{LetterSpacing.M}",
@@ -155,7 +155,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Body.Md}",
           "fontSize": "{FontSize.14}",
           "letterSpacing": "{LetterSpacing.M}",
@@ -216,7 +216,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Headline.Lg}",
           "fontSize": "{FontSize.32}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -227,7 +227,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Headline.Md}",
           "fontSize": "{FontSize.28}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -238,7 +238,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Headline.Sm}",
           "fontSize": "{FontSize.24}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -251,7 +251,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Title.Lg}",
           "fontSize": "{FontSize.22}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -343,7 +343,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.LightSans}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Body.Sm}",
           "fontSize": "{FontSize.12}",
           "letterSpacing": "{LetterSpacing.M}",
@@ -396,7 +396,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Lg}",
           "fontSize": "{FontSize.32}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -408,7 +408,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Md}",
           "fontSize": "{FontSize.28}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -420,7 +420,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Sm}",
           "fontSize": "{FontSize.24}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -434,7 +434,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
           "fontSize": "{FontSize.22}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -446,7 +446,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Md}",
           "fontSize": "{FontSize.16}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -458,7 +458,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Sm}",
           "fontSize": "{FontSize.14}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -588,7 +588,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Lg}",
           "fontSize": "{FontSize.32}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -600,7 +600,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Md}",
           "fontSize": "{FontSize.28}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -612,7 +612,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Sm}",
           "fontSize": "{FontSize.24}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -626,7 +626,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
           "fontSize": "{FontSize.22}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -638,7 +638,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Md}",
           "fontSize": "{FontSize.16}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -650,7 +650,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.SemiBold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Sm}",
           "fontSize": "{FontSize.14}",
           "letterSpacing": "{LetterSpacing.L}",
@@ -702,7 +702,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Body.Lg}",
           "fontSize": "{FontSize.16}",
           "letterSpacing": "{LetterSpacing.M}",
@@ -714,7 +714,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansInterface}",
-          "fontWeight": "{FontWeight.Regular}",
+          "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Body.Md}",
           "fontSize": "{FontSize.14}",
           "letterSpacing": "{LetterSpacing.M}",
@@ -764,7 +764,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansTextMono}",
-          "fontWeight": "{FontWeight.Bold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Display.Sm}",
           "fontSize": "{FontSize.40}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -777,7 +777,7 @@
       "L": {
         "value": {
           "fontFamily": "{FontFamily.SBSansTextMono}",
-          "fontWeight": "{FontWeight.Bold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Lg}",
           "fontSize": "{FontSize.32}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -788,7 +788,7 @@
       "M": {
         "value": {
           "fontFamily": "{FontFamily.SBSansTextMono}",
-          "fontWeight": "{FontWeight.Bold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Md}",
           "fontSize": "{FontSize.28}",
           "letterSpacing": "{LetterSpacing.Xs}",
@@ -799,7 +799,7 @@
       "S": {
         "value": {
           "fontFamily": "{FontFamily.SBSansTextMono}",
-          "fontWeight": "{FontWeight.Bold}",
+          "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Headline.Sm}",
           "fontSize": "{FontSize.24}",
           "letterSpacing": "{LetterSpacing.Xs}",
