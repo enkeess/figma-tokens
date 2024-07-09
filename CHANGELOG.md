@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.1...npm15.5.0) (2024-07-09)
+
+
+### Features
+
+* **FF-5133:** balance dark theme ([1042ea3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1042ea35507b08b52e31810fd1565473c5529768))
+
 ## [15.4.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.0...npm15.4.1) (2024-07-05)
 
 
