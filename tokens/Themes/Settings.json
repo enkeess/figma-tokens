@@ -705,7 +705,7 @@
       },
       "Container": {
         "Header": {
-          "Weeks": {
+          "LinesHeight": {
             "S": {
               "value": "{DimensionTheme.General.32px}",
               "type": "sizing"
@@ -722,29 +722,45 @@
         },
         "MinWidth": {
           "S": {
-            "value": "{DimensionTheme.General.8px} * 32",
+            "value": "{DimensionTheme.General.8px} * 30",
             "type": "sizing"
           },
           "M": {
-            "value": "{DimensionTheme.General.8px} * 35",
+            "value": "{DimensionTheme.General.8px} * 37",
             "type": "sizing"
           },
           "L": {
-            "value": "{DimensionTheme.General.8px} * 38",
+            "value": "{DimensionTheme.General.8px} * 44",
             "type": "sizing"
           }
         },
         "MinHeight": {
           "S": {
-            "value": "{DimensionTheme.General.8px} * 33",
+            "value": "{DimensionTheme.General.8px} * 32",
             "type": "sizing"
           },
           "M": {
-            "value": "{DimensionTheme.General.8px} * 38.5",
+            "value": "{DimensionTheme.General.8px} * 40",
             "type": "sizing"
           },
           "L": {
-            "value": "{DimensionTheme.General.8px} * 43",
+            "value": "{DimensionTheme.General.8px} * 48",
+            "type": "sizing"
+          }
+        }
+      },
+      "Time": {
+        "MinWidth": {
+          "S": {
+            "value": "{DimensionTheme.General.8px} * 15",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.8px} * 18",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.8px} * 21",
             "type": "sizing"
           }
         }
@@ -2620,6 +2636,20 @@
       "LabelDecorator": {
         "value": "{DimensionTheme.General.2px}",
         "type": "spacing"
+      },
+      "FooterElements": {
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
       }
     },
     "DropList": {

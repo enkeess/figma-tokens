@@ -153,22 +153,22 @@
           },
           "type": "composition"
         },
-        "Weeks": {
+        "LinesHeight": {
           "S": {
             "value": {
-              "height": "{Size.Calendar.Container.Header.Weeks.S}"
+              "height": "{Size.Calendar.Container.Header.LinesHeight.S}"
             },
             "type": "composition"
           },
           "M": {
             "value": {
-              "height": "{Size.Calendar.Container.Header.Weeks.M}"
+              "height": "{Size.Calendar.Container.Header.LinesHeight.M}"
             },
             "type": "composition"
           },
           "L": {
             "value": {
-              "height": "{Size.Calendar.Container.Header.Weeks.L}"
+              "height": "{Size.Calendar.Container.Header.LinesHeight.L}"
             },
             "type": "composition"
           }
@@ -193,6 +193,106 @@
           },
           "type": "composition"
         }
+      }
+    },
+    "Time": {
+      "S": {
+        "value": {
+          "minWidth": "{Size.Calendar.Time.MinWidth.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "minWidth": "{Size.Calendar.Time.MinWidth.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "minWidth": "{Size.Calendar.Time.MinWidth.L}"
+        },
+        "type": "composition"
+      },
+      "Header": {
+        "S": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.L}"
+          },
+          "type": "composition"
+        },
+        "LinesHeight": {
+          "S": {
+            "value": {
+              "height": "{Size.Calendar.Container.Header.LinesHeight.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "height": "{Size.Calendar.Container.Header.LinesHeight.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "height": "{Size.Calendar.Container.Header.LinesHeight.L}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Rows": {
+        "S": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "horizontalPadding": "{Space.Calendar.Container.L}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "FooterElements": {
+      "S": {
+        "value": {
+          "itemSpacing": "{Space.Calendar.FooterElements.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "itemSpacing": "{Space.Calendar.FooterElements.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "itemSpacing": "{Space.Calendar.FooterElements.L}"
+        },
+        "type": "composition"
       }
     }
   }
