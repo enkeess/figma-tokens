@@ -1,0 +1,132 @@
+{
+  "SegmentedControl": {
+    "Segment": {
+      "S": {
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.S}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.S.FromLabel}",
+            "paddingRight": "{Space.SegmentedControl.Segment.S.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.S.Gap}",
+            "height": "{Size.SegmentedControl.Segment.S}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.S}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.S.FromIcon}",
+            "paddingRight": "{Space.SegmentedControl.Segment.S.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.S.Gap}",
+            "height": "{Size.SegmentedControl.Segment.S}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.S}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.S.IconOnly}",
+            "paddingRight": "{Space.SegmentedControl.Segment.S.IconOnly}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.S.Gap}",
+            "height": "{Size.SegmentedControl.Segment.S}"
+          },
+          "type": "composition"
+        }
+      },
+      "M": {
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.M}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.M.FromLabel}",
+            "paddingRight": "{Space.SegmentedControl.Segment.M.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.M.Gap}",
+            "height": "{Size.SegmentedControl.Segment.M}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.M}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.M.FromIcon}",
+            "paddingRight": "{Space.SegmentedControl.Segment.M.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.M.Gap}",
+            "height": "{Size.SegmentedControl.Segment.M}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.M}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.M.IconOnly}",
+            "paddingRight": "{Space.SegmentedControl.Segment.M.IconOnly}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.M.Gap}",
+            "height": "{Size.SegmentedControl.Segment.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "L": {
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.L}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.L.FromLabel}",
+            "paddingRight": "{Space.SegmentedControl.Segment.L.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.L.Gap}",
+            "height": "{Size.SegmentedControl.Segment.L}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.L}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.L.FromIcon}",
+            "paddingRight": "{Space.SegmentedControl.Segment.L.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.L.Gap}",
+            "height": "{Size.SegmentedControl.Segment.L}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.L}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.L.IconOnly}",
+            "paddingRight": "{Space.SegmentedControl.Segment.L.IconOnly}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.L.Gap}",
+            "height": "{Size.SegmentedControl.Segment.L}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Background": {
+      "S": {
+        "value": {
+          "borderWidth": "{BorderWidth.SegmentedControl.Single}",
+          "borderRadius": "{Radius.SegmentedControl.Container.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderWidth": "{BorderWidth.SegmentedControl.Single}",
+          "borderRadius": "{Radius.SegmentedControl.Container.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderWidth": "{BorderWidth.SegmentedControl.Single}",
+          "borderRadius": "{Radius.SegmentedControl.Container.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "Container": {
+      "value": {
+        "verticalPadding": "{Space.SegmentedControl.Container.Padding}",
+        "horizontalPadding": "{Space.SegmentedControl.Container.Padding}"
+      },
+      "type": "composition"
+    }
+  }
+}

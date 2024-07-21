@@ -2,30 +2,74 @@
   "DropList": {
     "Container": {
       "value": {
-        "verticalPadding": "{Radius.DropList.Container}",
+        "verticalPadding": "{Space.DropList.Container.VerticalPadding}",
         "borderRadius": "{Radius.DropList.Container}"
       },
       "type": "composition"
     },
     "Item": {
-      "L": {
+      "S": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.L.Container.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}"
+            "verticalPadding": "{Space.DropList.Item.S.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}"
           },
           "type": "composition"
         },
         "Headline": {
           "value": {
-            "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
             "height": "{Size.DropList.Item.Headline}"
+          },
+          "type": "composition"
+        },
+        "ContainerSeparatorSubheader": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}",
+            "height": "{Size.DropList.Item.S.ContainerSeparatorSubheaderHeight}"
+          },
+          "type": "composition"
+        },
+        "ContainerSeparator": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}"
           },
           "type": "composition"
         }
       },
       "M": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
             "verticalPadding": "{Space.DropList.Item.M.Container.VerticalPadding}",
@@ -40,21 +84,67 @@
             "height": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
+        },
+        "ContainerSeparatorSubheader": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.M.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.M.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.M.Container.Gap}",
+            "height": "{Size.DropList.Item.M.ContainerSeparatorSubheaderHeight}"
+          },
+          "type": "composition"
+        },
+        "ContainerSeparator": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.M.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.M.Container.HorizontalPadding}"
+          },
+          "type": "composition"
         }
       },
-      "S": {
+      "L": {
+        "ContentPinTop": {
+          "value": {
+            "paddingBottom": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
+        "ContentPinBottom": {
+          "value": {
+            "paddingTop": "{Radius.DropList.Container}",
+            "itemSpacing": "{Radius.DropList.Container}"
+          },
+          "type": "composition"
+        },
         "Container": {
           "value": {
-            "verticalPadding": "{Space.DropList.Item.S.Container.VerticalPadding}",
-            "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
-            "itemSpacing": "{Space.DropList.Item.S.Container.Gap}"
+            "verticalPadding": "{Space.DropList.Item.L.Container.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}"
           },
           "type": "composition"
         },
         "Headline": {
           "value": {
-            "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
             "height": "{Size.DropList.Item.Headline}"
+          },
+          "type": "composition"
+        },
+        "ContainerSeparatorSubheader": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
+            "itemSpacing": "{Space.DropList.Item.L.Container.Gap}",
+            "height": "{Size.DropList.Item.L.ContainerSeparatorSubheaderHeight}"
+          },
+          "type": "composition"
+        },
+        "ContainerSeparator": {
+          "value": {
+            "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
+            "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}"
           },
           "type": "composition"
         }
@@ -90,6 +180,14 @@
       "S": {
         "value": {
           "verticalPadding": "{Space.DropList.NoData.S.Container.VerticalPadding}"
+        },
+        "type": "composition"
+      }
+    },
+    "LoadList": {
+      "Single": {
+        "value": {
+          "height": "{Size.DropList.LoadList.Height}"
         },
         "type": "composition"
       }

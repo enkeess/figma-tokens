@@ -2,7 +2,7 @@
   "Popover": {
     "Container": {
       "value": {
-        "spacing": "{DimensionTheme.General.24px}",
+        "spacing": "{Space.Popover.Container.Padding}",
         "borderRadius": "{Radius.Popover.Container}",
         "minWidth": "{Size.Popover.Container.MinWidth}",
         "maxWidth": "{Size.Popover.Container.MaxWidth}"
@@ -12,8 +12,8 @@
     "PopoverPointer": {
       "value": {
         "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.Popover.Container}",
-        "paddingBottom": "{Radius.Popover.Container}"
+        "paddingTop": "{Space.Popover.PopoverPointer.Padding}",
+        "paddingBottom": "{Space.Popover.PopoverPointer.Padding}"
       },
       "type": "composition"
     }

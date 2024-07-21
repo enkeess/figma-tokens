@@ -92,6 +92,46 @@
         }
       }
     },
+    "Loader": {
+      "Loader": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.48px}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.72px}",
+          "type": "sizing"
+        }
+      },
+      "ProgressBarPage": {
+        "Height": {
+          "Xs": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          }
+        }
+      },
+      "ProgressBar": {
+        "Height": {
+          "Xs": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "S": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
     "Card": {
       "Picture": {
         "S": {
@@ -238,15 +278,57 @@
         "type": "sizing"
       }
     },
+    "Status": {
+      "BackgroundContainer": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "StatusIndicatorContainer": {
+      "Xxs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "sizing"
+      },
+      "Xs": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "sizing"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "M": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "L": {
+        "value": "{DimensionTheme.General.24px}",
+        "type": "sizing"
+      }
+    },
     "Counter": {
       "S": {
         "MinimalWidth": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Height": {
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         }
       },
       "M": {
         "MinimalWidth": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "Height": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         }
@@ -510,6 +592,22 @@
         }
       }
     },
+    "Icon": {
+      "Container": {
+        "Xs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "Sx2": {
+          "value": "{DimensionTheme.General.24px} * 2",
+          "type": "sizing"
+        }
+      }
+    },
     "Fields": {
       "S": {
         "value": "{DimensionTheme.General.32px}",
@@ -624,8 +722,32 @@
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
+        "S": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.32px}",
+            "type": "sizing"
+          }
+        },
+        "M": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.40px}",
+            "type": "sizing"
+          }
+        },
+        "L": {
+          "ContainerSeparatorSubheaderHeight": {
+            "value": "{DimensionTheme.General.48px}",
+            "type": "sizing"
+          }
+        },
         "Marker": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      },
+      "LoadList": {
+        "Height": {
+          "value": "{DimensionTheme.General.80px} + {DimensionTheme.General.16px}",
           "type": "sizing"
         }
       }
@@ -777,6 +899,10 @@
         "NameLayout": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
+        },
+        "CheckColumn": {
+          "value": "{Size.Table.LineHeight}",
+          "type": "sizing"
         }
       },
       "Information": {
@@ -808,6 +934,10 @@
         }
       },
       "Button": {
+        "value": "{DimensionTheme.General.32px}",
+        "type": "sizing"
+      },
+      "ReadedDivider": {
         "value": "{DimensionTheme.General.32px}",
         "type": "sizing"
       },
@@ -907,6 +1037,102 @@
           "type": "sizing"
         }
       }
+    },
+    "Slider": {
+      "Handle": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "TrackLine": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "sizing"
+      },
+      "Track": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      },
+      "ScaleBar": {
+        "Step": {
+          "Width": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "sizing"
+          },
+          "Height": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "Markdown": {
+      "TableCell": {
+        "Height": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "Quote": {
+        "MinHeight": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "InlineCode": {
+        "Height": {
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "Attachment": {
+      "StartItem": {
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.40px}",
+          "type": "sizing"
+        }
+      },
+      "Container": {
+        "Square": {
+          "S": {
+            "value": "{DimensionTheme.General.80px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.80px} + {DimensionTheme.General.24px} + {DimensionTheme.General.4px}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "HotSpot": {
+      "Dot": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "sizing"
+      },
+      "Pulse": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "sizing"
+      }
+    },
+    "SegmentedControl": {
+      "Segment": {
+        "S": {
+          "value": "{Size.Button.S} - {Space.SegmentedControl.Container.Padding} - {Space.SegmentedControl.Container.Padding}",
+          "type": "sizing"
+        },
+        "M": {
+          "value": "{Size.Button.M} - {Space.SegmentedControl.Container.Padding} - {Space.SegmentedControl.Container.Padding}",
+          "type": "sizing"
+        },
+        "L": {
+          "value": "{Size.Button.L} - {Space.SegmentedControl.Container.Padding} - {Space.SegmentedControl.Container.Padding}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Radius": {
@@ -961,7 +1187,7 @@
       }
     },
     "IconPredefined": {
-      "Decor": {
+      "DecorRound": {
         "S": {
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
@@ -972,6 +1198,20 @@
         },
         "L": {
           "value": "{DimensionTheme.General.40px}",
+          "type": "borderRadius"
+        }
+      },
+      "DecorSquare": {
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       }
@@ -1449,8 +1689,14 @@
     "Accordion": {
       "CollapseBlock": {
         "Primary": {
-          "value": "{DimensionTheme.General.24px}",
-          "type": "borderRadius"
+          "Round": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "borderRadius"
+          },
+          "Square": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "borderRadius"
+          }
         }
       }
     },
@@ -1478,6 +1724,78 @@
       "Control": {
         "Container": {
           "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "Slider": {
+      "Handle": {
+        "value": "{DimensionTheme.General.16px}",
+        "type": "borderRadius"
+      },
+      "ScaleBar": {
+        "Step": {
+          "Line": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "TrackLine": {
+        "value": "{DimensionTheme.General.2px}",
+        "type": "borderRadius"
+      }
+    },
+    "Markdown": {
+      "InlineCode": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        }
+      },
+      "Preview": {
+        "Container": {
+          "value": "{Radius.Fields.M}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "HotSpot": {
+      "Dot": {
+        "value": "{Size.HotSpot.Dot}",
+        "type": "borderRadius"
+      },
+      "Pulse": {
+        "value": "{Size.HotSpot.Pulse}",
+        "type": "borderRadius"
+      }
+    },
+    "SegmentedControl": {
+      "Container": {
+        "S": {
+          "value": "{Radius.Button.S}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.Button.M}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.Button.L}",
+          "type": "borderRadius"
+        }
+      },
+      "Segment": {
+        "S": {
+          "value": "{Radius.Button.S}  - {Space.SegmentedControl.Container.Padding}",
+          "type": "borderRadius"
+        },
+        "M": {
+          "value": "{Radius.Button.M}  - {Space.SegmentedControl.Container.Padding}",
+          "type": "borderRadius"
+        },
+        "L": {
+          "value": "{Radius.Button.L}  - {Space.SegmentedControl.Container.Padding}",
           "type": "borderRadius"
         }
       }
@@ -1564,6 +1882,32 @@
         }
       }
     },
+    "Pagination": {
+      "Gap": {
+        "Container": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "PageButton": {
+        "Xs": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Link": {
+      "Gap": {
+        "Single": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        }
+      }
+    },
     "Card": {
       "Padding": {
         "Container": {
@@ -1612,6 +1956,22 @@
       "Postfix": {
         "Gap": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Hint": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        },
+        "ContainerGap": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        }
+      },
+      "Label": {
+        "Gap": {
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       },
@@ -1682,6 +2042,10 @@
           "Bottom": {
             "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
+          },
+          "InputContainer": {
+            "value": "{Space.Fields.MultiLineContainer.S.Top} - {DimensionTheme.General.2px}",
+            "type": "spacing"
           }
         },
         "M": {
@@ -1700,6 +2064,10 @@
           "Bottom": {
             "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
+          },
+          "InputContainer": {
+            "value": "{Space.Fields.MultiLineContainer.M.Top} - {DimensionTheme.General.2px}",
+            "type": "spacing"
           }
         },
         "L": {
@@ -1717,6 +2085,50 @@
           },
           "Bottom": {
             "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          },
+          "InputContainer": {
+            "value": "{Space.Fields.MultiLineContainer.L.Top} - {DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "SliderPadding": {
+        "S": {
+          "value": "({LineHeight.Body.Sm} / 2)",
+          "type": "spacing"
+        },
+        "M": {
+          "value": "({LineHeight.Body.Md} / 2)",
+          "type": "spacing"
+        },
+        "L": {
+          "value": "({LineHeight.Body.Lg} / 2)",
+          "type": "spacing"
+        }
+      },
+      "ScaleBar": {
+        "PaddingTop": {
+          "value": "( {DimensionTheme.General.8px} - {DimensionTheme.General.2px} / 2)",
+          "type": "spacing"
+        }
+      },
+      "SelectMultiple": {
+        "S": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "L": {
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
             "type": "spacing"
           }
         }
@@ -1765,6 +2177,14 @@
         "Gap": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "Badge": {
+          "ElementsLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          }
         },
         "Headline": {
           "value": "{DimensionTheme.General.4px}",
@@ -1870,6 +2290,12 @@
             "type": "spacing"
           }
         }
+      },
+      "Container": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
       }
     },
     "Breadcrumbs": {
@@ -1912,22 +2338,20 @@
         "type": "spacing"
       }
     },
-    "Pagination": {
-      "PageButton": {
-        "Xs": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        },
-        "S": {
-          "value": "{DimensionTheme.General.8px}",
-          "type": "spacing"
-        }
-      }
-    },
     "Popover": {
       "PopoverPointer": {
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "Padding": {
+          "value": "{Radius.Popover.Container}",
+          "type": "spacing"
+        }
+      },
+      "Container": {
+        "Padding": {
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         }
       }
@@ -2110,6 +2534,12 @@
                 "type": "spacing"
               }
             }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.L.Container.HorizontalPadding} / 2",
+              "type": "spacing"
+            }
           }
         },
         "M": {
@@ -2132,6 +2562,12 @@
                 "type": "spacing"
               }
             }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.M.Container.HorizontalPadding} / 2",
+              "type": "spacing"
+            }
           }
         },
         "S": {
@@ -2153,6 +2589,12 @@
                 "value": "{DimensionTheme.General.8px}",
                 "type": "spacing"
               }
+            }
+          },
+          "ContainerSeparatorSubheader": {
+            "VerticalPadding": {
+              "value": "{Space.DropList.Item.S.Container.HorizontalPadding} / 2",
+              "type": "spacing"
             }
           }
         },
@@ -2192,6 +2634,12 @@
       "DropOffset": {
         "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
+      },
+      "Container": {
+        "VerticalPadding": {
+          "value": "{Radius.DropList.Container}",
+          "type": "spacing"
+        }
       }
     },
     "Alert": {
@@ -2382,6 +2830,14 @@
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
+        "Badge": {
+          "ElementsLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            }
+          }
+        },
         "Headline": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
@@ -2527,15 +2983,13 @@
           }
         }
       },
-      "Blank": {
-        "VerticalPadding": {
+      "BodyInfo": {
+        "Padding": {
           "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
-        },
-        "Gap": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "spacing"
-        },
+        }
+      },
+      "Blank": {
         "Text": {
           "Gap": {
             "value": "{DimensionTheme.General.4px}",
@@ -2583,6 +3037,16 @@
         "SeparatorPadding": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
+        },
+        "Column": {
+          "HorizontalPadding": {
+            "value": "{Space.Table.Cell.Padding}",
+            "type": "spacing"
+          },
+          "VerticalPadding": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         }
       },
       "Header": {
@@ -2707,6 +3171,16 @@
         "Offset": {
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
+        },
+        "Padding": {
+          "value": "{Radius.Tooltip.Container}",
+          "type": "spacing"
+        }
+      },
+      "Padding": {
+        "Single": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
         }
       }
     },
@@ -2749,6 +3223,200 @@
           "type": "spacing"
         }
       }
+    },
+    "InfoBlock": {
+      "S": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.16px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.4px}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
+      "M": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.16px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.24px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.8px}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
+      "L": {
+        "Container": {
+          "Gap": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "spacing"
+          },
+          "ContentLayout": {
+            "Gap": {
+              "value": "{DimensionTheme.General.24px}",
+              "type": "spacing"
+            },
+            "TextWrap": {
+              "Gap": {
+                "value": "{DimensionTheme.General.8px}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      },
+      "Footer": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Slider": {
+      "ScaleBar": {
+        "Step": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "Markdown": {
+      "TableCell": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        }
+      },
+      "InlineCode": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "Quote": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "spacing"
+        },
+        "VerticalPadding": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      },
+      "Preview": {
+        "Padding": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      }
+    },
+    "Attachment": {
+      "Composition": {
+        "S": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        },
+        "EndItem": {
+          "Gap": {
+            "value": "{DimensionTheme.General.4px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "SegmentedControl": {
+      "Segment": {
+        "S": {
+          "Gap": {
+            "value": "{Space.Button.S.Gap}",
+            "type": "spacing"
+          },
+          "FromLabel": {
+            "value": "{Space.Button.S.FromLabel}",
+            "type": "spacing"
+          },
+          "FromIcon": {
+            "value": "{Space.Button.S.FromIcon}",
+            "type": "spacing"
+          },
+          "IconOnly": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "M": {
+          "Gap": {
+            "value": "{Space.Button.M.Gap}",
+            "type": "spacing"
+          },
+          "FromLabel": {
+            "value": "{Space.Button.M.FromLabel}",
+            "type": "spacing"
+          },
+          "FromIcon": {
+            "value": "{Space.Button.M.FromIcon}",
+            "type": "spacing"
+          },
+          "IconOnly": {
+            "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "L": {
+          "Gap": {
+            "value": "{Space.Button.L.Gap}",
+            "type": "spacing"
+          },
+          "FromLabel": {
+            "value": "{Space.Button.L.FromLabel}",
+            "type": "spacing"
+          },
+          "FromIcon": {
+            "value": "{Space.Button.L.FromIcon}",
+            "type": "spacing"
+          },
+          "IconOnly": {
+            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        }
+      },
+      "Container": {
+        "Padding": {
+          "value": "{DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "BorderWidth": {
@@ -2781,6 +3449,12 @@
     "ButtonOutline": {
       "Single": {
         "value": "{BorderWidth.General.M}",
+        "type": "borderWidth"
+      }
+    },
+    "Droplist": {
+      "PinContent": {
+        "value": "{BorderWidth.General.Xs}",
         "type": "borderWidth"
       }
     },
@@ -2854,6 +3528,22 @@
         "type": "borderWidth"
       }
     },
+    "Markdown": {
+      "TableCell": {
+        "value": "{BorderWidth.General.Xs}",
+        "type": "borderWidth"
+      },
+      "Quote": {
+        "value": "{BorderWidth.General.Xl}",
+        "type": "borderWidth"
+      },
+      "Preview": {
+        "Container": {
+          "value": "{BorderWidth.Fields.Single}",
+          "type": "borderWidth"
+        }
+      }
+    },
     "Table": {
       "value": "{BorderWidth.012m}",
       "type": "borderWidth"
@@ -2878,6 +3568,10 @@
     },
     "Accordion": {
       "CollapseBlock": {
+        "Primary": {
+          "value": "{BorderWidth.012m}",
+          "type": "borderWidth"
+        },
         "Secondary": {
           "value": "{BorderWidth.012m}",
           "type": "borderWidth"
@@ -2896,6 +3590,12 @@
           "value": "{BorderWidth.025m}",
           "type": "borderWidth"
         }
+      }
+    },
+    "SegmentedControl": {
+      "Single": {
+        "value": "{BorderWidth.012m}",
+        "type": "borderWidth"
       }
     }
   },
@@ -2958,6 +3658,54 @@
     "StateFocus": {
       "Offset": {
         "value": "{DimensionTheme.General.2px}",
+        "type": "spacing"
+      }
+    },
+    "Status": {
+      "BackgroundContainer": {
+        "Padding": {
+          "Left": {
+            "Xs": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            },
+            "S": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            }
+          },
+          "Right": {
+            "Xs": {
+              "value": "{DimensionTheme.General.4px}",
+              "type": "spacing"
+            },
+            "S": {
+              "value": "{DimensionTheme.General.8px}",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "Container": {
+        "Gap": {
+          "Single": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "DropZone": {
+      "PaddingHorizontal": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
+      },
+      "PaddingVertical": {
+        "value": "{DimensionTheme.General.8px}",
+        "type": "spacing"
+      },
+      "Gap": {
+        "value": "{DimensionTheme.General.4px}",
         "type": "spacing"
       }
     }

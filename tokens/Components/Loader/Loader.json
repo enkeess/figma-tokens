@@ -3,25 +3,25 @@
     "Sun": {
       "Xs": {
         "value": {
-          "sizing": "{DimensionTheme.General.16px}"
+          "sizing": "{Size.Loader.Loader.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "sizing": "{DimensionTheme.General.24px}"
+          "sizing": "{Size.Loader.Loader.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "sizing": "{DimensionTheme.General.48px}"
+          "sizing": "{Size.Loader.Loader.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "sizing": "{DimensionTheme.General.72px}"
+          "sizing": "{Size.Loader.Loader.L}"
         },
         "type": "composition"
       }
@@ -29,25 +29,25 @@
     "Spiner": {
       "Xs": {
         "value": {
-          "sizing": "{DimensionTheme.General.16px}"
+          "sizing": "{Size.Loader.Loader.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "sizing": "{DimensionTheme.General.24px}"
+          "sizing": "{Size.Loader.Loader.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
-          "sizing": "{DimensionTheme.General.48px}"
+          "sizing": "{Size.Loader.Loader.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
-          "sizing": "{DimensionTheme.General.72px}"
+          "sizing": "{Size.Loader.Loader.L}"
         },
         "type": "composition"
       }
@@ -57,7 +57,7 @@
     "Container": {
       "Single": {
         "value": {
-          "height": "{DimensionTheme.General.2px}",
+          "height": "{Size.Loader.ProgressBarPage.Height.Xs}",
           "borderRadius": "{Radius.ProgressBarPage.Single}"
         },
         "type": "composition"
@@ -68,15 +68,15 @@
     "Container": {
       "Xs": {
         "value": {
-          "height": "{DimensionTheme.General.2px}",
+          "height": "{Size.Loader.ProgressBar.Height.Xs}",
           "borderRadius": "{Radius.ProgressBar.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "height": "{DimensionTheme.General.4px}",
-          "borderRadius": "{Radius.ProgressBar.Xs}"
+          "height": "{Size.Loader.ProgressBar.Height.S}",
+          "borderRadius": "{Radius.ProgressBar.S}"
         },
         "type": "composition"
       }

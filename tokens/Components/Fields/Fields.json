@@ -91,12 +91,32 @@
           "paddingRight": "{Space.Fields.MultiLineContainer.L.Right}"
         },
         "type": "composition"
+      },
+      "InputContainer": {
+        "S": {
+          "value": {
+            "paddingBottom": "{Space.Fields.MultiLineContainer.S.InputContainer}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "paddingBottom": "{Space.Fields.MultiLineContainer.M.InputContainer}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "paddingBottom": "{Space.Fields.MultiLineContainer.L.InputContainer}"
+          },
+          "type": "composition"
+        }
       }
     },
     "Label": {
       "LabelLayout": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Space.Fields.Label.Gap}"
         },
         "type": "composition"
       }
@@ -104,7 +124,7 @@
     "Hint": {
       "HintLayout": {
         "value": {
-          "itemSpacing": "{DimensionTheme.General.2px}"
+          "itemSpacing": "{Space.Fields.Hint.Gap}"
         },
         "type": "composition"
       },
@@ -121,6 +141,12 @@
           },
           "type": "composition"
         }
+      },
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Hint.ContainerGap}"
+        },
+        "type": "composition"
       }
     },
     "Buttons": {
@@ -163,6 +189,90 @@
       "Width": {
         "value": {
           "width": "{Size.Fields.ScrollBar.Width}"
+        },
+        "type": "composition"
+      }
+    },
+    "SliderWrap": {
+      "S": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "height": "{Size.Slider.TrackLine}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "ScaleBarWrap": {
+      "S": {
+        "value": {
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "horizontalPadding": "{Space.Fields.SliderPadding.M}",
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "paddingTop": "{Space.Fields.ScaleBar.PaddingTop}",
+          "horizontalPadding": "{Space.Fields.SliderPadding.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "SelectMultiple": {
+      "S": {
+        "value": {
+          "borderRadius": "{Radius.Fields.S}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.S.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.S.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.S.Right}",
+          "minHeight": "{Size.Fields.S}",
+          "verticalPadding": "{Space.Fields.SelectMultiple.S.VerticalPadding}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "borderRadius": "{Radius.Fields.M}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.M.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.M.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.M.Right}",
+          "verticalPadding": "{Space.Fields.SelectMultiple.M.VerticalPadding}",
+          "minHeight": "{Size.Fields.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "borderRadius": "{Radius.Fields.L}",
+          "borderWidth": "{BorderWidth.Fields.Single}",
+          "paddingLeft": "{Space.Fields.SingleLineContainer.L.Left}",
+          "itemSpacing": "{Space.Fields.SingleLineContainer.L.Gap}",
+          "paddingRight": "{Space.Fields.SingleLineContainer.L.Right}",
+          "minHeight": "{Size.Fields.L}",
+          "verticalPadding": "{Space.Fields.SelectMultiple.L.VerticalPadding}"
         },
         "type": "composition"
       }

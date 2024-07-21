@@ -1,12 +1,26 @@
 {
   "CollapseBlock": {
     "Container": {
+      "ShapeRound": {
+        "value": {
+          "borderRadius": "{Radius.Accordion.CollapseBlock.Primary.Round}",
+          "borderWidth": "{BorderWidth.Accordion.CollapseBlock.Primary}"
+        },
+        "type": "composition"
+      },
+      "ShapeSquare": {
+        "value": {
+          "borderRadius": "{Radius.Accordion.CollapseBlock.Primary.Square}",
+          "borderWidth": "{BorderWidth.Accordion.CollapseBlock.Primary}"
+        },
+        "type": "composition"
+      },
       "Primary": {
         "value": {
           "verticalPadding": "{Space.Accordion.CollapseBlock.Primary.VerticalPadding}",
           "horizontalPadding": "{Space.Accordion.CollapseBlock.Primary.HorizontalPadding}",
           "itemSpacing": "{Space.Accordion.CollapseBlock.Primary.Gap}",
-          "borderRadius": "{Radius.Accordion.CollapseBlock.Primary}"
+          "borderWidth": "{BorderWidth.Accordion.CollapseBlock.Primary}"
         },
         "type": "composition"
       },
@@ -15,7 +29,7 @@
           "verticalPadding": "{Space.Accordion.CollapseBlock.Secondary.VerticalPadding}",
           "horizontalPadding": "{Space.Accordion.CollapseBlock.Secondary.HorizontalPadding}",
           "itemSpacing": "{Space.Accordion.CollapseBlock.Secondary.Gap}",
-          "borderWidthBottom": "{BorderWidth.General.Xs}"
+          "borderWidthBottom": "{BorderWidth.Accordion.CollapseBlock.Secondary}"
         },
         "type": "composition"
       },

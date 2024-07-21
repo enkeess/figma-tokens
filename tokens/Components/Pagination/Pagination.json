@@ -48,7 +48,7 @@
     },
     "Container": {
       "value": {
-        "itemSpacing": "{DimensionTheme.General.4px}"
+        "itemSpacing": "{Space.Pagination.Gap.Container}"
       },
       "type": "composition"
     }

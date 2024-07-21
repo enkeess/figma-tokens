@@ -1,0 +1,56 @@
+{
+  "Attachment": {
+    "Composition": {
+      "S": {
+        "value": {
+          "itemSpacing": "{Space.Attachment.Composition.S.Gap}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "itemSpacing": "{Space.Attachment.Composition.M.Gap}"
+        },
+        "type": "composition"
+      },
+      "StartItem": {
+        "S": {
+          "value": {
+            "sizing": "{Size.Attachment.StartItem.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "sizing": "{Size.Attachment.StartItem.M}"
+          },
+          "type": "composition"
+        }
+      },
+      "EndItem": {
+        "Gap": {
+          "value": {
+            "itemSpacing": "{Space.Attachment.Composition.EndItem.Gap}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "Container": {
+      "Square": {
+        "S": {
+          "value": {
+            "sizing": "{Size.Attachment.Container.Square.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "sizing": "{Size.Attachment.Container.Square.M}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,210 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.1...npm15.5.0) (2024-07-09)
+
+
+### Features
+
+* **FF-5133:** balance dark theme ([1042ea3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1042ea35507b08b52e31810fd1565473c5529768))
+
+## [15.4.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.0...npm15.4.1) (2024-07-05)
+
+
+### Bug Fixes
+
+* field hint ContainerGap ([bbd8e6c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bbd8e6c3a40916ded19e56c4fc74511b69b31159))
+
+# [15.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.3.0...npm15.4.0) (2024-06-26)
+
+
+### Features
+
+* added SegmentedControl tokens ([4530ecf](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/4530ecf2c96bd29458e0a4f0cad1dc432ee8f73f))
+
+# [15.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.2.0...npm15.3.0) (2024-05-21)
+
+
+### Bug Fixes
+
+* HotSpot tokens ([f083f79](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f083f7947bf05bde620250ae25e45fcb337b4a56))
+* HotSpot tokens ([e80c8dd](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e80c8ddd00676f87193eecf2579064807497143a))
+
+
+### Features
+
+* added HotSpot tokens ([e4c3641](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e4c36413606e0244baea400a50757b823a73b8df))
+
+# [15.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.1.0...npm15.2.0) (2024-05-16)
+
+
+### Features
+
+* added Attachment tokens ([5b36cda](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5b36cda5f6cec423c1243f539bebf049b50b799d))
+
+# [15.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.1...npm15.1.0) (2024-05-16)
+
+
+### Features
+
+* **FF-4807:** brand release ([e20806e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e20806e80af7514edf0955bfd9420316e92039a6))
+
+## [15.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.0.0...npm15.0.1) (2024-04-27)
+
+
+### Bug Fixes
+
+* deleted skeleton ([cd9a99d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cd9a99dbbace819410394849cfa3c55fd0e6a1f9))
+* edited table tokens ([68f1cce](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/68f1ccec2566e788d6570308351165feaebc499a))
+* tokens update for tooltip, popover, markdown, accordion ([23a314b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/23a314b834e4a08babd7bebae77036ca60ef3b2d))
+
+# [15.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.2.0...npm15.0.0) (2024-04-26)
+
+
+### BREAKING CHANGES
+
+
+* **PDS-61:** remove useless ts simpleVar/compositeVar fn ([c7d4dd8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c7d4dd847ab346d5bed1364f35ac360d8569d9d5))
+* **PDS-61:** added DropList Content Pin tokens for all size ([b76e5a4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b76e5a42d33f16df8d0fdb221dd68e092481b97d))
+
+# [14.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.1...npm14.2.0) (2024-04-08)
+
+
+### Features
+
+* **FF-4689:** brand theme features ([f68d1c8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f68d1c8422d1a7388095f07c8aad3d9a09c7590b))
+
+## [14.1.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.1.0...npm14.1.1) (2024-03-29)
+
+
+### Bug Fixes
+
+* **FF-0000:** commit for cp theme release ([83bd701](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/83bd7017db370f982d4c4fdb044845c150afe34f))
+
+# [14.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.2...npm14.1.0) (2024-03-29)
+
+
+### Bug Fixes
+
+* table tokens ([af4dc6c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/af4dc6c8e0674095f54add4973e243952b72cb50))
+
+
+### Features
+
+* added shape Accordion tokens ([bd4c528](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/bd4c5282103504a783f63c37f4fd29083e5e67ee))
+
+## [14.0.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.1...npm14.0.2) (2024-03-28)
+
+
+### Bug Fixes
+
+* ButtonCombo tokens ([65bf751](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/65bf75100a1d271da9c50aac2483cde69df080d6))
+
+## [14.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm14.0.0...npm14.0.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* **FF-0001:** back correct Gray.95 color ([5d80341](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5d80341f8e08e74faabd0fd09b7b6a916fd615ef))
+
+# [14.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.2...npm14.0.0) (2024-02-28)
+
+
+### Bug Fixes
+
+* added Space.Table.Head.Column.VerticalPadding & HorizontalPadding tokens ([69d468f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/69d468f322aa79dbb8827cf4040b953d44a3f376))
+* Card.FunctionBadge ([8e86ac2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8e86ac219d8814f6938d292b7d5c7b225e162fdd))
+* Card.PromoBadge ([ea132fa](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/ea132fa6ee25bc5f8ff4ca14a5f3fdf09fbca98c))
+
+
+### BREAKING CHANGES
+
+
+* added size Xs tokens for ButtonFilled, ButtonOutline, ButtonTonal, ButtonSimple. added size L tokens for ButtonFunction. Added Radius.IconPredefined.DecorSquare & DecorRound tokens, removed Radius.IconPredefined.Decor. Added DropList.LoadList.Single token. added Tabs.Container token ([f37c139](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f37c139e4439beeb4e706d4334b85cc9b9bf5fad))
+
+## [13.5.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.1...npm13.5.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* Field Hint tokens ([db140b6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/db140b6de68f59ca340f7e7b40ef1bf2912d2542))
+* FieldSelectMultiple and FieldTextArea tokens ([740328b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/740328b33ff903d70285932056de09a6ffbe53d2))
+
+## [13.5.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.5.0...npm13.5.1) (2024-02-20)
+
+
+### Bug Fixes
+
+* Notification tokens ([51bc283](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/51bc283dc07f7e4ac820a14aac9f0999241f8685))
+* NotificationPanel tokens ([6ad0a6c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6ad0a6c55a1fee7dcacb6651319cd6ffbb89c9c2))
+
+# [13.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.4.0...npm13.5.0) (2024-02-19)
+
+
+### Features
+
+* added Markdown tokens ([a5fa24e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a5fa24eb5cb741da128317d1691e5f544e2f6e92))
+
+# [13.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.3.0...npm13.4.0) (2024-02-16)
+
+
+### Features
+
+* **FF-4248:** tokens for field slider, accordion ([409f3a1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/409f3a189ab637e0c2c6e6f4ec9d2225bddd3f4f))
+
+# [13.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.2.0...npm13.3.0) (2024-02-14)
+
+
+### Bug Fixes
+
+* base color balance ([1e3f9e4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1e3f9e4b84e11d566e3c02cbafd1df034395fb51))
+* shadow dark mode ([a471646](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a4716468c08ecd296b8ffdaf5112aac147bfa9c5))
+
+
+### Features
+
+* added missing tokens ([042df07](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/042df07ae5d5143d6d877fd75f166b4392cd8735))
+* **FF-4269:** set color modes ([80385a5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/80385a58ce46e73c21c4602ee7da176fa20d0a25))
+* **FF-4269:** update base colors ([7f95691](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7f956914e87b4f17e1745644666f0c6680f0fe6f))
+
+# [13.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.1.0...npm13.2.0) (2024-02-01)
+
+
+### Bug Fixes
+
+* Slider tokens ([cf6084f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cf6084f6b841165c065c2bca469caec6e624a53d))
+
+
+### Features
+
+* added Slider tokens ([b7afbfa](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b7afbfaea80b8fc8b79b2510448946ed076d2768))
+
+# [13.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm13.0.0...npm13.1.0) (2024-01-25)
+
+
+### Bug Fixes
+
+* InfoBlock tokens ([a2e1f75](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a2e1f7535ab6ee83c51317e6ed82fe42d892e3ca))
+
+
+### Features
+
+* added InfoBlock tokens ([5daa968](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5daa968a84dc4c25f81b779a84148b87c647ed39))
+
+# [13.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm12.0.0...npm13.0.0) (2024-01-17)
+
+
+### Features
+
+* added ContentPin tokens ([b08b93f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b08b93f7b8856f9ce86062a60a611295ad2b840a))
+
+
+### BREAKING CHANGES
+
+
+* added tokens ItemSeparator ([cc0546f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cc0546ff440e99f0ff98e04d3f489489f5634d26))
+* moved SearchPrivate tokens in personal file (package) ([6b485eb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/6b485eb124327e4921c33288dff8b0ea3f6444b4))
+
 # [12.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm11.1.0...npm12.0.0) (2023-12-27)
 
 

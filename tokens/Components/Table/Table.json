@@ -25,13 +25,20 @@
     "Head": {
       "Column": {
         "value": {
-          "spacing": "{Space.Table.Cell.Padding}"
+          "horizontalPadding": "{Space.Table.Head.Column.HorizontalPadding}",
+          "verticalPadding": "{Space.Table.Head.Column.VerticalPadding}"
         },
         "type": "composition"
       },
       "NameLayout": {
         "value": {
           "height": "{Size.Table.Head.NameLayout}"
+        },
+        "type": "composition"
+      },
+      "CheckColumn": {
+        "value": {
+          "width": "{Size.Table.Head.CheckColumn}"
         },
         "type": "composition"
       }

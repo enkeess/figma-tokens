@@ -698,7 +698,6 @@
       "Components/Link/Link": "source",
       "Components/Popover/Popover": "source",
       "Components/Tooltip/Tooltip": "source",
-      "Components/Skeleton/Skeleton": "source",
       "Components/DropList/DropList": "source",
       "Components/Toggles/Toggles": "source",
       "Components/Scroll/Scroll": "source",
@@ -734,7 +733,14 @@
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
       "Components/Timeline/Timeline": "source",
-      "Components/Carousel/Carousel": "source"
+      "Components/Carousel/Carousel": "source",
+      "Components/SearchPrivate/SearchPrivate": "source",
+      "Components/Notification/NotificationCard": "source",
+      "Components/InfoBlock/InfoBlock": "source",
+      "Components/Slider/Slider": "source",
+      "Components/Markdown/Markdown": "source",
+      "Components/HotSpot/HotSpot": "enabled",
+      "Components/SegmentedControl/SegmentedControl": "source"
     },
     "group": "Mode"
   },
@@ -1532,7 +1538,6 @@
       "Components/Link/Link": "source",
       "Components/Popover/Popover": "source",
       "Components/Tooltip/Tooltip": "source",
-      "Components/Skeleton/Skeleton": "source",
       "Components/DropList/DropList": "source",
       "Components/Toggles/Toggles": "source",
       "Components/Scroll/Scroll": "source",
@@ -1569,7 +1574,14 @@
       "Components/Chips/ChipChoice": "source",
       "Components/Chips/ChipToggle": "source",
       "Components/Timeline/Timeline": "source",
-      "Components/Carousel/Carousel": "source"
+      "Components/Carousel/Carousel": "source",
+      "Components/SearchPrivate/SearchPrivate": "source",
+      "Components/InfoBlock/InfoBlock": "source",
+      "Components/Slider/Slider": "source",
+      "Components/Markdown/Markdown": "source",
+      "Components/Attachment/Attachment": "source",
+      "Components/HotSpot/HotSpot": "source",
+      "Components/SegmentedControl/SegmentedControl": "source"
     },
     "group": "Mode"
   }

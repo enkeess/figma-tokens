@@ -2,7 +2,7 @@
   "Tooltip": {
     "Container": {
       "value": {
-        "spacing": "{DimensionTheme.General.16px}",
+        "spacing": "{Space.Tooltip.Padding.Single}",
         "borderRadius": "{Radius.Tooltip.Container}",
         "minWidth": "{Size.Tooltip.Container.MinWidth}",
         "maxWidth": "{Size.Tooltip.Container.MaxWidth}"
@@ -12,8 +12,8 @@
     "TooltipPointer": {
       "value": {
         "paddingLeft": "{Space.Popover.PopoverPointer.Offset}",
-        "paddingTop": "{Radius.Tooltip.Container}",
-        "paddingBottom": "{Radius.Tooltip.Container}"
+        "paddingTop": "{Space.Tooltip.TooltipPointer.Padding}",
+        "paddingBottom": "{Space.Tooltip.TooltipPointer.Padding}"
       },
       "type": "composition"
     }

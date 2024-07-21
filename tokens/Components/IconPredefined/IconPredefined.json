@@ -20,25 +20,48 @@
         "type": "composition"
       }
     },
-    "Decor": {
+    "DecorRound": {
       "S": {
         "value": {
           "sizing": "{Size.IconPredefined.Container.S}",
-          "borderRadius": "{Radius.IconPredefined.Decor.S}"
+          "borderRadius": "{Radius.IconPredefined.DecorRound.S}"
         },
         "type": "composition"
       },
       "M": {
         "value": {
           "sizing": "{Size.IconPredefined.Container.M}",
-          "borderRadius": "{Radius.IconPredefined.Decor.M}"
+          "borderRadius": "{Radius.IconPredefined.DecorRound.M}"
         },
         "type": "composition"
       },
       "L": {
         "value": {
           "sizing": "{Size.IconPredefined.Container.L}",
-          "borderRadius": "{Radius.IconPredefined.Decor.L}"
+          "borderRadius": "{Radius.IconPredefined.DecorRound.L}"
+        },
+        "type": "composition"
+      }
+    },
+    "DecorSquare": {
+      "S": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.S}",
+          "borderRadius": "{Radius.IconPredefined.DecorSquare.S}"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.M}",
+          "borderRadius": "{Radius.IconPredefined.DecorSquare.M}"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "sizing": "{Size.IconPredefined.Container.L}",
+          "borderRadius": "{Radius.IconPredefined.DecorSquare.L}"
         },
         "type": "composition"
       }

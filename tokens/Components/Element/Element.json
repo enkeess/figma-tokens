@@ -75,15 +75,15 @@
       }
     },
     "Xs": {
-      "value": "{Dimension.2m}",
+      "value": "{Size.Icon.Container.Xs}",
       "type": "sizing"
     },
     "S": {
-      "value": "{Dimension.3m}",
+      "value": "{Size.Icon.Container.S}",
       "type": "sizing"
     },
     "ScaleX2": {
-      "value": "{DimensionTheme.General.48px}",
+      "value": "{Size.Icon.Container.Sx2}",
       "type": "sizing"
     }
   },
