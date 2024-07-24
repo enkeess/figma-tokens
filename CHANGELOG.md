@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.0...npm15.5.1) (2024-07-24)
+
+
+### Bug Fixes
+
+* added new size for Alert ([d115ca4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d115ca4f9a210ad809c09ab6fa2fff0d2912f908))
+
 # [15.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.4.1...npm15.5.0) (2024-07-09)
 
 
