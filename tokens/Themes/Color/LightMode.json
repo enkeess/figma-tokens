@@ -380,7 +380,7 @@
         "description": "Формы, линий, текст или иконка"
       },
       "OnAccent": {
-        "value": "{Ref.Yellow.30}",
+        "value": "{Ref.Yellow.20}",
         "type": "color",
         "description": "Лучшее восприятие элементов на цвете Accent"
       }
