@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.1...npm15.5.2) (2024-07-29)
+
+
+### Bug Fixes
+
+* **FF-00:** additional theme balance ([cdc913b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/cdc913ba790cde86a9be6a5ac5d340f7ea4df693))
+
 ## [15.5.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.0...npm15.5.1) (2024-07-24)
 
 
