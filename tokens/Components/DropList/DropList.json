@@ -34,7 +34,7 @@
         "Headline": {
           "value": {
             "itemSpacing": "{Space.DropList.Item.S.Container.Headline.Gap}",
-            "height": "{Size.DropList.Item.Headline}"
+            "minHeight": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
         },
@@ -81,7 +81,7 @@
         "Headline": {
           "value": {
             "itemSpacing": "{Space.DropList.Item.M.Container.Headline.Gap}",
-            "height": "{Size.DropList.Item.Headline}"
+            "minHeight": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
         },
@@ -128,7 +128,7 @@
         "Headline": {
           "value": {
             "itemSpacing": "{Space.DropList.Item.L.Container.Headline.Gap}",
-            "height": "{Size.DropList.Item.Headline}"
+            "minHeight": "{Size.DropList.Item.Headline}"
           },
           "type": "composition"
         },
