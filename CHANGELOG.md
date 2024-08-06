@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.2...npm15.5.3) (2024-08-06)
+
+
+### Bug Fixes
+
+* DropListItem Headline ([0808e1c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0808e1cbb2d9e547a913fac93f5453d2913df5a6))
+
 ## [15.5.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.1...npm15.5.2) (2024-07-29)
 
 
