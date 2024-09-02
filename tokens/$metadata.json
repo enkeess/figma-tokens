@@ -28,6 +28,7 @@
     "Components/Chips/ChipAssist",
     "Components/Chips/ChipChoice",
     "Components/Chips/ChipToggle",
+    "Components/ColorPicker/ColorPicker",
     "Components/Counter/Counter",
     "Components/Drawer/Drawer",
     "Components/DropZone/DropZone",

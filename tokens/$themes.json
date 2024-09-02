@@ -740,7 +740,8 @@
       "Components/Slider/Slider": "source",
       "Components/Markdown/Markdown": "source",
       "Components/HotSpot/HotSpot": "enabled",
-      "Components/SegmentedControl/SegmentedControl": "source"
+      "Components/SegmentedControl/SegmentedControl": "source",
+      "Components/ColorPicker/ColorPicker": "source"
     },
     "group": "Mode"
   },
@@ -1581,7 +1582,8 @@
       "Components/Markdown/Markdown": "source",
       "Components/Attachment/Attachment": "source",
       "Components/HotSpot/HotSpot": "source",
-      "Components/SegmentedControl/SegmentedControl": "source"
+      "Components/SegmentedControl/SegmentedControl": "source",
+      "Components/ColorPicker/ColorPicker": "source"
     },
     "group": "Mode"
   }

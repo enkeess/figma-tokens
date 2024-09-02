@@ -1,0 +1,58 @@
+{
+  "ColorPicker": {
+    "ColorPalette": {
+      "value": {
+        "itemSpacing": "{Space.ColorPicker.ColorPalette.Gap}"
+      },
+      "type": "composition"
+    },
+    "SliderTrack": {
+      "value": {
+        "height": "{Size.ColorPicker.ColorPalette.SliderTrack}",
+        "borderRadius": "{Radius.ColorPicker.ColorPalette.SliderTrack}"
+      },
+      "type": "composition"
+    },
+    "ColorSlider": {
+      "value": {
+        "sizing": "{Size.ColorPicker.ColorPalette.SliderTrack}",
+        "borderRadius": "{Radius.ColorPicker.ColorSlider}",
+        "borderWidth": "{BorderWidth.ColorPicker.ColorSlider}"
+      },
+      "type": "composition"
+    },
+    "ColorArea": {
+      "value": {
+        "sizing": "{Size.ColorPicker.ColorPalette.ColorArea}"
+      },
+      "type": "composition"
+    },
+    "ColorModel": {
+      "value": {
+        "itemSpacing": "{Space.ColorPicker.ColorModel.Gap}"
+      },
+      "type": "composition"
+    },
+    "ColorPreview": {
+      "value": {
+        "sizing": "{Size.ColorPicker.ColorPreview}",
+        "borderRadius": "{Radius.ColorPicker.ColorPreview}"
+      },
+      "type": "composition"
+    },
+    "Container": {
+      "value": {
+        "paddingRight": "{Space.ColorPicker.Padding}",
+        "paddingLeft": "{Space.ColorPicker.Padding}",
+        "itemSpacing": "{Space.ColorPicker.Gap}"
+      },
+      "type": "composition"
+    },
+    "FooterElements": {
+      "value": {
+        "itemSpacing": "{Space.ColorPicker.Footer.Gap}"
+      },
+      "type": "composition"
+    }
+  }
+}
