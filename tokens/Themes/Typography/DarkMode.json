@@ -76,7 +76,7 @@
           "fontFamily": "{FontFamily.SBSansInterface}",
           "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
-          "fontSize": "{FontSize.22}",
+          "fontSize": "{FontSize.20}",
           "letterSpacing": "{LetterSpacing.L}",
           "paragraphSpacing": "{ParagraphSpacing.FontSize22}"
         },
@@ -253,7 +253,7 @@
           "fontFamily": "{FontFamily.SBSansInterface}",
           "fontWeight": "{FontWeight.LightSans}",
           "lineHeight": "{LineHeight.Title.Lg}",
-          "fontSize": "{FontSize.22}",
+          "fontSize": "{FontSize.20}",
           "letterSpacing": "{LetterSpacing.L}",
           "paragraphSpacing": "{ParagraphSpacing.FontSize22}"
         },
@@ -436,7 +436,7 @@
           "fontFamily": "{FontFamily.SBSansInterface}",
           "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
-          "fontSize": "{FontSize.22}",
+          "fontSize": "{FontSize.20}",
           "letterSpacing": "{LetterSpacing.L}",
           "paragraphSpacing": "{ParagraphSpacing.FontSize22}",
           "textDecoration": "{TextDecoration.Underline}"
@@ -628,7 +628,7 @@
           "fontFamily": "{FontFamily.SBSansInterface}",
           "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
-          "fontSize": "{FontSize.22}",
+          "fontSize": "{FontSize.20}",
           "letterSpacing": "{LetterSpacing.L}",
           "paragraphSpacing": "{ParagraphSpacing.FontSize22}",
           "textDecoration": "{TextDecoration.LineThrough}"
@@ -814,7 +814,7 @@
           "fontFamily": "{FontFamily.SBSansTextMono}",
           "fontWeight": "{FontWeight.Regular}",
           "lineHeight": "{LineHeight.Title.Lg}",
-          "fontSize": "{FontSize.22}",
+          "fontSize": "{FontSize.20}",
           "letterSpacing": "{LetterSpacing.L}",
           "paragraphSpacing": "{ParagraphSpacing.FontSize22}"
         },
