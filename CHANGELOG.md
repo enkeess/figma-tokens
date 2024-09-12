@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.3...npm15.5.4) (2024-09-12)
+
+
+### Bug Fixes
+
+* **PDS-651:** fix some font sizes and pallete colors ([0193f81](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0193f81552c2e3dff14addd2e14071fe509e22a3))
+
 ## [15.5.3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.2...npm15.5.3) (2024-08-06)
 
 
