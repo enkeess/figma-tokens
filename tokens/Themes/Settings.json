@@ -2609,7 +2609,7 @@
       },
       "TabButtonPrimary": {
         "Padding": {
-          "value": "{DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         },
         "PrimaryContainer": {
@@ -2634,9 +2634,17 @@
         }
       },
       "TabButtonSecondary": {
-        "Padding": {
-          "value": "{DimensionTheme.General.2px}",
-          "type": "spacing"
+        "Horizontal": {
+          "Padding": {
+            "value": "{DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "Vertical": {
+          "Padding": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
         },
         "Container": {
           "Padding": {

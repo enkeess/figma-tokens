@@ -17,49 +17,56 @@
     "TabButtonPrimary": {
       "Height": {
         "value": {
-          "height": "{Size.Tabs.Primary.Height}",
-          "horizontalPadding": "{Space.Tabs.TabButtonPrimary.Padding}"
+          "horizontalPadding": "{Space.Tabs.TabButtonPrimary.Padding}",
+          "minHeight": "{Size.Tabs.Primary.Height}"
         },
         "type": "composition"
       },
       "Container": {
         "value": {
-          "height": "{Size.Tabs.TabButtonPrimary.Container}",
           "borderRadius": "{Radius.Tabs.TabButtonPrimary.Container}",
-          "horizontalPadding": "{Space.Tabs.TabButtonPrimary.PrimaryContainer.Padding}",
           "itemSpacing": "{Space.Tabs.TabButtonPrimary.PrimaryContainer.Gap}"
-        },
-        "type": "composition"
-      },
-      "Marker": {
-        "value": {
-          "height": "{Size.Tabs.TabButtonPrimary.Marker}",
-          "borderRadius": "{Radius.Tabs.TabButtonPrimary.Marker}"
         },
         "type": "composition"
       }
     },
+    "MarkerHorizontal": {
+      "value": {
+        "height": "{Size.Tabs.TabButtonPrimary.Marker}",
+        "borderRadius": "{Radius.Tabs.TabButtonPrimary.Marker}"
+      },
+      "type": "composition"
+    },
+    "MarkerVertical": {
+      "value": {
+        "borderRadius": "{Radius.Tabs.TabButtonPrimary.Marker}",
+        "width": "{Size.Tabs.TabButtonPrimary.Marker}"
+      },
+      "type": "composition"
+    },
     "TabButtonSecondary": {
-      "Height": {
-        "value": {
-          "height": "{Size.Tabs.Secondary.Height}",
-          "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Padding}"
-        },
-        "type": "composition"
+      "Horizontal": {
+        "Height": {
+          "value": {
+            "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Horizontal.Padding}",
+            "minHeight": "{Size.Tabs.Secondary.Height}"
+          },
+          "type": "composition"
+        }
+      },
+      "Vertical": {
+        "Height": {
+          "value": {
+            "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Vertical.Padding}",
+            "minHeight": "{Size.Tabs.Secondary.Height}"
+          },
+          "type": "composition"
+        }
       },
       "Container": {
         "value": {
-          "height": "{Size.Tabs.TabButtonSecondary.Container}",
           "borderRadius": "{Radius.Tabs.TabButtonSecondary.Container}",
-          "horizontalPadding": "{Space.Tabs.TabButtonSecondary.Container.Padding}",
           "itemSpacing": "{Space.Tabs.TabButtonSecondary.Container.Gap}"
-        },
-        "type": "composition"
-      },
-      "Marker": {
-        "value": {
-          "height": "{Size.Tabs.TabButtonSecondary.Marker}",
-          "borderRadius": "{Radius.Tabs.TabButtonSecondary.Marker}"
         },
         "type": "composition"
       }
