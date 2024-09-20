@@ -53,6 +53,7 @@
     "Components/SearchPrivate/SearchPrivate",
     "Components/Search/Search",
     "Components/SegmentedControl/SegmentedControl",
+    "Components/Skeleton/Skeleton",
     "Components/Slider/Slider",
     "Components/Status/Status",
     "Components/Stepper/Stepper",

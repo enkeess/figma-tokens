@@ -112,6 +112,152 @@
         }
       }
     },
+    "SkeletonText": {
+      "LineHeight": {
+        "Display": {
+          "S": {
+            "value": "{LineHeight.Display.Sm}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{LineHeight.Display.Md}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{LineHeight.Display.Lg}",
+            "type": "sizing"
+          }
+        },
+        "Headline": {
+          "S": {
+            "value": "{LineHeight.Headline.Sm}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{LineHeight.Headline.Md}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{LineHeight.Headline.Lg}",
+            "type": "sizing"
+          }
+        },
+        "Title": {
+          "S": {
+            "value": "{LineHeight.Title.Sm}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{LineHeight.Title.Md}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{LineHeight.Title.Lg}",
+            "type": "sizing"
+          }
+        },
+        "Label": {
+          "S": {
+            "value": "{LineHeight.Label.Sm}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{LineHeight.Label.Md}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{LineHeight.Label.Lg}",
+            "type": "sizing"
+          }
+        },
+        "Body": {
+          "S": {
+            "value": "{LineHeight.Body.Sm}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{LineHeight.Body.Md}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{LineHeight.Body.Lg}",
+            "type": "sizing"
+          }
+        }
+      },
+      "FontSize": {
+        "Display": {
+          "S": {
+            "value": "{FontSize.40}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{FontSize.48}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{FontSize.56}",
+            "type": "sizing"
+          }
+        },
+        "Headline": {
+          "S": {
+            "value": "{FontSize.24}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{FontSize.28}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{FontSize.32}",
+            "type": "sizing"
+          }
+        },
+        "Title": {
+          "S": {
+            "value": "{FontSize.14}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{FontSize.16}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{FontSize.20}",
+            "type": "sizing"
+          }
+        },
+        "Label": {
+          "S": {
+            "value": "{FontSize.11}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{FontSize.12}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{FontSize.14}",
+            "type": "sizing"
+          }
+        },
+        "Body": {
+          "S": {
+            "value": "{FontSize.12}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{FontSize.14}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{FontSize.16}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
     "Loader": {
       "Loader": {
         "Xs": {
@@ -1229,6 +1375,80 @@
         "SliderTrack": {
           "value": "{Size.ColorPicker.ColorSlider} / 2",
           "type": "borderRadius"
+        }
+      }
+    },
+    "Skeleton": {
+      "Text": {
+        "Display": {
+          "S": {
+            "value": "{Size.SkeletonText.FontSize.Display.S} / 2",
+            "type": "borderRadius"
+          },
+          "M": {
+            "value": "{Size.SkeletonText.FontSize.Display.M} / 2",
+            "type": "borderRadius"
+          },
+          "L": {
+            "value": "{Size.SkeletonText.FontSize.Display.L} / 2",
+            "type": "borderRadius"
+          }
+        },
+        "Headline": {
+          "S": {
+            "value": "{Size.SkeletonText.FontSize.Headline.S} / 2",
+            "type": "borderRadius"
+          },
+          "M": {
+            "value": "{Size.SkeletonText.FontSize.Headline.M} / 2",
+            "type": "borderRadius"
+          },
+          "L": {
+            "value": "{Size.SkeletonText.FontSize.Headline.L} / 2",
+            "type": "borderRadius"
+          }
+        },
+        "Title": {
+          "S": {
+            "value": "{Size.SkeletonText.FontSize.Title.S} / 2",
+            "type": "borderRadius"
+          },
+          "M": {
+            "value": "{Size.SkeletonText.FontSize.Title.M} / 2",
+            "type": "borderRadius"
+          },
+          "L": {
+            "value": "{Size.SkeletonText.FontSize.Title.L} / 2",
+            "type": "borderRadius"
+          }
+        },
+        "Label": {
+          "S": {
+            "value": "{Size.SkeletonText.FontSize.Label.S} / 2",
+            "type": "borderRadius"
+          },
+          "M": {
+            "value": "{Size.SkeletonText.FontSize.Label.M} / 2",
+            "type": "borderRadius"
+          },
+          "L": {
+            "value": "{Size.SkeletonText.FontSize.Label.L} / 2",
+            "type": "borderRadius"
+          }
+        },
+        "Body": {
+          "S": {
+            "value": "{Size.SkeletonText.FontSize.Body.S} / 2",
+            "type": "borderRadius"
+          },
+          "M": {
+            "value": "{Size.SkeletonText.FontSize.Body.M} / 2",
+            "type": "borderRadius"
+          },
+          "L": {
+            "value": "{Size.SkeletonText.FontSize.Body.L} / 2",
+            "type": "borderRadius"
+          }
         }
       }
     },

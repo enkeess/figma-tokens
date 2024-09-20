@@ -741,6 +741,7 @@
       "Components/Markdown/Markdown": "source",
       "Components/HotSpot/HotSpot": "source",
       "Components/SegmentedControl/SegmentedControl": "source",
+      "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source"
     },
@@ -1584,6 +1585,7 @@
       "Components/Attachment/Attachment": "source",
       "Components/HotSpot/HotSpot": "source",
       "Components/SegmentedControl/SegmentedControl": "source",
+      "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source"
     },

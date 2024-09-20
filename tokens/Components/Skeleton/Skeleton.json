@@ -1,0 +1,223 @@
+{
+  "Skeleton": {
+    "Text": {
+      "LineHeight": {
+        "Display": {
+          "S": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Display.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Display.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Display.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Headline": {
+          "S": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Headline.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Headline.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Headline.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Title": {
+          "S": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Title.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Title.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Title.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Label": {
+          "S": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Label.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Label.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Label.L}"
+            },
+            "type": "composition"
+          }
+        },
+        "Body": {
+          "S": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Body.S}"
+            },
+            "type": "composition"
+          },
+          "M": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Body.M}"
+            },
+            "type": "composition"
+          },
+          "L": {
+            "value": {
+              "minHeight": "{Size.SkeletonText.LineHeight.Body.L}"
+            },
+            "type": "composition"
+          }
+        }
+      },
+      "Display": {
+        "S": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Display.S}",
+            "borderRadius": "{Radius.Skeleton.Text.Display.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Display.M}",
+            "borderRadius": "{Radius.Skeleton.Text.Display.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Display.L}",
+            "borderRadius": "{Radius.Skeleton.Text.Display.L}"
+          },
+          "type": "composition"
+        }
+      },
+      "Headline": {
+        "S": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Headline.S}",
+            "borderRadius": "{Radius.Skeleton.Text.Headline.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Headline.M}",
+            "borderRadius": "{Radius.Skeleton.Text.Headline.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Headline.L}",
+            "borderRadius": "{Radius.Skeleton.Text.Headline.L}"
+          },
+          "type": "composition"
+        }
+      },
+      "Title": {
+        "S": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Title.S}",
+            "borderRadius": "{Radius.Skeleton.Text.Title.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Title.M}",
+            "borderRadius": "{Radius.Skeleton.Text.Title.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Title.L}",
+            "borderRadius": "{Radius.Skeleton.Text.Title.L}"
+          },
+          "type": "composition"
+        }
+      },
+      "Label": {
+        "S": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Label.S}",
+            "borderRadius": "{Radius.Skeleton.Text.Label.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Label.M}",
+            "borderRadius": "{Radius.Skeleton.Text.Label.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Label.L}",
+            "borderRadius": "{Radius.Skeleton.Text.Label.L}"
+          },
+          "type": "composition"
+        }
+      },
+      "Body": {
+        "S": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Body.S}",
+            "borderRadius": "{Radius.Skeleton.Text.Body.S}"
+          },
+          "type": "composition"
+        },
+        "M": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Body.M}",
+            "borderRadius": "{Radius.Skeleton.Text.Body.M}"
+          },
+          "type": "composition"
+        },
+        "L": {
+          "value": {
+            "height": "{Size.SkeletonText.FontSize.Body.L}",
+            "borderRadius": "{Radius.Skeleton.Text.Body.L}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}
