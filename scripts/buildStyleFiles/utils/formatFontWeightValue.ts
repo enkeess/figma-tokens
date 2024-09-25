@@ -1,4 +1,4 @@
-const COMMON_FONT_WEIGHTS = {
+const COMMON_FONT_WEIGHTS: Record<string, number> = {
   thin: 100,
   hairline: 100,
   extralight: 200,
@@ -35,4 +35,4 @@ const COMMON_FONT_WEIGHTS = {
 };
 
 export const formatFontWeightValue = (value: unknown): string =>
-  COMMON_FONT_WEIGHTS[String(value).replace(/-/g, '').replace(/\s/g, '').toLowerCase()] ?? value;
+  String(COMMON_FONT_WEIGHTS[String(value).replace(/-/g, '').replace(/\s/g, '').toLowerCase()] ?? value);

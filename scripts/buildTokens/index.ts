@@ -5,7 +5,7 @@ import { AnyRecord } from '../../types/any-record';
 import { Themes, TOKENS_BUILD_DIRECTORY, TOKENS_DIRECTORY } from '../constants';
 import { createTokenFile, generateTokens } from './utils';
 
-export const THEME_MAP = {
+export const THEME_MAP: Record<string, Themes> = {
   LightMode: Themes.BrandLight,
   DarkMode: Themes.BrandDark,
 };
@@ -26,10 +26,13 @@ export const buildTokens = async () => {
     );
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const rawTokens: AnyRecord = result.reduce((result, currentFile, index) => {
-      result[paths[index]] = JSON.parse(currentFile);
-      return result;
-    }, {});
+    const rawTokens: AnyRecord = result.reduce(
+      (result, currentFile, index) => {
+        result[paths[index]] = JSON.parse(currentFile);
+        return result;
+      },
+      {} as Record<string, string>,
+    );
 
     // генерим json-файл с токенами для темы
     await createTokenFile({
