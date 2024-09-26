@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.4...npm15.6.0) (2024-09-26)
+
+
+### Features
+
+* added ColorPicker ([b7d6278](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b7d6278eabdade0d4571371cbeb70a3cdd9ced19))
+
 ## [15.5.4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.3...npm15.5.4) (2024-09-12)
 
 
