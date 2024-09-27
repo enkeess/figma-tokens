@@ -222,7 +222,7 @@
     "Buttons": {
       "S": {
         "value": {
-          "height": "{Size.Fields.S}",
+          "sizing": "{Size.Fields.Buttons.S}",
           "borderRadius": "{Radius.Fields.Buttons.S}"
         },
         "type": "composition"
