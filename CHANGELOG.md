@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.6.0...npm15.7.0) (2024-09-27)
+
+
+### Dependencies
+
+* **PDS-199:** up deps ([db4fd4e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/db4fd4e407bd273c8aeff81a01c06f4d7ca85401))
+
+
+### Features
+
+* **PDS-199:** add button field tokens ([3b58b9b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3b58b9b926fcfb76236a6332d09a6f019eed3149))
+
 # [15.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.5.4...npm15.6.0) (2024-09-26)
 
 
