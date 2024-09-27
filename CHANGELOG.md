@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.7.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.7.0...npm15.7.1) (2024-09-27)
+
+
+### Bug Fixes
+
+* **PDS-199:** fix Fields.Buttons.S token ([48e0f6b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/48e0f6ba96b51b6e0c23bfeeaf0cd30a5cc90391))
+
 # [15.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.6.0...npm15.7.0) (2024-09-27)
 
 
