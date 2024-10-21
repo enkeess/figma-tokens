@@ -41,6 +41,82 @@
         },
         "type": "composition"
       }
+    },
+    "Syntax": {
+      "Headings": {
+        "Level1": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level1}"
+          },
+          "type": "composition"
+        },
+        "Level2": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level2}"
+          },
+          "type": "composition"
+        },
+        "Level3": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level3}"
+          },
+          "type": "composition"
+        },
+        "Level4": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level4}"
+          },
+          "type": "composition"
+        },
+        "Level5": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level5}"
+          },
+          "type": "composition"
+        },
+        "Level6": {
+          "value": {
+            "paddingTop": "{Space.Markdown.Syntax.Heading.Level6}"
+          },
+          "type": "composition"
+        }
+      },
+      "Paragraphs": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.Paragraphs.Regular}"
+        },
+        "type": "composition"
+      },
+      "Quote": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.Quote}"
+        },
+        "type": "composition"
+      },
+      "List": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.List}"
+        },
+        "type": "composition"
+      },
+      "CodeEditor": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.CodeEditor}"
+        },
+        "type": "composition"
+      },
+      "Table": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.Table}"
+        },
+        "type": "composition"
+      },
+      "Divider": {
+        "value": {
+          "paddingTop": "{Space.Markdown.Syntax.Divider}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

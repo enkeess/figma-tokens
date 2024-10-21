@@ -1113,7 +1113,7 @@
       },
       "Quote": {
         "MinHeight": {
-          "value": "{DimensionTheme.General.40px}",
+          "value": "{DimensionTheme.General.40px} - {DimensionTheme.General.4px}",
           "type": "sizing"
         }
       },
@@ -3473,13 +3473,71 @@
           "type": "spacing"
         },
         "VerticalPadding": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       },
       "Preview": {
         "Padding": {
           "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
+          "type": "spacing"
+        }
+      },
+      "Syntax": {
+        "Heading": {
+          "Level1": {
+            "value": "{LineHeight.Headline.Lg} / 2",
+            "type": "spacing"
+          },
+          "Level2": {
+            "value": "{LineHeight.Headline.Md} / 2",
+            "type": "spacing"
+          },
+          "Level3": {
+            "value": "{LineHeight.Headline.Sm} / 2",
+            "type": "spacing"
+          },
+          "Level4": {
+            "value": "{LineHeight.Title.Lg} / 2",
+            "type": "spacing"
+          },
+          "Level5": {
+            "value": "{LineHeight.Title.Md} / 2",
+            "type": "spacing"
+          },
+          "Level6": {
+            "value": "{LineHeight.Title.Sm} / 2",
+            "type": "spacing"
+          }
+        },
+        "Paragraphs": {
+          "Regular": {
+            "value": "{LineHeight.Body.Md} / 2",
+            "type": "spacing"
+          },
+          "Bold": {
+            "value": "{LineHeight.Label.Lg} / 2",
+            "type": "spacing"
+          }
+        },
+        "List": {
+          "value": "{Space.Markdown.Syntax.Paragraphs.Regular} / 2",
+          "type": "spacing"
+        },
+        "Quote": {
+          "value": "{Space.Markdown.Syntax.Paragraphs.Regular} / 2",
+          "type": "spacing"
+        },
+        "CodeEditor": {
+          "value": "{Space.Markdown.Syntax.Paragraphs.Regular} / 2",
+          "type": "spacing"
+        },
+        "Table": {
+          "value": "{Space.Markdown.Syntax.Paragraphs.Regular} / 2",
+          "type": "spacing"
+        },
+        "Divider": {
+          "value": "{Space.Markdown.Syntax.Paragraphs.Regular}",
           "type": "spacing"
         }
       }
