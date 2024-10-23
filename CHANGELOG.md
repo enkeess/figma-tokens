@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.8.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.7.1...npm15.8.0) (2024-10-23)
+
+
+### Features
+
+* added Markdown tokens ([eead3a5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/eead3a5dac5c1755df5a2fd42c3da71406fb921d))
+
 ## [15.7.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.7.0...npm15.7.1) (2024-09-27)
 
 
