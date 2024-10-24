@@ -1,7 +1,7 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
 import { SCSS_BUILD_DIRECTORY, Themes, TOKENS_BUILD_DIRECTORY } from '../../constants';
-import { FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
+import { FormatName, PLATFORM, STYLES_THEME_VARIABLES_NAMESPACE, TransformName } from '../constants';
 
 export function getSCSSThemeVariablesConfig() {
   return {
@@ -12,7 +12,7 @@ export function getSCSSThemeVariablesConfig() {
         transforms: [...StyleDictionaryPackage.transformGroup.scss, TransformName.ThemeVariables],
         files: [
           {
-            destination: `styles-${THEME_VARIABLES}.scss`,
+            destination: `${STYLES_THEME_VARIABLES_NAMESPACE}.scss`,
             format: FormatName.SCSSThemeVariables,
           },
         ],

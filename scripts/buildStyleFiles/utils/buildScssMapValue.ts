@@ -1,7 +1,14 @@
 import { Dictionary, TransformedToken, TransformedTokens } from 'style-dictionary';
 
 import { AnyRecord } from '../../../types/any-record';
-import { BASE_INDENT, BOX_SHADOW_CSS_PROP, COMPOSITE_TOKENS, CompositeToken, ValueFormat } from '../constants';
+import {
+  BASE_INDENT,
+  BOX_SHADOW_CSS_PROP,
+  COMPOSITE_TOKENS,
+  CompositeToken,
+  STYLES_THEME_VARIABLES_NAMESPACE,
+  ValueFormat,
+} from '../constants';
 import { figmaTokenToCssProps, objectTokenTransform, toKebabCase } from '../utils';
 
 const isToken = (token: TransformedTokens): token is TransformedToken => Boolean(token.name);
@@ -21,7 +28,7 @@ function replaceRefs({
     const refs = dictionary.getReferences(valueWithRefs);
 
     refs.forEach(ref => {
-      replacedValue = replacedValue.replace(String(ref.value), `$${ref.name}`);
+      replacedValue = replacedValue.replace(String(ref.value), `${STYLES_THEME_VARIABLES_NAMESPACE}.$${ref.name}`);
     });
   }
 

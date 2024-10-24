@@ -1,7 +1,7 @@
 import StyleDictionaryPackage from 'style-dictionary';
 
 import { Themes, TOKENS_BUILD_DIRECTORY, TS_BUILD_DIRECTORY } from '../../constants';
-import { FormatName, PLATFORM, THEME_VARIABLES, TransformName } from '../constants';
+import { FormatName, PLATFORM, STYLES_THEME_VARIABLES_NAMESPACE, THEME_VARIABLES, TransformName } from '../constants';
 
 export function getTSThemeVariablesConfig() {
   return {
@@ -13,7 +13,7 @@ export function getTSThemeVariablesConfig() {
         files: [
           {
             format: FormatName.TSThemeVariables,
-            destination: `styles-${THEME_VARIABLES}.ts`,
+            destination: `${STYLES_THEME_VARIABLES_NAMESPACE}.ts`,
             options: {
               theme: THEME_VARIABLES,
             },

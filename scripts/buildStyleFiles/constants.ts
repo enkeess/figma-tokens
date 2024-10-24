@@ -1,5 +1,6 @@
 export const PLATFORM = 'web';
 export const THEME_VARIABLES = 'theme-variables';
+export const STYLES_THEME_VARIABLES_NAMESPACE = `styles-${THEME_VARIABLES}`;
 export const BASE_INDENT = '  ';
 
 export enum CompositeToken {
