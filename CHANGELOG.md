@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.8.0...npm16.0.0) (2024-10-28)
+
+
+### Bug Fixes
+
+* revert bumping semantic-release package ([fbd5775](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/fbd57755bd3c0edac74bec80be865e660c077ef9))
+* semantic-release version 1.1.0 ([4afda92](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/4afda9233dc82a17399198762e6b6339ed505c7c))
+
+
+### Dependencies
+
+* **FF-5782:** update repo dependencies ([432266e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/432266e228d1386ade014229cdce8a926f1edff6))
+
+
+### BREAKING CHANGES
+
+
+* **FF-5782:** migration for dart-sass v3, using forward+use instead of import ([e4a469e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/e4a469e809df5463aeb1d6ee840b1d3e7ed2b2c5))
+
 # [15.8.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.7.1...npm15.8.0) (2024-10-23)
 
 
