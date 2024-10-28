@@ -28,7 +28,7 @@
     "@cloud-ru/ft-config-husky": "1.1.2",
     "@cloud-ru/ft-config-lint-staged": "1.1.2",
     "@cloud-ru/ft-config-prettier": "1.1.2",
-    "@cloud-ru/ft-config-semantic-release": "1.1.2",
+    "@cloud-ru/ft-config-semantic-release": "1.1.1",
     "@cloud-ru/ft-config-tsconfig": "1.1.1",
     "@types/shelljs": "0.8.15",
     "shelljs": "0.8.5",
