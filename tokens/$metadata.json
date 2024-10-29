@@ -47,6 +47,7 @@
     "Components/Notification/NotificationCard",
     "Components/Pagination/Pagination",
     "Components/Popover/Popover",
+    "Components/ProgressBar/ProgressBar",
     "Components/PromoTag/PromoTag",
     "Components/Scroll/Scroll",
     "Components/SearchPrivate/SearchPrivate",

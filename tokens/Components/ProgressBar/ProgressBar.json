@@ -1,0 +1,31 @@
+{
+  "ProgressBarPage": {
+    "Container": {
+      "Single": {
+        "value": {
+          "height": "{Size.ProgressBar.ProgressBarPage.Height.Xs}",
+          "borderRadius": "{Radius.ProgressBarPage.Single}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "ProgressBar": {
+    "Container": {
+      "Xs": {
+        "value": {
+          "height": "{Size.ProgressBar.ProgressBar.Height.Xs}",
+          "borderRadius": "{Radius.ProgressBar.Xs}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{Size.ProgressBar.ProgressBar.Height.S}",
+          "borderRadius": "{Radius.ProgressBar.S}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

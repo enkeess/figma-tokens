@@ -57,7 +57,7 @@
     "Container": {
       "Single": {
         "value": {
-          "height": "{Size.Loader.ProgressBarPage.Height.Xs}",
+          "height": "{Size.ProgressBar.ProgressBarPage.Height.Xs}",
           "borderRadius": "{Radius.ProgressBarPage.Single}"
         },
         "type": "composition"
@@ -68,14 +68,14 @@
     "Container": {
       "Xs": {
         "value": {
-          "height": "{Size.Loader.ProgressBar.Height.Xs}",
+          "height": "{Size.ProgressBar.ProgressBar.Height.Xs}",
           "borderRadius": "{Radius.ProgressBar.Xs}"
         },
         "type": "composition"
       },
       "S": {
         "value": {
-          "height": "{Size.Loader.ProgressBar.Height.S}",
+          "height": "{Size.ProgressBar.ProgressBar.Height.S}",
           "borderRadius": "{Radius.ProgressBar.S}"
         },
         "type": "composition"

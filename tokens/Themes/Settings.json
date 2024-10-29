@@ -130,7 +130,9 @@
           "value": "{DimensionTheme.General.72px}",
           "type": "sizing"
         }
-      },
+      }
+    },
+    "ProgressBar": {
       "ProgressBarPage": {
         "Height": {
           "Xs": {
