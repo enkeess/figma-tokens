@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.0.0...npm16.0.1) (2024-10-31)
+
+
+### Bug Fixes
+
+* **PDS-438:** add time tokens to calendar ([c75fe5f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c75fe5f0a51e425b80a98ba75ec5b346b266e892))
+
 # [16.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm15.8.0...npm16.0.0) (2024-10-28)
 
 
