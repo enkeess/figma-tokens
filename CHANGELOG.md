@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.0.1...npm16.1.0) (2024-11-11)
+
+
+### Bug Fixes
+
+* **PDS-856:** fix deps security issues ([75bd437](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/75bd437d921b942f0ee4443294435501b2e6fa4a))
+
+
+### Features
+
+* added ProgressBar package, tokens transferred from Loader package to ProgressBar package ([f433c0e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f433c0eaab7b2bc77c37fec8be1ba3fb3ae4b798))
+
 ## [16.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.0.0...npm16.0.1) (2024-10-31)
 
 
