@@ -2260,6 +2260,12 @@
             "type": "spacing"
           }
         }
+      },
+      "Stepper": {
+        "ContentContainer": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "TagMore": {

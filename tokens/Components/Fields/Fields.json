@@ -430,6 +430,14 @@
         },
         "type": "composition"
       }
+    },
+    "Stepper": {
+      "ContentContainer": {
+        "value": {
+          "itemSpacing": "{Space.Fields.Stepper.ContentContainer}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
