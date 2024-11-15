@@ -260,6 +260,10 @@
     },
     "Loader": {
       "Loader": {
+        "Xxs": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "sizing"
+        },
         "Xs": {
           "value": "{DimensionTheme.General.16px}",
           "type": "sizing"

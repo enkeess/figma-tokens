@@ -27,6 +27,12 @@
       }
     },
     "Spiner": {
+      "Xxs": {
+        "value": {
+          "sizing": "{Size.Loader.Loader.Xxs}"
+        },
+        "type": "composition"
+      },
       "Xs": {
         "value": {
           "sizing": "{Size.Loader.Loader.Xs}"
