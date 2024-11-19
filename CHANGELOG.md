@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.0...npm16.1.1) (2024-11-19)
+
+
+### Bug Fixes
+
+* added new token for FieldStepper ([82fce77](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/82fce775fc9302057abc87c9f10e6daa97179c81))
+
 # [16.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.0.1...npm16.1.0) (2024-11-11)
 
 
