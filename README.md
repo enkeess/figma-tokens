@@ -262,7 +262,7 @@ export const ButtonFilled = ({ label, size, variant, disabled, loading }: Button
 
 1. Переходим на репозиторий с [токенами](https://github.com/cloud-ru-tech/figma-tokens) и создаем форк
 2. Добавляем в Repository secrets переменную `CI_NPM_TOKEN` с Access токеном из npmjs (для публикации собственного пакета)
-3. Создаем ветку `brand` и переносим в корень содержимое папки `guthub-settings-example`
+3. Создаем ветку `brand` и переносим в корень содержимое папки `github-settings-example`
 4. Подставляем собственные значения (`YOUR_PACKAGE_NAME`, `YOUR_BRAND`, `YOUR USERNAME`, `YOUR_USERNAME`) в `patch.package.json`
 5. Пушим измения в `origin/brand`
 6. Меняем `default branch` в настройках репозитория на `brand`
