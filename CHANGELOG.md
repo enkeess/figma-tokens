@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.1...npm16.1.2) (2024-11-25)
+
+
+### Bug Fixes
+
+* **FF-5700:** bump release version ([67a951b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/67a951b6058baed6428c43bd10dc2e1722a06642))
+
 ## [16.1.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.0...npm16.1.1) (2024-11-19)
 
 
