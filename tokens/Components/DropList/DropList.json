@@ -162,6 +162,12 @@
           "borderRadiusTopRight": "{Radius.DropList.Marker}"
         },
         "type": "composition"
+      },
+      "NestingLevelOffset": {
+        "value": {
+          "width": "{Size.DropList.Item.NestingLevelOffset}"
+        },
+        "type": "composition"
       }
     },
     "NoData": {

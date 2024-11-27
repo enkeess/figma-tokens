@@ -945,6 +945,10 @@
         "Marker": {
           "value": "{DimensionTheme.General.4px}",
           "type": "sizing"
+        },
+        "NestingLevelOffset": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
         }
       },
       "LoadList": {
