@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.2...npm16.2.0) (2024-11-29)
+
+
+### Features
+
+* **PDS-801:** added tokens skeleton ([abcbc17](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/abcbc1797d117c5b2ff2e5688f0325615b2b5452))
+
 ## [16.1.2](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.1...npm16.1.2) (2024-11-25)
 
 
