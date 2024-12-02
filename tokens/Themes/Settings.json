@@ -4161,6 +4161,10 @@
         "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
+    },
+    "TableLine": {
+      "value": "{BorderWidth.006m}",
+      "type": "borderWidth"
     }
   },
   "Border": {
