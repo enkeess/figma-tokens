@@ -43,7 +43,7 @@
             "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}",
             "itemSpacing": "{Space.DropList.Item.S.Container.Gap}",
-            "height": "{Size.DropList.Item.S.ContainerSeparatorSubheaderHeight}"
+            "height": "{Size.DropList.Item.ContainerSeparatorSubheaderHeight.S}"
           },
           "type": "composition"
         },
@@ -51,6 +51,18 @@
           "value": {
             "verticalPadding": "{Space.DropList.Item.S.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.S.Container.HorizontalPadding}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelOffset": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelOffset.S}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelGapCompensator": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelGapCompensator.S}"
           },
           "type": "composition"
         }
@@ -90,7 +102,7 @@
             "verticalPadding": "{Space.DropList.Item.M.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.M.Container.HorizontalPadding}",
             "itemSpacing": "{Space.DropList.Item.M.Container.Gap}",
-            "height": "{Size.DropList.Item.M.ContainerSeparatorSubheaderHeight}"
+            "height": "{Size.DropList.Item.ContainerSeparatorSubheaderHeight.M}"
           },
           "type": "composition"
         },
@@ -98,6 +110,18 @@
           "value": {
             "verticalPadding": "{Space.DropList.Item.M.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.M.Container.HorizontalPadding}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelOffset": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelOffset.M}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelGapCompensator": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelGapCompensator.M}"
           },
           "type": "composition"
         }
@@ -137,7 +161,7 @@
             "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}",
             "itemSpacing": "{Space.DropList.Item.L.Container.Gap}",
-            "height": "{Size.DropList.Item.L.ContainerSeparatorSubheaderHeight}"
+            "height": "{Size.DropList.Item.ContainerSeparatorSubheaderHeight.L}"
           },
           "type": "composition"
         },
@@ -145,6 +169,18 @@
           "value": {
             "verticalPadding": "{Space.DropList.Item.L.ContainerSeparatorSubheader.VerticalPadding}",
             "horizontalPadding": "{Space.DropList.Item.L.Container.HorizontalPadding}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelOffset": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelOffset.L}"
+          },
+          "type": "composition"
+        },
+        "NestingLevelGapCompensator": {
+          "value": {
+            "width": "{Size.DropList.Item.NestingLevelGapCompensator.L}"
           },
           "type": "composition"
         }
@@ -160,12 +196,6 @@
           "width": "{Size.DropList.Item.Marker}",
           "borderRadiusBottomRight": "{Radius.DropList.Marker}",
           "borderRadiusTopRight": "{Radius.DropList.Marker}"
-        },
-        "type": "composition"
-      },
-      "NestingLevelOffset": {
-        "value": {
-          "width": "{Size.DropList.Item.NestingLevelOffset}"
         },
         "type": "composition"
       }

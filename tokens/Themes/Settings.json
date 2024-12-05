@@ -924,20 +924,16 @@
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
-        "S": {
-          "ContainerSeparatorSubheaderHeight": {
+        "ContainerSeparatorSubheaderHeight": {
+          "S": {
             "value": "{DimensionTheme.General.32px}",
             "type": "sizing"
-          }
-        },
-        "M": {
-          "ContainerSeparatorSubheaderHeight": {
+          },
+          "M": {
             "value": "{DimensionTheme.General.40px}",
             "type": "sizing"
-          }
-        },
-        "L": {
-          "ContainerSeparatorSubheaderHeight": {
+          },
+          "L": {
             "value": "{DimensionTheme.General.48px}",
             "type": "sizing"
           }
@@ -947,8 +943,32 @@
           "type": "sizing"
         },
         "NestingLevelOffset": {
-          "value": "{DimensionTheme.General.24px}",
-          "type": "sizing"
+          "S": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{DimensionTheme.General.24px}",
+            "type": "sizing"
+          }
+        },
+        "NestingLevelGapCompensator": {
+          "S": {
+            "value": "{Size.DropList.Item.NestingLevelOffset.S} - {Space.DropList.Item.S.Container.Gap}",
+            "type": "sizing"
+          },
+          "M": {
+            "value": "{Size.DropList.Item.NestingLevelOffset.M} - {Space.DropList.Item.M.Container.Gap}",
+            "type": "sizing"
+          },
+          "L": {
+            "value": "{Size.DropList.Item.NestingLevelOffset.L} - {Space.DropList.Item.L.Container.Gap}",
+            "type": "sizing"
+          }
         }
       },
       "LoadList": {
