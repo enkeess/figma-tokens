@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.2.0...npm16.3.0) (2024-12-12)
+
+
+### Features
+
+* added Loader.Xxs tokens ([5441f78](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5441f78703a8a0e01356c0ac7db87705959974f7))
+
 # [16.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.1.2...npm16.2.0) (2024-11-29)
 
 
