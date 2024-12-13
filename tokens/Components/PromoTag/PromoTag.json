@@ -1,12 +1,53 @@
 {
   "PromoTag": {
     "Container": {
-      "value": {
-        "horizontalPadding": "{Space.PromoTag.HorizontalPadding}",
-        "borderRadius": "{Radius.PromoTag.Container}",
-        "height": "{Size.PromoTag.Container}"
+      "Xxs": {
+        "value": {
+          "height": "{Size.PromoTag.Height.Xxs}",
+          "horizontalPadding": "{Space.PromoTag.HorizontalPadding.Xxs}",
+          "borderRadius": "{Radius.PromoTag.Xxs}",
+          "borderWidth": "{BorderWidth.PromoTag.Single}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "Xs": {
+        "value": {
+          "height": "{Size.PromoTag.Height.Xs}",
+          "horizontalPadding": "{Space.PromoTag.HorizontalPadding.Xs}",
+          "borderRadius": "{Radius.PromoTag.Xs}",
+          "borderWidth": "{BorderWidth.PromoTag.Single}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "height": "{Size.PromoTag.Height.S}",
+          "horizontalPadding": "{Space.PromoTag.HorizontalPadding.S}",
+          "borderRadius": "{Radius.PromoTag.S}",
+          "borderWidth": "{BorderWidth.PromoTag.Single}"
+        },
+        "type": "composition"
+      }
+    },
+    "LabelWrapper": {
+      "Xxs": {
+        "value": {
+          "horizontalPadding": "{Space.PromoTag.LabelWrapper.Xxs}"
+        },
+        "type": "composition"
+      },
+      "Xs": {
+        "value": {
+          "horizontalPadding": "{Space.PromoTag.LabelWrapper.Xs}"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "horizontalPadding": "{Space.PromoTag.LabelWrapper.S}"
+        },
+        "type": "composition"
+      }
     }
   }
 }

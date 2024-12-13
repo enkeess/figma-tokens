@@ -1083,9 +1083,19 @@
       }
     },
     "PromoTag": {
-      "Container": {
-        "value": "{DimensionTheme.General.16px}",
-        "type": "sizing"
+      "Height": {
+        "Xxs": {
+          "value": "{DimensionTheme.General.16px}",
+          "type": "sizing"
+        },
+        "Xs": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "sizing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.32px}",
+          "type": "sizing"
+        }
       }
     },
     "InputPrivate": {
@@ -1947,8 +1957,16 @@
       }
     },
     "PromoTag": {
-      "Container": {
+      "Xxs": {
         "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "Xs": {
+        "value": "{DimensionTheme.General.4px}",
+        "type": "borderRadius"
+      },
+      "S": {
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
@@ -3334,8 +3352,32 @@
     },
     "PromoTag": {
       "HorizontalPadding": {
-        "value": "{DimensionTheme.General.4px}",
-        "type": "spacing"
+        "Xxs": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        },
+        "Xs": {
+          "value": "{DimensionTheme.General.0px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "LabelWrapper": {
+        "Xxs": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "Xs": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "S": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
       }
     },
     "Search": {
@@ -4003,6 +4045,12 @@
       },
       "L": {
         "value": "{BorderWidth.050m}",
+        "type": "borderWidth"
+      }
+    },
+    "PromoTag": {
+      "Single": {
+        "value": "{BorderWidth.012m}",
         "type": "borderWidth"
       }
     },
