@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.3.0...npm16.4.0) (2024-12-17)
+
+
+### Features
+
+* **PDS-370:** vertical tab tokens added ([7c423e5](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/7c423e527e64b0e3e017ee897bbc9eb9e0632546))
+
 # [16.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.2.0...npm16.3.0) (2024-12-12)
 
 
