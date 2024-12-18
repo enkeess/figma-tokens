@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.4.0...npm16.5.0) (2024-12-18)
+
+
+### Features
+
+* added DropList.Item.NestingLevelOffset token ([1dd06f6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1dd06f615fb9041481966c553a09302b0d6f2531))
+* added NestingLevel tokens ([f483fa3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/f483fa3a990abeb7ee2940101abd906facc64616))
+
 # [16.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.3.0...npm16.4.0) (2024-12-17)
 
 
