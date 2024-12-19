@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.5.0...npm17.0.0) (2024-12-19)
+
+
+### BREAKING CHANGES
+
+
+* **PDS-1238:** added tokens PromoTag ([d259d7f](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/d259d7fc4d6b6a92a00fc71ada9a9122e7ce0f92))
+
 # [16.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm16.4.0...npm16.5.0) (2024-12-18)
 
 
