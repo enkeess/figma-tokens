@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.0.1...npm17.1.0) (2024-12-24)
+
+
+### Features
+
+* added BorderWidth.TableLine tokens ([3e44722](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/3e447229dbc5bb7967acdc043860981bc6c6a68e))
+
 ## [17.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.0.0...npm17.0.1) (2024-12-20)
 
 
