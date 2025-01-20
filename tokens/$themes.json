@@ -744,7 +744,7 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
-      "Components/Button/ButtonCombo": "source"
+      "Components/ButtonCombo/ButtonCombo": "source"
     },
     "group": "Mode"
   },
@@ -1589,7 +1589,7 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
-      "Components/Button/ButtonCombo": "source"
+      "Components/ButtonCombo/ButtonCombo": "source"
     },
     "group": "Mode"
   }

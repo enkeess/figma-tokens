@@ -22,7 +22,7 @@
     "Components/Button/ButtonTonal",
     "Components/Button/ButtonSimple",
     "Components/Button/ButtonElevated",
-    "Components/Button/ButtonCombo",
+    "Components/ButtonCombo/ButtonCombo",
     "Components/Calendar/Calendar",
     "Components/Card/Card",
     "Components/Carousel/Carousel",
