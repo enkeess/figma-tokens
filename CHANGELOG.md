@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.1.0...npm17.2.0) (2025-01-23)
+
+
+### Bug Fixes
+
+* deleted button combo duplicate ([8b0bcf8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8b0bcf8c3520dc3b9f1c553bde4af444461bc7ec))
+* **PDS-51:** ButtonCombo tokens ([dcfbc74](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/dcfbc74ba969c0f865e50cdc5995d9140de915d1))
+
+
+### Features
+
+* added borderRadiusTopRight, borderRadiusBottomRight tokens ([a4ffddb](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/a4ffddb4a7b83313f6bef031ffc93bee60078117))
+
 # [17.1.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.0.1...npm17.1.0) (2024-12-24)
 
 
