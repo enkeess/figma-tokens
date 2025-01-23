@@ -1196,6 +1196,12 @@
       "Checkbox": {
         "value": "{DimensionTheme.General.40px}",
         "type": "sizing"
+      },
+      "Search": {
+        "MinWidth": {
+          "value": "{DimensionTheme.General.80px}",
+          "type": "sizing"
+        }
       }
     },
     "Tree": {
@@ -3574,6 +3580,22 @@
       "SeparatorPadding": {
         "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
+      },
+      "BulkAction": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "PaddingRight": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "type": "spacing"
+        }
+      },
+      "ContainerWrapper": {
+        "Gap": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        }
       }
     },
     "Accordion": {

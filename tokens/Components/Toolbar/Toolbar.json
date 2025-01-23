@@ -24,7 +24,8 @@
       "value": {
         "height": "{Size.Toolbar.Checkbox}",
         "horizontalPadding": "{Space.Toolbar.Search.HorizontalPadding}",
-        "borderRadius": "{Radius.Toolbar.Search}"
+        "borderRadius": "{Radius.Toolbar.Search}",
+        "minWidth": "{Size.Toolbar.Search.MinWidth}"
       },
       "type": "composition"
     },
@@ -32,6 +33,19 @@
       "value": {
         "paddingTop": "{Space.Toolbar.SeparatorPadding}",
         "paddingBottom": "{Space.Toolbar.SeparatorPadding}"
+      },
+      "type": "composition"
+    },
+    "ContainerWrapper": {
+      "value": {
+        "itemSpacing": "{Space.Toolbar.ContainerWrapper.Gap}"
+      },
+      "type": "composition"
+    },
+    "BulkAction": {
+      "value": {
+        "paddingRight": "{Space.Toolbar.BulkAction.PaddingRight}",
+        "itemSpacing": "{Space.Toolbar.BulkAction.Gap}"
       },
       "type": "composition"
     }
