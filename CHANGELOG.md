@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.2.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.2.0...npm17.2.1) (2025-01-23)
+
+
+### Bug Fixes
+
+* **PDS-926:** added new tokens for toolbar ([2baeef8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/2baeef866f93506287199daafa8596f864630c1c))
+
 # [17.2.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.1.0...npm17.2.0) (2025-01-23)
 
 
