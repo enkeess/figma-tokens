@@ -6,11 +6,6 @@ import pkg from '../package.json';
 const publicPackageData = JSON.stringify(
   {
     ...pkg,
-    homepage: 'https://github.com/cloud-ru-tech/figma-tokens',
-    repository: {
-      type: 'git',
-      url: 'https://github.com/cloud-ru-tech/figma-tokens.git',
-    },
     publishConfig: {
       access: 'public',
     },
