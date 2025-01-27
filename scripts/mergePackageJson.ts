@@ -9,6 +9,7 @@ import { resolve } from 'path';
     patchedPackageJson = await import(resolve(__dirname, '../patch.package.json'));
   } catch (err) {
     console.warn('patch file was not found');
+
     process.exit(0);
   }
 
