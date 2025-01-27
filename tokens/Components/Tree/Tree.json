@@ -3,17 +3,31 @@
     "Item": {
       "ContentLayout": {
         "value": {
-          "height": "{Size.Tree.Item.Height}",
           "itemSpacing": "{Space.Tree.Item.ContentLayout.Gap}",
+          "paddingTop": "{Space.Tree.Item.ContentLayout.Padding}",
           "paddingRight": "{Space.Tree.Item.ContentLayout.Padding}",
+          "paddingBottom": "{Space.Tree.Item.ContentLayout.Padding}",
           "paddingLeft": "{Space.Tree.Item.ContentLayout.Padding}",
-          "borderRadius": "{Radius.Tree.Item.ContentLayout}"
+          "borderRadius": "{Radius.Tree.Item.ContentLayout}",
+          "minHeight": "{Size.Tree.Item.Height}"
         },
         "type": "composition"
       },
-      "CheckboxWrap": {
+      "ToggleWrap": {
         "value": {
-          "sizing": "{Size.Tree.Item.CheckboxWrap}"
+          "sizing": "{Size.Tree.Item.Wrap}"
+        },
+        "type": "composition"
+      },
+      "ContentWrap": {
+        "value": {
+          "minHeight": "{Size.Tree.Item.Wrap}"
+        },
+        "type": "composition"
+      },
+      "ExpandWrap": {
+        "value": {
+          "minHeight": "{Size.Tree.Item.Height}"
         },
         "type": "composition"
       }

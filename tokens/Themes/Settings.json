@@ -1210,7 +1210,7 @@
           "value": "{DimensionTheme.General.32px}",
           "type": "sizing"
         },
-        "CheckboxWrap": {
+        "Wrap": {
           "value": "{DimensionTheme.General.24px}",
           "type": "sizing"
         },
