@@ -100,6 +100,18 @@
         "itemSpacing": "{Space.Chips.FilterRow.Gap}"
       },
       "type": "composition"
+    },
+    "Pinned": {
+      "value": {
+        "itemSpacing": "{Space.Chips.FilterRow.Gap}"
+      },
+      "type": "composition"
+    },
+    "ControlWrapper": {
+      "value": {
+        "itemSpacing": "{Space.Chips.ChoiceRow.ControlWrapper.Gap}"
+      },
+      "type": "composition"
     }
   }
 }

@@ -746,7 +746,8 @@
       "Components/ProgressBar/ProgressBar": "source",
       "Components/ButtonCombo/ButtonCombo": "source"
     },
-    "group": "Mode"
+    "group": "Mode",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "6ee1ce6b85a5bbc50d919625bb2814de2268ebbb",
@@ -1591,6 +1592,7 @@
       "Components/ProgressBar/ProgressBar": "source",
       "Components/ButtonCombo/ButtonCombo": "source"
     },
-    "group": "Mode"
+    "group": "Mode",
+    "$figmaVariableReferences": {}
   }
 ]

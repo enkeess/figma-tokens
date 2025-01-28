@@ -6,6 +6,12 @@
       },
       "type": "composition"
     },
+    "BulkActionWrap": {
+      "value": {
+        "paddingRight": "{Space.Toolbar.BulkAction.PaddingRight}"
+      },
+      "type": "composition"
+    },
     "ContainerOutline": {
       "value": {
         "borderRadius": "{Radius.Toolbar.Container}",
@@ -44,7 +50,6 @@
     },
     "BulkAction": {
       "value": {
-        "paddingRight": "{Space.Toolbar.BulkAction.PaddingRight}",
         "itemSpacing": "{Space.Toolbar.BulkAction.Gap}"
       },
       "type": "composition"

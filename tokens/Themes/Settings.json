@@ -2820,6 +2820,14 @@
           "value": "{DimensionTheme.General.4px}",
           "type": "spacing"
         }
+      },
+      "ChoiceRow": {
+        "ControlWrapper": {
+          "Gap": {
+            "value": "{DimensionTheme.General.8px}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "Tag": {
