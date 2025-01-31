@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.4.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.3.0...npm17.4.0) (2025-01-31)
+
+
+### Features
+
+* **PDS-1081:** update chip-choice-row and toolbar tokens ([8d2b8a0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/8d2b8a014dcb6842b8a5efb64436635ed3a00043))
+* **PDS-1461:** update tree tokens for custom content ([c8a5084](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/c8a508457eab1e17854a9331fe242f3c1afd3abf))
+
 # [17.3.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.2.1...npm17.3.0) (2025-01-31)
 
 
