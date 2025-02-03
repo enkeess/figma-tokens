@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.5.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.4.0...npm17.5.0) (2025-02-03)
+
+
+### Features
+
+* **FF-6137:** try fix changelog ([0bd6fc4](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/0bd6fc4b0f7cd08093dd4fea26a7d13ac5bc13b8))
+
 # [17.4.0](https://github.com/cloud-ru-tech/figma-tokens/compare/npm17.3.0...npm17.4.0) (2025-01-31)
 
 ### Features
