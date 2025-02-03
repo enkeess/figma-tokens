@@ -25,11 +25,11 @@
   "types": "./build/ts/styles-theme-variables.d.ts",
   "devDependencies": {
     "@cloud-ru/eslint-config": "1.1.2",
+    "@cloud-ru/ft-config-commit-message": "1.1.1",
     "@cloud-ru/ft-config-husky": "1.1.2",
     "@cloud-ru/ft-config-lint-staged": "1.1.2",
     "@cloud-ru/ft-config-prettier": "1.1.2",
-    "@cloud-ru/ft-config-semantic-release": "1.1.0",
-    "@cloud-ru/ft-config-commit-message": "1.1.1",
+    "@cloud-ru/ft-config-semantic-release": "1.1.4-preview-9b72542.0",
     "@cloud-ru/ft-config-tsconfig": "1.1.1",
     "@types/shelljs": "0.8.15",
     "shelljs": "0.8.5",

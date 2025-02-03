@@ -14,5 +14,6 @@ import { resolve } from 'path';
   }
 
   const merged = Object.assign({}, originalPackageJson.default, patchedPackageJson.default);
+
   writeFileSync(resolve(__dirname, '../package.json'), JSON.stringify(merged, null, 2));
 })();
