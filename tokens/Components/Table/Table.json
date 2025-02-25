@@ -17,7 +17,7 @@
     "TableInformation": {
       "value": {
         "spacing": "{Space.Table.Information.Padding}",
-        "minHeight": "{Size.Table.Information.MinHight}",
+        "minHeight": "{Size.Table.Information.MinHeight}",
         "itemSpacing": "{Space.Table.Information.Gap}"
       },
       "type": "composition"
@@ -32,7 +32,8 @@
       },
       "NameLayout": {
         "value": {
-          "height": "{Size.Table.Head.NameLayout}"
+          "minHeight": "{Size.Table.Head.NameLayout}",
+          "verticalPadding": "{Dimension.025m}"
         },
         "type": "composition"
       },
@@ -46,9 +47,9 @@
     "Line": {
       "Container": {
         "value": {
-          "height": "{Size.Table.LineHeight}",
           "borderTop": "{BorderWidth.Table}",
-          "borderBottom": "{BorderWidth.Table}"
+          "borderBottom": "{BorderWidth.Table}",
+          "minHeight": "{Size.Table.LineHeight}"
         },
         "type": "composition"
       }
@@ -56,8 +57,9 @@
     "Cells": {
       "value": {
         "itemSpacing": "{Space.Table.Cell.Gap}",
-        "paddingLeft": "{Space.Table.Cell.Padding}",
-        "paddingRight": "{Space.Table.Cell.Padding}"
+        "paddingLeft": "{Space.Table.Cell.PaddingHorizontal}",
+        "paddingRight": "{Space.Table.Cell.PaddingHorizontal}",
+        "verticalPadding": "{Space.Table.Cell.PaddingVertical}"
       },
       "type": "composition"
     },
@@ -76,15 +78,14 @@
     },
     "StatusIndicator": {
       "value": {
-        "height": "{Size.Table.CellStatusIndicator.Vertical}",
         "borderWidth": "{Size.Table.CellStatusIndicator.Horizontal}"
       },
       "type": "composition"
     },
     "CellStatusMain": {
       "value": {
-        "paddingRight": "{Space.Table.Cell.Padding}",
-        "itemSpacing": "{Space.Table.Cell.Padding}"
+        "paddingRight": "{Space.Table.Cell.PaddingHorizontal}",
+        "itemSpacing": "{Space.Table.Cell.PaddingHorizontal}"
       },
       "type": "composition"
     },

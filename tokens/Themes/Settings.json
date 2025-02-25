@@ -1148,7 +1148,7 @@
         }
       },
       "Information": {
-        "MinHight": {
+        "MinHeight": {
           "value": "{DimensionTheme.General.8px} * 38",
           "type": "sizing"
         }
@@ -3512,7 +3512,11 @@
     },
     "Table": {
       "Cell": {
-        "Padding": {
+        "PaddingHorizontal": {
+          "value": "{DimensionTheme.General.8px}",
+          "type": "spacing"
+        },
+        "PaddingVertical": {
           "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
@@ -3542,7 +3546,7 @@
         },
         "Column": {
           "HorizontalPadding": {
-            "value": "{Space.Table.Cell.Padding}",
+            "value": "{Space.Table.Cell.PaddingHorizontal}",
             "type": "spacing"
           },
           "VerticalPadding": {
