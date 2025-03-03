@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.6.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.5.0...npm17.6.0) (2025-03-03)
+
+
+### Features
+
+* table tokens ([710864e](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/710864e68f29f0058d476a751b9dac23a4fa7e29))
+
 # [17.5.0](https://github.com/cloud-ru-tech/figma-tokens/compare/npm17.4.0...npm17.5.0) (2025-02-03)
 
 ### Features
