@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.7.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.6.0...npm17.7.0) (2025-03-14)
+
+
+### Features
+
+* added ToasterUpload tokens ([9eab086](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/9eab0868e76cc730f2af78c193086d383970a65d))
+
 # [17.6.0](https://github.com/cloud-ru-tech/tokens-design-system/figma-tokens/compare/npm17.5.0...npm17.6.0) (2025-03-03)
 
 
