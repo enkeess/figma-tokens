@@ -20,8 +20,8 @@
     "Toaster": {
       "Container": {
         "value": {
-          "paddingBottom": "{Space.Toaster.UserAction.PaddingBottom}",
-          "itemSpacing": "{Space.Toaster.UserAction.Gap}"
+          "paddingBottom": "{Space.Toaster.Toast.UserAction.PaddingBottom}",
+          "itemSpacing": "{Space.Toaster.Toast.UserAction.Gap}"
         },
         "type": "composition"
       }

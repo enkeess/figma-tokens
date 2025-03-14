@@ -744,7 +744,8 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
-      "Components/ButtonCombo/ButtonCombo": "source"
+      "Components/ButtonCombo/ButtonCombo": "source",
+      "Components/Toaster/ToasterUpload": "source"
     },
     "group": "Mode",
     "$figmaVariableReferences": {}
@@ -1590,7 +1591,8 @@
       "Components/Skeleton/Skeleton": "source",
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
-      "Components/ButtonCombo/ButtonCombo": "source"
+      "Components/ButtonCombo/ButtonCombo": "source",
+      "Components/Toaster/ToasterUpload": "source"
     },
     "group": "Mode",
     "$figmaVariableReferences": {}

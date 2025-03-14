@@ -1,0 +1,65 @@
+{
+  "ToasterUpload": {
+    "TitleLine": {
+      "Body": {
+        "value": {
+          "itemSpacing": "{Space.Toaster.Toast.Upload.Body.Gap}"
+        },
+        "type": "composition"
+      },
+      "GeneralProgress": {
+        "value": {
+          "itemSpacing": "{Space.Toaster.Toast.Upload.GeneralProgress.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "StatusLine": {
+      "Container": {
+        "value": {
+          "itemSpacing": "{Space.Toaster.Toast.Upload.StatusLine.Gap}"
+        },
+        "type": "composition"
+      },
+      "StatusWrap": {
+        "value": {
+          "itemSpacing": "{Space.Toaster.Toast.Upload.StatusWrap.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "FileLine": {
+      "Container": {
+        "value": {
+          "verticalPadding": "{Space.Toaster.Toast.Upload.FileLine.VerticalPadding}"
+        },
+        "type": "composition"
+      },
+      "Headline": {
+        "value": {
+          "itemSpacing": "{Space.Toaster.Toast.Upload.Headline.Gap}",
+          "minHeight": "{Size.Toaster.Toast.Upload.FileLine.Headline.Height}"
+        },
+        "type": "composition"
+      }
+    },
+    "Toast": {
+      "Container": {
+        "value": {
+          "spacing": "{Space.Toaster.Toast.SystemEvent.Container.Padding}",
+          "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Container}",
+          "itemSpacing": "{Space.Toaster.Toast.SystemEvent.Container.Gap}"
+        },
+        "type": "composition"
+      }
+    },
+    "ProgressBar": {
+      "Line": {
+        "value": {
+          "height": "{Size.Toaster.Toast.Upload.ProgressBar.Line}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

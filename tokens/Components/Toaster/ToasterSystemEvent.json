@@ -34,10 +34,10 @@
         "type": "composition"
       },
       "Button": {
-        "ButtonClose": {
+        "ButtonNeutral": {
           "value": {
-            "sizing": "{Size.Toaster.Toast.SystemEvent.ButtonClose}",
-            "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Button}"
+            "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Button}",
+            "height": "{Size.Toaster.Toast.SystemEvent.ButtonNeutral}"
           },
           "type": "composition"
         },
@@ -45,7 +45,7 @@
           "value": {
             "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Button}",
             "height": "{Size.Toaster.Toast.SystemEvent.Button}",
-            "horizontalPadding": "{Space.Toaster.SystemEvent.Padding}"
+            "horizontalPadding": "{Space.Toaster.Toast.SystemEvent.Padding}"
           },
           "type": "composition"
         }
@@ -61,9 +61,21 @@
       },
       "Container": {
         "value": {
-          "itemSpacing": "{Space.Toaster.SystemEvent.Gap}",
-          "spacing": "{Space.Toaster.SystemEvent.Padding}",
+          "itemSpacing": "{Space.Toaster.Toast.SystemEvent.Gap}",
+          "spacing": "{Space.Toaster.Toast.SystemEvent.Padding}",
           "width": "{Size.Toaster.Toast.SystemEvent.Container}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "ToasterUpdate": {
+    "Toast": {
+      "Container": {
+        "value": {
+          "spacing": "{Space.Toaster.Toast.SystemEvent.Container.Padding}",
+          "borderRadius": "{Radius.Toaster.Toast.SystemEvent.Container}",
+          "itemSpacing": "{Space.Toaster.Toast.SystemEvent.Container.Gap}"
         },
         "type": "composition"
       }

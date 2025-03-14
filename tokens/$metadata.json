@@ -64,6 +64,7 @@
     "Components/Timeline/Timeline",
     "Components/Toaster/ToasterSystemEvent",
     "Components/Toaster/ToasterUserAction",
+    "Components/Toaster/ToasterUpload",
     "Components/Toggles/Toggles",
     "Components/Toolbar/Toolbar",
     "Components/Tooltip/Tooltip",
