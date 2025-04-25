@@ -96,9 +96,48 @@
           },
           "type": "composition"
         }
+      },
+      "Xs": {
+        "LabelOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.Xs}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.Xs.FromLabel}",
+            "paddingRight": "{Space.SegmentedControl.Segment.Xs.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.Xs.Gap}",
+            "height": "{Size.SegmentedControl.Segment.Xs}"
+          },
+          "type": "composition"
+        },
+        "IconBefore": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.S}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.S.FromIcon}",
+            "paddingRight": "{Space.SegmentedControl.Segment.S.FromLabel}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.S.Gap}",
+            "height": "{Size.SegmentedControl.Segment.S}"
+          },
+          "type": "composition"
+        },
+        "IconOnly": {
+          "value": {
+            "borderRadius": "{Radius.SegmentedControl.Segment.S}",
+            "paddingLeft": "{Space.SegmentedControl.Segment.S.IconOnly}",
+            "paddingRight": "{Space.SegmentedControl.Segment.S.IconOnly}",
+            "itemSpacing": "{Space.SegmentedControl.Segment.S.Gap}",
+            "height": "{Size.SegmentedControl.Segment.S}"
+          },
+          "type": "composition"
+        }
       }
     },
     "Background": {
+      "Xs": {
+        "value": {
+          "borderWidth": "{BorderWidth.SegmentedControl.Single}",
+          "borderRadius": "{Radius.SegmentedControl.Container.Xs}"
+        },
+        "type": "composition"
+      },
       "S": {
         "value": {
           "borderWidth": "{BorderWidth.SegmentedControl.Single}",

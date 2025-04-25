@@ -1384,6 +1384,10 @@
     },
     "SegmentedControl": {
       "Segment": {
+        "Xs": {
+          "value": "{Size.Button.Xs} - {Space.SegmentedControl.Container.Padding} - {Space.SegmentedControl.Container.Padding}",
+          "type": "sizing"
+        },
         "S": {
           "value": "{Size.Button.S} - {Space.SegmentedControl.Container.Padding} - {Space.SegmentedControl.Container.Padding}",
           "type": "sizing"
@@ -2152,6 +2156,10 @@
           "value": "{Radius.Button.S}",
           "type": "borderRadius"
         },
+        "Xs": {
+          "value": "{Radius.Button.Xs}",
+          "type": "borderRadius"
+        },
         "M": {
           "value": "{Radius.Button.M}",
           "type": "borderRadius"
@@ -2162,6 +2170,10 @@
         }
       },
       "Segment": {
+        "Xs": {
+          "value": "{Radius.Button.Xs} - {Space.SegmentedControl.Container.Padding}",
+          "type": "borderRadius"
+        },
         "S": {
           "value": "{Radius.Button.S}  - {Space.SegmentedControl.Container.Padding}",
           "type": "borderRadius"
@@ -4043,6 +4055,24 @@
           },
           "IconOnly": {
             "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.2px}",
+            "type": "spacing"
+          }
+        },
+        "Xs": {
+          "Gap": {
+            "value": "{Space.Button.Xs.Gap}",
+            "type": "spacing"
+          },
+          "FromLabel": {
+            "value": "{Space.Button.Xs.FromLabel}",
+            "type": "spacing"
+          },
+          "FromIcon": {
+            "value": "{Space.Button.Xs.FromIcon}",
+            "type": "spacing"
+          },
+          "IconOnly": {
+            "value": "{DimensionTheme.General.2px}",
             "type": "spacing"
           }
         }
