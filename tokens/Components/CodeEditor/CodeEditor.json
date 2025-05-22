@@ -1,0 +1,11 @@
+{
+  "CodeEditor": {
+    "Headline": {
+      "value": {
+        "minHeight": "{Size.CodeEditor.Headline.MinHeight}",
+        "horizontalPadding": "{Space.CodeEditor.Headline.HorizontalPadding}"
+      },
+      "type": "composition"
+    }
+  }
+}

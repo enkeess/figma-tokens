@@ -1348,6 +1348,14 @@
         }
       }
     },
+    "CodeEditor": {
+      "Headline": {
+        "MinHeight": {
+          "value": "{DimensionTheme.General.32px} + {DimensionTheme.General.4px}",
+          "type": "sizing"
+        }
+      }
+    },
     "Attachment": {
       "StartItem": {
         "S": {
@@ -3976,6 +3984,14 @@
         },
         "Divider": {
           "value": "{Space.Markdown.Syntax.Paragraphs.Regular}",
+          "type": "spacing"
+        }
+      }
+    },
+    "CodeEditor": {
+      "Headline": {
+        "HorizontalPadding": {
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "spacing"
         }
       }

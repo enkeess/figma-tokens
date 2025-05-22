@@ -745,10 +745,11 @@
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
       "Components/ButtonCombo/ButtonCombo": "source",
-      "Components/Toaster/ToasterUpload": "source"
+      "Components/Toaster/ToasterUpload": "source",
+      "Components/CodeEditor/CodeEditor": "source"
     },
-    "group": "Mode",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Mode"
   },
   {
     "id": "6ee1ce6b85a5bbc50d919625bb2814de2268ebbb",
@@ -1592,9 +1593,10 @@
       "Components/ColorPicker/ColorPicker": "source",
       "Components/ProgressBar/ProgressBar": "source",
       "Components/ButtonCombo/ButtonCombo": "source",
-      "Components/Toaster/ToasterUpload": "source"
+      "Components/Toaster/ToasterUpload": "source",
+      "Components/CodeEditor/CodeEditor": "source"
     },
-    "group": "Mode",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Mode"
   }
 ]
