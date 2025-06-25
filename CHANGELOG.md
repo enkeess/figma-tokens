@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.7.7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.7.6...npm17.7.7) (2025-06-25)
+
+
+### Bug Fixes
+
+* **ONB-3951:** just to trigger pipe ([5a0a72c](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/5a0a72c7e9786550e7987082b9e4ad5de74d24e4))
+
 ## [17.7.6](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.7.5...npm17.7.6) (2025-06-23)
 
 
