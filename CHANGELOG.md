@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.7.8](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.7.7...npm17.7.8) (2025-06-25)
+
+
+### Bug Fixes
+
+* **PROFCOMM-669:** re-publish package ([172b46b](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/172b46b0a47360a1c8060bf428b471bc8a816483))
+
 ## [17.7.7](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.7.6...npm17.7.7) (2025-06-25)
 
 
