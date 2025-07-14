@@ -1,4 +1,4 @@
-name: Release preview
+name: 'Release preview'
 
 on: workflow_dispatch
 
@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      HUSKY: 0
     steps:
       - name: 'Checkout'
         uses: actions/checkout@v4
@@ -17,23 +19,40 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: 'npm'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10.10.0
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Publish preview
         env:
           NPM_TOKEN: ${{ secrets.CI_NPM_TOKEN }}
         run: |
-          git config --global user.email "example@expample.com"
+          git config --global user.email "example@example.com"
           git config --global user.name "example-user"
           npm config --global set //registry.npmjs.org/:_authToken=${{ secrets.CI_NPM_TOKEN }}
-          npm ci
+          pnpm install --frozen-lockfile
           SHORT_SHA=$(echo $GITHUB_SHA | cut -c1-7)
-          npm run build:all
-          npm run prepack
-          npm run prepareForPublic
+          pnpm run build:all
+          pnpm run prepack
+          pnpm run prepareForPublic
           git status
           git add . && git commit -m 'chore: patch package for preview'
-          npm version --no-git-tab-version prerelease --preid $SHORT_SHA
-          npm publish --tag preview
+          npm version --no-git-tag-version prerelease --preid $SHORT_SHA
+          pnpm publish --tag preview --no-git-checks
           git reset HEAD^ && git reset --hard
         shell: bash
