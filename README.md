@@ -8,8 +8,8 @@
 
 ## Начало работы
 
-1. Установите зависимости: `npm install`
-2. Запустите сборку: `npm run build:all`
+1. Установите зависимости: `pnpm install`
+2. Запустите сборку: `pnpm build:all`
 
 В репозитории собираются:
 
@@ -262,6 +262,9 @@ export const ButtonFilled = ({ label, size, variant, disabled, loading }: Button
 
 1. Переходим на репозиторий с [токенами](https://github.com/cloud-ru-tech/figma-tokens) и создаем форк
 2. Добавляем в Repository secrets переменную `CI_NPM_TOKEN` с Access токеном из npmjs (для публикации собственного пакета)
+
+> **Примечание**: Проект использует pnpm в качестве пакетного менеджера. Убедитесь, что в CI/CD настроен pnpm.
+
 3. Создаем ветку `brand` и переносим в корень содержимое папки `github-settings-example`
 4. Подставляем собственные значения (`YOUR_PACKAGE_NAME`, `YOUR_BRAND`, `YOUR USERNAME`, `YOUR_USERNAME`) в `patch.package.json`
 5. Пушим измения в `origin/brand`

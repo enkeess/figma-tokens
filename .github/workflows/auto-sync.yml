@@ -53,7 +53,7 @@ jobs:
       - name: Rebase 'brand' from 'master'
         run: |
           git config --global user.email "example@expample.com"
-          git config --global user.name "exapmle-user"
+          git config --global user.name "example-user"
           git rebase origin/master
           git push origin brand --force-with-lease
         shell: bash

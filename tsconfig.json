@@ -10,7 +10,7 @@
     "strict": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": false
   },
   "include": ["./"],
   "exclude": ["node_modules"]
